@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChooseCanuck</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+  <div class="logo"><div class="logo-icon">C</div><div class="logo-text"><h1>ChooseCanuck</h1><span>SHOP CANADIAN. BUILD CANADA.</span></div></div>
+  <nav class="nav">
+    <button class="nav-btn active" data-section="search">Search</button>
+    <button class="nav-btn" data-section="categories">Categories</button>
+    <button class="nav-btn" data-section="regions">Regions</button>
+    <button class="nav-btn" data-section="gaps">Gaps</button>
+    <button class="nav-btn" data-section="submit">Submit</button>
+    <button class="nav-btn" data-section="about">About</button>
+  </nav>
+</div>
+<div class="container">
+  <div class="section active" id="search-section">
+    <div class="hero"><h2>Find Canadian Products</h2><p>Type a product name to see where it's made and find Canadian alternatives.</p><div class="hero-tags"><span>🇨🇦 Support Local</span><span>🍁 Reduce US Reliance</span><span>🏭 Grow Domestic Industry</span></div></div>
+    <div class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input type="text" id="searchInput" placeholder="Try: peanut butter, toilet paper, coffee, ketchup chips..." autocomplete="off"></div>
+    <div id="searchResults"></div>
+    <div class="home-stats" id="homeStats"></div>
+    <div class="home-section">
+      <h3>🔥 Featured Canadian Products</h3>
+      <div class="home-grid" id="featuredGrid"></div>
+    </div>
+    <div class="home-section">
+      <h3>📂 Browse by Category</h3>
+      <div class="home-cats" id="homeCats"></div>
+    </div>
+    <div class="home-section">
+      <h3>🗺️ Explore by Region</h3>
+      <div class="home-regions" id="homeRegions"></div>
+    </div>
+    <div class="home-cta">
+      <h3>Know a product from your region?</h3>
+      <p>Help grow the database by adding Canadian products from your community.</p>
+      <button class="home-cta-btn" onclick="switchTab('submit')">Submit a Product</button>
+    </div>
+  </div>
+  <div class="section" id="categories-section">
+    <div class="hero"><h2>Browse by Category</h2><p>Explore Canadian-made products across everyday categories.</p></div>
+    <div class="categories" id="categoryChips"></div>
+    <div id="categoryResults"></div>
+  </div>
+  <div class="section" id="regions-section">
+    <div class="hero"><h2>Explore by Region</h2><p>Discover Canadian products from your province or territory.</p></div>
+    <div class="region-legend" id="regionLegend"></div>
+    <div class="categories" id="regionChips"></div>
+    <div id="regionResults"></div>
+  </div>
+  <div class="section" id="gaps-section">
+    <div class="hero" style="background:#7f1d1d"><h2>Supply Gaps</h2><p>Products Canada currently relies on imports for.</p></div>
+    <div class="stats" id="gapStats"></div>
+    <div id="gapResults"></div>
+  </div>
+  <div class="section" id="submit-section">
+    <div class="hero"><h2>Submit a Product</h2><p>Help grow the database by adding products from your region.</p></div>
+    <div class="submit-box">
+      <h3>How to Contribute</h3>
+      <p>Fill out the form below to add a Canadian product. Your submissions are saved locally and will be displayed below until the database is updated.</p>
+    </div>
+    <div class="submit-box">
+      <div id="submitForm" class="submit-form">
+        <input type="text" id="subName" placeholder="Product name (e.g. Smith's Farm Jam) *">
+        <select id="subCategory"><option value="">Select category... *</option><option>Food</option><option>Beverages</option><option>Household</option><option>Personal Care</option><option>Home & Electronics</option><option>Clothing</option></select>
+        <select id="subRegion"><option value="">Select region... *</option><option>British Columbia</option><option>Alberta</option><option>Saskatchewan</option><option>Manitoba</option><option>Ontario</option><option>Quebec</option><option>New Brunswick</option><option>Nova Scotia</option><option>Prince Edward Island</option><option>Newfoundland & Labrador</option><option>Yukon</option><option>Northwest Territories</option><option>Nunavut</option><option>National</option></select>
+        <input type="text" id="subDesc" placeholder="Short description (e.g. Handmade in Regina since 1995) *">
+        <input type="text" id="subWhere" placeholder="Where to buy (e.g. Loblaws, farmers markets, online)">
+        <input type="text" id="subWebsite" placeholder="Website (e.g. https://example.com)">
+        <input type="text" id="subTags" placeholder="Tags, comma separated (e.g. organic, jam, artisan)">
+        <button class="submit-btn" onclick="generateSubmission()">Submit Product</button>
+      </div>
+      <div id="submitSuccess" class="submit-success" style="display:none">
+        <div class="submit-success-icon">🍁</div>
+        <h4>Thank you!</h4>
+        <p>Your submission has been saved. It will appear in your submissions list below.</p>
+        <button class="submit-btn" onclick="resetSubmitForm()" style="margin-top:12px">Submit Another</button>
+      </div>
+      <div id="submissionsList" style="margin-top:16px"></div>
+    </div>
+  </div>
+  <div class="section" id="about-section">
+    <div class="hero"><h2>About ChooseCanuck</h2><p>Building economic resilience through informed consumer choices.</p></div>
+    <div class="about-box"><h3>Our Mission</h3><p>ChooseCanuck helps Canadians identify where everyday products come from, discover Canadian-made alternatives, and highlight supply gaps where domestic production could reduce reliance on imports — especially from the United States.</p></div>
+    <div class="about-box"><h3>How It Works</h3><ul><li><strong>Search</strong> — Type any product to see its origin and Canadian alternatives</li><li><strong>Categories</strong> — Browse Canadian products by category</li><li><strong>Regions</strong> — Discover products made in your province or territory</li><li><strong>Gaps</strong> — See what Canada doesn't make yet (opportunities for entrepreneurs!)</li><li><strong>Submit</strong> — Add products from your region to help others buy local</li></ul></div>
+    <div class="about-box"><h3>Why It Matters</h3><p>Trade disputes, tariffs, and geopolitical shifts can disrupt supply chains. By knowing what's made in Canada and supporting domestic production, we build resilience. Every purchase is a vote for the economy we want.</p></div>
+    <div class="about-box"><h3>Contribute</h3><p>Use the Submit tab to add products from your region. ChooseCanuck is a community project — the more accurate our data, the more powerful the tool becomes for all Canadians.</p></div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

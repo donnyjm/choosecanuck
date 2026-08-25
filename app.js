@@ -1,0 +1,198 @@
+let products = [];
+const regionColors = {"British Columbia": "#2d6a4f", "Alberta": "#bc4749", "Saskatchewan": "#f4a261", "Manitoba": "#e76f51", "Ontario": "#1d3557", "Quebec": "#457b9d", "New Brunswick": "#6a4c93", "Nova Scotia": "#1982c4", "Prince Edward Island": "#8ac926", "Newfoundland & Labrador": "#ff595e", "Yukon": "#ffca3a", "Northwest Territories": "#6a4c93", "Nunavut": "#9b5de5", "National": "#b91c1c"};
+const allRegions = ["British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland & Labrador", "Yukon", "Northwest Territories", "Nunavut", "National"];
+
+function getScoreClass(s){return s>=75?"score-high":s>=40?"score-mid":"score-low"}
+
+function renderCard(p){
+  var rc=regionColors[p.region]||"#6b7280";
+  var h="<div class='product-card' onclick='toggleDetail("+p.id+")'>";
+  h+="<div class='product-header'><div><div class='product-name'>"+p.name+"</div>";
+  h+="<div class='product-meta'><span class='product-category'>"+p.category+"</span><span class='product-region' style='background:"+rc+"'>"+p.region+"</span></div></div>";
+  h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span></div>";
+  h+="<div class='product-desc'>"+p.description+"</div>";
+  if(p.tags&&p.tags.length)h+="<div class='product-tags'>"+p.tags.map(function(t){return"<span class='tag'>"+t+"</span>"}).join("")+"</div>";
+  h+="</div><div id='detail-"+p.id+"' style='display:none'></div>";
+  return h;
+}
+
+function getWhereToFind(p){
+  var tips=[];
+  if(p.region==="National"){
+    tips.push("Available at major retailers across Canada — look for it at Loblaws, Sobeys, Metro, Walmart, Costco, and independent grocers.");
+  }else{
+    tips.push("Primarily found in "+p.region+". Check local grocery stores, farmers markets, and regional retailers.");
+  }
+  if(p.category==="Food"||p.category==="Beverages"){
+    tips.push("Check the Canadian products section at your local grocery store.");
+  }else if(p.category==="Household"){
+    tips.push("Look in the household goods aisle at grocery stores, pharmacies, and hardware stores.");
+  }else if(p.category==="Personal Care"){
+    tips.push("Found at pharmacies, health food stores, and grocery retailers.");
+  }else if(p.category==="Clothing"){
+    tips.push("Check Canadian brand retailers, department stores, or shop online directly from the manufacturer.");
+  }else if(p.category==="Home & Electronics"){
+    tips.push("Available at electronics retailers, department stores, and online.");
+  }
+  if(p.whereToBuy) tips.push("Specific locations: "+p.whereToBuy);
+  if(p.website) tips.push("Website: "+p.website);
+  return tips;
+}
+
+function toggleDetail(id){
+  var el=document.getElementById("detail-"+id);
+  if(!el)return;
+  if(el.style.display==="block"){el.style.display="none";el.innerHTML="";return;}
+  var p=products.find(function(x){return x.id===id});
+  if(!p)return;
+  var rc=regionColors[p.region]||"#6b7280";
+  var h="<div class='detail-panel'>";
+  h+="<div style='display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;'>";
+  h+="<span class='product-region' style='background:"+rc+"'>"+p.region+"</span>";
+  h+="<span class='product-category'>"+p.category+"</span>";
+  h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span>";
+  h+="</div>";
+  h+="<p style='font-size:13px;color:#374151;margin-bottom:12px;'>"+p.description+"</p>";
+  if(p.tags&&p.tags.length){
+    h+="<div class='product-tags' style='margin-bottom:14px;'>"+p.tags.map(function(t){return"<span class='tag'>"+t+"</span>"}).join("")+"</div>";
+  }
+  h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
+  h+="<h4 style='font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;'>Where to Find It</h4>";
+  var tips=getWhereToFind(p);
+  tips.forEach(function(tip){h+="<p style='font-size:12px;color:#166534;margin-bottom:6px;line-height:1.5;'>"+tip+"</p>";});
+  h+="</div>";
+  if(p.alts&&p.alts.length){
+    h+="<h4 style='font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;'>Canadian Alternatives</h4>";
+    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";});
+  }
+  h+="<div style='font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;'>Origin: "+p.origin+" | Listed in ChooseCanuck database</div>";
+  h+="</div>";
+  el.innerHTML=h;el.style.display="block";
+}
+
+function switchTab(name){
+  document.querySelectorAll(".nav-btn").forEach(function(b){b.classList.remove("active")});
+  document.querySelectorAll(".nav-btn").forEach(function(b){if(b.dataset.section===name)b.classList.add("active")});
+  document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});
+  document.getElementById(name+"-section").classList.add("active");
+}
+
+function generateSubmission(){
+  var name=document.getElementById("subName").value.trim();
+  var cat=document.getElementById("subCategory").value;
+  var region=document.getElementById("subRegion").value;
+  var desc=document.getElementById("subDesc").value.trim();
+  var whereToBuy=document.getElementById("subWhere").value.trim();
+  var website=document.getElementById("subWebsite").value.trim();
+  var tags=document.getElementById("subTags").value.split(",").map(function(t){return t.trim()}).filter(Boolean);
+  if(!name||!cat||!region||!desc){alert("Please fill in all required fields.");return;}
+  var entry={name:name,category:cat,origin:"Canada",region:region,score:90,description:desc,alts:[],tags:tags};
+  if(whereToBuy) entry.whereToBuy=whereToBuy;
+  if(website) entry.website=website;
+  var subs=JSON.parse(localStorage.getItem("cc_submissions")||"[]");
+  entry.submittedAt=new Date().toISOString();
+  subs.push(entry);
+  localStorage.setItem("cc_submissions",JSON.stringify(subs));
+  document.getElementById("submitForm").style.display="none";
+  document.getElementById("submitSuccess").style.display="block";
+  renderSubmissions();
+}
+
+function renderSubmissions(){
+  var subs=JSON.parse(localStorage.getItem("cc_submissions")||"[]");
+  var el=document.getElementById("submissionsList");
+  if(!subs.length){el.innerHTML="";return;}
+  var h="<h3 style='font-size:14px;font-weight:600;margin-bottom:10px;'>Your Submissions</h3>";
+  subs.slice().reverse().forEach(function(s){
+    h+="<div style='background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px;margin-bottom:8px;'>";
+    h+="<div style='font-size:13px;font-weight:600;'>"+s.name+"</div>";
+    h+="<div style='font-size:11px;color:#6b7280;'>"+s.region+" · "+s.category+"</div>";
+    h+="</div>";
+  });
+  el.innerHTML=h;
+}
+
+function resetSubmitForm(){
+  document.getElementById("subName").value="";
+  document.getElementById("subCategory").value="";
+  document.getElementById("subRegion").value="";
+  document.getElementById("subDesc").value="";
+  document.getElementById("subWhere").value="";
+  document.getElementById("subWebsite").value="";
+  document.getElementById("subTags").value="";
+  document.getElementById("submitForm").style.display="block";
+  document.getElementById("submitSuccess").style.display="none";
+}
+
+function renderHomepage(){
+  var canadian=products.filter(function(p){return p.origin==="Canada"||p.score>=75});
+  var gaps=products.filter(function(p){return p.score<75&&!p.alts.length});
+  var regions=[...new Set(canadian.map(function(p){return p.region}))].sort();
+  document.getElementById("homeStats").innerHTML=
+    "<div class='stat-box'><div class='stat-number'>"+products.length+"</div><div class='stat-label'>Products</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>"+canadian.length+"</div><div class='stat-label'>Canadian-made</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>"+gaps.length+"</div><div class='stat-label'>Gaps</div></div>";
+
+  var featured=[1,3,9,14,16,22,34,56,76,98,112,145,178,201,234,267,301,345,389,412,456,489,523,567,601,634,678,712,745,789];
+  var fp=featured.map(function(id){return products.find(function(p){return p.id===id})}).filter(Boolean).slice(0,8);
+  document.getElementById("featuredGrid").innerHTML=fp.map(function(p){
+    var rc=regionColors[p.region]||"#6b7280";
+    return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+p.name+"</div><div class='home-card-meta'><span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+p.region+" · "+p.category+"</div></div>";
+  }).join("");
+
+  var cats=[...new Set(canadian.map(function(p){return p.category}))].sort();
+  document.getElementById("homeCats").innerHTML=cats.map(function(c){return"<button class='home-cat-chip' data-cat='"+c+"'>"+c+"</button>"}).join("");
+  document.getElementById("homeCats").addEventListener("click",function(e){if(!e.target.classList.contains("home-cat-chip"))return;var cat=e.target.dataset.cat;switchTab('categories');document.querySelectorAll('#categoryChips .cat-chip').forEach(function(b){b.classList.toggle('active',b.dataset.cat===cat)});var filtered=products.filter(function(p){return p.category===cat});document.getElementById("categoryResults").innerHTML=filtered.map(renderCard).join("");});
+
+  document.getElementById("homeRegions").innerHTML=regions.slice(0,14).map(function(r){return"<button class='home-region-chip' data-region='"+r+"' style='background:"+(regionColors[r]||"#6b7280")+"'>"+r+"</button>";}).join("");
+  document.getElementById("homeRegions").addEventListener("click",function(e){if(!e.target.classList.contains("home-region-chip"))return;var region=e.target.dataset.region;switchTab('regions');document.querySelectorAll('#regionChips .region-chip').forEach(function(b){b.classList.toggle('active',b.dataset.region===region)});var filtered=products.filter(function(p){return p.region===region&&p.score>=75});document.getElementById("regionResults").innerHTML=filtered.map(renderCard).join("");});
+}
+
+function showProductDetail(id){
+  toggleDetail(id);
+  var el=document.getElementById("detail-"+id);
+  if(el)el.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+function initApp(){
+  // Search
+  document.getElementById("searchInput").addEventListener("input",function(e){
+    var q=e.target.value.toLowerCase().trim();
+    var c=document.getElementById("searchResults");
+    if(!q){c.innerHTML="";return;}
+    var f=products.filter(function(p){return p.name.toLowerCase().indexOf(q)!==-1||p.description.toLowerCase().indexOf(q)!==-1||(p.tags&&p.tags.some(function(t){return t.toLowerCase().indexOf(q)!==-1}));});
+    if(!f.length){c.innerHTML="<div class='empty-state'><p>No products found. Try a different term or use the Submit tab to add it!</p></div>";return;}
+    c.innerHTML=f.map(renderCard).join("");
+  });
+
+  // Categories
+  var cats=[...new Set(products.map(function(p){return p.category}))];
+  var cc=document.getElementById("categoryChips");
+  cc.innerHTML="<button class='cat-chip active' data-cat='all'>All</button>"+cats.map(function(c){return"<button class='cat-chip' data-cat='"+c+"'>"+c+"</button>"}).join("");
+  cc.addEventListener("click",function(e){if(!e.target.classList.contains("cat-chip"))return;cc.querySelectorAll(".cat-chip").forEach(function(b){b.classList.remove("active")});e.target.classList.add("active");var cat=e.target.dataset.cat;var filtered=cat==="all"?products:products.filter(function(p){return p.category===cat});document.getElementById("categoryResults").innerHTML=filtered.map(renderCard).join("");});
+  document.getElementById("categoryResults").innerHTML=products.map(renderCard).join("");
+
+  // Regions
+  var rlist=[...new Set(products.filter(function(p){return p.score>=75}).map(function(p){return p.region}))].sort();
+  var rc=document.getElementById("regionChips");
+  var rl=document.getElementById("regionLegend");
+  rl.innerHTML=rlist.map(function(r){return"<span class='region-label'><span class='region-dot' style='background:"+(regionColors[r]||"#6b7280")+"'></span>"+r+"</span>";}).join("");
+  rc.innerHTML="<button class='region-chip active' data-region='all'>All Regions</button>"+rlist.map(function(r){return"<button class='region-chip' data-region='"+r+"'>"+r+"</button>";}).join("");
+  rc.addEventListener("click",function(e){if(!e.target.classList.contains("region-chip"))return;rc.querySelectorAll(".region-chip").forEach(function(b){b.classList.remove("active")});e.target.classList.add("active");var region=e.target.dataset.region;var filtered=region==="all"?products.filter(function(p){return p.score>=75}):products.filter(function(p){return p.region===region&&p.score>=75});document.getElementById("regionResults").innerHTML=filtered.map(renderCard).join("");});
+  document.getElementById("regionResults").innerHTML=products.filter(function(p){return p.score>=75}).map(renderCard).join("");
+
+  // Gaps
+  var gaps=products.filter(function(p){return p.score<75&&!p.alts.length;});
+  document.getElementById("gapStats").innerHTML="<div class='stat-box'><div class='stat-number'>"+gaps.length+"</div><div class='stat-label'>Supply Gaps</div></div>";
+  document.getElementById("gapResults").innerHTML=gaps.map(function(p){return"<div class='gap-card'><div class='product-header'><div class='product-name'>"+p.name+"</div><span class='score-badge score-low'>"+p.score+"/100</span></div><div class='product-desc'>"+p.description+"</div><div class='gap-reason'>💡 Opportunity: "+p.category+" gap — could be produced in Canada</div></div>";}).join("");
+
+  // Nav
+  document.querySelectorAll(".nav-btn").forEach(function(btn){btn.addEventListener("click",function(){document.querySelectorAll(".nav-btn").forEach(function(b){b.classList.remove("active")});this.classList.add("active");document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});document.getElementById(this.dataset.section+"-section").classList.add("active");});});
+
+  // Homepage
+  renderHomepage();
+  renderSubmissions();
+}
+
+fetch("products.json").then(r=>r.json()).then(d=>{products=d;initApp();}).catch(e=>{console.error(e);document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";});
