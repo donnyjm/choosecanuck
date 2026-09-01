@@ -134,7 +134,7 @@ function renderHomepage(){
     "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
     "<div class='stat-box'><div class='stat-number'>"+gaps.length+"</div><div class='stat-label'>Gaps</div></div>";
 
-  var featured=[1,3,9,14,16,22,34,56,76,98,112,145,178,201,234,267,301,345,389,412,456,489,523,567,601,634,678,712,745,789];
+  var featured=[1,3,9,14,16,22,34,56,76,98,112,145,178,201,234,267,301,345,389,412,456,567,601,712,745,789];
   var fp=featured.map(function(id){return products.find(function(p){return p.id===id})}).filter(Boolean).slice(0,8);
   document.getElementById("featuredGrid").innerHTML=fp.map(function(p){
     var rc=regionColors[p.region]||"#6b7280";
