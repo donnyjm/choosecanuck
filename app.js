@@ -40,14 +40,25 @@ function getStoresByRegion(region){
 
 function getWhereToFind(p){
   var result={online:[],stores:[],tips:[]};
-  if(p.website){
-    result.online.push({type:"brand",name:"Buy from "+p.name,url:p.website});
-  }
-  // Working online links
+  // Brand website (most direct)
   if(p.website){
     result.online.push({type:"brand",name:"Official Website",url:p.website});
   }
-  result.online.push({type:"retailer",name:"Google Search",url:"https://www.google.com/search?q="+encodeURIComponent(p.name+" Canada buy")});
+  // Canadian retailer homepages (search manually)
+  if(p.category==="Food"||p.category==="Beverages"){
+    result.online.push({type:"retailer",name:"Well.ca",url:"https://well.ca"});
+    result.online.push({type:"retailer",name:"SPUD.ca",url:"https://www.spud.ca"});
+  }
+  if(p.category==="Clothing"||p.category==="Personal Care"){
+    result.online.push({type:"retailer",name:"Simons",url:"https://www.simons.ca"});
+    result.online.push({type:"retailer",name:"The Bay",url:"https://www.thebay.com"});
+  }
+  if(p.category==="Household"||p.category==="Home & Electronics"){
+    result.online.push({type:"retailer",name:"Canadian Tire",url:"https://www.canadiantire.ca"});
+    result.online.push({type:"retailer",name:"London Drugs",url:"https://www.londondrugs.com"});
+  }
+  result.online.push({type:"retailer",name:"Indigo",url:"https://www.indigo.ca"});
+  result.online.push({type:"retailer",name:"MEC",url:"https://www.mec.ca"});
   var stores=getStoresByRegion(p.region);
   result.stores=stores.slice(0,6);
   if(p.whereToBuy){
