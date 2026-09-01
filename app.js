@@ -59,6 +59,7 @@ function getWhereToFind(p){
   }
   result.online.push({type:"retailer",name:"Indigo",url:"https://www.indigo.ca"});
   result.online.push({type:"retailer",name:"MEC",url:"https://www.mec.ca"});
+  result.online.push({type:"retailer",name:"Search on Presearch",url:"https://presearch.com/search?q="+encodeURIComponent(p.name)});
   var stores=getStoresByRegion(p.region);
   result.stores=stores.slice(0,6);
   if(p.whereToBuy){
