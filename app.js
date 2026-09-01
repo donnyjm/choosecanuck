@@ -73,36 +73,116 @@ function toggleDetail(id){
   if(!p)return;
   var rc=regionColors[p.region]||"#6b7280";
   var info=getWhereToFind(p);
-  var h="<div class='detail-panel'>";
-  h+="<div style='display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;'>";
-  h+="<span class='product-region' style='background:"+rc+"'>"+p.region+"</span>";
-  h+="<span class='product-category'>"+p.category+"</span>";
-  h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span>";
-  h+="</div>";
-  h+="<p style='font-size:13px;color:#374151;margin-bottom:12px;'>"+p.description+"</p>";
+
+  // Build detail panel using DOM methods for reliability
+  var panel=document.createElement("div");
+  panel.className="detail-panel";
+
+  // Meta row
+  var meta=document.createElement("div");
+  meta.style.cssText="display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;";
+  var regionSpan=document.createElement("span");
+  regionSpan.className="product-region";
+  regionSpan.style.background=rc;
+  regionSpan.textContent=p.region;
+  meta.appendChild(regionSpan);
+  var catSpan=document.createElement("span");
+  catSpan.className="product-category";
+  catSpan.textContent=p.category;
+  meta.appendChild(catSpan);
+  var scoreSpan=document.createElement("span");
+  scoreSpan.className="score-badge "+getScoreClass(p.score);
+  scoreSpan.textContent=p.score+"/100";
+  meta.appendChild(scoreSpan);
+  panel.appendChild(meta);
+
+  // Description
+  var descP=document.createElement("p");
+  descP.style.cssText="font-size:13px;color:#374151;margin-bottom:12px;";
+  descP.textContent=p.description;
+  panel.appendChild(descP);
+
+  // Tags
   if(p.tags&&p.tags.length){
-    h+="<div class='product-tags' style='margin-bottom:14px;'>"+p.tags.map(function(t){return"<span class='tag'>"+t+"</span>"}).join("")+"</div>";
+    var tagsDiv=document.createElement("div");
+    tagsDiv.className="product-tags";
+    tagsDiv.style.marginBottom="14px";
+    p.tags.forEach(function(t){
+      var s=document.createElement("span");
+      s.className="tag";
+      s.textContent=t;
+      tagsDiv.appendChild(s);
+    });
+    panel.appendChild(tagsDiv);
   }
-  h+="<div style='background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;'>";
-  h+="<h4 style='font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;'>🛒 Buy Online</h4>";
+
+  // Buy Online section
+  var buyBox=document.createElement("div");
+  buyBox.style.cssText="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;";
+  var buyTitle=document.createElement("h4");
+  buyTitle.style.cssText="font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;";
+  buyTitle.textContent="🛒 Buy Online";
+  buyBox.appendChild(buyTitle);
   info.online.forEach(function(link){
-    h+="<a href=\""+link.url+"\" target=\"_blank\" rel=\"noopener\" class=\"buy-btn"+(link.type==="brand"?" brand":"")+"\">"+link.name+"</a>";
+    var a=document.createElement("a");
+    a.href=link.url;
+    a.target="_blank";
+    a.rel="noopener";
+    a.className="buy-btn"+(link.type==="brand"?" brand":"");
+    a.textContent=link.name;
+    a.style.marginRight="6px";
+    a.style.marginBottom="4px";
+    buyBox.appendChild(a);
   });
-  h+="</div>";
-  h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
-  h+="<h4 style='font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;'>🏪 Find in Stores</h4>";
-  h+="<div style='display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;'>";
+  panel.appendChild(buyBox);
+
+  // Find in Stores section
+  var storeBox=document.createElement("div");
+  storeBox.style.cssText="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;";
+  var storeTitle=document.createElement("h4");
+  storeTitle.style.cssText="font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;";
+  storeTitle.textContent="🏪 Find in Stores";
+  storeBox.appendChild(storeTitle);
+  var storeWrap=document.createElement("div");
+  storeWrap.style.cssText="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;";
   info.stores.forEach(function(store){
-    h+="<span class='store-tag'>"+store+"</span>";
+    var s=document.createElement("span");
+    s.className="store-tag";
+    s.textContent=store;
+    storeWrap.appendChild(s);
   });
-  h+="</div>";
-  info.tips.forEach(function(tip){h+="<p style='font-size:12px;color:#166534;margin-bottom:4px;line-height:1.5;'>• "+tip+"</p>";});
+  storeBox.appendChild(storeWrap);
+  info.tips.forEach(function(tip){
+    var tp=document.createElement("p");
+    tp.style.cssText="font-size:12px;color:#166534;margin-bottom:4px;line-height:1.5;";
+    tp.textContent="• "+tip;
+    storeBox.appendChild(tp);
+  });
+  panel.appendChild(storeBox);
+
+  // Alternatives
   if(p.alts&&p.alts.length){
-    h+="<h4 style='font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;'>Canadian Alternatives</h4>";
-    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";});}
-  h+="<div style='font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;'>Origin: "+p.origin+" | Listed in ChooseCanuck database</div>";
-  h+="</div>";
-  el.innerHTML=h;el.style.display="block";
+    var altTitle=document.createElement("h4");
+    altTitle.style.cssText="font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;";
+    altTitle.textContent="Canadian Alternatives";
+    panel.appendChild(altTitle);
+    p.alts.forEach(function(a){
+      var item=document.createElement("div");
+      item.className="alt-item";
+      item.innerHTML="<span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div>";
+      panel.appendChild(item);
+    });
+  }
+
+  // Footer
+  var foot=document.createElement("div");
+  foot.style.cssText="font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;";
+  foot.textContent="Origin: "+p.origin+" | Listed in ChooseCanuck database";
+  panel.appendChild(foot);
+
+  el.innerHTML="";
+  el.appendChild(panel);
+  el.style.display="block";
 }
 
 function switchTab(name){
