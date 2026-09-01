@@ -255,4 +255,4 @@ function initApp(){
   renderSubmissions();
 }
 
-fetch("products.json").then(r=>r.json()).then(d=>{products=d;initApp();}).catch(e=>{console.error(e);document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";});
+fetch("products.json?v=2").then(r=>r.json()).then(d=>{products=d;initApp();}).catch(e=>{console.error(e);document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";});
