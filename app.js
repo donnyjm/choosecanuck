@@ -103,7 +103,7 @@ function toggleDetail(id){
   h+="<div style='background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;'>";
   h+="<h4 style='font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;'>🛒 Buy Online</h4>";
   info.online.forEach(function(link){
-    h+="<a href='"+link.url+"' target='_blank' rel='noopener' class='buy-btn"+(link.type==="brand"?" brand":"")+"'>"+link.name+" →</a>";
+    h+="<a href='"+link.url+"' target='_blank' rel='noopener noreferrer' class='buy-btn"+(link.type==="brand"?" brand":"")+"' onclick='event.stopPropagation();'>"+link.name+" →</a>";
   });
   h+="</div>";
   h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
