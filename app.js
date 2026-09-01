@@ -43,28 +43,11 @@ function getWhereToFind(p){
   if(p.website){
     result.online.push({type:"brand",name:"Buy from "+p.name,url:p.website});
   }
-  // Canadian online retailers only
-  if(p.category==="Food"||p.category==="Beverages"){
-    result.online.push({type:"retailer",name:"PC Express (Loblaws)",url:"https://www.loblaws.ca/search?search-bar="+encodeURIComponent(p.name)});
-    result.online.push({type:"retailer",name:"SPUD.ca",url:"https://www.spud.ca/catalogue/search.bc?keyword="+encodeURIComponent(p.name)});
+  // Working online links only
+  if(p.website){
+    result.online.push({type:"brand",name:"Visit Official Website",url:p.website});
   }
-  if(p.category==="Clothing"||p.category==="Personal Care"){
-    result.online.push({type:"retailer",name:"Simons",url:"https://www.simons.ca/en/search?query="+encodeURIComponent(p.name)});
-    result.online.push({type:"retailer",name:"The Bay",url:"https://www.thebay.com/search?searchTerm="+encodeURIComponent(p.name)});
-  }
-  if(p.category==="Household"||p.category==="Home & Electronics"){
-    result.online.push({type:"retailer",name:"Canadian Tire",url:"https://www.canadiantire.ca/en/search-results.html?q="+encodeURIComponent(p.name)});
-    result.online.push({type:"retailer",name:"London Drugs",url:"https://www.londondrugs.com/search?q="+encodeURIComponent(p.name)});
-  }
-  if(p.category==="Personal Care"||p.category==="Food"){
-    result.online.push({type:"retailer",name:"Well.ca",url:"https://well.ca/search/?q="+encodeURIComponent(p.name)});
-  }
-  if(p.category==="Clothing"){
-    result.online.push({type:"retailer",name:"Sport Chek",url:"https://www.sportchek.ca/search.html#q="+encodeURIComponent(p.name)});
-  }
-  // Generic Canadian retailers for all
-  result.online.push({type:"retailer",name:"Indigo",url:"https://www.indigo.ca/en-ca/search?searchTerm="+encodeURIComponent(p.name)});
-  result.online.push({type:"retailer",name:"MEC",url:"https://www.mec.ca/en/search/?text="+encodeURIComponent(p.name)});
+  result.online.push({type:"retailer",name:"Search on Google",url:"https://www.google.com/search?q=buy+"+encodeURIComponent(p.name)+"+Canada"});
   var stores=getStoresByRegion(p.region);
   result.stores=stores.slice(0,6);
   if(p.whereToBuy){
