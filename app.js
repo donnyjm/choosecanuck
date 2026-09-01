@@ -120,8 +120,6 @@ function toggleDetail(id){
   info.online.forEach(function(link){
     var a=document.createElement("a");
     a.href=link.url;
-    a.target="_blank";
-    a.rel="noopener";
     a.className="buy-btn"+(link.type==="brand"?" brand":"");
     a.textContent=link.name;
     a.style.marginRight="6px";
