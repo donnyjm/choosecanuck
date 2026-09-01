@@ -43,11 +43,11 @@ function getWhereToFind(p){
   if(p.website){
     result.online.push({type:"brand",name:"Buy from "+p.name,url:p.website});
   }
-  // Working online links only
+  // Working online links
   if(p.website){
-    result.online.push({type:"brand",name:"Visit Official Website",url:p.website});
+    result.online.push({type:"brand",name:"Official Website",url:p.website});
   }
-  result.online.push({type:"retailer",name:"Search on Google",url:"https://www.google.com/search?q=buy+"+encodeURIComponent(p.name)+"+Canada"});
+  result.online.push({type:"retailer",name:"Google Search",url:"https://www.google.com/search?q="+encodeURIComponent(p.name+" Canada buy")});
   var stores=getStoresByRegion(p.region);
   result.stores=stores.slice(0,6);
   if(p.whereToBuy){
@@ -86,7 +86,7 @@ function toggleDetail(id){
   h+="<div style='background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;'>";
   h+="<h4 style='font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;'>🛒 Buy Online</h4>";
   info.online.forEach(function(link){
-    h+="<a href='"+link.url+"' target='_blank' rel='noopener noreferrer' class='buy-btn"+(link.type==="brand"?" brand":"")+"' onclick='event.stopPropagation();'>"+link.name+" →</a>";
+    h+="<a href=\""+link.url+"\" target=\"_blank\" rel=\"noopener\" class=\"buy-btn"+(link.type==="brand"?" brand":"")+"\">"+link.name+"</a>";
   });
   h+="</div>";
   h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
