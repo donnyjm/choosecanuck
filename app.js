@@ -45,8 +45,6 @@ function getWhereToFind(p){
     result.online.push({type:"brand",name:"Official Website",url:p.website});
   }
   result.online.push({type:"retailer",name:"Search on Presearch",url:"https://presearch.com/search?q="+encodeURIComponent(p.name)});
-  var stores=getStoresByRegion(p.region);
-  result.stores=stores.slice(0,6);
   if(p.whereToBuy){
     result.tips.push(p.whereToBuy);
   }else if(p.region==="National"){
@@ -132,30 +130,6 @@ function toggleDetail(id){
     buyBox.appendChild(a);
   });
   panel.appendChild(buyBox);
-
-  // Find in Stores section
-  var storeBox=document.createElement("div");
-  storeBox.style.cssText="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;";
-  var storeTitle=document.createElement("h4");
-  storeTitle.style.cssText="font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;";
-  storeTitle.textContent="🏪 Find in Stores";
-  storeBox.appendChild(storeTitle);
-  var storeWrap=document.createElement("div");
-  storeWrap.style.cssText="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;";
-  info.stores.forEach(function(store){
-    var s=document.createElement("span");
-    s.className="store-tag";
-    s.textContent=store;
-    storeWrap.appendChild(s);
-  });
-  storeBox.appendChild(storeWrap);
-  info.tips.forEach(function(tip){
-    var tp=document.createElement("p");
-    tp.style.cssText="font-size:12px;color:#166534;margin-bottom:4px;line-height:1.5;";
-    tp.textContent="• "+tip;
-    storeBox.appendChild(tp);
-  });
-  panel.appendChild(storeBox);
 
   // Alternatives
   if(p.alts&&p.alts.length){
