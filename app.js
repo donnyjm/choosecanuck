@@ -125,7 +125,7 @@ function toggleDetail(id){
 
   if(p.alts&&p.alts.length){
     h+="<h4 style='font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;'>Canadian Alternatives</h4>";
-    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";}});
+    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";});
   }
   h+="<div style='font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;'>Origin: "+p.origin+" | Listed in ChooseCanuck database</div>";
   h+="</div>";
