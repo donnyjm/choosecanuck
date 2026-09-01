@@ -18,7 +18,7 @@ function renderCard(p){
 }
 
 function getStoresByRegion(region){
-  var national=["Loblaws","Sobeys","Metro","Walmart","Costco","Whole Foods","Amazon.ca"];
+  var national=["Loblaws","Sobeys","Metro","Whole Foods","Farm Boy","Longos"];
   var regional={
     "British Columbia":["Save-On-Foods","Thrifty Foods","IGA","Fairway Markets","Root Cellar"],
     "Alberta":["Calgary Co-op","Safeway","Sobeys","Planet Organic"],
@@ -33,7 +33,7 @@ function getStoresByRegion(region){
     "Yukon":["Superstore","Independent grocers","Farmers markets"],
     "Northwest Territories":["Independent grocers","Co-op","Northern stores"],
     "Nunavut":["Northern","Co-op","Local retailers"],
-    "National":["Loblaws","Sobeys","Metro","Walmart","Costco","Whole Foods","Amazon.ca","Well.ca"]
+    "National":["Loblaws","Sobeys","Metro","Whole Foods","Farm Boy","Longos","Well.ca"]
   };
   return regional[region]||national;
 }
@@ -43,13 +43,28 @@ function getWhereToFind(p){
   if(p.website){
     result.online.push({type:"brand",name:"Buy from "+p.name,url:p.website});
   }
-  result.online.push({type:"retailer",name:"Amazon.ca",url:"https://www.amazon.ca/s?k="+encodeURIComponent(p.name)});
-  if(p.category==="Food"||p.category==="Beverages"||p.category==="Personal Care"||p.category==="Household"){
+  // Canadian online retailers only
+  if(p.category==="Food"||p.category==="Beverages"){
+    result.online.push({type:"retailer",name:"PC Express (Loblaws)",url:"https://www.loblaws.ca/search?search-bar="+encodeURIComponent(p.name)});
+    result.online.push({type:"retailer",name:"SPUD.ca",url:"https://www.spud.ca/catalogue/search.bc?keyword="+encodeURIComponent(p.name)});
+  }
+  if(p.category==="Clothing"||p.category==="Personal Care"){
+    result.online.push({type:"retailer",name:"Simons",url:"https://www.simons.ca/en/search?query="+encodeURIComponent(p.name)});
+    result.online.push({type:"retailer",name:"The Bay",url:"https://www.thebay.com/search?searchTerm="+encodeURIComponent(p.name)});
+  }
+  if(p.category==="Household"||p.category==="Home & Electronics"){
+    result.online.push({type:"retailer",name:"Canadian Tire",url:"https://www.canadiantire.ca/en/search-results.html?q="+encodeURIComponent(p.name)});
+    result.online.push({type:"retailer",name:"London Drugs",url:"https://www.londondrugs.com/search?q="+encodeURIComponent(p.name)});
+  }
+  if(p.category==="Personal Care"||p.category==="Food"){
     result.online.push({type:"retailer",name:"Well.ca",url:"https://well.ca/search/?q="+encodeURIComponent(p.name)});
   }
   if(p.category==="Clothing"){
-    result.online.push({type:"retailer",name:"Simons",url:"https://www.simons.ca/en/search?query="+encodeURIComponent(p.name)});
+    result.online.push({type:"retailer",name:"Sport Chek",url:"https://www.sportchek.ca/search.html#q="+encodeURIComponent(p.name)});
   }
+  // Generic Canadian retailers for all
+  result.online.push({type:"retailer",name:"Indigo",url:"https://www.indigo.ca/en-ca/search?searchTerm="+encodeURIComponent(p.name)});
+  result.online.push({type:"retailer",name:"MEC",url:"https://www.mec.ca/en/search/?text="+encodeURIComponent(p.name)});
   var stores=getStoresByRegion(p.region);
   result.stores=stores.slice(0,6);
   if(p.whereToBuy){
