@@ -16,27 +16,72 @@ function renderCard(p){
   return h;
 }
 
+function getStoresByRegion(region){
+  var national=["Loblaws","Sobeys","Metro","Walmart","Costco","Whole Foods","Amazon.ca"];
+  var regional={
+    "British Columbia":["Save-On-Foods","Thrifty Foods","IGA","Fairway Markets","Root Cellar"],
+    "Alberta":["Calgary Co-op","Safeway","Sobeys","Planet Organic"],
+    "Saskatchewan":["Co-op","Sobeys","Safeway","Bulk Barn"],
+    "Manitoba":["Co-op","Sobeys","Safeway","Red River Co-op"],
+    "Ontario":["Longo's","Farm Boy","Highland Farms","T&T Supermarket","Pusateri's","Galleria"],
+    "Quebec":["IGA","Metro","Provigo","Marché Adonis","PA Nature"],
+    "New Brunswick":["Sobeys","Atlantic Superstore","Co-op","Giant Tiger"],
+    "Nova Scotia":["Sobeys","Atlantic Superstore","Farm Boy","Gateway"],
+    "Prince Edward Island":["Sobeys","Superstore","Independent grocers"],
+    "Newfoundland & Labrador":["Sobeys","Dominion","Coleman's"],
+    "Yukon":["Superstore","Independent grocers","Farmers markets"],
+    "Northwest Territories":["Independent grocers","Co-op","Northern stores"],
+    "Nunavut":["Northern","Co-op","Local retailers"],
+    "National":["Loblaws","Sobeys","Metro","Walmart","Costco","Whole Foods","Amazon.ca","Well.ca"]
+  };
+  return regional[region]||national;
+}
+
+function getOnlineRetailers(category){
+  var base=["Amazon.ca"];
+  if(category==="Food"||category==="Beverages") return base.concat(["Well.ca","SPUD.ca","Grocery Gateway","Pete's Fine Foods"]).join(", ");
+  if(category==="Clothing") return base.concat(["Simons","The Bay","Sport Chek"]).join(", ");
+  if(category==="Personal Care") return base.concat(["Well.ca","Shoppers Drug Mart","Sephora Canada"]).join(", ");
+  if(category==="Household") return base.concat(["Canadian Tire","Home Hardware","Well.ca"]).join(", ");
+  if(category==="Home & Electronics") return base.concat(["Best Buy Canada","The Source","Canadian Tire"]).join(", ");
+  return base.join(", ");
+}
+
 function getWhereToFind(p){
-  var tips=[];
-  if(p.region==="National"){
-    tips.push("Available at major retailers across Canada — look for it at Loblaws, Sobeys, Metro, Walmart, Costco, and independent grocers.");
+  var result={online:[],stores:[],tips:[]};
+
+  // Online
+  if(p.website){
+    result.online.push({type:"brand",name:"Buy from "+p.name,url:p.website});
+  }
+  result.online.push({type:"retailer",name:"Amazon.ca",url:"https://www.amazon.ca/s?k="+encodeURIComponent(p.name)});
+  if(p.category==="Food"||p.category==="Beverages"||p.category==="Personal Care"||p.category==="Household"){
+    result.online.push({type:"retailer",name:"Well.ca",url:"https://well.ca/search/?q="+encodeURIComponent(p.name)});
+  }
+  if(p.category==="Clothing"){
+    result.online.push({type:"retailer",name:"Simons",url:"https://www.simons.ca/en/search?query="+encodeURIComponent(p.name)});
+  }
+
+  // Physical stores
+  var stores=getStoresByRegion(p.region);
+  result.stores=stores.slice(0,6);
+
+  // Tips
+  if(p.whereToBuy){
+    result.tips.push(p.whereToBuy);
+  }else if(p.region==="National"){
+    result.tips.push("Available at major grocery chains and retailers across Canada.");
   }else{
-    tips.push("Primarily found in "+p.region+". Check local grocery stores, farmers markets, and regional retailers.");
+    result.tips.push("Check local grocery stores, specialty shops, and farmers markets in "+p.region+".");
   }
+
   if(p.category==="Food"||p.category==="Beverages"){
-    tips.push("Check the Canadian products section at your local grocery store.");
-  }else if(p.category==="Household"){
-    tips.push("Look in the household goods aisle at grocery stores, pharmacies, and hardware stores.");
-  }else if(p.category==="Personal Care"){
-    tips.push("Found at pharmacies, health food stores, and grocery retailers.");
+    result.tips.push("Look in the Canadian/local products section at your grocery store.");
   }else if(p.category==="Clothing"){
-    tips.push("Check Canadian brand retailers, department stores, or shop online directly from the manufacturer.");
-  }else if(p.category==="Home & Electronics"){
-    tips.push("Available at electronics retailers, department stores, and online.");
+    result.tips.push("Check the brand's website for store locators or direct online ordering.");
   }
-  if(p.whereToBuy) tips.push("Specific locations: "+p.whereToBuy);
-  if(p.website) tips.push("Website: "+p.website);
-  return tips;
+
+  return result;
 }
 
 function toggleDetail(id){
@@ -46,6 +91,8 @@ function toggleDetail(id){
   var p=products.find(function(x){return x.id===id});
   if(!p)return;
   var rc=regionColors[p.region]||"#6b7280";
+  var info=getWhereToFind(p);
+
   var h="<div class='detail-panel'>";
   h+="<div style='display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;'>";
   h+="<span class='product-region' style='background:"+rc+"'>"+p.region+"</span>";
@@ -56,14 +103,29 @@ function toggleDetail(id){
   if(p.tags&&p.tags.length){
     h+="<div class='product-tags' style='margin-bottom:14px;'>"+p.tags.map(function(t){return"<span class='tag'>"+t+"</span>"}).join("")+"</div>";
   }
-  h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
-  h+="<h4 style='font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;'>Where to Find It</h4>";
-  var tips=getWhereToFind(p);
-  tips.forEach(function(tip){h+="<p style='font-size:12px;color:#166534;margin-bottom:6px;line-height:1.5;'>"+tip+"</p>";});
+
+  // Buy Online section
+  h+="<div style='background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;'>";
+  h+="<h4 style='font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;'>🛒 Buy Online</h4>";
+  info.online.forEach(function(link){
+    h+="<a href='"+link.url+"' target='_blank' rel='noopener' class='buy-btn"+(link.type==="brand"?" brand":"")+"'>"+link.name+" →</a>";
+  });
   h+="</div>";
+
+  // In Stores section
+  h+="<div style='background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:12px;margin-bottom:14px;'>";
+  h+="<h4 style='font-size:13px;font-weight:600;color:#15803d;margin-bottom:8px;'>🏪 Find in Stores</h4>";
+  h+="<div style='display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;'>";
+  info.stores.forEach(function(store){
+    h+="<span class='store-tag'>"+store+"</span>";
+  });
+  h+="</div>";
+  info.tips.forEach(function(tip){h+="<p style='font-size:12px;color:#166534;margin-bottom:4px;line-height:1.5;'>• "+tip+"</p>";});
+  h+="</div>";
+
   if(p.alts&&p.alts.length){
     h+="<h4 style='font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;'>Canadian Alternatives</h4>";
-    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";});
+    p.alts.forEach(function(a){h+="<div class='alt-item'><span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div></div>";}});
   }
   h+="<div style='font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;'>Origin: "+p.origin+" | Listed in ChooseCanuck database</div>";
   h+="</div>";
