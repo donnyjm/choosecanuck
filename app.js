@@ -111,22 +111,24 @@ function toggleDetail(id){
   }
 
   // Buy Online section
-  var buyBox=document.createElement("div");
-  buyBox.style.cssText="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;";
-  var buyTitle=document.createElement("h4");
-  buyTitle.style.cssText="font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;";
-  buyTitle.textContent="🛒 Buy Online";
-  buyBox.appendChild(buyTitle);
-  info.online.forEach(function(link){
-    var a=document.createElement("a");
-    a.href=link.url;
-    a.className="buy-btn"+(link.type==="brand"?" brand":"");
-    a.textContent=link.name;
-    a.style.marginRight="6px";
-    a.style.marginBottom="4px";
-    buyBox.appendChild(a);
-  });
-  panel.appendChild(buyBox);
+  if(info.online.length){
+    var buyBox=document.createElement("div");
+    buyBox.style.cssText="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;";
+    var buyTitle=document.createElement("h4");
+    buyTitle.style.cssText="font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;";
+    buyTitle.textContent="🛒 Buy Online";
+    buyBox.appendChild(buyTitle);
+    info.online.forEach(function(link){
+      var a=document.createElement("a");
+      a.href=link.url;
+      a.className="buy-btn"+(link.type==="brand"?" brand":"");
+      a.textContent=link.name;
+      a.style.marginRight="6px";
+      a.style.marginBottom="4px";
+      buyBox.appendChild(a);
+    });
+    panel.appendChild(buyBox);
+  }
 
   // Alternatives
   if(p.alts&&p.alts.length){
