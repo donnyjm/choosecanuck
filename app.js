@@ -40,11 +40,10 @@ function getStoresByRegion(region){
 
 function getWhereToFind(p){
   var result={online:[],stores:[],tips:[]};
-  // Official website + Canadian search
+  // Official website only
   if(p.website){
     result.online.push({type:"brand",name:"Official Website",url:p.website});
   }
-  result.online.push({type:"retailer",name:"Search on Presearch",url:"https://presearch.com/search?q="+encodeURIComponent(p.name)});
   if(p.whereToBuy){
     result.tips.push(p.whereToBuy);
   }else if(p.region==="National"){
