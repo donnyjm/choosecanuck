@@ -10824,5 +10824,5675 @@
       "made in canada"
     ],
     "region": "Ontario"
+  },
+  {
+    "id": 951,
+    "name": "ADL Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Prince Edward Island dairy producing cheese, milk, butter, and evaporated milk.",
+    "website": "https://www.adl.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 952,
+    "name": "Agropur",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Canadian dairy cooperative headquartered in Longueuil, Quebec, with brands including Natrel and Oka.",
+    "website": "https://www.agropur.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 953,
+    "name": "Allen's",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian juice brand under Lassonde / Reinhart Foods lines, widely sold in grocery.",
+    "website": "https://www.allens.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 954,
+    "name": "Andrew Peller Limited",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian winery group producing wines under Peller Estates and related labels.",
+    "website": "https://www.peller.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 955,
+    "name": "Anita's Organic Mill",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Chilliwack, BC organic flour and grain mill (Nature's Path family of brands).",
+    "website": "https://www.anitasorganicmill.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 956,
+    "name": "Armstrong Cheese",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Saputo cheese brand long associated with Canadian cheddar and everyday cheeses.",
+    "website": "https://www.armstrongcheese.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 957,
+    "name": "Arva Flour Mills",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Arva, Ontario mill producing organic flour, grains, and Red River Cereal.",
+    "website": "https://arvaflourmills.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 958,
+    "name": "Au Pain Doré",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal bakery producing baguettes, buns, pastries, and sliced breads.",
+    "website": "https://www.aupaindore.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 959,
+    "name": "Balzac's Coffee Roasters",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario coffee roaster with cafés and packaged whole-bean and ground coffee.",
+    "website": "https://balzacs.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 960,
+    "name": "Bassili's Best",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Edmonton frozen-meal brand known for lasagna and shepherd's pie.",
+    "website": "https://bassilisbest.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 961,
+    "name": "BC Hot House Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Surrey, BC greenhouse grower of tomatoes, peppers, cucumbers, and eggplant.",
+    "website": "https://bchothouse.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 962,
+    "name": "Bear n Bear",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian premium craft soda brand.",
+    "website": "https://www.bearnbear.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 963,
+    "name": "Beau's All Natural Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Vankleek Hill, Ontario employee-owned organic craft brewery.",
+    "website": "https://beaus.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 964,
+    "name": "Bee Maid Honey",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Winnipeg honey cooperative brand sourced from Canadian beekeepers.",
+    "website": "https://www.beemaid.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 965,
+    "name": "BioSteel",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Windsor, Ontario sports-drink and hydration brand.",
+    "website": "https://biosteel.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 966,
+    "name": "Blackwell Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kamloops, BC dairy producing milk, butter, cottage cheese, and cream products.",
+    "website": "https://www.blackwelldairy.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 967,
+    "name": "Bo & Marrow",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Alberta bone broth brand.",
+    "website": "https://www.boandmarrow.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 968,
+    "name": "Capital Fine Meats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Edmonton maker of sausages, bacon, deli meats, and cured meats.",
+    "website": "https://www.capitalfinemeats.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 969,
+    "name": "Carbonaut Bread",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Low-carb bread, bagel, and baking-mix brand with Canadian production sites.",
+    "website": "https://carbonaut.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 970,
+    "name": "Cavendish Farms",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Irving-owned frozen potato processor based in Dieppe, New Brunswick.",
+    "website": "https://www.cavendishfarms.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 971,
+    "name": "CedarCreek Estate Winery",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kelowna, BC estate winery.",
+    "website": "https://www.cedarcreek.bc.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 972,
+    "name": "ChaNoir",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal tea brand offering white, green, black, and herbal teas.",
+    "website": "https://www.cha-noir.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 973,
+    "name": "Cheemo Perogies",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Edmonton frozen perogy brand producing cheese and savoury-filled perogies.",
+    "website": "https://cheemo.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 974,
+    "name": "Chudleigh's",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Milton, Ontario bakery known for frozen apple desserts and baked goods.",
+    "website": "https://www.chudleighs.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 975,
+    "name": "Citizen Tea",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "North York, Ontario loose-leaf tea brand.",
+    "website": "https://www.citizentea.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 976,
+    "name": "Clark Beans",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec canned-bean brand (also listed as Fèves Clark).",
+    "website": "https://www.clarkbeans.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 977,
+    "name": "Clearly Canadian",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "British Columbia sparkling water brand.",
+    "website": "https://clearlycanadian.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 978,
+    "name": "Cloud 9 Gluten Free",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Burnaby, BC gluten-free and allergen-free food brand.",
+    "website": "https://cloud9glutenfree.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 979,
+    "name": "Coastal Coffee Company",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Goderich, Ontario artisan coffee roaster.",
+    "website": "https://www.coastalcoffee.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 980,
+    "name": "Collective Arts Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Hamilton, Ontario craft brewery collaborating with artists on packaging.",
+    "website": "https://collectiveartscreativity.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 981,
+    "name": "Comeback Snacks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario flavoured popcorn brand.",
+    "website": "https://comebacksnacks.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 982,
+    "name": "Conestoga Meats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Breslau, Ontario pork processor focused on hormone- and chemical-free pork.",
+    "website": "https://www.conestogameats.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 983,
+    "name": "Cove Soda",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "London, Ontario craft soda and kombucha brand.",
+    "website": "https://covesoda.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 984,
+    "name": "Covered Bridge Potato Chips",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "New Brunswick potato chip company cooking chips in Hartland using local Saint John River Valley potatoes.",
+    "website": "https://www.coveredbridgechips.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 985,
+    "name": "Cows Creamery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Prince Edward Island creamery known for ice cream and cheddar cheese.",
+    "website": "https://cowscreamery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 986,
+    "name": "Creekmore Coffee",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Qualicum Beach, BC organic coffee roaster.",
+    "website": "https://www.creekmorecoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 987,
+    "name": "Crerar's Honey",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Vernon, Ontario honey producer.",
+    "website": "https://www.crerars.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 988,
+    "name": "Crofter's Organic",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Parry Sound, Ontario organic fruit-spread company.",
+    "website": "https://croftersorganic.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 989,
+    "name": "Dainty Rice",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Windsor, Ontario rice brand.",
+    "website": "https://dainty.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 990,
+    "name": "Dare Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Family-owned Canadian snack maker of cookies, crackers, and candy founded in Ontario in 1892.",
+    "website": "https://www.darefoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 991,
+    "name": "David's Tea",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal-founded loose-leaf tea retailer and brand.",
+    "website": "https://davidstea.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 992,
+    "name": "Direct Plus Food Group",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian food group behind Grimm's, McSweeney's, and related meat and bakery brands.",
+    "website": "https://directplus.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 993,
+    "name": "Donia Farms",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Surrey, BC farm dairy producing grass-fed yogurt, milk, and butter.",
+    "website": "https://doniafarms.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 994,
+    "name": "Duinkerken Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Summerside, PEI allergen-free baking-mix company.",
+    "website": "https://www.duinkerkenfoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 995,
+    "name": "Earth's Own",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Burnaby, BC plant-based milk and creamery brand using Canadian oats for oat beverages.",
+    "website": "https://earthsown.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 996,
+    "name": "Fantino & Mondello",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian charcuterie brand associated with Maple Leaf Foods.",
+    "website": "https://www.fantinomondello.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 997,
+    "name": "Fernwood Coffee",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Island coffee and espresso roaster.",
+    "website": "https://www.fernwoodcoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 998,
+    "name": "Filsinger's Organic Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ayton, Ontario maker of organic apple sauce, pear sauce, and apple cider vinegar.",
+    "website": "https://filsingersorganic.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 999,
+    "name": "Fire in the Kitchen",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Orangeville, Ontario specialty seasonings, spice blends, and sauces.",
+    "website": "https://www.fireinthekitchen.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1000,
+    "name": "Firebarns",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Lévis, Quebec hot-sauce and condiment brand.",
+    "website": "https://firebarns.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1001,
+    "name": "Flourish Pancakes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario protein and plant-based pancake mix brand.",
+    "website": "https://www.flourishpancakes.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1002,
+    "name": "Flying Monkeys Craft Brewery",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Barrie, Ontario craft brewery known for bold flavours.",
+    "website": "https://www.flyingmonkeys.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1003,
+    "name": "Fontaine Santé",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Saint-Laurent, Quebec maker of salads, hummus, dips, and appetizers.",
+    "website": "https://www.fontainesante.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1004,
+    "name": "Four Fathers Food Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario vegan and keto-friendly sauce brand.",
+    "website": "https://www.fourfathersfoodco.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1005,
+    "name": "Four O'Clock Teas",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal Fairtrade and organic tea brand.",
+    "website": "https://four-o-clock.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1006,
+    "name": "Fratello Coffee Roasters",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary coffee, tea, and specialty drink-mix roaster.",
+    "website": "https://www.fratellocoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1007,
+    "name": "Fresh Is Best",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kamloops family-owned maker of salsa, dips, and taco shells.",
+    "website": "https://www.freshisbest.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1008,
+    "name": "G.E. Barbour / King Cole Tea",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Sussex, New Brunswick company behind King Cole Tea, Fatso peanut butter, and Barbour spices.",
+    "website": "https://barbours.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1009,
+    "name": "Ganong Chocolates",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Canada's oldest chocolate company, producing chocolates and candy in St. Stephen, New Brunswick.",
+    "website": "https://ganong.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1010,
+    "name": "Gay Lea Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario dairy cooperative producing butter, cheese, sour cream, and whipped cream brands.",
+    "website": "https://www.gaylea.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1011,
+    "name": "Georgian Bay Granola",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Parry Sound, Ontario granola company.",
+    "website": "https://www.georgianbaygranola.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1012,
+    "name": "GoBio! Organics",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver organic broth, gravy, and pantry brand.",
+    "website": "https://gobio.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1013,
+    "name": "Golden Bonbon (Asti Holdings)",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "New Westminster, BC maker of almond and jujube nougat.",
+    "website": "https://goldenbonbon.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1014,
+    "name": "Grandma Emily",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal snack company making small-batch granolas, bars, and snack mixes since 1997.",
+    "website": "https://www.grandmaemily.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1015,
+    "name": "Grass Root Dairies",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Salmon Arm, BC dairy making cheese, milk, Bulgarian yogurt, and quark.",
+    "website": "https://www.grassrootdairies.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1016,
+    "name": "Great Lakes Brewery",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Etobicoke, Ontario craft brewery.",
+    "website": "https://www.greatlakesbeer.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1017,
+    "name": "Greaves Jams",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Niagara-on-the-Lake maker of jams, jellies, and marmalades.",
+    "website": "https://greavesjams.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1018,
+    "name": "Greenfield Natural Meat Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Maple Leaf antibiotic-free meat brand produced in Ayr, Ontario.",
+    "website": "https://greenfieldmeat.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1019,
+    "name": "Grounded Coffee Company",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Midland, Ontario coffee and tea company.",
+    "website": "https://www.groundedcoffee.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1020,
+    "name": "Gunn's Hill Artisan Cheese",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Oxford County, Ontario artisan cheese maker using local milk.",
+    "website": "https://www.gunnshillcheese.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1021,
+    "name": "Happy Planet",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Burnaby, BC juice and smoothie brand.",
+    "website": "https://happyplanet.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1022,
+    "name": "Hardbite Potato Chips",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "BC chip maker producing all-natural kettle-style potato and root-vegetable chips in Surrey.",
+    "website": "https://hardbitechips.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1023,
+    "name": "Harmon's Craft Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "London, Ontario non-alcoholic craft beer brand.",
+    "website": "https://harmonsbeer.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1024,
+    "name": "Harvest Meats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Yorkton, Saskatchewan maker of bacon, burgers, deli meat, and sausages.",
+    "website": "https://www.harvestmeats.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1025,
+    "name": "Hewitt's Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Hagersville, Ontario dairy producing milk, cream, yogurt, and goat-milk products.",
+    "website": "https://hewittsdairy.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1026,
+    "name": "High Liner Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Nova Scotia-based frozen seafood company producing fish fillets and prepared seafood.",
+    "website": "https://www.highlinerfoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1027,
+    "name": "HoneyBar",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ottawa snack-bar manufacturer producing gluten-free bars with short ingredient lists since 1987.",
+    "website": "https://honeybar.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1028,
+    "name": "Humble Potato Chips",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Guelph, Ontario organic potato chip brand using locally grown potatoes.",
+    "website": "https://humblechips.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1029,
+    "name": "Imperial Popcorn",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "St-Eustache, Quebec flavoured popcorn maker.",
+    "website": "https://www.imperialpopcorn.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1030,
+    "name": "Inno Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Langley, BC maker of crackers, nut and seed snacks, granola, and cereal.",
+    "website": "https://innofoods.shop/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1031,
+    "name": "Inspired Greens",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Coaldale, Alberta living-lettuce grower.",
+    "website": "https://www.inspiredgreens.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1032,
+    "name": "Island Farms",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "BC dairy brand (Agropur) producing milk and related products for Western Canada.",
+    "website": "https://www.islandfarms.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1033,
+    "name": "Island Nut Roastery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Island nut butter, bulk nuts, and trail-mix producer.",
+    "website": "https://www.islandnutroastery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1034,
+    "name": "Jamieson Vitamins",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Windsor, Ontario vitamins and supplements brand.",
+    "website": "https://www.jamiesonvitamins.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1035,
+    "name": "Janes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Sofina poultry brand offering frozen and prepared chicken products.",
+    "website": "https://www.janesfoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1036,
+    "name": "Johnvince Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian nut, candy, and dried-fruit distributor and brand owner.",
+    "website": "https://www.johnvince.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1037,
+    "name": "Jumping Bean Coffee",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Newfoundland & Labrador",
+    "score": 90,
+    "description": "Mount Pearl, Newfoundland coffee, espresso, and single-serve brand.",
+    "website": "https://jumpingbean.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1038,
+    "name": "Just Us! Coffee Roasters",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Grand Pré, Nova Scotia Fair Trade coffee, tea, and chocolate co-operative.",
+    "website": "https://justuscoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1039,
+    "name": "K2 Milling",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Tottenham, Ontario flour mill.",
+    "website": "https://www.k2milling.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1040,
+    "name": "Kaslo Sourdough",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "West Kootenays, BC fermented sourdough pasta maker.",
+    "website": "https://www.kaslosourdough.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1041,
+    "name": "Kawartha Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Bobcaygeon, Ontario dairy making ice cream, milk, butter, and cream.",
+    "website": "https://www.kawartha.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1042,
+    "name": "Kerr's Candy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto candy company producing hard candies and sugar-free sweets.",
+    "website": "https://kerrs.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1043,
+    "name": "Kinnikinnick",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Edmonton gluten-free bakery making breads, muffins, desserts, and pasta.",
+    "website": "https://www.kinnikinnick.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1044,
+    "name": "Kintore Coffee Co.",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Embro, Ontario dark- and light-roast coffee brand.",
+    "website": "https://www.kintorecoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1045,
+    "name": "Konscious Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver plant-based seafood brand making sushi, onigiri, and poke-style products.",
+    "website": "https://www.konsciousfoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1046,
+    "name": "La Cocina Tortilla Chips",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Manitoba maker of tortillas and tortilla chips based in Ste. Anne.",
+    "website": "https://www.lacocinachips.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1047,
+    "name": "La Milanaise",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec organic flour, flakes, grains, legumes, and sugar producer.",
+    "website": "https://lamilanaise.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1048,
+    "name": "Laiterie de Coaticook",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Coaticook, Quebec dairy known for ice cream and cheese.",
+    "website": "https://laiteriedecoaticook.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1049,
+    "name": "Lantic / Rogers Sugar",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian sugar refining company producing Lantic and Rogers sugar products.",
+    "website": "https://lanticrogers.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1050,
+    "name": "Lassonde Industries",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec beverage company behind Oasis, Allen's, Fairlee, SunRype, and related juice brands.",
+    "website": "https://www.lassonde.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1051,
+    "name": "Leclerc",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec bakery and snack company making cookies, Celebration Cookies, granola, and snack foods.",
+    "website": "https://www.leclerc.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1052,
+    "name": "Lesley Stowe / Raincoast Crisps",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver artisan cracker brand (Raincoast Crisps).",
+    "website": "https://www.lesleystowe.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1053,
+    "name": "Libra Beverage Co",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Charlottetown, PEI non-alcoholic craft beer brand.",
+    "website": "https://www.drinklibra.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1054,
+    "name": "Lilydale",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Sofina turkey and poultry brand produced in Canada.",
+    "website": "https://www.lilydale.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1055,
+    "name": "Love Good Fats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto snack-bar brand producing high-protein, low-sugar bars made in Ontario.",
+    "website": "https://lovegoodfats.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1056,
+    "name": "Made with Local",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Nova Scotia B Corp snack brand making bars and granola with Canadian oats, honey, and berries.",
+    "website": "https://www.madewithlocal.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1057,
+    "name": "MadeGood Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario organic snack brand making allergy-friendly granola bars, cookies, and crackers.",
+    "website": "https://www.madegoodfoods.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1058,
+    "name": "Maison Orphée",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec City producer of oils, vinegars, and condiments.",
+    "website": "https://maisonorphee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1059,
+    "name": "Manitoba Harvest",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Manitoba hemp-seed food brand producing hearts, protein, and related products.",
+    "website": "https://manitobaharvest.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1060,
+    "name": "Maple Leaf Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Mississauga-based protein company behind Maple Leaf, Schneiders, and Greenfield meat brands.",
+    "website": "https://www.mapleleaffoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1061,
+    "name": "Maple Lodge Farms",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario poultry company producing fresh and prepared chicken products.",
+    "website": "https://maplelodgefarms.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1062,
+    "name": "McCain Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Florenceville, New Brunswick frozen potato and appetizer company founded by the McCain family.",
+    "website": "https://www.mccain.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1063,
+    "name": "McSweeney's",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian meat-snack brand making jerky and related products from Canadian meats.",
+    "website": "https://mcsweeneys.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1064,
+    "name": "Midnight Sun Coffee Roasters",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Yukon",
+    "score": 90,
+    "description": "Whitehorse, Yukon fresh-roasted premium coffee.",
+    "website": "https://www.midnightsuncoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1065,
+    "name": "Miller's Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Creemore, Ontario dairy producing milk, cream, ice cream, and eggnog.",
+    "website": "https://www.millersdairy.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1066,
+    "name": "Mina Halal",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Maple Leaf Foods halal chicken and prepared-meats brand.",
+    "website": "https://www.minahalal.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1067,
+    "name": "Mission Hill Family Estate",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "West Kelowna, BC family estate winery.",
+    "website": "https://www.missionhillwinery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1068,
+    "name": "Monarch Tea Co.",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Hamilton, Ontario loose-leaf tea brand.",
+    "website": "https://www.monarchtea.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1069,
+    "name": "Moosehead Breweries",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Saint John, New Brunswick family-owned brewery and Canada's largest independently Canadian-owned major brewery.",
+    "website": "https://moosehead.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1070,
+    "name": "Muskoka Brewery",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Bracebridge, Ontario independent craft brewery.",
+    "website": "https://www.muskokabrewery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1071,
+    "name": "Muskoka Roastery Coffee Co.",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Muskoka, Ontario coffee roaster offering whole bean, ground, and single-serve coffee.",
+    "website": "https://www.muskokaroastery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1072,
+    "name": "Natrel",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Agropur milk, cream, and dairy brand produced in Canada.",
+    "website": "https://www.natrel.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1073,
+    "name": "Nature's Path",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Family-owned organic cereal, granola, and oatmeal company founded in British Columbia.",
+    "website": "https://naturespath.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1074,
+    "name": "Naya",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec natural spring water brand.",
+    "website": "https://www.naya.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1075,
+    "name": "Neal Brothers",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario company making salsas, mayonnaise, BBQ sauces, and pasta sauces (bagged snacks often U.S.-made).",
+    "website": "https://www.nealbrothers.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1076,
+    "name": "Nickel Brook Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Burlington, Ontario craft brewery.",
+    "website": "https://www.nickelbrook.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1077,
+    "name": "Nomz",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto organic snack brand making energy bites, nut butters, and superfood mixes.",
+    "website": "https://nomz.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1078,
+    "name": "NoochPop",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "British Columbia popcorn brand focused on savoury and nutritional flavours.",
+    "website": "https://www.noochpop.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1079,
+    "name": "NorQuin",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Saskatoon quinoa and quinoa-products company.",
+    "website": "https://www.norquin.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1080,
+    "name": "Nossack Food Group",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Red Deer, Alberta maker of frozen meats, sausages, and beef jerky under several brands.",
+    "website": "https://www.nossack.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1081,
+    "name": "Nutracelle",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Charlottetown, PEI sugar-free vegan gummy brand.",
+    "website": "https://www.nutracelle.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1082,
+    "name": "O'Doughs",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario gluten-free bread and bagel brand.",
+    "website": "https://odoughs.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1083,
+    "name": "Oatally Awesome",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kamloops, BC gourmet oatmeal brand.",
+    "website": "https://www.oatallyawesome.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1084,
+    "name": "Okanagan Spirits",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vernon, BC craft distillery producing fruit spirits, whisky, and liqueurs.",
+    "website": "https://okanaganspirits.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1085,
+    "name": "Olymel",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec pork and poultry processor and brand owned by Canadian cooperative interests.",
+    "website": "https://www.olymel.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1086,
+    "name": "One Degree Organics",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian organic oats, granola, cereal, and flour brand.",
+    "website": "https://onedegreeorganics.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1087,
+    "name": "Organika",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian brand of bone broths, collagen, and supplements.",
+    "website": "https://organika.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1088,
+    "name": "Pacific Western Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Prince George, BC brewery founded in 1957 producing beer and ready-to-drink beverages.",
+    "website": "https://pwbrewing.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1089,
+    "name": "Partake Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary non-alcoholic craft beer brand.",
+    "website": "https://drinkpartake.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1090,
+    "name": "PEI Sea Salt Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Prince Edward Island",
+    "score": 90,
+    "description": "Prince Edward Island sea salt producer.",
+    "website": "https://www.peiseasalt.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1091,
+    "name": "Peppermaster",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Rigaud, Quebec hot sauces, rubs, and spices.",
+    "website": "https://www.peppermaster.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1092,
+    "name": "Phillips Brewing & Malting",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Victoria, BC independent craft brewery and malting company.",
+    "website": "https://www.phillipsbeer.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1093,
+    "name": "Pluck Teas",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "East York, Ontario loose-leaf tea and matcha brand.",
+    "website": "https://pluckteas.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1094,
+    "name": "Portofino Bakery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Saanichton, BC artisan bakery.",
+    "website": "https://www.portofinobakery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1095,
+    "name": "Prana Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal brand of organic plant-based snacks, breakfast foods, and pantry staples.",
+    "website": "https://pranafoods.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1096,
+    "name": "Prestige Maple Products",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Saint-Eusèbe, Quebec maple syrup, caramel, and sugar producer.",
+    "website": "https://prestigemapleproducts.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1097,
+    "name": "Pretty Ugly",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec snack brand making salsa, corn chips, and flavoured chips.",
+    "website": "https://www.prettyugly.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1098,
+    "name": "Primo Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto Italian pantry brand for pasta sauces, tomatoes, and beans.",
+    "website": "https://www.primofoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1099,
+    "name": "Purdys Chocolatier",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Family-owned Vancouver chocolatier producing boxed chocolates and confections since 1907.",
+    "website": "https://www.purdys.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1100,
+    "name": "Purest",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Perth, Ontario gluten-free baking-mix brand.",
+    "website": "https://purest.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1101,
+    "name": "Purity Products (NL)",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Newfoundland & Labrador",
+    "score": 90,
+    "description": "St. John's, Newfoundland maker of cookies, biscuits, crackers, candy, syrup, and jams.",
+    "website": "https://purity.nf.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1102,
+    "name": "Quails' Gate Winery",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kelowna, BC family-owned Okanagan winery.",
+    "website": "https://www.quailsgate.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1103,
+    "name": "Que Pasa Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Organic tortilla chip and snack brand under Nature's Path, with Canadian production in Delta, BC.",
+    "website": "https://www.que-pasa.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1104,
+    "name": "Ravine Mushrooms",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Woodbridge, Ontario mushroom grower.",
+    "website": "https://www.ravinemushrooms.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1105,
+    "name": "Reinhart Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Stayner, Ontario vinegar, cherries, and baking-products company (Allen's, Reinhart's, Daltons).",
+    "website": "https://www.reinhartfoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1106,
+    "name": "Righteous Gelato",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary small-batch gelato producer.",
+    "website": "https://www.righteousgelato.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1107,
+    "name": "Rogers Chocolates",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Victoria-based chocolate company producing chocolates and confections in British Columbia.",
+    "website": "https://www.rogerschocolates.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1108,
+    "name": "Rustica Pizza",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal frozen pizza brand.",
+    "website": "https://www.rusticapizza.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1109,
+    "name": "Salt Spring Coffee",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "BC organic and Fair Trade coffee roaster founded on Salt Spring Island.",
+    "website": "https://www.saltspringcoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1110,
+    "name": "Salt Winds Coffee Co.",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Douglas, New Brunswick coffee roaster.",
+    "website": "https://www.saltwindscoffee.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1111,
+    "name": "San Daniele",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Sofina Italian-style deli meats brand made in Canada.",
+    "website": "https://www.sandaniele.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1112,
+    "name": "Sapsucker",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario sparkling water sweetened with Canadian maple sap.",
+    "website": "https://sipsapsucker.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1113,
+    "name": "Saputo",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal-based dairy processor producing cheese and dairy brands including Armstrong and Dairyland.",
+    "website": "https://www.saputo.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1114,
+    "name": "Schneiders",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Maple Leaf prepared-meats brand making bacon, deli meats, sausages, and hot dogs in Canada.",
+    "website": "https://schneiders.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1115,
+    "name": "Sheldon Creek Dairy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Loretto, Ontario dairy specializing in A2 protein milk.",
+    "website": "https://www.sheldoncreek.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1116,
+    "name": "Shelter Point Distillery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Island single-malt whisky distillery.",
+    "website": "https://shelterpoint.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1117,
+    "name": "Silk Road Spices",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary and Edmonton spice and spice-blend company.",
+    "website": "https://silkroadspices.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1118,
+    "name": "Silver Hills Sprouted Bakery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Abbotsford, BC sprouted-grain bread, bun, and bagel bakery.",
+    "website": "https://silverhillsbakery.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1119,
+    "name": "Simply Protein",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian protein snack brand; some products made in Canada and some in the U.S. (check label).",
+    "website": "https://www.simplyprotein.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1120,
+    "name": "Skotidakis",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "St-Eugène, Ontario producer of Greek yogurt, dips, and cheeses.",
+    "website": "https://www.skotidakis.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1121,
+    "name": "SmartSweets",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian candy brand making low-sugar gummy and hard candies.",
+    "website": "https://smartsweets.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1122,
+    "name": "Sofina Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian meat and poultry company behind Janes, Lilydale, Mastro, San Daniele, and Fletcher's.",
+    "website": "https://www.sofinafoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1123,
+    "name": "Sprague Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Belleville, Ontario maker of soups, beans, and chili.",
+    "website": "https://www.spraguefoods.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1124,
+    "name": "Steam Whistle Brewing",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto craft brewery known for pilsner brewed with four ingredients.",
+    "website": "https://steamwhistle.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1125,
+    "name": "Stoked Oats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary organic oats, oatmeal, and granola brand.",
+    "website": "https://www.stokedoats.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1126,
+    "name": "Stone Mill Bakehouse",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Unionville, Ontario artisan bread bakery.",
+    "website": "https://stonemillbakehouse.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1127,
+    "name": "Summer Fresh",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Woodbridge, Ontario maker of hummus, dips, salads, and dressings.",
+    "website": "https://www.summerfresh.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1128,
+    "name": "Summerland Sweets",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Summerland, BC maker of fruit syrups, jams, and related specialty foods.",
+    "website": "https://summerlandsweets.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1129,
+    "name": "Sunny Crunch Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Markham, Ontario cereals and snack-bar manufacturer.",
+    "website": "https://www.sunnycrunch.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1130,
+    "name": "Sunrise Soya Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver-founded tofu and soy-beverage company with BC and Ontario plants.",
+    "website": "https://sunrise-soya.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1131,
+    "name": "SunRype",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Kelowna fruit-snack and juice brand founded in 1946; now part of Lassonde.",
+    "website": "https://sunrype.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1132,
+    "name": "Tea Santé",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Pointe-Claire, Quebec premium loose-leaf tea company.",
+    "website": "https://www.teasante.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1133,
+    "name": "Tenderflake",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian pastry brand for pie shells and related bakery products.",
+    "website": "https://tenderflake.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1134,
+    "name": "The Great Gentleman",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Laval, Quebec mixer brand making ginger beer, tonic, and related beverages.",
+    "website": "https://www.thegreatgentleman.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1135,
+    "name": "The Little Potato Company",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Nisku, Alberta grower and packer of creamer potatoes.",
+    "website": "https://www.littlepotatoes.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1136,
+    "name": "The Naked Leaf",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary loose-leaf tea shop and brand.",
+    "website": "https://www.thenakedleaf.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1137,
+    "name": "The Pop Shoppe",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Burlington, Ontario retro craft soda brand.",
+    "website": "https://www.thepopshoppe.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1138,
+    "name": "The Tea Haus",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "London, Ontario tea retailer and brand with a large loose-leaf selection.",
+    "website": "https://www.theteahaus.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1139,
+    "name": "Three Farmers",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Saskatoon company making roasted chickpea snacks and camelina oil products.",
+    "website": "https://threefarmers.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1140,
+    "name": "Three Foragers Bee Company",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Saskatoon specialty honey company.",
+    "website": "https://threeforagers.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1141,
+    "name": "Tinkyada Pasta Joy",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Scarborough, Ontario gluten-free rice pasta brand.",
+    "website": "https://www.tinkyada.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1142,
+    "name": "Tony's Meats",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Antigonish, Nova Scotia maker of deli meats, sausages, and beef suet.",
+    "website": "https://www.tonysmeats.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1143,
+    "name": "Tree Island Yogurt",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Cumberland, BC yogurt maker producing Greek and dairy-free yogurts.",
+    "website": "https://www.treeislandyogurt.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1144,
+    "name": "Uncle Bob's Popcorn",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Walsingham, Ontario popcorn products company.",
+    "website": "https://www.unclebobspopcorn.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1145,
+    "name": "Upper Canada Creamery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Iroquois, Ontario creamery producing cream, cheese curds, and ice cream.",
+    "website": "https://www.uppercanadacreamery.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1146,
+    "name": "Vancouver Island Sea Salt",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Campbell River, BC hand-harvested sea salt brand.",
+    "website": "https://viseasalt.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1147,
+    "name": "Vision Greens",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Welland, Ontario greenhouse lettuce and salad greens grower.",
+    "website": "https://www.visiongreens.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1148,
+    "name": "Wonderbrands",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian bakery company behind Wonder, Country Harvest, D'Italiano, Gadoua, and related bread brands.",
+    "website": "https://wonderbrands.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1149,
+    "name": "Wowbutter",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Staffa, Ontario maker of soy-based peanut butter alternatives that are nut-free.",
+    "website": "https://www.wowbutter.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1150,
+    "name": "Yum Yum",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec snack brand making potato chips and related snack products.",
+    "website": "https://www.yumyum.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1151,
+    "name": "Yumi Organics",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian organic oats, cereals, and energy bars brand.",
+    "website": "https://www.yumi.ca/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1152,
+    "name": "Zavida Coffee",
+    "category": "Beverages",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Concord, Ontario coffee brand offering flavoured and classic blends in bean, ground, and single-serve formats.",
+    "website": "https://zavida.com/",
+    "tags": [
+      "food-beverage"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1153,
+    "name": "Alberta Boot Company",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary western boot company handcrafting premium cowboy boots in Canada since 1978.",
+    "website": "https://www.albertaboot.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1154,
+    "name": "All Circles",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Floradale, Ontario maker of solid wood children's furniture and play pieces designed and made locally.",
+    "website": "https://allcircles.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1155,
+    "name": "Anfibio Boots",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal winter boot maker handcrafting waterproof boots in Quebec since 1968.",
+    "website": "https://www.anfibioboots.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1156,
+    "name": "Anián",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Island circular fashion brand making recycled-fibre garments in Canada.",
+    "website": "https://anianmfg.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1157,
+    "name": "Annabelle",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Canadian colour cosmetics brand under Groupe Marcelle known for bold shades since 1967.",
+    "website": "https://annabelle.com/en",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1158,
+    "name": "Anne Mulaire",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Métis-owned Winnipeg brand sewing bamboo-jersey basics with vertically integrated Canadian production.",
+    "website": "https://annemulaire.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1159,
+    "name": "Anvil Jewellery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto family jeweller casting over 90% of inventory in its local studio since 1965.",
+    "website": "https://anviljewellery.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1160,
+    "name": "Aritzia",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver fashion retailer and brand founded in 1984 offering contemporary women's apparel.",
+    "website": "https://www.aritzia.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1161,
+    "name": "Atelier B",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal clothing brand for women, men and children made in Canada.",
+    "website": "https://atelier-b.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1162,
+    "name": "Baffin",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian winter footwear brand with some Made in Canada production.",
+    "website": "https://www.baffin.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1163,
+    "name": "Birds of North America",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian brand of colourful, ethically made vegan clothing produced in Canada.",
+    "website": "https://birdsofnorthamerica.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1164,
+    "name": "Blu Wave SUP",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario stand-up paddleboard brand designing SUPs and paddling gear in Canada.",
+    "website": "https://bluwavesup.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1165,
+    "name": "Blume",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian skincare brand founded by sisters for sensitive and acne-prone skin.",
+    "website": "https://www.blume.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1166,
+    "name": "Bodybag by Jude",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian women's clothing label with made-in-Canada production.",
+    "website": "https://bodybagbyjude.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1167,
+    "name": "Boulet Boots",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Canadian cowboy and western boot factory specializing in Goodyear welt construction.",
+    "website": "https://bouletboots.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1168,
+    "name": "Brave Leather",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian maker of leather bags and accessories produced in Canada.",
+    "website": "https://braveleather.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1169,
+    "name": "Canada West Boots",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Winnipeg family company manufacturing western and work boots in Canada since 1978.",
+    "website": "https://www.canadawestboots.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1170,
+    "name": "Canadel",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec family manufacturer of custom-made solid wood dining furniture since 1982.",
+    "website": "https://canadel.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1171,
+    "name": "Cozey",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal modular sofa brand designing products in Canada for direct-to-consumer delivery.",
+    "website": "https://www.cozey.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1172,
+    "name": "CW Beggs and Sons",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Groupe Marcelle men's hypoallergenic skincare line.",
+    "website": "https://cwbeggs.com/en",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1173,
+    "name": "De Gaspé",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal contemporary solid wood furniture brand designed and made in Quebec.",
+    "website": "https://degaspe.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1174,
+    "name": "Delta Kayaks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian-owned brand specializing in thermoformed plastic kayaks made in Canada.",
+    "website": "https://deltakayaks.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1175,
+    "name": "DUER",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver performance denim and apparel brand founded for active commuting.",
+    "website": "https://duer.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1176,
+    "name": "Durham Furniture",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario solid wood bedroom furniture maker handcrafting maple and cherry pieces since 1899.",
+    "website": "https://www.durhamfurniture.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1177,
+    "name": "Décor-Rest",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario upholstery manufacturer offering customizable sofas and chairs made in Canada.",
+    "website": "https://decor-rest.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1178,
+    "name": "East Coast Glow",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Newfoundland & Labrador",
+    "score": 90,
+    "description": "Bonavista, NL wildcrafted skincare brand using iceberg water and Atlantic Canadian ingredients.",
+    "website": "https://eastcoastglow.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1179,
+    "name": "Ecksand",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal fine jewelry maison holding the Canadian National Hallmark for fully Canadian-made pieces.",
+    "website": "https://ecksand.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1180,
+    "name": "Ecologyst",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Victoria outdoor apparel brand sewing natural-fibre clothing at its own BC workshop.",
+    "website": "https://ecologyst.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1181,
+    "name": "Eliza Faulkner",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian women's dresses and clothing brand made in Canada.",
+    "website": "https://elizafaulkner.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1182,
+    "name": "Ember Wellness",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian solid skincare brand with zero-waste formulations made in Canada.",
+    "website": "https://emberwellness.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1183,
+    "name": "Encircled",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto B Corp making travel and capsule women's wear cut and sewn near its studio.",
+    "website": "https://encircled.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1184,
+    "name": "EQ3",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Winnipeg modern furniture brand designing and crafting upholstery in Canada.",
+    "website": "https://www.eq3.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1185,
+    "name": "Erin Templeton",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian leather bag maker producing bags in Canada.",
+    "website": "https://erintempleton.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1186,
+    "name": "Eve Gravel",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal womenswear designer with clothing made in Canada.",
+    "website": "https://evegravel.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1187,
+    "name": "Ferreol Skis",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec alpine ski brand designing and manufacturing skis in Quebec.",
+    "website": "https://ferreol.ca/en",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1188,
+    "name": "Fortnight Lingerie",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto lingerie and intimates brand made in Canada.",
+    "website": "https://fortnightlingerie.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1189,
+    "name": "FRANC",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto B Corp basics brand knit, dyed, cut and sewn in Toronto.",
+    "website": "https://wearfranc.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1190,
+    "name": "Free Label",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Size-inclusive women's basics and loungewear made in small batches in Vancouver and Toronto.",
+    "website": "https://freelabel.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1191,
+    "name": "Friday Sock Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian patterned sock brand for men, women and kids.",
+    "website": "https://fridaysocks.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1192,
+    "name": "Good For Sunday",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian loungewear label with all products designed and made in Canada.",
+    "website": "https://goodforsunday.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1193,
+    "name": "Granted Clothing",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian brand of handknit sweaters and wool accessories made in Canada.",
+    "website": "https://grantedclothing.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1194,
+    "name": "Graydon Skincare",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto plant-powered skincare brand made in Ontario for sensitive skin.",
+    "website": "https://graydonskincare.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1195,
+    "name": "Groupe Marcelle",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal family-owned cosmetic manufacturer behind Marcelle, Annabelle, Lise Watier and CW Beggs.",
+    "website": "https://groupemarcelle.com/en",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1196,
+    "name": "Gus* Modern",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto modern furniture company founded in 2000 known for upholstered seating.",
+    "website": "https://gusmodern.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1197,
+    "name": "GV Snowshoes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec City region manufacturer of traditional and aluminum snowshoes.",
+    "website": "https://gvsnowshoes.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1198,
+    "name": "Hauser",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Waterloo, Ontario third-generation furniture maker of indoor and outdoor seating since 1949.",
+    "website": "https://hauser.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1199,
+    "name": "Herschel Supply Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver bag and accessories brand founded in 2009 and named after a Saskatchewan town.",
+    "website": "https://herschel.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1200,
+    "name": "Hillberg & Berk",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Regina women-owned demi-fine sterling silver jewelry brand and Team Canada partner.",
+    "website": "https://hillbergandberk.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1201,
+    "name": "Hollis+Morris",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto studio designing and making wood and metal furniture and lighting in Canada.",
+    "website": "https://hollisandmorris.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1202,
+    "name": "Horses Atelier",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian women's clothing brand with garments made in Canada.",
+    "website": "https://horsesatelier.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1203,
+    "name": "Huppé",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec maker of modern and contemporary customizable furniture made in Canada.",
+    "website": "https://www.huppe.net/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1204,
+    "name": "Jax + Lennon",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian baby, children's and adult clothing brand made in Canada.",
+    "website": "https://jaxandlennon.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1205,
+    "name": "Jennifer Glasgow",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal women's clothing designer producing garments in Canada.",
+    "website": "https://jenniferglasgow.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1206,
+    "name": "Jenny Bird",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto fashion jewelry brand founded in Canada.",
+    "website": "https://jenny-bird.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1207,
+    "name": "Kamik",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec family footwear company founded in 1898 making winter and outdoor boots with substantial Canadian production.",
+    "website": "https://www.kamik.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1208,
+    "name": "Kavuus",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Delta, BC company crafting custom sofas, sectionals and beds entirely in Canada since 2009.",
+    "website": "https://www.kavuus.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1209,
+    "name": "Kotn",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto basics brand founded in 2015 built around Egyptian cotton supply chains.",
+    "website": "https://kotn.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1210,
+    "name": "La Canadienne",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal women's boot and footwear brand.",
+    "website": "https://www.lacanadienne.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1211,
+    "name": "Laurentian Chief",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian brand of heritage-inspired moccasins and slippers made entirely in Canada since 1945.",
+    "website": "https://laurentianchief.com/en/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1212,
+    "name": "Les Mauvaises Herbes",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal natural cosmetics company offering DIY kits and ready-made plant-based products.",
+    "website": "https://lesmauvaisesherbes.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1213,
+    "name": "Lise Watier",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal prestige makeup, skincare and fragrance brand founded in 1972, now under Groupe Marcelle.",
+    "website": "https://www.lisewatier.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1214,
+    "name": "Little & Lively",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian children's clothing brand produced in Canada.",
+    "website": "https://littleandlively.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1215,
+    "name": "Living Libations",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian botanical skincare and perfume company known for plant-based formulations.",
+    "website": "https://ca.livinglibations.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1216,
+    "name": "Local Laundry",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary loungewear brand designed, manufactured and shipped entirely within Canada.",
+    "website": "https://locallaundry.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1217,
+    "name": "Lolë",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal women's outdoor and travel apparel brand founded in 2002.",
+    "website": "https://lolelife.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1218,
+    "name": "Lover's Tempo",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver jewelry and accessories brand.",
+    "website": "https://loverstempo.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1219,
+    "name": "Lynden House International",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Pincher Creek, Alberta handcrafted personal care and cosmetics company.",
+    "website": "https://www.lyndenhouseinternational.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1220,
+    "name": "m0851",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal brand of handcrafted leather bags, accessories and outerwear.",
+    "website": "https://www.m0851.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1221,
+    "name": "Mackage",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal luxury outerwear house founded in 1999.",
+    "website": "https://www.mackage.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1222,
+    "name": "Maison Birks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Historic Canadian jeweller known for fine jewelry, silverware and gifts.",
+    "website": "https://maisonbirks.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1223,
+    "name": "Manitobah Mukluks",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Indigenous-owned Winnipeg brand of mukluks and moccasins rooted in traditional footwear.",
+    "website": "https://www.manitobah.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1224,
+    "name": "Marcelle",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal Groupe Marcelle brand of hypoallergenic cosmetics with majority Canadian manufacturing.",
+    "website": "https://marcelle.com/en",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1225,
+    "name": "Martino",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec City family company manufacturing leather boots, shoes and moccasins in its own factory.",
+    "website": "https://www.boutiquemartino.com/en/pages/a-propos",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1226,
+    "name": "Mary Young",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian underwear and intimates brand manufactured in Canada.",
+    "website": "https://maryyoung.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1227,
+    "name": "Meemoza",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal brand handmade casual-chic womenswear from sustainable fabrics.",
+    "website": "https://en.meemoza.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1228,
+    "name": "Mejuri",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto-founded fine jewelry brand started in 2015 for everyday wear.",
+    "website": "https://mejuri.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1229,
+    "name": "Melanie Auld",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian jewelry brand included in Canadian jewelry roundups.",
+    "website": "https://melanieauld.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1230,
+    "name": "Miik",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Women-run Toronto label making versatile women's clothing within about 50 km of its office.",
+    "website": "https://www.miik.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1231,
+    "name": "Mini Mioche",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian organic baby and kids clothing brand with made-in-Canada lines.",
+    "website": "https://minimioche.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1232,
+    "name": "Moose Knuckles",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal outerwear brand known for parkas with Canadian manufacturing heritage.",
+    "website": "https://www.mooseknucklescanada.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1233,
+    "name": "Must Société",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec furniture group curating Canadian and international design through multiple banners.",
+    "website": "https://mustsociete.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1234,
+    "name": "Muttonhead",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto gender-neutral essentials brand producing crewnecks and tees in Canada.",
+    "website": "https://muttonheadstore.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1235,
+    "name": "Nelly De Vuyst",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal professional-grade cosmetics manufacturer making products in Quebec since 1974.",
+    "website": "https://www.nellydevuyst.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1236,
+    "name": "OkayOK",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto family clothing brand with fabric milled and garments sewn in the GTA and Montreal.",
+    "website": "https://okayok.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1237,
+    "name": "Olive and Piper",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian jewelry brand featured in Canadian jewelry guides.",
+    "website": "https://oliveandpiper.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1238,
+    "name": "ORI Muskoka",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario brand redesigning Muskoka chairs with pieces manufactured in Ontario.",
+    "website": "https://orimuskoka.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1239,
+    "name": "Origami Customs",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal inclusive underwear and swimwear brand made in Canada.",
+    "website": "https://origamicustoms.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1240,
+    "name": "Pajar",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal family-owned winter boot brand established in 1963.",
+    "website": "https://www.pajar.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1241,
+    "name": "Paris Jewellers",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Alberta family jeweller with locations across multiple provinces since 1987.",
+    "website": "https://parisjewellers.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1242,
+    "name": "Paume",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian luxury hand-care brand focused on hands and nails.",
+    "website": "https://mypaume.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1243,
+    "name": "Phytosurgence",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver indie brand handcrafting makeup and skincare with a two-person Canadian team.",
+    "website": "https://www.phytosurgence.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1244,
+    "name": "Poppy Barley",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Canadian leather shoes and accessories brand.",
+    "website": "https://poppybarley.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1245,
+    "name": "Province of Canada",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto brand that manufactures its entire apparel line in Canada.",
+    "website": "https://provinceofcanada.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1246,
+    "name": "Pyrrha",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver sustainable talisman jewelry brand handcrafted in a zero-carbon studio.",
+    "website": "https://pyrrha.com/en-ca",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1247,
+    "name": "Ref. Furniture",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Gatineau solid wood made-to-order furniture studio.",
+    "website": "https://ref-co.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1248,
+    "name": "Reigning Champ",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver athletic basics brand crafting fleece and tees in its own factory since 2007.",
+    "website": "https://reigningchamp.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1249,
+    "name": "Romano Sofa",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal family sofa maker building contemporary sofas and sectionals since 1962.",
+    "website": "https://romanosofa.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1250,
+    "name": "Roots",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto lifestyle brand founded in 1973 that still crafts leather goods at a Toronto factory.",
+    "website": "https://www.roots.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1251,
+    "name": "Silk & Snow",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto home brand whose mattresses are made in Canada.",
+    "website": "https://silkandsnow.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1252,
+    "name": "Silken Lather",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "London, Ontario family brand of handmade natural soap and skincare.",
+    "website": "https://silkenlather.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1253,
+    "name": "Simons Maison",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Home division of Quebec City family retailer Simons founded in 1840.",
+    "website": "https://www.simons.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1254,
+    "name": "Smash + Tess",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian loungewear brand making rompers and casualwear with Canadian production.",
+    "website": "https://smashtess.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1255,
+    "name": "SoftMoc",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto Canadian-owned footwear retailer and brand with Made in Canada moccasin lines.",
+    "website": "https://www.softmoc.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1256,
+    "name": "Studio Super Sunday",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal furniture design studio making solid wood pieces with Canadian artisans.",
+    "website": "https://studiosupersunday.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1257,
+    "name": "Style Garage",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto modern furniture retailer with SG Originals designed and made in Canada.",
+    "website": "https://stylegarage.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1258,
+    "name": "Sundays",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Canadian-owned furniture brand designing West Coast modern home collections.",
+    "website": "https://www.sundays-company.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1259,
+    "name": "Swift Canoe & Kayak",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario company producing lightweight composite canoes, kayaks and pack boats in Canada.",
+    "website": "https://swiftcanoe.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1260,
+    "name": "Tentree",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian sustainability-focused apparel brand that plants trees with purchases.",
+    "website": "https://www.tentree.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1261,
+    "name": "The Sleep Shirt",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian sleepwear brand making nightshirts and loungewear in Canada.",
+    "website": "https://thesleepshirt.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1262,
+    "name": "Thesus",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian sustainable outdoor boot brand offering all-weather vegan Weekend Boots.",
+    "website": "https://www.thesusoutdoors.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1263,
+    "name": "This is J",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian pajamas and loungewear brand with made-in-Canada production.",
+    "website": "https://thisisj.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1264,
+    "name": "Three Ships Beauty",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian natural skincare brand with transparent, dermatologist-tested formulas.",
+    "website": "https://www.threeshipsbeauty.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1265,
+    "name": "Tilley",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian-owned hat and apparel brand designed and operated in Canada.",
+    "website": "https://ca.tilley.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1266,
+    "name": "TURTLEGROOVE",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario brand making embroidered organic cotton essentials knit and sewn in Toronto.",
+    "website": "https://www.turtlegroove.co/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1267,
+    "name": "Umbra",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto-based home décor company designing everyday organizers, lighting and accessories since 1979.",
+    "website": "https://ca.umbra.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1268,
+    "name": "Unbelts",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian elastic belt brand offering comfortable, size-inclusive belts.",
+    "website": "https://unbelts.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1269,
+    "name": "Vanhess Jewellery",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Coquitlam family studio making solid gold jewellery by hand in British Columbia.",
+    "website": "https://vanhessjewellery.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1270,
+    "name": "Vasanti Cosmetics",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto female-owned cosmetics company producing inclusive colour and skincare.",
+    "website": "https://vasanticosmetics.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1271,
+    "name": "Viberg",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian heritage bootmaker producing Service Boots and leather footwear since 1931.",
+    "website": "https://viberg.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1272,
+    "name": "Westcomb",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver outdoor apparel company handcrafting performance garments in Vancouver since 2005.",
+    "website": "https://www.westcomb.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1273,
+    "name": "Wolf Circus",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver jewelry brand listed among Canadian jewelry makers.",
+    "website": "https://wolfcircus.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1274,
+    "name": "Wuxly",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto vegan outerwear brand making parkas and winter coats in Canada since 2015.",
+    "website": "https://wuxly.com/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1275,
+    "name": "Yoga Jeans",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec denim brand producing stretch jeans entirely in its Canadian factory.",
+    "website": "https://yogajeans.ca/",
+    "tags": [
+      "apparel-home-beauty"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1276,
+    "name": "Adotec Gear",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Woodstock, Ontario ultralight gear company known for bear bags and backpacking accessories.",
+    "website": "https://adotecgear.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1277,
+    "name": "Agawa Canyon (AGAWA)",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Uxbridge, Ontario company that designs and manufactures folding saws, axes, and outdoor cookware for camping.",
+    "website": "https://agawagear.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1278,
+    "name": "AIRHAWK",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian maker of vehicle-specific kickback mud flaps for trucks.",
+    "website": "https://airhawk.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1279,
+    "name": "Ali Arc",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Manitoba",
+    "score": 90,
+    "description": "Winnipeg manufacturer of heavy-duty truck bumpers and protection bars made in Canada with North American steel.",
+    "website": "https://www.aliarc.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1280,
+    "name": "Alto Collective",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Alberta",
+    "score": 90,
+    "description": "Calgary makers of handcrafted wooden iPhone cases, wallets, and EDC desktop accessories.",
+    "website": "https://www.altocollective.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1281,
+    "name": "Angstrom Loudspeakers",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Privately held Oshawa audio company owned and operated in Ontario, focused on loudspeaker design and development.",
+    "website": "https://angstromloudspeakers.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1282,
+    "name": "Anthem",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian audio/video electronics brand sister to Paradigm, known for processors, receivers, and amplification.",
+    "website": "https://www.anthemav.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1283,
+    "name": "AutoDeco",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Richmond, B.C. factory making custom-fit vehicle floor mats in Canada.",
+    "website": "https://autodeco.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1284,
+    "name": "Axiom Audio",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Privately held Canadian loudspeaker manufacturer based in Dwight, Ontario, with research roots at Canada's National Research Council.",
+    "website": "https://www.axiomaudio.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1285,
+    "name": "Badger Paddles",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Muskoka husband-and-wife shop that handcrafts made-to-order traditional wooden canoe paddles in Canada.",
+    "website": "https://badgerpaddles.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1286,
+    "name": "Bauer Hockey",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Iconic hockey equipment brand controlled by Toronto-based Fairfax Financial through Peak Achievement Athletics.",
+    "website": "https://www.bauer.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1287,
+    "name": "Boreal Outdoor Innovations",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario company that designs and manufactures portable tent stoves and titanium/stainless camping accessories in Canada.",
+    "website": "https://borealoutdoorinnovations.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1288,
+    "name": "BRIDGE Bike Works",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto carbon-bike manufacturer designing and building frames locally as Canada's full carbon bike maker.",
+    "website": "https://www.bridgebikeworks.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1289,
+    "name": "Bryston",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian specialty electronics manufacturer known for amplifiers and audio components, made in Canada and backed by a long warranty.",
+    "website": "https://bryston.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1290,
+    "name": "Canada Goose",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto-headquartered outerwear company known for extreme-cold parkas with significant Canadian manufacturing.",
+    "website": "https://www.canadagoose.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1291,
+    "name": "CanadaDocks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian manufacturer of formed aluminum bolt-together dock kits made since 2006.",
+    "website": "https://canadadocks.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1292,
+    "name": "Canaduino",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Windsor, Ontario-based electronics brand designing affordable maker and education electronics since 2017.",
+    "website": "https://www.canaduino.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1293,
+    "name": "Candock",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec-based manufacturer of modular HDPE floating dock systems made in Canada (with additional U.S. production).",
+    "website": "https://candock.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1294,
+    "name": "Capital Canvas",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian company specializing in heavy-duty canvas wall tents made in Canada for hunting and bushcraft.",
+    "website": "https://capitalcanvas.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1295,
+    "name": "CCM Hockey",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Montreal-headquartered hockey equipment brand with Canadian co-ownership designing sticks, skates, and protective gear.",
+    "website": "https://ccmhockey.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1296,
+    "name": "Chlorophylle",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec outdoor apparel brand founded in 1980 specializing in jackets, fleece, and winter gear.",
+    "website": "https://www.chlorophylle.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1297,
+    "name": "Chromag Bikes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Whistler mountain-bike brand designing frames and components in B.C.; some frames hand-built in BC.",
+    "website": "https://chromagbikes.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1298,
+    "name": "Clearwater Design",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario manufacturer of canoes and kayaks with production in Prince Edward County.",
+    "website": "https://clearwaterdesign.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1299,
+    "name": "Clipper Canoes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Western Canadian canoe manufacturer building canoes in B.C. since 1976.",
+    "website": "https://www.clippercanoes.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1300,
+    "name": "Coincident Speaker Technology",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Vaughan, Ontario loudspeaker company established in 1993 for high-end speaker design.",
+    "website": "https://www.coincidentspeaker.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1301,
+    "name": "Cycles Devinci",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Chicoutimi, Quebec bicycle manufacturer that designs, tests, and builds most of its aluminum bikes in Canada.",
+    "website": "https://www.devinci.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1302,
+    "name": "DockinaBox",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario company that engineers and manufactures aluminum floating and pipe dock systems in-house north of Toronto.",
+    "website": "https://dockinabox.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1303,
+    "name": "Durston Gear",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Canadian Rockies brand designing ultralight tents, packs, and poles; Canadian-owned with in-house prototyping in Golden, B.C.",
+    "website": "https://durstongear.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1304,
+    "name": "Esker Outdoors",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian brand making winter tents, stoves, and bushcraft tools designed for cold-weather camping.",
+    "website": "https://eskeroutdoors.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1305,
+    "name": "Esquif",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec canoe manufacturer specializing in T-Formex canoes for recreational and whitewater paddling.",
+    "website": "https://www.esquif.com/en/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1306,
+    "name": "Faber Snowshoes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec City snowshoe manufacturer designing and assembling recreational and expert snowshoes in Canada since 1870.",
+    "website": "https://www.fabersnowshoes.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1307,
+    "name": "Fluance",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian-based audio brand founded in Niagara Falls offering turntables, powered speakers, and home theater speakers.",
+    "website": "https://www.fluance.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1308,
+    "name": "Gray Tools",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canada's industrial hand-tool brand since 1912, family-linked manufacturing of sockets, wrenches, and related tools in Brampton.",
+    "website": "https://www.graytools.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1309,
+    "name": "Grey Owl Paddles",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian wooden canoe, kayak, and dragon-boat paddle manufacturer founded in 1975, now producing from Brantford, Ontario.",
+    "website": "https://greyowlpaddles.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1310,
+    "name": "H2O Canoes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Tavistock, Ontario canoe builder specializing in lightweight performance canoes.",
+    "website": "https://h2ocanoe.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1311,
+    "name": "Helix",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian company that designs, engineers, and manufactures titanium folding bikes with in-house CNC and robotic welding.",
+    "website": "https://helix.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1312,
+    "name": "Hellman Canoe and Kayak",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Nelson, B.C. paddling company that builds Made-in-Canada canoes, kayaks, and related gear.",
+    "website": "https://hellmancanoes.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1313,
+    "name": "Hotcore Products",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "100% Canadian-owned outdoor brand offering tents, sleeping bags, tarps, and camping accessories.",
+    "website": "https://www.hotcoreproducts.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1314,
+    "name": "J.B. Field's",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Historic Canadian sock brand with production still based in Canada for outdoor and work socks.",
+    "website": "https://jbfields.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1315,
+    "name": "JessEm Tool Company",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "New Brunswick",
+    "score": 90,
+    "description": "Family-owned New Brunswick maker of precision woodworking tools including router lifts, tables, and measuring accessories.",
+    "website": "https://www.jessem.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1316,
+    "name": "KabRak",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Family-owned Eastern Ontario manufacturer of marine-grade aluminum truck racks and headache racks.",
+    "website": "https://www.kabrak.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1317,
+    "name": "Kehoe Marine Construction",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "100% Canadian-owned marine builder producing floating docks made in Canada with locally sourced materials.",
+    "website": "https://www.kehoemarine.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1318,
+    "name": "Langford Canoe",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian canoe builder with a long history of handcrafted canoes for wilderness and recreational paddling.",
+    "website": "https://langfordcanoe.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1319,
+    "name": "Lee Valley Tools",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian tool retailer and parent of Veritas, established in 1978 and known for fine woodworking and garden tools.",
+    "website": "https://www.leevalley.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1320,
+    "name": "Levac Fabrications",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian maker of commercial-strength aluminum boat docks, shore decks, and boat/kayak lifts since 2002.",
+    "website": "https://levacdocksandlifts.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1321,
+    "name": "Level Six",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian paddlesports apparel and gear brand based in Ontario.",
+    "website": "https://levelsix.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1322,
+    "name": "Little Shop of Hammocks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Saskatchewan",
+    "score": 90,
+    "description": "Saskatoon maker of handmade ultralight hammocks and quilts using Canadian down.",
+    "website": "https://www.littleshopofhammocks.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1323,
+    "name": "Magnum Dynalab",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian hi-fi brand known for FM tuners and related electronics, now under Colquhoun Audio Laboratories with Canadian manufacturing.",
+    "website": "https://www.magnumdynalab.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1324,
+    "name": "Mariposa Bicycles",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto custom steel bicycle builder making frames for road, touring, gravel, and related disciplines.",
+    "website": "https://mariposabicycles.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1325,
+    "name": "MOON by Simaudio",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Independent Canadian high-end audio maker that designs and hand-assembles MOON components in Boucherville.",
+    "website": "https://simaudio.com/en/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1326,
+    "name": "Mudfox",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Belleville, Ontario brand designing and offering aluminum triangle hardshell rooftop tents for Canadian overlanding.",
+    "website": "https://www.mudfox.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1327,
+    "name": "Naked Bicycles & Design",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Quadra Island custom bicycle workshop building steel and titanium frames in British Columbia.",
+    "website": "https://www.nakedbicycles.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1328,
+    "name": "NANUK (Plasticase)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Injection-molded protective hard cases designed and manufactured in Canada for cameras, tools, and professional gear.",
+    "website": "https://nanuk.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1329,
+    "name": "Naylor Systems",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario dock specialist manufacturing aluminum docks, boat lifts, and marine railways since 1975.",
+    "website": "https://naylorsystems.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1330,
+    "name": "Northern Ultralight",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Nelson, B.C. company producing ultralight backpacks and accessories for backpackers.",
+    "website": "https://www.northernultralight.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1331,
+    "name": "Nova Craft Canoe",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "London, Ontario canoe manufacturer building composite and polyethylene canoes in Canada since 1970.",
+    "website": "https://www.novacraft.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1332,
+    "name": "NyDock",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Huntsville, Ontario floating-dock manufacturer using HDPE pipe systems since 1981.",
+    "website": "https://nydock.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1333,
+    "name": "ORO Racks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ontario manufacturer of Canadian-made aluminum truck bed racks and overland accessories.",
+    "website": "https://ororacks.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1334,
+    "name": "Paradigm",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian loudspeaker company that designs, engineers, and crafts speakers at its headquarters near Toronto since 1982.",
+    "website": "https://www.paradigm.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1335,
+    "name": "Paradise Dock & Lift",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Okanagan, B.C. company that designs and manufactures aluminum docks and hydraulic boat lifts in-house.",
+    "website": "https://paradisedocklift.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1336,
+    "name": "Picquic",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver manufacturer of multi-bit screwdrivers made in Canada since 1988.",
+    "website": "https://picquic.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1337,
+    "name": "Promethean Outdoor Supply",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Quebec",
+    "score": 90,
+    "description": "Quebec camping company offering hammocks, tarps, bug nets, and trekking poles from Magog.",
+    "website": "https://www.prometheans.co/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1338,
+    "name": "RAD Torque Systems",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Abbotsford manufacturer of pneumatic, battery, and electronic pistol-grip torque wrenches for industrial bolting.",
+    "website": "https://www.radtorque.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1339,
+    "name": "Redtail Paddle Company",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Campbellford, Ontario maker of handcrafted wooden canoe paddles since 1971.",
+    "website": "http://mail.redtailpaddle.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1340,
+    "name": "Rolgear Manufacturing",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Family-owned Ashcroft, B.C. company that handcrafts patented toothless ratcheting screwdrivers in Canada.",
+    "website": "https://www.rolgear.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1341,
+    "name": "Salus Marine",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian-owned Waterloo company that designs and sews personal flotation devices entirely in Ontario.",
+    "website": "https://salusmarine.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1342,
+    "name": "Souris River Canoes",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Canadian canoe company known for lightweight Kevlar wilderness tripping canoes.",
+    "website": "https://sourisriver.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1343,
+    "name": "Stanfield's",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Nova Scotia",
+    "score": 90,
+    "description": "Nova Scotia brand founded in 1856 known for durable Merino and fleece base layers with historic Canadian production.",
+    "website": "https://www.stanfields.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1344,
+    "name": "Suluk 46",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Toronto-based ultralight backcountry gear maker specializing in titanium and lightweight camping equipment.",
+    "website": "https://suluk46.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1345,
+    "name": "Taiga Works",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver outdoor brand that manufactures much of its down parkas, fleece, and rain gear in Canada.",
+    "website": "https://www.taigaworks.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1346,
+    "name": "Tiger Tool International",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Abbotsford-based maker of heavy-duty suspension and driveline service tools engineered and manufactured in North America.",
+    "website": "https://tigertool.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1347,
+    "name": "TRAK Kayaks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver Island Canadian company designing packable folding sea kayaks with adjustable rocker.",
+    "website": "https://www.trakkayaks.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1348,
+    "name": "TRUE Hockey (TRUE Sports)",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Hockey equipment brand repatriated under Canadian ownership with HQ planned in Brantford and factories in Manitoba and Quebec.",
+    "website": "https://www.true-hockey.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1349,
+    "name": "Van44",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "B.C. overlanding brand fabricating roof racks, bumpers, MOLLE panels, and off-road accessories locally.",
+    "website": "https://www.van44.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1350,
+    "name": "Veritas Tools",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Ottawa-based manufacturing arm of Lee Valley that designs and produces premium woodworking tools in Canada.",
+    "website": "https://www.veritastools.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1351,
+    "name": "Vessi",
+    "category": "Clothing",
+    "origin": "Canada",
+    "region": "British Columbia",
+    "score": 90,
+    "description": "Vancouver-founded waterproof footwear brand designing weatherproof everyday and outdoor shoes.",
+    "website": "https://vessi.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1352,
+    "name": "VueTronic",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian-owned and operated manufacturer of outdoor and indoor LED displays engineered for Canadian conditions.",
+    "website": "https://vuetronic.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1353,
+    "name": "Whisky Jack Outdoor Co.",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "Ontario",
+    "score": 90,
+    "description": "Niagara Region company that designs and builds freight toboggans and winter trekking equipment in Ontario.",
+    "website": "https://whiskyjackoutdoor.com/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1354,
+    "name": "Wholesale Docks",
+    "category": "Food",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Canadian aluminum dock manufacturer offering residential and commercial dock systems.",
+    "website": "https://wholesaledocks.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
+  },
+  {
+    "id": 1355,
+    "name": "Zenna Electronics",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "region": "National",
+    "score": 90,
+    "description": "Proudly Canadian consumer electronics brand focused on simplified televisions and borderless display products.",
+    "website": "https://www.zenna.ca/",
+    "tags": [
+      "tech-outdoor-marine"
+    ],
+    "alts": []
   }
 ]
