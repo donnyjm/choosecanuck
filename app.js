@@ -450,7 +450,7 @@ function initApp(){
   renderSubmissions();
 }
 
-fetch("products.json?v=34").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=35").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
