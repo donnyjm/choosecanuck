@@ -934,7 +934,7 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=39").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=40").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
