@@ -787,12 +787,27 @@ function renderHomepage(){
     "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
     "<div class='stat-box'><div class='stat-number'>100%</div><div class='stat-label'>Have websites</div></div>";
 
-  var recent=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).slice(0,8);
   var recentEl=document.getElementById("recentGrid");
   if(recentEl){
-    recentEl.innerHTML=recent.map(function(p){
+    var byNew=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);});
+    // Always show the 3 newest catalog adds, then fill from a rotating slice of the newest ~200
+    // so the strip changes through the day even between ingest batches.
+    var newestCore=byNew.slice(0,3);
+    var windowPool=byNew.slice(3,203);
+    var hourKey=(typeof spotlightHourKey==="function")?spotlightHourKey():String(new Date().getHours());
+    var seed=(typeof hashStr==="function")?hashStr("recent|"+hourKey):Date.now();
+    var rotated=(typeof seededShuffle==="function")?seededShuffle(windowPool, seed):windowPool.slice();
+    var recent=[], seen={};
+    function addRecent(p){
+      if(!p||seen[p.id]) return;
+      seen[p.id]=1; recent.push(p);
+    }
+    newestCore.forEach(addRecent);
+    for(var ri=0;ri<rotated.length && recent.length<8;ri++) addRecent(rotated[ri]);
+    recentEl.innerHTML=recent.map(function(p, idx){
       var rc=regionColors[p.region]||"#6b7280";
-      return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+esc(p.name)+"</div><div class='home-card-meta'><span class='home-card-new'>New</span> <span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+esc(p.region)+" · "+esc(p.category)+"</div></div>";
+      var badge=idx<3?"<span class='home-card-new'>New</span> ":"<span class='home-card-new home-card-fresh'>Fresh</span> ";
+      return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+esc(p.name)+"</div><div class='home-card-meta'>"+badge+"<span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+esc(p.region)+" · "+esc(p.category)+"</div></div>";
     }).join("");
   }
 
@@ -919,7 +934,7 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=38").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=39").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
