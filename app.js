@@ -566,31 +566,85 @@ var spotlightItems=[];
 var spotlightIndex=0;
 var spotlightPaused=false;
 
+function spotlightHourKey(){
+  var d=new Date();
+  return d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate()+"-"+d.getHours();
+}
+function mulberry32(a){
+  return function(){
+    a|=0; a=a+0x6D2B79F5|0;
+    var t=Math.imul(a^a>>>15,1|a);
+    t=t+Math.imul(t^t>>>7,61|t)^t;
+    return ((t^t>>>14)>>>0)/4294967296;
+  };
+}
+function hashStr(s){
+  var h=2166136261>>>0;
+  for(var i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=Math.imul(h,16777619); }
+  return h>>>0;
+}
+function seededShuffle(arr,seed){
+  var rnd=mulberry32(seed);
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){
+    var j=Math.floor(rnd()*(i+1));
+    var t=a[i]; a[i]=a[j]; a[j]=t;
+  }
+  return a;
+}
+function loadSpotlightSeen(){
+  try{ return JSON.parse(sessionStorage.getItem("cc_spotlight_seen")||"[]"); }catch(e){ return []; }
+}
+function saveSpotlightSeen(ids){
+  try{
+    var prev=loadSpotlightSeen();
+    var all=prev.concat(ids);
+    // keep last ~80 so the day can cycle without immediate repeats
+    var uniq=[], seen={};
+    for(var i=all.length-1;i>=0 && uniq.length<80;i--){
+      var id=Number(all[i]);
+      if(seen[id]) continue;
+      seen[id]=1; uniq.push(id);
+    }
+    sessionStorage.setItem("cc_spotlight_seen", JSON.stringify(uniq.reverse()));
+  }catch(e){}
+}
 function pickSpotlight(list,n){
   n=n||12;
-  var high=list.filter(function(p){return p.website && (p.score||0)>=90;})
-    .sort(function(a,b){return (b.score||0)-(a.score||0);});
-  var recent=list.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).slice(0,40);
-  var pool=[], seen={}, i, p;
-  function add(p){
-    if(!p||!p.website||seen[p.id]) return;
-    seen[p.id]=1;
-    pool.push(p);
+  var candidates=list.filter(function(p){ return p && p.website && String(p.website).trim(); });
+  if(!candidates.length) return [];
+  var hourKey=spotlightHourKey();
+  var seed=hashStr(hourKey+"|choosecanuck-spotlight");
+  var shuffled=seededShuffle(candidates, seed);
+  var seen=loadSpotlightSeen();
+  var seenMap={}; seen.forEach(function(id){ seenMap[Number(id)]=1; });
+  var picked=[], usedCat={}, i, p;
+  // Prefer not-recently-seen, spread categories
+  function tryPick(preferFresh){
+    for(i=0;i<shuffled.length && picked.length<n;i++){
+      p=shuffled[i];
+      if(!p||picked.some(function(x){return x.id===p.id;})) continue;
+      if(preferFresh && seenMap[p.id]) continue;
+      var cat=p.category||"Other";
+      var catCount=usedCat[cat]||0;
+      if(catCount>=2 && picked.length<n-1) continue; // spread categories early
+      picked.push(p);
+      usedCat[cat]=catCount+1;
+    }
   }
-  // interleave: top score, recent, top score, recent...
-  var hi=0, ri=0;
-  while(pool.length<n && (hi<high.length || ri<recent.length)){
-    if(hi<high.length) add(high[hi++]);
-    if(pool.length>=n) break;
-    if(ri<recent.length) add(recent[ri++]);
+  tryPick(true);
+  if(picked.length<n) tryPick(false);
+  // If still short, take any remaining
+  for(i=0;i<shuffled.length && picked.length<n;i++){
+    p=shuffled[i];
+    if(picked.some(function(x){return x.id===p.id;})) continue;
+    picked.push(p);
   }
-  // shuffle lightly for variety each load
-  for(i=pool.length-1;i>0;i--){
-    var j=Math.floor(Math.random()*(i+1));
-    var t=pool[i]; pool[i]=pool[j]; pool[j]=t;
-  }
-  return pool.slice(0,n);
+  saveSpotlightSeen(picked.map(function(x){return x.id;}));
+  return picked;
 }
+var spotlightHourLoaded=null;
+
 
 function stopSpotlight(){
   if(spotlightTimer){ clearInterval(spotlightTimer); spotlightTimer=null; }
@@ -600,11 +654,22 @@ function startSpotlight(){
   stopSpotlight();
   if(spotlightItems.length<2) return;
   if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  spotlightHourLoaded=spotlightHourKey();
   spotlightTimer=setInterval(function(){
     if(spotlightPaused) return;
     if(document.hidden) return;
     var input=document.getElementById("searchInput");
     if(input && input.value.trim()) return;
+    // New hour → new product set so it is not the same loop all day
+    var hk=spotlightHourKey();
+    if(hk!==spotlightHourLoaded){
+      spotlightHourLoaded=hk;
+      spotlightItems=pickSpotlight(products,12);
+      spotlightIndex=0;
+      renderSpotlightSlide();
+      return;
+    }
+    if(spotlightItems.length<2) return;
     spotlightIndex=(spotlightIndex+1)%spotlightItems.length;
     renderSpotlightSlide();
   }, 5000);
@@ -643,6 +708,7 @@ function initSpotlight(){
   var root=document.getElementById("productSpotlight");
   if(!root) return;
   spotlightItems=pickSpotlight(products,12);
+  spotlightHourLoaded=spotlightHourKey();
   spotlightIndex=0;
   if(!spotlightItems.length){ root.hidden=true; return; }
   renderSpotlightSlide();
