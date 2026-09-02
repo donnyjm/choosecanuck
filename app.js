@@ -788,8 +788,15 @@ function renderHomepage(){
     "<div class='stat-box'><div class='stat-number'>100%</div><div class='stat-label'>Have websites</div></div>";
 
   var recentEl=document.getElementById("recentGrid");
+  var justEl=document.getElementById("justAddedBanner");
   if(recentEl){
     var byNew=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);});
+    if(justEl && byNew[0]){
+      var jp=byNew[0];
+      justEl.innerHTML="<button type='button' class='just-added' onclick='showProductDetail("+jp.id+")'><span class='just-added-label'>Just added</span> <strong>"+esc(jp.name)+"</strong> <span class='just-added-meta'>"+esc(jp.region)+" · "+esc(jp.category)+"</span></button>";
+      justEl.hidden=false;
+    } else if(justEl){ justEl.hidden=true; justEl.innerHTML=""; }
+
     // Always show the 3 newest catalog adds, then fill from a rotating slice of the newest ~200
     // so the strip changes through the day even between ingest batches.
     var newestCore=byNew.slice(0,3);
@@ -872,22 +879,29 @@ function initApp(){
       var tags=(p.tags||[]).map(function(t){return String(t).toLowerCase()}).join(" ");
       var web=(p.website||"").toLowerCase();
       var blob=name+" "+desc+" "+tags+" "+web;
-      if(blob.indexOf(q)===-1) return 0;
+      var words=q.split(/\s+/).filter(Boolean);
+      var allWordsInBlob=words.every(function(w){return blob.indexOf(w)!==-1;});
+      if(!allWordsInBlob && blob.indexOf(q)===-1) return 0;
       var s=0;
+      if(name===q) s+=250;
+      if(name.indexOf(q)===0) s+=150;
+      if(name.indexOf(q)!==-1) s+=120;
+      if(words.length>1 && words.every(function(w){return name.indexOf(w)!==-1;})) s+=140;
       var wr=wordRe(q);
       if(wr.test(name)) s+=100;
       if(name.split(/[^a-z0-9]+/).indexOf(q)!==-1) s+=80;
-      if(wr.test(tags)) s+=70;
-      if(wr.test(desc)) s+=40;
-      if(wr.test(web)) s+=30;
-      if(s===0) s=1; // weak substring match last
+      words.forEach(function(w){ if(wordRe(w).test(name)) s+=25; });
+      if(wr.test(tags) || words.some(function(w){return tags.indexOf(w)!==-1;})) s+=70;
+      if(desc.indexOf(q)!==-1 || words.every(function(w){return desc.indexOf(w)!==-1;})) s+=40;
+      if(web.indexOf(q)!==-1 || words.some(function(w){return web.indexOf(w)!==-1;})) s+=30;
+      if(s===0) s=1;
       return s;
     }
     var scored=products.map(function(p){return {p:p,s:scoreProduct(p)}}).filter(function(x){return x.s>0});
     scored.sort(function(a,b){return b.s-a.s || a.p.name.localeCompare(b.p.name)});
     var f=scored.map(function(x){return x.p});
-    if(!f.length){c.innerHTML="<div class='empty-state'><p>No products found. Try a different term or use the Submit tab to add it!</p></div>";return;}
-    c.innerHTML=f.slice(0,50).map(renderCard).join("");
+    if(!f.length){setResultsHtml("searchResults","<div class='empty-state'><p>No products found. Try a different term or use the Submit tab to add it!</p></div>");return;}
+    setResultsHtml("searchResults",f.slice(0,50).map(renderCard).join(""));
   });
 
   var cats=[...new Set(products.map(function(p){return p.category}))].sort();
@@ -934,7 +948,7 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=40").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=41").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
