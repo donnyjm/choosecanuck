@@ -583,15 +583,16 @@ function stopSpotlight(){
 
 function startSpotlight(){
   stopSpotlight();
-  if(spotlightPaused || spotlightItems.length<2) return;
+  if(spotlightItems.length<2) return;
+  if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   spotlightTimer=setInterval(function(){
     if(spotlightPaused) return;
-    // don't rotate while user is searching
+    if(document.hidden) return;
     var input=document.getElementById("searchInput");
     if(input && input.value.trim()) return;
     spotlightIndex=(spotlightIndex+1)%spotlightItems.length;
     renderSpotlightSlide();
-  }, 6000);
+  }, 5000);
 }
 
 function renderSpotlightSlide(){
@@ -642,11 +643,31 @@ function initSpotlight(){
     renderSpotlightSlide();
     startSpotlight();
   };
-  root.onmouseenter=function(){ spotlightPaused=true; };
-  root.onmouseleave=function(){ spotlightPaused=false; };
-  root.onfocusin=function(){ spotlightPaused=true; };
-  root.onfocusout=function(){ spotlightPaused=false; };
-  startSpotlight();
+  // Don't pause on hover of the whole card — people hover to watch and it looked "stuck".
+  // Pause only while interacting with controls, or when the tab is hidden.
+  function bindPause(el){
+    if(!el) return;
+    el.addEventListener("mouseenter", function(){ spotlightPaused=true; });
+    el.addEventListener("mouseleave", function(){ spotlightPaused=false; });
+    el.addEventListener("focusin", function(){ spotlightPaused=true; });
+    el.addEventListener("focusout", function(){ spotlightPaused=false; });
+  }
+  bindPause(prev); bindPause(next); bindPause(dots);
+  var actionsPause=function(){
+    var main=document.getElementById("spotlightMain");
+    if(!main) return;
+    bindPause(main.querySelector(".spotlight-actions"));
+  };
+  // re-bind action pause after each slide
+  var _render=renderSpotlightSlide;
+  renderSpotlightSlide=function(){ _render(); actionsPause(); };
+  actionsPause();
+  document.addEventListener("visibilitychange", function(){
+    if(document.hidden) spotlightPaused=true; else spotlightPaused=false;
+  });
+  // Respect reduced motion: no auto-rotate
+  var reduce=window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(!reduce) startSpotlight();
 }
 
 function syncSpotlightVisibility(){
