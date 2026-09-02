@@ -305,12 +305,27 @@ function initApp(){
     var q=e.target.value.toLowerCase().trim();
     var c=document.getElementById("searchResults");
     if(!q){c.innerHTML="";return;}
-    var f=products.filter(function(p){
-      return p.name.toLowerCase().indexOf(q)!==-1
-        ||p.description.toLowerCase().indexOf(q)!==-1
-        ||(p.website&&p.website.toLowerCase().indexOf(q)!==-1)
-        ||(p.tags&&p.tags.some(function(t){return t.toLowerCase().indexOf(q)!==-1}));
-    });
+    function wordRe(term){return new RegExp("(^|[^a-z0-9])"+term.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+("([^a-z0-9]|$)"));}
+    function scoreProduct(p){
+      var name=(p.name||"").toLowerCase();
+      var desc=(p.description||"").toLowerCase();
+      var tags=(p.tags||[]).map(function(t){return String(t).toLowerCase()}).join(" ");
+      var web=(p.website||"").toLowerCase();
+      var blob=name+" "+desc+" "+tags+" "+web;
+      if(blob.indexOf(q)===-1) return 0;
+      var s=0;
+      var wr=wordRe(q);
+      if(wr.test(name)) s+=100;
+      if(name.split(/[^a-z0-9]+/).indexOf(q)!==-1) s+=80;
+      if(wr.test(tags)) s+=70;
+      if(wr.test(desc)) s+=40;
+      if(wr.test(web)) s+=30;
+      if(s===0) s=1; // weak substring match last
+      return s;
+    }
+    var scored=products.map(function(p){return {p:p,s:scoreProduct(p)}}).filter(function(x){return x.s>0});
+    scored.sort(function(a,b){return b.s-a.s || a.p.name.localeCompare(b.p.name)});
+    var f=scored.map(function(x){return x.p});
     if(!f.length){c.innerHTML="<div class='empty-state'><p>No products found. Try a different term or use the Submit tab to add it!</p></div>";return;}
     c.innerHTML=f.slice(0,50).map(renderCard).join("");
   });
@@ -356,7 +371,7 @@ function initApp(){
   renderSubmissions();
 }
 
-fetch("products.json?v=7").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=8").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
