@@ -356,7 +356,7 @@ function initApp(){
   renderSubmissions();
 }
 
-fetch("products.json?v=5").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=6").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
