@@ -572,6 +572,15 @@ function renderHomepage(){
     "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
     "<div class='stat-box'><div class='stat-number'>100%</div><div class='stat-label'>Have websites</div></div>";
 
+  var recent=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).slice(0,8);
+  var recentEl=document.getElementById("recentGrid");
+  if(recentEl){
+    recentEl.innerHTML=recent.map(function(p){
+      var rc=regionColors[p.region]||"#6b7280";
+      return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+esc(p.name)+"</div><div class='home-card-meta'><span class='home-card-new'>New</span> <span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+esc(p.region)+" · "+esc(p.category)+"</div></div>";
+    }).join("");
+  }
+
   var fp=pickFeatured(products,8);
   document.getElementById("featuredGrid").innerHTML=fp.map(function(p){
     var rc=regionColors[p.region]||"#6b7280";
