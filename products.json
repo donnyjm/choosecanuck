@@ -126490,5 +126490,1085 @@
     ],
     "region": "Prince Edward Island",
     "website": "https://fellowearthlings.com/"
+  },
+  {
+    "id": 10310,
+    "name": "Aldes Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian ventilation and air-quality systems (Aldes North America).",
+    "alts": [],
+    "tags": [
+      "aldes",
+      "ventilation",
+      "air",
+      "quality",
+      "north"
+    ],
+    "region": "Canada",
+    "website": "https://www.aldes.ca/"
+  },
+  {
+    "id": 10311,
+    "name": "Allied Technologies (Super Hot)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "North Vancouver manufacturer of Super Hot hydronic boilers, tanks, and heat exchangers.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "boiler",
+      "allied",
+      "technologies",
+      "super"
+    ],
+    "region": "British Columbia",
+    "website": "https://alliedboilers.com/"
+  },
+  {
+    "id": 10312,
+    "name": "Anfield Sensors",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario manufacturer of pressure, vacuum, and temperature switches/transducers.",
+    "alts": [],
+    "tags": [
+      "sensor",
+      "anfield",
+      "sensors",
+      "ontario",
+      "pressure"
+    ],
+    "region": "Ontario",
+    "website": "https://anfieldsensors.com/"
+  },
+  {
+    "id": 10313,
+    "name": "Arctic Traveler Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Burlington maker of mobile HVAC and climate-control systems for vehicles.",
+    "alts": [],
+    "tags": [
+      "hvac",
+      "arctic",
+      "traveler",
+      "burlington",
+      "mobile"
+    ],
+    "region": "Ontario",
+    "website": "https://atc.ca/"
+  },
+  {
+    "id": 10314,
+    "name": "Axiomatic Technologies",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian manufacturer of rugged engine controls and temperature monitoring electronics.",
+    "alts": [],
+    "tags": [
+      "electronics",
+      "axiomatic",
+      "technologies",
+      "rugged",
+      "engine"
+    ],
+    "region": "Ontario",
+    "website": "https://www.axiomatic.com/"
+  },
+  {
+    "id": 10315,
+    "name": "Baknor Thermal",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Mississauga maker of heat sinks, liquid cold plates, and thermal components for electronics.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "sink",
+      "heat sink",
+      "thermal",
+      "electronics"
+    ],
+    "region": "Ontario",
+    "website": "https://www.baknorthermal.com/"
+  },
+  {
+    "id": 10316,
+    "name": "Benjamin Heating Products",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "PEI manufacturer of wood and oil combination boilers and furnaces.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "boiler",
+      "benjamin",
+      "heating",
+      "pei"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://www.benjaminheating.com/"
+  },
+  {
+    "id": 10317,
+    "name": "Bittele Electronics",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Toronto turnkey PCB fabrication and assembly (prototypes to mid-volume).",
+    "alts": [],
+    "tags": [
+      "pcb",
+      "electronics",
+      "bittele",
+      "toronto",
+      "turnkey"
+    ],
+    "region": "Ontario",
+    "website": "https://www.7pcb.com/"
+  },
+  {
+    "id": 10318,
+    "name": "Britech",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Toronto electric heating and related HVAC products (Innovair group).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hvac",
+      "britech",
+      "toronto",
+      "electric"
+    ],
+    "region": "Ontario",
+    "website": "https://www.britech.ca/"
+  },
+  {
+    "id": 10319,
+    "name": "CAMUS Hydronics",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Mississauga manufacturer of high-efficiency gas-fired boilers and water heaters.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "boiler",
+      "camus",
+      "hydronics",
+      "mississauga"
+    ],
+    "region": "Ontario",
+    "website": "https://camus-hydronics.com/"
+  },
+  {
+    "id": 10320,
+    "name": "Canadian Coil Technologies",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Brantford custom heat-exchanger coil OEM (formerly Madok Manufacturing).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "coil",
+      "technologies",
+      "brantford",
+      "custom"
+    ],
+    "region": "Ontario",
+    "website": "https://canadiancoiltech.com/"
+  },
+  {
+    "id": 10321,
+    "name": "Cancoil Thermal",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Kingston manufacturer of finned-tube coils, condensers, and commercial refrigeration equipment.",
+    "alts": [],
+    "tags": [
+      "condenser",
+      "coil",
+      "thermal",
+      "refrigeration",
+      "cancoil"
+    ],
+    "region": "Ontario",
+    "website": "https://www.cancoil.com/"
+  },
+  {
+    "id": 10322,
+    "name": "Celestica",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Toronto-headquartered global electronics manufacturing services (EMS) company.",
+    "alts": [],
+    "tags": [
+      "electronics",
+      "celestica",
+      "toronto",
+      "headquartered",
+      "global"
+    ],
+    "region": "Ontario",
+    "website": "https://www.celestica.com/"
+  },
+  {
+    "id": 10323,
+    "name": "Convectair",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian electric heating brand with Quebec manufacturing roots.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "convectair",
+      "electric",
+      "heating",
+      "brand"
+    ],
+    "region": "Quebec",
+    "website": "https://www.convectair.ca/"
+  },
+  {
+    "id": 10324,
+    "name": "CPC Pumps International",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Burlington OEM of API 610 centrifugal process pumps for hydrocarbons.",
+    "alts": [],
+    "tags": [
+      "pump",
+      "cpc",
+      "pumps",
+      "international",
+      "burlington"
+    ],
+    "region": "Ontario",
+    "website": "https://www.cpcpumps.com/"
+  },
+  {
+    "id": 10325,
+    "name": "Creation Technologies",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "EMS provider with major Canadian manufacturing (Burnaby roots; A&D/medical/industrial).",
+    "alts": [],
+    "tags": [
+      "creation",
+      "technologies",
+      "ems",
+      "provider",
+      "major"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.creationtech.com/"
+  },
+  {
+    "id": 10326,
+    "name": "Crest Circuit",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Markham custom PCB manufacturer serving aerospace, automotive, and medical.",
+    "alts": [],
+    "tags": [
+      "pcb",
+      "crest",
+      "circuit",
+      "markham",
+      "custom"
+    ],
+    "region": "Ontario",
+    "website": "https://crestcircuit.com/"
+  },
+  {
+    "id": 10327,
+    "name": "Custom Coils Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian copper-tube/aluminum-fin heat exchangers and replacement coils (ATC division).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "coil",
+      "custom",
+      "coils",
+      "copper"
+    ],
+    "region": "Ontario",
+    "website": "https://customcoils.ca/"
+  },
+  {
+    "id": 10328,
+    "name": "Direct Coil",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Eastern Ontario manufacturer of custom coils, fluid coolers, and air-cooled condensers.",
+    "alts": [],
+    "tags": [
+      "condenser",
+      "coil",
+      "direct",
+      "eastern",
+      "ontario"
+    ],
+    "region": "Ontario",
+    "website": "https://www.directcoil.com/"
+  },
+  {
+    "id": 10329,
+    "name": "EnerWorks",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian solar thermal / renewable heat systems manufacturer (ENERGY STAR participant).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "thermal",
+      "enerworks",
+      "solar",
+      "renewable"
+    ],
+    "region": "Canada",
+    "website": "https://www.enerworks.com/"
+  },
+  {
+    "id": 10330,
+    "name": "Epurair",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec indoor air quality and ventilation brand in the Innovair family.",
+    "alts": [],
+    "tags": [
+      "epurair",
+      "quebec",
+      "indoor",
+      "air",
+      "quality"
+    ],
+    "region": "Quebec",
+    "website": "https://www.epurair.com/"
+  },
+  {
+    "id": 10331,
+    "name": "Fantech",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ventilation and IAQ products with Systemair Canada manufacturing footprint.",
+    "alts": [],
+    "tags": [
+      "fantech",
+      "ventilation",
+      "iaq",
+      "systemair",
+      "manufacturing"
+    ],
+    "region": "Canada",
+    "website": "https://www.fantech.net/"
+  },
+  {
+    "id": 10332,
+    "name": "Geoflex Systems",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "London, ON maker of geothermal heat pumps, vertical-stack chassis, and specialty HVAC systems.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hvac",
+      "thermal",
+      "pump",
+      "heatpump"
+    ],
+    "region": "Ontario",
+    "website": "https://www.geoflexsystems.ca/"
+  },
+  {
+    "id": 10333,
+    "name": "Global Commander",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian heating and air-conditioning products brand (Innovair sister brand).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "global",
+      "commander",
+      "heating",
+      "air"
+    ],
+    "region": "Canada",
+    "website": "https://www.globalcommander.ca/"
+  },
+  {
+    "id": 10334,
+    "name": "Granby Industries",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec heating equipment manufacturer with residential/light-commercial lineup.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "granby",
+      "industries",
+      "quebec",
+      "heating"
+    ],
+    "region": "Quebec",
+    "website": "https://www.granbyindustries.com/"
+  },
+  {
+    "id": 10335,
+    "name": "Greentek",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian HRV/ERV ventilation brand (Systemair Canada).",
+    "alts": [],
+    "tags": [
+      "greentek",
+      "hrv",
+      "erv",
+      "ventilation",
+      "brand"
+    ],
+    "region": "Canada",
+    "website": "https://www.greentek.ca/"
+  },
+  {
+    "id": 10336,
+    "name": "Greystone Energy Systems",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Moncton manufacturer of HVAC sensors and transmitters for building automation.",
+    "alts": [],
+    "tags": [
+      "hvac",
+      "sensor",
+      "greystone",
+      "energy",
+      "moncton"
+    ],
+    "region": "New Brunswick",
+    "website": "https://greystoneenergy.com/"
+  },
+  {
+    "id": 10337,
+    "name": "Hazloc Heaters",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary manufacturer of industrial and explosion-proof unit heaters and thermostats.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hazloc",
+      "heaters",
+      "calgary",
+      "industrial"
+    ],
+    "region": "Alberta",
+    "website": "https://www.hazlocheaters.com/"
+  },
+  {
+    "id": 10338,
+    "name": "Hevvy/Toyo Pumps",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "BC designer/manufacturer of heavy-duty slurry pumps for mining and industry.",
+    "alts": [],
+    "tags": [
+      "pump",
+      "hevvy",
+      "toyo",
+      "pumps",
+      "designer"
+    ],
+    "region": "British Columbia",
+    "website": "https://hevvypumps.com/"
+  },
+  {
+    "id": 10339,
+    "name": "IBC Technologies",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Burnaby hydronic boilers and heating solutions with Canadian manufacturing HQ.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "boiler",
+      "ibc",
+      "technologies",
+      "burnaby"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.ibcboiler.com/"
+  },
+  {
+    "id": 10340,
+    "name": "Innovair Solutions",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec HVAC group behind Ouellet, Dettson, Hazloc, and related heating brands.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hvac",
+      "innovair",
+      "solutions",
+      "quebec"
+    ],
+    "region": "Quebec",
+    "website": "https://www.innovairsolutions.com/"
+  },
+  {
+    "id": 10341,
+    "name": "Innovative Thermal Solutions (ITS Cooling)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Guelph heat-sink and thermal management OEM for power electronics.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "sink",
+      "thermal",
+      "electronics",
+      "innovative"
+    ],
+    "region": "Ontario",
+    "website": "https://www.itscooling.com/"
+  },
+  {
+    "id": 10342,
+    "name": "Intempco",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Montreal manufacturer of temperature, level, and humidity sensors and instrumentation.",
+    "alts": [],
+    "tags": [
+      "sensor",
+      "intempco",
+      "montreal",
+      "temperature",
+      "level"
+    ],
+    "region": "Quebec",
+    "website": "https://intempco.com/"
+  },
+  {
+    "id": 10343,
+    "name": "Kariwari Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian commercial refrigeration equipment including outdoor condensing units.",
+    "alts": [],
+    "tags": [
+      "refrigeration",
+      "kariwari",
+      "commercial",
+      "equipment",
+      "including"
+    ],
+    "region": "Canada",
+    "website": "https://www.kariwari.ca/"
+  },
+  {
+    "id": 10344,
+    "name": "KeepRite Refrigeration",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Brantford commercial refrigeration OEM: coils, condensers, and condensing units.",
+    "alts": [],
+    "tags": [
+      "condenser",
+      "coil",
+      "refrigeration",
+      "keeprite",
+      "brantford"
+    ],
+    "region": "Ontario",
+    "website": "https://k-rp.com/"
+  },
+  {
+    "id": 10345,
+    "name": "Keystone Pumps",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Vancouver-area manufacturer of submersible and vertical cantilever pumps.",
+    "alts": [],
+    "tags": [
+      "pump",
+      "keystone",
+      "pumps",
+      "vancouver",
+      "area"
+    ],
+    "region": "British Columbia",
+    "website": "https://keystonepumps.com/"
+  },
+  {
+    "id": 10346,
+    "name": "Kool Jet",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian refrigeration systems OEM affiliated with Direct Coil heat-transfer manufacturing.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "coil",
+      "refrigeration",
+      "kool",
+      "jet"
+    ],
+    "region": "Ontario",
+    "website": "https://kooljet.com/"
+  },
+  {
+    "id": 10347,
+    "name": "Lifebreath",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "London, ON indoor air quality and HRV/ERV systems (Airia Brands).",
+    "alts": [],
+    "tags": [
+      "lifebreath",
+      "london",
+      "indoor",
+      "air",
+      "quality"
+    ],
+    "region": "Ontario",
+    "website": "https://www.lifebreath.com/"
+  },
+  {
+    "id": 10348,
+    "name": "Neptronic",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Montreal HVAC OEM: actuators, valves, humidifiers, heaters, and controls (Canada-made).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hvac",
+      "neptronic",
+      "montreal",
+      "oem"
+    ],
+    "region": "Quebec",
+    "website": "https://www.neptronic.com/"
+  },
+  {
+    "id": 10349,
+    "name": "NeuronicWorks",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario electronics contract manufacturing: PCB assembly and box build.",
+    "alts": [],
+    "tags": [
+      "pcb",
+      "electronics",
+      "neuronicworks",
+      "ontario",
+      "contract"
+    ],
+    "region": "Ontario",
+    "website": "https://neuronicworks.com/"
+  },
+  {
+    "id": 10350,
+    "name": "Northern Heat Pump",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Geothermal and electric heating systems for Canadian cold climates.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "thermal",
+      "pump",
+      "heatpump",
+      "northern"
+    ],
+    "region": "Canada",
+    "website": "https://www.northernheatpump.com/"
+  },
+  {
+    "id": 10351,
+    "name": "Novair Heat Pumps",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian cold-climate heat pump brand engineered for harsh winters.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "pump",
+      "heatpump",
+      "novair",
+      "pumps"
+    ],
+    "region": "Canada",
+    "website": "https://www.novairplus.com/"
+  },
+  {
+    "id": 10352,
+    "name": "NTI Boilers",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Saint John manufacturer of high-efficiency gas boilers, water heaters, and combi furnaces.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "boiler",
+      "nti",
+      "boilers",
+      "saint"
+    ],
+    "region": "New Brunswick",
+    "website": "https://ntiboilers.com/"
+  },
+  {
+    "id": 10353,
+    "name": "Nu-Air Ventilation",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Nova Scotia manufacturer of heat and energy recovery ventilators (HRV/ERV).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "air",
+      "ventilation",
+      "nova",
+      "scotia"
+    ],
+    "region": "Nova Scotia",
+    "website": "https://www.nu-airventilation.com/"
+  },
+  {
+    "id": 10354,
+    "name": "OSENSA Innovations",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Burnaby fiber-optic temperature sensing and partial-discharge monitoring OEM.",
+    "alts": [],
+    "tags": [
+      "osensa",
+      "innovations",
+      "burnaby",
+      "fiber",
+      "optic"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.osensa.com/"
+  },
+  {
+    "id": 10355,
+    "name": "Ouellet Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec electric heating manufacturer (baseboards and HVAC; Innovair Solutions group).",
+    "alts": [],
+    "tags": [
+      "heat",
+      "hvac",
+      "ouellet",
+      "quebec",
+      "electric"
+    ],
+    "region": "Quebec",
+    "website": "https://www.ouellet.com/"
+  },
+  {
+    "id": 10356,
+    "name": "Reversomatic Manufacturing",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario maker of exhaust fans and heat/energy recovery ventilators.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "reversomatic",
+      "manufacturing",
+      "ontario",
+      "exhaust"
+    ],
+    "region": "Ontario",
+    "website": "https://www.reversomatic.com/"
+  },
+  {
+    "id": 10357,
+    "name": "Smart Turner Pumps",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Brantford industrial centrifugal and specialty pump manufacturer.",
+    "alts": [],
+    "tags": [
+      "pump",
+      "smart",
+      "turner",
+      "pumps",
+      "brantford"
+    ],
+    "region": "Ontario",
+    "website": "https://smartturner.ca/"
+  },
+  {
+    "id": 10358,
+    "name": "SMTC Corporation",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Toronto-based North American EMS for mid-market electronics manufacturing.",
+    "alts": [],
+    "tags": [
+      "electronics",
+      "smtc",
+      "corporation",
+      "toronto",
+      "based"
+    ],
+    "region": "Ontario",
+    "website": "https://www.smtc.com/"
+  },
+  {
+    "id": 10359,
+    "name": "SNS Cooling Technology",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Toronto thermal management: extruded/bonded heat sinks and liquid cold plates.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "sink",
+      "heat sink",
+      "thermal",
+      "sns"
+    ],
+    "region": "Ontario",
+    "website": "https://www.snscooling.com/"
+  },
+  {
+    "id": 10360,
+    "name": "Span Manufacturing",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Markham IATF-certified EMS provider for PCB assembly and box build.",
+    "alts": [],
+    "tags": [
+      "pcb",
+      "span",
+      "manufacturing",
+      "markham",
+      "iatf"
+    ],
+    "region": "Ontario",
+    "website": "https://spanmfg.com/"
+  },
+  {
+    "id": 10361,
+    "name": "steamOvap",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian commercial and industrial steam humidifier manufacturer.",
+    "alts": [],
+    "tags": [
+      "steamovap",
+      "commercial",
+      "industrial",
+      "steam",
+      "humidifier"
+    ],
+    "region": "Quebec",
+    "website": "https://steamovap.com/"
+  },
+  {
+    "id": 10362,
+    "name": "Techtop Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian electric motor company with multiple assembly/distribution facilities.",
+    "alts": [],
+    "tags": [
+      "motor",
+      "techtop",
+      "electric",
+      "company",
+      "multiple"
+    ],
+    "region": "Ontario",
+    "website": "https://www.techtopcanada.com/"
+  },
+  {
+    "id": 10363,
+    "name": "TECO-Westinghouse Motors (Canada)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian supplier of industrial electric motors and controls.",
+    "alts": [],
+    "tags": [
+      "motor",
+      "teco",
+      "westinghouse",
+      "motors",
+      "supplier"
+    ],
+    "region": "Canada",
+    "website": "https://tecowestinghouse.ca/"
+  },
+  {
+    "id": 10364,
+    "name": "Thermo Dynamics Ltd.",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Dartmouth, NS manufacturer of solar thermal collectors, solar boilers, and heat exchangers.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "thermal",
+      "boiler",
+      "thermo",
+      "dynamics"
+    ],
+    "region": "Nova Scotia",
+    "website": "http://www.thermo-dynamics.com/"
+  },
+  {
+    "id": 10365,
+    "name": "Trenton Refrigeration",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian commercial refrigeration brand under National Refrigeration (Brantford).",
+    "alts": [],
+    "tags": [
+      "refrigeration",
+      "trenton",
+      "commercial",
+      "brand",
+      "under"
+    ],
+    "region": "Ontario",
+    "website": "https://t-rp.com/"
+  },
+  {
+    "id": 10366,
+    "name": "Venmar",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Drummondville residential ventilation and fresh-air systems manufacturer.",
+    "alts": [],
+    "tags": [
+      "venmar",
+      "drummondville",
+      "residential",
+      "ventilation",
+      "fresh"
+    ],
+    "region": "Quebec",
+    "website": "https://www.venmar.ca/"
+  },
+  {
+    "id": 10367,
+    "name": "Victory Advanced Technologies",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "New Brunswick in-house manufacturer of industrial and explosion-proof electric motors.",
+    "alts": [],
+    "tags": [
+      "motor",
+      "victory",
+      "advanced",
+      "technologies",
+      "new"
+    ],
+    "region": "New Brunswick",
+    "website": "https://victorymotor.ca/"
+  },
+  {
+    "id": 10368,
+    "name": "Vitalis",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Kelowna OEM of industrial R744 CO2 compressor packages, chillers, and heat pumps.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "compressor",
+      "pump",
+      "heatpump",
+      "vitalis"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.vitalis.ca/"
+  },
+  {
+    "id": 10369,
+    "name": "Wolf Steel",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Barrie manufacturer behind Napoleon heating, cooling, fireplaces, and related equipment.",
+    "alts": [],
+    "tags": [
+      "heat",
+      "wolf",
+      "steel",
+      "barrie",
+      "behind"
+    ],
+    "region": "Ontario",
+    "website": "https://www.wolfsteel.com/"
   }
 ]
