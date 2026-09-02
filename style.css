@@ -158,4 +158,4 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 .logo-mark{width:36px;height:36px;border-radius:8px;display:block;flex-shrink:0}
 .logo-text span#logoCount,.logo-text span{font-size:9px;color:#6b7280;letter-spacing:0.04em;font-weight:600;text-transform:none}
 .brand-lockup{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin-bottom:16px;text-align:center}
-.brand-lockup img{max-width:280px;width:100%;height:auto;margin:0 auto;display:block}
+.brand-lockup img{max-width:420px;width:100%;height:auto;margin:0 auto;display:block}
