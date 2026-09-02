@@ -60,21 +60,6 @@
     "website": "https://freybe.com/"
   },
   {
-    "id": 14,
-    "name": "Oka Cheese",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Trappist-style cheese from Quebec since 1893.",
-    "alts": [],
-    "tags": [
-      "dairy",
-      "artisan"
-    ],
-    "region": "Quebec",
-    "website": "https://www.fromageoka.com/"
-  },
-  {
     "id": 15,
     "name": "Bothwell Cheese",
     "category": "Food",
@@ -103,51 +88,6 @@
     ],
     "region": "Prince Edward Island",
     "website": "https://www.cows.ca/"
-  },
-  {
-    "id": 17,
-    "name": "Laliberte Cheese",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Quebec artisan from Fromagerie du Presbytère.",
-    "alts": [],
-    "tags": [
-      "dairy",
-      "artisan"
-    ],
-    "region": "Quebec",
-    "website": "https://fromagerielaliberte.ca/"
-  },
-  {
-    "id": 18,
-    "name": "Louisbourg Cheese",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Nova Scotia artisan cheese.",
-    "alts": [],
-    "tags": [
-      "dairy",
-      "artisan"
-    ],
-    "region": "Nova Scotia",
-    "website": "https://www.louisbourgcheese.com/"
-  },
-  {
-    "id": 19,
-    "name": "Fritz Kaiser Cheese",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Quebec award-winning artisan.",
-    "alts": [],
-    "tags": [
-      "dairy",
-      "artisan"
-    ],
-    "region": "Quebec",
-    "website": "https://www.fromagekaiser.com/"
   },
   {
     "id": 20,
@@ -224,21 +164,6 @@
     "website": "https://www.stalbertcheese.com/"
   },
   {
-    "id": 25,
-    "name": "Fromagerie du Presbytère",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Quebec artisan cheese collective.",
-    "alts": [],
-    "tags": [
-      "dairy",
-      "artisan"
-    ],
-    "region": "Quebec",
-    "website": "https://www.fromageriedupresbytere.ca/"
-  },
-  {
     "id": 26,
     "name": "Maple Leaf Top Dogs",
     "category": "Food",
@@ -312,36 +237,6 @@
     ],
     "region": "British Columbia",
     "website": "https://rogersfoods.com/"
-  },
-  {
-    "id": 32,
-    "name": "Five Roses Flour",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Iconic Canadian flour brand.",
-    "alts": [],
-    "tags": [
-      "pantry staple",
-      "baking"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
-  },
-  {
-    "id": 33,
-    "name": "Robin Hood Flour",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Widely available Canadian-milled flour.",
-    "alts": [],
-    "tags": [
-      "pantry staple",
-      "baking"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
   },
   {
     "id": 34,
@@ -645,21 +540,6 @@
     "website": "https://kozliks.com/"
   },
   {
-    "id": 55,
-    "name": "Bravado Spice Hot Sauce",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian hot sauce company.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "hot sauce"
-    ],
-    "region": "Ontario",
-    "website": "https://bravadosauce.com/"
-  },
-  {
     "id": 56,
     "name": "Heartbeat Hot Sauce",
     "category": "Food",
@@ -673,21 +553,6 @@
     ],
     "region": "British Columbia",
     "website": "https://heartbeathotsauce.ca/"
-  },
-  {
-    "id": 57,
-    "name": "Dawson's Hot Sauce",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian hot sauce.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "hot sauce"
-    ],
-    "region": "Ontario",
-    "website": "https://www.dawsonzhotsauce.ca/"
   },
   {
     "id": 58,
@@ -735,65 +600,6 @@
     "website": "https://www.vh.ca/"
   },
   {
-    "id": 61,
-    "name": "Bick's Pickles",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian pickle brand.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "pantry staple"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
-  },
-  {
-    "id": 62,
-    "name": "Bick's Relish",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian relish.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "pantry staple"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
-  },
-  {
-    "id": 63,
-    "name": "Bick's Hot Mix",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian pickled vegetable mix.",
-    "alts": [],
-    "tags": [
-      "condiment"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
-  },
-  {
-    "id": 64,
-    "name": "Bick's Polski Ogorki",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian dill pickles.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "iconic"
-    ],
-    "region": "Ontario",
-    "website": "https://www.smucker.ca/"
-  },
-  {
     "id": 65,
     "name": "Aylmer Tomatoes",
     "category": "Food",
@@ -837,21 +643,6 @@
     ],
     "region": "National",
     "website": "https://www.unico.ca/"
-  },
-  {
-    "id": 68,
-    "name": "Habitant Soup",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian pea soup and vegetable soups.",
-    "alts": [],
-    "tags": [
-      "pantry staple",
-      "classic"
-    ],
-    "region": "British Columbia",
-    "website": "https://www.habitantsoup.com/"
   },
   {
     "id": 69,
@@ -1000,21 +791,6 @@
     ],
     "region": "National",
     "website": "https://www.kelloggs.ca/"
-  },
-  {
-    "id": 79,
-    "name": "Red River Cereal",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian hot cereal from Manitoba.",
-    "alts": [],
-    "tags": [
-      "breakfast",
-      "heritage"
-    ],
-    "region": "Manitoba",
-    "website": "https://www.smucker.ca/"
   },
   {
     "id": 80,
@@ -1611,21 +1387,6 @@
     "website": "https://www.catelli.ca/"
   },
   {
-    "id": 121,
-    "name": "Primo Pasta",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian-made from Ontario.",
-    "alts": [],
-    "tags": [
-      "pantry staple",
-      "Italian"
-    ],
-    "region": "Ontario",
-    "website": "https://www.primo.ca/"
-  },
-  {
     "id": 122,
     "name": "Olivieri Pasta",
     "category": "Food",
@@ -1989,22 +1750,6 @@
     ],
     "region": "National",
     "website": "https://www.olddutchfoods.ca/"
-  },
-  {
-    "id": 150,
-    "name": "Hawkins Cheezies",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Iconic Canadian cheese snack.",
-    "alts": [],
-    "tags": [
-      "snack",
-      "iconic",
-      "unique"
-    ],
-    "region": "National",
-    "website": "https://www.hawkinscheezies.ca/"
   },
   {
     "id": 151,
@@ -2732,21 +2477,6 @@
     "website": "https://www.highlinerfoods.com/"
   },
   {
-    "id": 222,
-    "name": "Irving Frozen Fish",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Atlantic Canadian frozen seafood.",
-    "alts": [],
-    "tags": [
-      "frozen",
-      "seafood"
-    ],
-    "region": "Nova Scotia",
-    "website": "https://www.irvingseafood.com/"
-  },
-  {
     "id": 223,
     "name": "Clearwater Seafoods",
     "category": "Food",
@@ -3126,21 +2856,6 @@
     "website": "https://www.swisschalet.com/"
   },
   {
-    "id": 249,
-    "name": "Donair Sauce",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Halifax donair sweet sauce.",
-    "alts": [],
-    "tags": [
-      "condiment",
-      "iconic"
-    ],
-    "region": "National",
-    "website": "https://www.kingofdonair.com/"
-  },
-  {
     "id": 250,
     "name": "BeaverTails",
     "category": "Food",
@@ -3244,21 +2959,6 @@
     ],
     "region": "National",
     "website": "https://www.clubhouse.ca/"
-  },
-  {
-    "id": 257,
-    "name": "Magic Baking Powder",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian baking powder.",
-    "alts": [],
-    "tags": [
-      "pantry staple",
-      "baking"
-    ],
-    "region": "National",
-    "website": "https://www.knightsgourmet.ca/"
   },
   {
     "id": 258,
@@ -3869,20 +3569,6 @@
     "website": "https://www.pizzanova.com/"
   },
   {
-    "id": 301,
-    "name": "Gino's Pizza",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Ontario pizza chain.",
-    "alts": [],
-    "tags": [
-      "restaurant"
-    ],
-    "region": "Ontario",
-    "website": "https://ginos.ca/"
-  },
-  {
     "id": 303,
     "name": "Panago Pizza",
     "category": "Food",
@@ -4070,21 +3756,6 @@
     ],
     "region": "Quebec",
     "website": "https://www.unibroue.com/"
-  },
-  {
-    "id": 480,
-    "name": "Alexander Keith's",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 95,
-    "description": "Nova Scotia historic brewery.",
-    "alts": [],
-    "tags": [
-      "alcohol",
-      "heritage"
-    ],
-    "region": "Nova Scotia",
-    "website": "https://www.alexanderkeiths.ca/"
   },
   {
     "id": 481,
@@ -5002,22 +4673,6 @@
     "website": "https://routine.works/"
   },
   {
-    "id": 570,
-    "name": "Nourish Deodorant",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 95,
-    "description": "Canadian natural deodorant.",
-    "alts": [],
-    "tags": [
-      "beauty",
-      "deodorant",
-      "natural"
-    ],
-    "region": "National",
-    "website": "https://www.nourishdeodorant.com/"
-  },
-  {
     "id": 571,
     "name": "Attitude Body Wash",
     "category": "Personal Care",
@@ -5616,21 +5271,6 @@
     "website": "https://www.cougarshoes.com/"
   },
   {
-    "id": 609,
-    "name": "Pajar Boots",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 95,
-    "description": "Canadian winter boots.",
-    "alts": [],
-    "tags": [
-      "footwear",
-      "winter"
-    ],
-    "region": "National",
-    "website": "https://www.pajarcanada.com/"
-  },
-  {
     "id": 610,
     "name": "Fluevog Shoes",
     "category": "Home & Electronics",
@@ -5738,21 +5378,6 @@
     "website": "https://www.cae.com/"
   },
   {
-    "id": 622,
-    "name": "Pratt & Whitney Canada",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 95,
-    "description": "Quebec aircraft engines.",
-    "alts": [],
-    "tags": [
-      "aerospace",
-      "engines"
-    ],
-    "region": "Quebec",
-    "website": "https://pratt-whitney.ca/"
-  },
-  {
     "id": 623,
     "name": "D-Wave Quantum Computers",
     "category": "Home & Electronics",
@@ -5845,22 +5470,6 @@
     "website": "https://www.choosemuse.com/"
   },
   {
-    "id": 687,
-    "name": "Muttonhead Sweater Socks",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made wool blend socks, manufactured in Canada.",
-    "alts": [],
-    "tags": [
-      "socks",
-      "wool",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
-  },
-  {
     "id": 688,
     "name": "Kotn Socks",
     "category": "Clothing",
@@ -5910,39 +5519,6 @@
     "website": "https://www.nakedandfamousdenim.com/"
   },
   {
-    "id": 691,
-    "name": "Unbranded Brand Denim",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Montreal-based sister brand to Naked & Famous. Canadian-designed.",
-    "alts": [],
-    "tags": [
-      "jeans",
-      "denim",
-      "pants"
-    ],
-    "region": "Quebec",
-    "website": "https://www.unbrandedbrand.com/"
-  },
-  {
-    "id": 695,
-    "name": "Gitchy Underwear",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made bamboo and organic cotton underwear for men and women.",
-    "alts": [],
-    "tags": [
-      "underwear",
-      "bamboo",
-      "organic",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.gitchy.ca/"
-  },
-  {
     "id": 696,
     "name": "MyPakage Underwear",
     "category": "Clothing",
@@ -5989,38 +5565,6 @@
     ],
     "region": "British Columbia",
     "website": "https://www.tentree.com/"
-  },
-  {
-    "id": 699,
-    "name": "Muttonhead T-Shirts",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made organic cotton t-shirts and sweats.",
-    "alts": [],
-    "tags": [
-      "t-shirts",
-      "organic",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
-  },
-  {
-    "id": 700,
-    "name": "Goodfare T-Shirts",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Montreal-made basic t-shirts and loungewear.",
-    "alts": [],
-    "tags": [
-      "t-shirts",
-      "basics",
-      "montreal"
-    ],
-    "region": "Quebec",
-    "website": "https://www.goodfare.ca/"
   },
   {
     "id": 701,
@@ -6118,22 +5662,6 @@
     "website": "https://www.lululemon.com/"
   },
   {
-    "id": 709,
-    "name": "Muttonhead Sweatpants",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made organic cotton sweatpants and loungewear.",
-    "alts": [],
-    "tags": [
-      "sweatpants",
-      "loungewear",
-      "organic"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
-  },
-  {
     "id": 710,
     "name": "Ginger Activewear",
     "category": "Clothing",
@@ -6193,23 +5721,6 @@
     ],
     "region": "Ontario",
     "website": "https://www.roots.com/"
-  },
-  {
-    "id": 713,
-    "name": "Muttonhead Sweaters",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made wool and organic cotton knit sweaters.",
-    "alts": [],
-    "tags": [
-      "sweaters",
-      "knitwear",
-      "wool",
-      "organic"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
   },
   {
     "id": 714,
@@ -6307,38 +5818,6 @@
     "website": "https://www.coalheadwear.com/"
   },
   {
-    "id": 720,
-    "name": "Kazak Scarves",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Montreal-made wool and silk scarves.",
-    "alts": [],
-    "tags": [
-      "scarves",
-      "wool",
-      "silk"
-    ],
-    "region": "Quebec",
-    "website": "https://kazak.ca/"
-  },
-  {
-    "id": 721,
-    "name": "Smitten Merino Scarves",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "PEI-made merino wool scarves and accessories.",
-    "alts": [],
-    "tags": [
-      "scarves",
-      "merino",
-      "wool"
-    ],
-    "region": "Prince Edward Island",
-    "website": "https://www.smittenmerino.ca/"
-  },
-  {
     "id": 722,
     "name": "Kombi Gloves",
     "category": "Clothing",
@@ -6353,22 +5832,6 @@
     ],
     "region": "Quebec",
     "website": "https://www.kombisports.com/"
-  },
-  {
-    "id": 723,
-    "name": "Ganuck Wool Gloves",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Nova Scotia-made wool gloves and mittens.",
-    "alts": [],
-    "tags": [
-      "gloves",
-      "mittens",
-      "wool"
-    ],
-    "region": "Nova Scotia",
-    "website": "https://www.ganuck.ca/"
   },
   {
     "id": 724,
@@ -6419,23 +5882,6 @@
     "website": "https://www.frankandoak.com/"
   },
   {
-    "id": 727,
-    "name": "Muttonhead Shirts",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Toronto-made organic cotton button-up shirts and flannels.",
-    "alts": [],
-    "tags": [
-      "shirts",
-      "flannel",
-      "organic",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
-  },
-  {
     "id": 728,
     "name": "Aritzia Coats",
     "category": "Clothing",
@@ -6463,39 +5909,6 @@
     ],
     "region": "British Columbia",
     "website": "https://www.aritzia.com/"
-  },
-  {
-    "id": 729,
-    "name": "Smitten Merino Mittens",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "PEI-made merino wool mittens and fingerless gloves.",
-    "alts": [],
-    "tags": [
-      "mittens",
-      "merino",
-      "wool"
-    ],
-    "region": "Prince Edward Island",
-    "website": "https://www.smittenmerino.ca/"
-  },
-  {
-    "id": 730,
-    "name": "West Coast Knitwear Sweaters",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Vancouver Island-made wool sweaters and cardigans.",
-    "alts": [],
-    "tags": [
-      "sweaters",
-      "cardigans",
-      "wool",
-      "knitwear"
-    ],
-    "region": "British Columbia",
-    "website": "https://www.westcoastknitwear.com/"
   },
   {
     "id": 731,
@@ -6563,23 +5976,6 @@
     "website": "https://www.reigningchamp.com/"
   },
   {
-    "id": 735,
-    "name": "Crown North Socks",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Calgary-made merino wool hiking and dress socks.",
-    "alts": [],
-    "tags": [
-      "socks",
-      "merino",
-      "wool",
-      "hiking"
-    ],
-    "region": "Alberta",
-    "website": "https://www.crownnorth.ca/"
-  },
-  {
     "id": 736,
     "name": "Stanfield's Underwear",
     "category": "Clothing",
@@ -6596,56 +5992,6 @@
     "website": "https://www.stanfields.com/"
   },
   {
-    "id": 737,
-    "name": "Hubbard Clothing Work Pants",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 80,
-    "description": "Saskatoon-made durable work pants and carpenter pants.",
-    "alts": [],
-    "tags": [
-      "pants",
-      "workwear",
-      "carpenter"
-    ],
-    "region": "Saskatchewan",
-    "website": "https://www.hubbardclothing.ca/"
-  },
-  {
-    "id": 739,
-    "name": "Upnorth Outerwear Jackets",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Thunder Bay-made winter jackets and parkas.",
-    "alts": [],
-    "tags": [
-      "jackets",
-      "parkas",
-      "winter",
-      "outerwear"
-    ],
-    "region": "Ontario",
-    "website": "https://www.upnorthouterwear.ca/"
-  },
-  {
-    "id": 740,
-    "name": "Northbound Supply Co. Toques",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "St. John's-made wool toques and winter hats.",
-    "alts": [],
-    "tags": [
-      "toques",
-      "hats",
-      "wool",
-      "winter"
-    ],
-    "region": "Newfoundland & Labrador",
-    "website": "https://www.northboundsupply.co/"
-  },
-  {
     "id": 741,
     "name": "Arctic Apparel Parkas",
     "category": "Clothing",
@@ -6660,22 +6006,6 @@
     ],
     "region": "Nunavut",
     "website": "https://www.arcticapparel.ca/"
-  },
-  {
-    "id": 742,
-    "name": "Yukon Wool Socks",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Whitehorse-made alpaca and wool blend socks.",
-    "alts": [],
-    "tags": [
-      "socks",
-      "wool",
-      "alpaca"
-    ],
-    "region": "Yukon",
-    "website": "https://www.yukonwool.ca/"
   },
   {
     "id": 743,
@@ -7062,38 +6392,6 @@
     ],
     "region": "British Columbia",
     "website": "https://www.arcteryx.com/"
-  },
-  {
-    "id": 767,
-    "name": "Muttonhead Baseball Tee",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 89,
-    "description": "Made-in-Canada unisex baseball tee from Toronto's Muttonhead.",
-    "alts": [],
-    "tags": [
-      "t-shirt",
-      "unisex",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
-  },
-  {
-    "id": 768,
-    "name": "Muttonhead Sweatpants",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 89,
-    "description": "Canadian-made fleece sweatpants from Muttonhead.",
-    "alts": [],
-    "tags": [
-      "sweatpants",
-      "fleece",
-      "made in canada"
-    ],
-    "region": "Ontario",
-    "website": "https://www.muttonhead.ca/"
   },
   {
     "id": 769,
@@ -7580,20 +6878,6 @@
     "score": 90,
     "description": "Qualicum Beach, BC organic coffee roaster.",
     "website": "https://www.creekmorecoffee.com/",
-    "tags": [
-      "food-beverage"
-    ],
-    "alts": []
-  },
-  {
-    "id": 804,
-    "name": "Crerar's Honey",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Vernon, Ontario honey producer.",
-    "website": "https://www.crerars.com/",
     "tags": [
       "food-beverage"
     ],
@@ -12112,20 +11396,6 @@
     "alts": []
   },
   {
-    "id": 1127,
-    "name": "Levac Fabrications",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Canadian maker of commercial-strength aluminum boat docks, shore decks, and boat/kayak lifts since 2002.",
-    "website": "https://levacdocksandlifts.ca/",
-    "tags": [
-      "tech-outdoor-marine"
-    ],
-    "alts": []
-  },
-  {
     "id": 1128,
     "name": "Level Six",
     "category": "Clothing",
@@ -14971,20 +14241,6 @@
     "website": "https://arvaflourmills.com/products/quinoa-flour"
   },
   {
-    "id": 1331,
-    "name": "Rebel and Siren",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Saskatchewan",
-    "score": 90,
-    "description": "Founded in 2021, Rebel and Siren is a high-quality sticker brand that focuses on creating cute, quirky statement stickers. Themes they cover include animals, mental health, quotes, LGBTQ, and witch...",
-    "tags": [
-      "national-directories"
-    ],
-    "alts": [],
-    "website": "https://rebelandsiren.ca(individualsale),rebelandsiren.faire.com(wholesale"
-  },
-  {
     "id": 1332,
     "name": "Refresh Botanicals",
     "category": "Food",
@@ -15993,20 +15249,6 @@
     "website": "https://www.backwooddesignco.com"
   },
   {
-    "id": 1404,
-    "name": "BACKWOODS OUTDOORS",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Canadian Home & Electronics brand.",
-    "tags": [
-      "ontario-made"
-    ],
-    "alts": [],
-    "website": "http://www.backwoodsguns.ca"
-  },
-  {
     "id": 1405,
     "name": "Baden Coffee Company",
     "category": "Beverages",
@@ -16033,20 +15275,6 @@
     ],
     "alts": [],
     "website": "http://bahaurji.com"
-  },
-  {
-    "id": 1407,
-    "name": "Bake In A Minute",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "ontario-made"
-    ],
-    "alts": [],
-    "website": "http://www.bakeinaminute.com"
   },
   {
     "id": 1408,
@@ -16173,20 +15401,6 @@
     ],
     "alts": [],
     "website": "http://bayfieldlavenderfarm.ca"
-  },
-  {
-    "id": 1417,
-    "name": "BD Custom Woodwork",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "BD CUSTOM is a small woodworking business based out of Hanmer, Ontario, Canada.",
-    "tags": [
-      "ontario-made"
-    ],
-    "alts": [],
-    "website": "http://www.bdcustom.ca"
   },
   {
     "id": 1418,
@@ -18723,20 +17937,6 @@
     "website": "https://www.chsltd.com"
   },
   {
-    "id": 1599,
-    "name": "CanaMasks Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "ontario-made"
-    ],
-    "alts": [],
-    "website": "http://www.canamasks.com"
-  },
-  {
     "id": 1600,
     "name": "Dailypottery",
     "category": "Food",
@@ -20907,20 +20107,6 @@
     "website": "https://albertacorn.com"
   },
   {
-    "id": 1755,
-    "name": "Alberta Dairy Council",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Industry Organizations — Industry Organization",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://albertadairycouncil.ca"
-  },
-  {
     "id": 1756,
     "name": "Alberta Elk Commission",
     "category": "Food",
@@ -21003,20 +20189,6 @@
     ],
     "alts": [],
     "website": "https://albertapork.com"
-  },
-  {
-    "id": 1762,
-    "name": "Alberta Pulse Growers Commission",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Industry Organizations — Industry Organization",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://pulse.ab.ca"
   },
   {
     "id": 1763,
@@ -21157,20 +20329,6 @@
     ],
     "alts": [],
     "website": "https://altagenetics.com"
-  },
-  {
-    "id": 1773,
-    "name": "Aratinga Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Ingredients — Botanical Extracts for food and beverage industry",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://aratingaextracts.ca"
   },
   {
     "id": 1774,
@@ -21621,20 +20779,6 @@
     "website": "https://rangelandbison.ca"
   },
   {
-    "id": 1806,
-    "name": "Canadian Rocky Mountain Beef Inc. (CRMB)",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Beef, Processed Meats — Beef (Black Angus, Halal Black Angus, AAA, Full Sets, Semi-Full Sets, Trimmings, Offal), Sourcing",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://crmb.ca"
-  },
-  {
     "id": 1807,
     "name": "Canary Biofuels Inc.",
     "category": "Food",
@@ -21817,20 +20961,6 @@
     "website": "https://coaldalebakery.com"
   },
   {
-    "id": 1820,
-    "name": "Coco Karamel Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Cookies, Biscotti and Wafers — Alfajores",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://cocokaramel.ca"
-  },
-  {
     "id": 1821,
     "name": "Confetti Sweets",
     "category": "Food",
@@ -21901,34 +21031,6 @@
     "website": "https://canadiantimothyhay.com"
   },
   {
-    "id": 1826,
-    "name": "Dandee Confection and Cakes",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Cakes, Cheesecakes and Other Desserts — Gluten-Free Vegan Baked Goods",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://dandeeconfections.com"
-  },
-  {
-    "id": 1827,
-    "name": "Davenport's Tasty Sensations",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Candy and Other Confections — Confectionery, Butter-Nut Crunch, Cowboy Crunch, Rockey Mountain Bark, Old English Toffee Bars",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://davenportsensations.com"
-  },
-  {
     "id": 1828,
     "name": "DaVinci Gelato Originale Inc",
     "category": "Food",
@@ -21955,20 +21057,6 @@
     ],
     "alts": [],
     "website": "https://defaziogourmet.com"
-  },
-  {
-    "id": 1830,
-    "name": "Decadent Desserts",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Cakes, Cheesecakes and Other Desserts, Pies and Pastries, Cookies, Biscotti and Wafers — Gourmet Cakes, Cheesecakes, Pies, Cookies, Wedding Cakes",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://decadentdesserts.ca"
   },
   {
     "id": 1831,
@@ -22209,34 +21297,6 @@
     "website": "https://freshforward.ca"
   },
   {
-    "id": 1848,
-    "name": "Friesen Livestock Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Vitamin and Mineral Premixes — Livestock Premixes",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://friesennutrition.com"
-  },
-  {
-    "id": 1849,
-    "name": "From The Earth Naturally Ltd.",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Health Supplements — Natural Health Supplements, Rhodiola Extract, First Product for Menopause - Vivaca (TM)",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://fromtheearthnaturally.com"
-  },
-  {
     "id": 1850,
     "name": "Full Course Strategies Inc.",
     "category": "Food",
@@ -22307,20 +21367,6 @@
     "website": "https://goldenacreshoney.com"
   },
   {
-    "id": 1855,
-    "name": "Good Earth Cafes Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Specialty Baked Products — Baked Goods, Desserts, Sandwiches, Catering",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://goodhearthcoffeehouse.com"
-  },
-  {
     "id": 1856,
     "name": "Gouw Quality Onions Ltd.",
     "category": "Food",
@@ -22333,20 +21379,6 @@
     ],
     "alts": [],
     "website": "https://gouwqualityonions.com"
-  },
-  {
-    "id": 1857,
-    "name": "Grainworks, Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Whole or Milled Grains — Certified Organic Grain",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://grainworks.com"
   },
   {
     "id": 1858,
@@ -22389,20 +21421,6 @@
     ],
     "alts": [],
     "website": "https://honeymill.ca"
-  },
-  {
-    "id": 1861,
-    "name": "H.B Kaysons Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Other Snack Foods — Snack Manufacturer",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://gurulucky.com"
   },
   {
     "id": 1862,
@@ -22601,20 +21619,6 @@
     "website": "https://italianbakeryedm.com"
   },
   {
-    "id": 1876,
-    "name": "Jarvis Holdings Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Other Specialty Foods — Frozen Cornfritters",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://rjrcornfritters.com"
-  },
-  {
     "id": 1877,
     "name": "JBS Food Canada Inc.",
     "category": "Food",
@@ -22783,20 +21787,6 @@
     "website": "https://wilhaukbeefjerky.com"
   },
   {
-    "id": 1889,
-    "name": "Left Field Foods (formerly Cadcan)",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Other Snack Foods, Gluten-Free — Salty Snacks, Natural and Better-For-You Snacks",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://leftfieldfoods.ca"
-  },
-  {
     "id": 1890,
     "name": "Legal Alfalfa Products Inc.",
     "category": "Food",
@@ -22893,20 +21883,6 @@
     ],
     "alts": [],
     "website": "https://manuellatruwe.com"
-  },
-  {
-    "id": 1897,
-    "name": "Maple Leaf Foods Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Chicken, Turkey — Fresh Poultry Products",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://primenaturally.com"
   },
   {
     "id": 1898,
@@ -23035,20 +22011,6 @@
     "website": "https://peabutter.ca"
   },
   {
-    "id": 1907,
-    "name": "Mountainview Canola",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Canola Oil — Cold Pressed Non-GMO Canola",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://mountainviewcanola.com"
-  },
-  {
     "id": 1908,
     "name": "Mut Hut Pet Emporium Inc.",
     "category": "Food",
@@ -23089,20 +22051,6 @@
     ],
     "alts": [],
     "website": "https://naftac.com"
-  },
-  {
-    "id": 1911,
-    "name": "Nanton Nutraceuticals",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Health Supplements — Supplement",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://nantonnutraceuticals.com"
   },
   {
     "id": 1912,
@@ -23147,34 +22095,6 @@
     "website": "https://naturesnutraoils.com"
   },
   {
-    "id": 1915,
-    "name": "New Oxley Garlic, Naturally!",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Garlic — Garlic (Raised Naturally)",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://newoxleygarlic.com"
-  },
-  {
-    "id": 1916,
-    "name": "New West Milling",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Complete Feeds, Feed Supplements, Vitamin and Mineral Premixes — Livestock Feeds, Supplements, Minerals",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://newwestmilling.com"
-  },
-  {
     "id": 1917,
     "name": "Newly Weds Foods",
     "category": "Food",
@@ -23215,20 +22135,6 @@
     ],
     "alts": [],
     "website": "https://normericainc.com"
-  },
-  {
-    "id": 1920,
-    "name": "Northern Girls Hopyard at Windhover Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Hops — Fresh and Dried Brewing Hops",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://windhover.ca"
   },
   {
     "id": 1921,
@@ -23341,20 +22247,6 @@
     ],
     "alts": [],
     "website": "https://parmalat.ca"
-  },
-  {
-    "id": 1929,
-    "name": "Parmx Cheese Co.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Specialty Cheese, Cheddar Cheese, Cheese Packaging — Parmesan Grated Cheese, Parmesan Grated Cheeses Products - Blends, Romano Grated Cheese, Shredded Parmesan, Shredded Cheese All Types, Mozzarell...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://parmxcheese.com"
   },
   {
     "id": 1930,
@@ -23763,20 +22655,6 @@
     "website": "https://sakaispice.com"
   },
   {
-    "id": 1959,
-    "name": "Screamin Brothers Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Desserts — Allergen-Free Frozen Desserts",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://screaminbrothers.ca"
-  },
-  {
     "id": 1960,
     "name": "Select Ready Foods",
     "category": "Food",
@@ -23873,20 +22751,6 @@
     ],
     "alts": [],
     "website": "https://sobeys.com"
-  },
-  {
-    "id": 1967,
-    "name": "Solis Foods",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Baked Snacks (Corn Snacks, Tortilla and Other) — Flour Tortillas, Nacho Chips, Salsa, Naan Bread, Corn Tortillas, Tacos, Jalapeno Peppers",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://solisfoods.com"
   },
   {
     "id": 1968,
@@ -24113,20 +22977,6 @@
     "website": "https://uniblokcanada.com"
   },
   {
-    "id": 1984,
-    "name": "Sylvia's Essential Sauces Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Soups and Sauces — Gravy Mixes (Beef, French Fry, Poultry, Pork)",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://sylviasgravy.com"
-  },
-  {
     "id": 1985,
     "name": "Symbiotic EnviroTek Inc.",
     "category": "Food",
@@ -24153,20 +23003,6 @@
     ],
     "alts": [],
     "website": "https://echelonfoods.com"
-  },
-  {
-    "id": 1987,
-    "name": "The Butcher Shop 1995",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Custom Processing, Meat Snacks — Sausage, Jerky, Bacon, Ham, Pepperoni, Custom Processing, Co-Packaging",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://butchershopbeaverlodge.ca"
   },
   {
     "id": 1988,
@@ -24421,20 +23257,6 @@
     "website": "https://viterra.com"
   },
   {
-    "id": 2006,
-    "name": "Wagyu Canada Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Beef, Processed Meat — Kobe Classic Beef (Various Cuts)",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://kobeclassicbeef.com"
-  },
-  {
     "id": 2007,
     "name": "West Coast Reduction Ltd.",
     "category": "Food",
@@ -24447,34 +23269,6 @@
     ],
     "alts": [],
     "website": "https://wcrl.com"
-  },
-  {
-    "id": 2008,
-    "name": "Western Barley Growers Association",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Industry Organizations — Industry Organization",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://wbga.org"
-  },
-  {
-    "id": 2009,
-    "name": "Western Feed Industry Association, a Division of Animal Nutrition Association of Canada (WFIA-ANAC)",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Alberta",
-    "score": 90,
-    "description": "Industry Organizations — Industry Organization",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://anac-ab.ca"
   },
   {
     "id": 2010,
@@ -24631,20 +23425,6 @@
     "website": "https://zinterbrown.com"
   },
   {
-    "id": 2021,
-    "name": "506 Artisan Market",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "The 506 Artisan Market is a premium curated retail marketplace featuring artisans across Canada. What makes us unique? ❌ Vendors are not required to work in the market ❌ Fixed product display - No ...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://506artisanmarket.com"
-  },
-  {
     "id": 2022,
     "name": "A little Bit of Heaven Healing Crystal Bracelets",
     "category": "Home & Electronics",
@@ -24657,34 +23437,6 @@
     ],
     "alts": [],
     "website": "https://alittlebitofheaven.ca"
-  },
-  {
-    "id": 2023,
-    "name": "Acadian Sturgeon and Caviar",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Acadian Sturgeon and Caviar Inc. was founded in 2005 in Carters Point, New Brunswick, Canada, for producing in aquaculture live sturgeon stocking material, as well as meat and caviar from our...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://acadian-sturgeon.com/en"
-  },
-  {
-    "id": 2024,
-    "name": "ActivPOP Organic Popcorn",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Delicious, organic popcorn that is produced in select growing conditions without pesticides or herbicides. It is then sprinkled with sun-evaporated sea salt sourced from a Molokai Island Salt Maste...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://activpop.com"
   },
   {
     "id": 2025,
@@ -24727,20 +23479,6 @@
     ],
     "alts": [],
     "website": "https://coveredbridgechips.com/en"
-  },
-  {
-    "id": 2028,
-    "name": "Angus East Organic",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Angus East Inc. offers the highest quality of organic beef products on the market today. Gerard Caissie and Dr. Dianne Stackhouse have been running their natural beef farm since 1994 and have...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://anguseastorganics.com"
   },
   {
     "id": 2029,
@@ -24897,20 +23635,6 @@
     "website": "https://recoltedecheznous.com/en/producer/view/viandes_boudreau_meats"
   },
   {
-    "id": 2040,
-    "name": "Brabant Ltd. Wild Boar Meat",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About We specialize in a variety cuts of wild boar meat that we have been raising free range since 2004 on our farm in Knightville, NB. You can order online, pickup your purchase at the farm, or de...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://newbrabant.com"
-  },
-  {
     "id": 2041,
     "name": "Brewed Awakenings",
     "category": "Food",
@@ -24965,20 +23689,6 @@
     ],
     "alts": [],
     "website": "https://brunswicksardines.ca"
-  },
-  {
-    "id": 2045,
-    "name": "Buckwheat Flats Natural Food",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Buckwheat Flats was started by two moms, Tegan Wong-Daugherty & Yolande Clarke, looking for wholesome food for our families. We've contacted local producers, processors and butchers to provid...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://back2land.ca/buckwheatflats"
   },
   {
     "id": 2046,
@@ -25065,20 +23775,6 @@
     "website": "https://cardwellcompost.com"
   },
   {
-    "id": 2052,
-    "name": "Chocolaterie Facklemann featuring “The Schnitzel Parlour”",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Established in 2000, Chocolaterie Fackleman started to sell locally produced chocolates and truffles at the Boyce Farmers Market. In 2006 the location changed to the Woodstock Road. In 2007 T...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://facklemanschocolateheaven.com"
-  },
-  {
     "id": 2053,
     "name": "CocoLemon Craft Beverage Company",
     "category": "Food",
@@ -25163,20 +23859,6 @@
     "website": "https://decadencenb.com"
   },
   {
-    "id": 2059,
-    "name": "Degenhardt’s European Sausage Farm Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Sausage, Marinated Meats and Deli Meats. Low Fat, Low Sodium, MSG and Gluten Free German, Italian, and Spanish Sausage, Marinated Pork and Turkey Schnitzel.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://degenhadtsausages.com"
-  },
-  {
     "id": 2060,
     "name": "Doucett’s Orchard",
     "category": "Food",
@@ -25245,20 +23927,6 @@
     ],
     "alts": [],
     "website": "https://dunhamsrun.ca"
-  },
-  {
-    "id": 2065,
-    "name": "EcoSuds",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Soap Nuts are equivalent in cleaning power to some of the most popular synthetic chemical detergents, yet they are fully biodegradable, non-toxic, hypoallergenic, antibacterial and antifungal.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://ecosudssoapnuts.com"
   },
   {
     "id": 2066,
@@ -25345,20 +24013,6 @@
     "website": "https://fancypokket.com"
   },
   {
-    "id": 2072,
-    "name": "Ferme Girasol Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Girasol is a small farm in Kent County looking for a huge number of customers and friends enjoying locally grown fresh food - - mmh!! Locally grown fresh vegetables. No chemical pesticides or...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://girasol.ca"
-  },
-  {
     "id": 2073,
     "name": "Ferme Marcel Goguen Farm",
     "category": "Food",
@@ -25415,34 +24069,6 @@
     "website": "https://freddybean.com"
   },
   {
-    "id": 2077,
-    "name": "Fuller Confections",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Traditional baked goods, decorated cakes and cupcakes, handmade marshmallows and more. We also offer a wide selection of healthier treats and treats for people with dietary restrictions, incl...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://fullerconfections.com"
-  },
-  {
-    "id": 2078,
-    "name": "Gagetown Garlic",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About We started growing Garlic in 2003, with just ten pounds of Garlic seed. Over the past decade we have learned a lot from growing our specialty crop and have ventured from one, into ten or more...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://gagetowngarlic.com"
-  },
-  {
     "id": 2079,
     "name": "Garden by the Sea NB",
     "category": "Personal Care",
@@ -25485,20 +24111,6 @@
     "website": "https://wildblueberry.ca"
   },
   {
-    "id": 2082,
-    "name": "Great Bear Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About My husband was born and raised on a farm, and we have been farming together for the past 20 years. We sell beef and goat meat which can be butchered to the individual customer's requests. We ...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://greatbearfarm.ca"
-  },
-  {
     "id": 2083,
     "name": "Great Bear Sugarbush",
     "category": "Food",
@@ -25525,20 +24137,6 @@
     ],
     "alts": [],
     "website": "https://etsy.com/shop/ittybittyboutiquec"
-  },
-  {
-    "id": 2085,
-    "name": "Halcomb Honey & Hives",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Apiary located 30 minutes outside the city of Miramichi. We sell honey, candles and numerous other health/beauty products, all made from our bee hives.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://halcombhoney.ca"
   },
   {
     "id": 2086,
@@ -25639,20 +24237,6 @@
     "website": "https://hunterbrothers.ca"
   },
   {
-    "id": 2093,
-    "name": "HYP Bags",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Good quality bags useful for many things! Try sprouting seeds with them, it's easy and quick. Also good for straining milks, like almond and hemp, and jellies and drying herbs! Anytime you us...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://hyp-bag.ca/store/index.php"
-  },
-  {
     "id": 2094,
     "name": "Johnny Jacks Brewery",
     "category": "Food",
@@ -25693,34 +24277,6 @@
     ],
     "alts": [],
     "website": "https://kizzy-vila.weebly.com"
-  },
-  {
-    "id": 2097,
-    "name": "Knowlesbee Orchards Ltd",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Certified Organic Orchard. We have over 40 varieties of apple trees, many of them heirloom. Certified organic apples, sweet apple cider and other apple products.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://knowlesbeeorchards.ca"
-  },
-  {
-    "id": 2098,
-    "name": "Kredl’s Corner Market",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://kredls.com"
   },
   {
     "id": 2099,
@@ -25805,34 +24361,6 @@
     ],
     "alts": [],
     "website": "https://recoltedecheznous.com/en/producer/view/la_fleur_du_pommier"
-  },
-  {
-    "id": 2105,
-    "name": "Lavenhop",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About An agri-tourism destination on 150 acres in Cambridge-Narrows, Lavenhop provides an interface with nature surrounding a certified organic farm. Several kilometers of trails give access to hou...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://lavenhop.com"
-  },
-  {
-    "id": 2106,
-    "name": "Le Pichet Bistrot-Enoteca",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Petit Bistrot Italien qui ouvrira ses portes jeudi le 18 avril 2019, situé sur le bord de la mer à Charlo, Nouveau-Brunswick au 363 rue Chaleur. Venez relaxer et créer des moments avec nous en dégu...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://lepichet.ca"
   },
   {
     "id": 2107,
@@ -25989,20 +24517,6 @@
     "website": "https://localvalleybeef.ca"
   },
   {
-    "id": 2118,
-    "name": "Loyalist City Brewing Co.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Canadian Beverages brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://loyalistcitybrewing.ca"
-  },
-  {
     "id": 2119,
     "name": "M & S Cormier Meats",
     "category": "Food",
@@ -26043,20 +24557,6 @@
     ],
     "alts": [],
     "website": "https://recoltedecheznous.com/en/producer/view/m_tomate"
-  },
-  {
-    "id": 2122,
-    "name": "Magellan Aqua Farms Inc",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Sustainable Aquatic Farm cultivating Sea Vegetables and Shellfish. \"Your Natural Choice for Sustainable Seafood\".",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://turquoiserevolution.ca/about-magellan-aqua-farm"
   },
   {
     "id": 2123,
@@ -26171,20 +24671,6 @@
     "website": "https://sarahmurch.com"
   },
   {
-    "id": 2131,
-    "name": "Memramcook Valley Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Since 1938, the Bourque family has lived and raised beef cattle on their 250-acre farm nestled in the picturesque Valley of Memramcook. Our cattle are raised their entire lives on our farm gr...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://homegrownmeats.ca/memramcook-farms"
-  },
-  {
     "id": 2132,
     "name": "Moon Breeze Crafts",
     "category": "Personal Care",
@@ -26239,48 +24725,6 @@
     ],
     "alts": [],
     "website": "https://foodsofthefundyvalley.ca"
-  },
-  {
-    "id": 2136,
-    "name": "Nashwaak Valley Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Located on the scenic Nashwaak River we produce pasture raised meats and eggs grown the old fashioned way with animal welfare being a top priority. Preserving heritage breeds and promoting agricult...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://nashwaakvalleyfarm.com"
-  },
-  {
-    "id": 2137,
-    "name": "Nature’s Estate Farm – MacCurdy Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About We farm with no outside farm amendments, or harmful chemicals. Our produce is all naturally grown, the way nature intended. Yellow Beans, Green Beans, Purple Beans, Snow Peas, Carrots, Cucumb...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://maccurdyfarm.com"
-  },
-  {
-    "id": 2138,
-    "name": "Norm’s Butcher Block and Grocery Store",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Norm's is a family owned and operated business that is devoted to excellent customer service and great products! Norm's has been in business for 19 years now and is still running strong just ...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://normsbutcherblock.com/default.aspx"
   },
   {
     "id": 2139,
@@ -26423,34 +24867,6 @@
     "website": "https://wildblueberries.ca"
   },
   {
-    "id": 2149,
-    "name": "Pump House Brewery",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Canadian-owned craft, brewed in Moncton, New Brunswick, award-winning, local jobs, independent. CANADAScore 10/10.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://beer.pumphousebrewery.ca"
-  },
-  {
-    "id": 2150,
-    "name": "Raven Glass Studio",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Fused and kiln formed glass - custom engraving glass pendants and earrings, vases, sun catchers, and art glass incorporating rocks.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://ravenglassstudio.ca"
-  },
-  {
     "id": 2151,
     "name": "Rescue Coffee Co.",
     "category": "Food",
@@ -26491,20 +24907,6 @@
     ],
     "alts": [],
     "website": "https://riverbendbees.ca"
-  },
-  {
-    "id": 2154,
-    "name": "River Valley Potatoes",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "River Valley Potatoes is a family farm which has now been operating for four generations and offers washed and packaged Russet variety potatoes in different packaging sizes such as 5 lbs., 10 lbs.,...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://rivervalleypotato.com/en/home"
   },
   {
     "id": 2155,
@@ -26575,20 +24977,6 @@
     ],
     "alts": [],
     "website": "https://en.wikipedia.org/wiki/Maple_syrup"
-  },
-  {
-    "id": 2160,
-    "name": "Seize the Day Distillery",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "This home-based distillery produces flavors such as the traditional rum, rye and gin. One of the unique flavors to our distillery is beet berry flavored; we have taken a blend of New Brunswick beet...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://seizethedaydistillery.ca"
   },
   {
     "id": 2161,
@@ -26675,20 +25063,6 @@
     "website": "https://thehappybaker.ca"
   },
   {
-    "id": 2167,
-    "name": "The Marysville Soapery",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Hand Made Goats Milk Soap.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://themarysvillesoapery.ca"
-  },
-  {
     "id": 2168,
     "name": "The Pottery Shop – Crimmins Pottery",
     "category": "Food",
@@ -26759,20 +25133,6 @@
     "website": "https://tissagemagelyweaving.yolasite.com"
   },
   {
-    "id": 2173,
-    "name": "Tony’s Prime Cuts",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Smoked Pork chops, Ham, Bacon.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://frederictonfarmersmarket.ca/vendors/tonys_prime_cuts"
-  },
-  {
     "id": 2174,
     "name": "Trailway Brewing Co.",
     "category": "Food",
@@ -26785,20 +25145,6 @@
     ],
     "alts": [],
     "website": "https://trailwaybrewing.com"
-  },
-  {
-    "id": 2175,
-    "name": "Turner Soap Company",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About 100% Natural, Organic, Eco Conscious, Vegan cosmetic products & home products. Soap, Lotion, Organic Wool Dryer Balls, Day/Night Cream, Candles, Baby Products.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://turnersoapcompany.ca"
   },
   {
     "id": 2176,
@@ -26857,20 +25203,6 @@
     "website": "https://wildaboutwampum.com"
   },
   {
-    "id": 2180,
-    "name": "Wildtide Soap",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "Pure and natural hand-crafted soaps from the northern shores of the Bay of Fundy, home of the highest tides in the world. Every naturally wholesome bar of Wildtide soap starts with 100% pure hemp m...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://wildtidesoap.com"
-  },
-  {
     "id": 2181,
     "name": "Wolfhead Smokers Ltd.",
     "category": "Food",
@@ -26883,20 +25215,6 @@
     ],
     "alts": [],
     "website": "https://wolfheadsmokers.com"
-  },
-  {
-    "id": 2182,
-    "name": "Wooden Rabbit Farms",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "New Brunswick",
-    "score": 90,
-    "description": "About Wooden Rabbit Farms is your source for the best from New Brunswick and the world. We believe that Capulin Coffee, which we roast on the farm, is the most socially responsible coffee you can b...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://woodenrabbit.ca"
   },
   {
     "id": 2183,
@@ -26927,20 +25245,6 @@
     "website": "https://farmandmarketclarenville.ca"
   },
   {
-    "id": 2185,
-    "name": "St. John’s Farmers’ Market",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Newfoundland & Labrador",
-    "score": 90,
-    "description": "Saturdays 9 A.M. – 4 P.M. (Year Round) Sundays 11 A.M. – 4 P.M (Select) 245 Freshwater Road, St. John’s Visit www.stjohnsfarmersmarket.ca for details",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://stjohnsfarmersmarket.ca"
-  },
-  {
     "id": 2186,
     "name": "Western NL Food Hub",
     "category": "Food",
@@ -26967,20 +25271,6 @@
     ],
     "alts": [],
     "website": "https://acadianmaple.com/collections/maple-syrup"
-  },
-  {
-    "id": 2188,
-    "name": "Afishionado Fishmongers",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Various seafood products and Catch of the Month subscription box. Retail shop Online ordering",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://afishionado.ca/shop-online"
   },
   {
     "id": 2189,
@@ -27249,20 +25539,6 @@
     "website": "https://capebretonfoodhub.com/consumer"
   },
   {
-    "id": 2208,
-    "name": "Casa Nova Fine Beverages",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Wines, ciders, and cellos. NSLC Farmers Markets",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://casanovafinebeverages.com/beverages.html"
-  },
-  {
     "id": 2209,
     "name": "Cedar Bay Grilling Company",
     "category": "Food",
@@ -27275,20 +25551,6 @@
     ],
     "alts": [],
     "website": "https://cedarbaygrilling.com/where-to-buy-canada"
-  },
-  {
-    "id": 2210,
-    "name": "Chain Yard Urban Cidery",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Unique ciders made from Nova Scotian apples. NSLC WestSide Beer Wine Spirits Harvest Wines & Spirits Liquid Assets Online ordering",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://chainyardcider.com/product-category/cider"
   },
   {
     "id": 2211,
@@ -27420,20 +25682,6 @@
     "website": "https://mycountrymagic.com"
   },
   {
-    "id": 2220,
-    "name": "Craft Brewers Association of Nova Scotia",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://nscraftbeer.ca/buy-safely"
-  },
-  {
     "id": 2221,
     "name": "Craft Distillers Association of Nova Scotia",
     "category": "Home & Electronics",
@@ -27518,20 +25766,6 @@
     "website": "https://deonoystercompany.com"
   },
   {
-    "id": 2227,
-    "name": "Ecology Action Centre – CSA Directory",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Visit the Ecology Action Centre’s guide for sourcing local food, including a list of Community Supported Agriculture (CSA) programs and local farms, markets and producers.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://ecologyaction.ca/nsfooddelivery"
-  },
-  {
     "id": 2228,
     "name": "Evan’s Fresh Seafoods & Restaurant",
     "category": "Food",
@@ -27544,20 +25778,6 @@
     ],
     "alts": [],
     "website": "https://evansfreshseafoods.com"
-  },
-  {
-    "id": 2229,
-    "name": "Farmers Markets of Nova Scotia",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://farmersmarketsnovascotia.ca/find-online-store"
   },
   {
     "id": 2230,
@@ -27686,20 +25906,6 @@
     "website": "https://halifaxbrewerymarket.com"
   },
   {
-    "id": 2239,
-    "name": "Halifax Chamber of Commerce",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://halifaxchamber.com/resources/covid-19-information-and-resources"
-  },
-  {
     "id": 2240,
     "name": "Halifax Distilling Co.",
     "category": "Beverages",
@@ -27712,20 +25918,6 @@
     ],
     "alts": [],
     "website": "https://halifaxdistillingco.ca/products"
-  },
-  {
-    "id": 2241,
-    "name": "Helen B’s Preserves",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Jams and preserves Independent retailers Farmers Markets",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://helenbspreserves.com/locations"
   },
   {
     "id": 2242,
@@ -27852,34 +26044,6 @@
     ],
     "alts": [],
     "website": "https://kingstreetbeer.ca"
-  },
-  {
-    "id": 2251,
-    "name": "Kittilsen’s Honey",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Honey Sobeys Atlantic Superstore Independent retailers",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://kittilsenshoney.com/index.html"
-  },
-  {
-    "id": 2252,
-    "name": "Knoydart Cheese House & Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Various cheddar cheeses and cheese curds. Sobeys Independent retailers Retail shop Online ordering",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://knoydartfarm.org/shop"
   },
   {
     "id": 2253,
@@ -28036,20 +26200,6 @@
     "website": "https://lunnsmill.beer"
   },
   {
-    "id": 2264,
-    "name": "L’Acadie Vineyards",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Phone or email winery to have ordered prepared for pickup. NSLC Liquid Assets Online ordering Shipping Pickup",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://lacadievineyards.ca/where-to-buy.php"
-  },
-  {
     "id": 2265,
     "name": "Mad Gringo Hot Sauce",
     "category": "Food",
@@ -28162,20 +26312,6 @@
     "website": "https://millenfarms.ca/buy"
   },
   {
-    "id": 2273,
-    "name": "Mrs. MacGregor’s Shortbreads",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Classic shortbreads and meals to go; check Facebook weekly for meal options Independent retailers Online ordering Pickup",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://mrsmacgregors.com/shop/Shop/2"
-  },
-  {
     "id": 2274,
     "name": "New Glasgow Farmers’ Market",
     "category": "Food",
@@ -28202,20 +26338,6 @@
     ],
     "alts": [],
     "website": "https://newscotlandbrewing.ca"
-  },
-  {
-    "id": 2276,
-    "name": "Nine Locks Brewery",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Curbside drop off in parking lot and next-day home delivery with a minimum order of 24/flat of beer, in Halifax, Dartmouth, Cole Harbour, Bedford and Lower Sackville.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://ninelocksbrewing.ca/shop"
   },
   {
     "id": 2277,
@@ -28246,20 +26368,6 @@
     "website": "https://novacoffee.com"
   },
   {
-    "id": 2279,
-    "name": "NovaScotian Crystal",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://novascotiancrystal.com/shop-products.html"
-  },
-  {
     "id": 2280,
     "name": "Off Track Brewing",
     "category": "Beverages",
@@ -28286,20 +26394,6 @@
     ],
     "alts": [],
     "website": "https://oxfordfrozenfoods.com"
-  },
-  {
-    "id": 2282,
-    "name": "Petite Patrie Chocolate",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Bean-to-bar chocolate Independent retailers Online ordering Shipping",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://petitepatriechocolate.com/shop"
   },
   {
     "id": 2283,
@@ -28384,34 +26478,6 @@
     ],
     "alts": [],
     "website": "https://rarebirdbeer.com"
-  },
-  {
-    "id": 2289,
-    "name": "Restaurant Association of Nova Scotia",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://rans.ca/restaurants-open-for-take-outdelivery"
-  },
-  {
-    "id": 2290,
-    "name": "Rum Runners Cake Factory",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Various rum cakes Retail shop Online ordering Pickup",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://rumrunners.ca/collections/rum-runners-all"
   },
   {
     "id": 2291,
@@ -28524,20 +26590,6 @@
     ],
     "alts": [],
     "website": "https://shivaniskitchen.ca"
-  },
-  {
-    "id": 2299,
-    "name": "Spa Springs Mineral Water Company Ltd.",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Sparkling and still mineral water, and 28 Ice Teas. Sobeys Atlantic Superstore Independent retailers",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://spa-springs.com/en"
   },
   {
     "id": 2300,
@@ -28669,20 +26721,6 @@
     "website": "https://sweetspotchocolateshop.com/index.php/shop"
   },
   {
-    "id": 2309,
-    "name": "Tangled Garden",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Jellies and jams, vinegars, cordials, and liqueurs Retail shop Online ordering Shipping",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://tangledgardenherbs.com"
-  },
-  {
     "id": 2310,
     "name": "Tatamagouche Brewing Co.",
     "category": "Beverages",
@@ -28695,20 +26733,6 @@
     ],
     "alts": [],
     "website": "https://tatabrew.com/collections/beer"
-  },
-  {
-    "id": 2311,
-    "name": "Tatamagouche Ice Creamery",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Tatamagouche Ice Creamery produces ultra-premium, handcrafted ice cream for sale through a retail store in Tatamagouche, Nova Scotia as well as wholesale channels from its very own licensed and ins...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://tatamagoucheicecreamery.com"
   },
   {
     "id": 2312,
@@ -28781,20 +26805,6 @@
     "website": "https://teabrewery.com"
   },
   {
-    "id": 2317,
-    "name": "Tidal Salt",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Various flavours of fleur de sel Independent retailers Online ordering Pickup",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://tidalsalt.ca/collections/tidal-salt"
-  },
-  {
     "id": 2318,
     "name": "Tipping Point Distillers",
     "category": "Beverages",
@@ -28807,20 +26817,6 @@
     ],
     "alts": [],
     "website": "https://tippingpointdistillers.ca/shop.html"
-  },
-  {
-    "id": 2319,
-    "name": "Tourism Nova Scotia",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Canadian Food brand.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://novascotia.com/dine-in-stay-home"
   },
   {
     "id": 2320,
@@ -28863,20 +26859,6 @@
     ],
     "alts": [],
     "website": "https://tusketfallsbrewing.com"
-  },
-  {
-    "id": 2323,
-    "name": "Two Islands Brewing Company",
-    "category": "Beverages",
-    "origin": "Canada",
-    "region": "Nova Scotia",
-    "score": 90,
-    "description": "Open for growler refills and take-out cans. Wing night every Thursday. Eat in 5 p.m. – 9 p.m. Take-out 4 p.m. – 6 p.m.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://twoislandsbeer.ca"
   },
   {
     "id": 2324,
@@ -29031,20 +27013,6 @@
     ],
     "alts": [],
     "website": "https://purepork.ca"
-  },
-  {
-    "id": 2335,
-    "name": "RIVERDALE ORCHARD AND CIDERY",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "Prince Edward Island",
-    "score": 90,
-    "description": "20 35 32 38 enjoy sharing with guests.",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://summersidefarmersmarket.ca"
   },
   {
     "id": 2336,
@@ -29423,20 +27391,6 @@
     ],
     "alts": [],
     "website": "https://canayiiy.ca"
-  },
-  {
-    "id": 2363,
-    "name": "Bill & Reg Lawn Co",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "BrettYoung is Canada's largest independent seed company We serve customers in three distinct markets: - Agricultural Seed and Crop Inputs - Wholesale Forage and Turf - Professional Turf and Reclama...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://billandre.com"
   },
   {
     "id": 2364,
@@ -30015,20 +27969,6 @@
     ],
     "alts": [],
     "website": "https://dunrobindistilleries.com"
-  },
-  {
-    "id": 2405,
-    "name": "Ella's Forest",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Organic Wild Blueberry that share our harvest with the world in form of wild blueberry powder",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://www,ellasforest.com"
   },
   {
     "id": 2406,
@@ -30749,20 +28689,6 @@
     "website": "https://okanaganbeverageco.com"
   },
   {
-    "id": 2457,
-    "name": "Olimega Signé Caméline",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Olimega is a Quebec-based company specializing for 10 years in the production, processing, and marketing of camelina-based products for human food and animal nutrition. Experiencing strong growth, ...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://signecamline.com"
-  },
-  {
     "id": 2458,
     "name": "ONES",
     "category": "Food",
@@ -31029,20 +28955,6 @@
     "website": "https://progrowfarms.com"
   },
   {
-    "id": 2477,
-    "name": "Protocol Wellness Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Protocol Wellness Inc. is home to Innovative & Exciting Canadian Brands in the “Good For You”, “Functional Food”, “Sports Performance”, “Nutraceutical” and “Health & Wellness” space. ZONE HYDRATION...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://mytestosport.com"
-  },
-  {
     "id": 2478,
     "name": "Pulp & Press",
     "category": "Food",
@@ -31195,20 +29107,6 @@
     ],
     "alts": [],
     "website": "https://scoular.com"
-  },
-  {
-    "id": 2489,
-    "name": "SeedOne Food Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "SeedOne was established to export agricultural products around the globe. We ensure all our customers receive high-quality products, which comply with international standards and regulations. SeedO...",
-    "tags": [
-      "provincial-other"
-    ],
-    "alts": [],
-    "website": "https://seedone.ca"
   },
   {
     "id": 2490,
@@ -31559,18 +29457,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://bumpyroadsstudio.com"
-  },
-  {
-    "id": 2518,
-    "name": "C4N4D4BBF",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "C4N4D4BFF is a Canadian company that makes three different Canadian-themed foosball tables. Their three options include the Kl4ssik, the 1ncluzion, and the Pr0t0. Kl4ssik uses telescopic bars with ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://c4n4d4bbf.ca"
   },
   {
     "id": 2519,
@@ -32509,18 +30395,6 @@
     "website": "https://natura.solutions"
   },
   {
-    "id": 2597,
-    "name": "Natural Refresh",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Natural Refresh is a female-owned business located in Alberta. They manufacture all-natural dry shampoo tinted in 6 shades to match your hair colour. All of their products are made with food-grade ...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://naturalrefresh.ca"
-  },
-  {
     "id": 2598,
     "name": "New World Natural Foods",
     "category": "Other",
@@ -33445,18 +31319,6 @@
     "website": "https://www.abokichi.com"
   },
   {
-    "id": 2675,
-    "name": "ACAN Landscape Inc.",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "ACAN Landscape is a premier manufacturer of custom outdoor living solutions, proudly based in the heart of Ontario’s cottage country.",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "http://acanpm.com"
-  },
-  {
     "id": 2676,
     "name": "ACO Container Systems a division of Rotoplast Inc.",
     "category": "Home & Electronics",
@@ -33503,18 +31365,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://www.advancedtextiles.ca"
-  },
-  {
-    "id": 2680,
-    "name": "B Creative Prints, Frames & Design Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "B Creative Prints, Frames & Design Inc. is located in Zurich, Ontario just off the shores of Lake Huron.",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "http://bcreativepfd.com"
   },
   {
     "id": 2681,
@@ -33683,18 +31533,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://amrize.com/ca/fr/amrize-homepage.html"
-  },
-  {
-    "id": 2695,
-    "name": "Andrei Khabad",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Andrei Khabad - CMAQ is a manufacturer who has applied to the certification marks of Produits du Québec and which makes our economy shine.",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://www.treespiritwoodturner.com"
   },
   {
     "id": 2696,
@@ -34103,18 +31941,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://www.yellowshoes.com"
-  },
-  {
-    "id": 2730,
-    "name": "Chop Chop",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Chop Chop is a manufacturer who has applied to the certification marks of Produits du Québec and which makes our economy shine.",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://wwww.chopchopboards.com"
   },
   {
     "id": 2731,
@@ -34969,18 +32795,6 @@
     "website": "https://ni-corporation.com"
   },
   {
-    "id": 2802,
-    "name": "Nomad Van",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Nomad Van is a manufacturer who has applied to the certification marks of Produits du Québec and which makes our economy shine.",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://ww.nomadvan.ca"
-  },
-  {
     "id": 2803,
     "name": "Noël & Pepin",
     "category": "Food",
@@ -35147,18 +32961,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://www.Pharmascience.com"
-  },
-  {
-    "id": 2817,
-    "name": "Pierre",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Pierre-Thibaut - CMAQ is a manufacturer who has applied to the certification marks of Produits du Québec and which makes our economy shine.",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://www.coutelleriedartpierreroy.com"
   },
   {
     "id": 2818,
@@ -36205,18 +34007,6 @@
     "website": "https://becaguimecfarm.com"
   },
   {
-    "id": 2905,
-    "name": "Belleisle Christmas Tree Growers Coop",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are a group of local Christmas Tree growers in Southern New Brunswick working together to sell and promote locally grown REAL Christmas Trees. The Belleisle Christmas Tree Growers CO-OP offers a...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://belleislechristmastreecoop.ca"
-  },
-  {
     "id": 2906,
     "name": "Big Axe Brewery and Bed and Breakfast",
     "category": "Food",
@@ -36253,18 +34043,6 @@
     "website": "https://bogtrotter.ca"
   },
   {
-    "id": 2909,
-    "name": "Brigadoon Fiber Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Welcome to Brigadoon Fiber Farms. We are a small family farm that raises quality fiber from our small herd of alpaca and sheep. Raised for superior fiber, we offer a range of products in our ...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://brigadoonfarms.webs.com"
-  },
-  {
     "id": 2910,
     "name": "Bubbles & Balms",
     "category": "Personal Care",
@@ -36289,18 +34067,6 @@
     "website": "https://canadianorganicmaple.com"
   },
   {
-    "id": 2912,
-    "name": "Chameleon Teas",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are an exclusively organic loose tea provider supplying clean teas to restaurants and cafes, and loose tea systems that work! We tailor for each establishment and provide retailers with pr...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://chameleonteas.ca"
-  },
-  {
     "id": 2913,
     "name": "Chef Carson’s Farm",
     "category": "Food",
@@ -36311,30 +34077,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://recoltedecheznous.com/en/producer/view/auberge_vue_de_la_dune"
-  },
-  {
-    "id": 2914,
-    "name": "Chester’s Fields Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are a small family farm that believes strongly in producing fresh, local, pesticide-free, antibiotic-free and chemical-free vegetables and meat. We offer weekly box deliveries of farm-fres...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://chestersfieldsfarm.webs.com"
-  },
-  {
-    "id": 2915,
-    "name": "Chestnut Acres Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We grow a wide variety of certified organic vegetables. We are located at Pickett Lake, 2 kilometers past the store towards Hampton. Our seasonal products are sold at the farm, Kingston Farme...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://chestnutacreslimited.com"
   },
   {
     "id": 2916,
@@ -36385,18 +34127,6 @@
     "website": "https://culinarywines.ca"
   },
   {
-    "id": 2920,
-    "name": "David Bunnett Family Farm/Green Meadows Organics",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Green Meadows is a 125-acre family farm, owned and operated by David & Sandra Bunnett with their three children, located in the village of Havelock, situated approximately 30 miles west of Mo...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://davidbunnettfamilyfarm.com"
-  },
-  {
     "id": 2921,
     "name": "Distillerie Fils du Roy Distillery",
     "category": "Food",
@@ -36412,18 +34142,6 @@
     ],
     "region": "New Brunswick",
     "website": "https://distilleriefilsduroy.com"
-  },
-  {
-    "id": 2922,
-    "name": "Earthbound Living",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Earthbound Living is a proud New Brunswick-owned family business offering a diverse selection of products fit for the whole family. We provide our clients with a wide range of Canadian produc...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://earthboundliving.ca"
   },
   {
     "id": 2923,
@@ -36462,18 +34180,6 @@
     "website": "https://farmerbrowns.ca"
   },
   {
-    "id": 2926,
-    "name": "FarmLife Studio & B&B",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are part of the Fundy Studio Tour. We are environmentalists and heritage and organic growers of our farm products. Norm Bradford's studio gallery displays original paintings, prints, and c...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://farmlifestudio.com"
-  },
-  {
     "id": 2927,
     "name": "Ferme Alva Farm",
     "category": "Food",
@@ -36486,18 +34192,6 @@
     "website": "https://fermealvafarm.com"
   },
   {
-    "id": 2928,
-    "name": "Ferme la Belle Besogne",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Diversified market garden farm in the Acadian Peninsula. We offer a variety of vegetables to our local customers.",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://fermelabellebesogne.weebly.ca"
-  },
-  {
     "id": 2929,
     "name": "Foghorn Brewing Company",
     "category": "Food",
@@ -36508,30 +34202,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://drinkfoghorn.ca"
-  },
-  {
-    "id": 2930,
-    "name": "Grafton Bridge Market",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are located on the lawn of the eclectic O’Toole Gallery, which is also open on market day. The market hosts local vendors with handmade bath and body products, woodworking, locally grown v...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://otoolegallery.com/grafton-bridge-market"
-  },
-  {
-    "id": 2931,
-    "name": "Grants Breeder Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are a small family-operated farm on the Belleisle Bay. We send milk to Baxter's and Darirytown. Free Range Eggs, Milk.",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://grantsbreederfarm.webs.com"
   },
   {
     "id": 2932,
@@ -36556,30 +34226,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://hrbrewing.ca"
-  },
-  {
-    "id": 2934,
-    "name": "Harvest To Home Organic Delivery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are a Fredericton based grocery delivery service specializing in local and organic produce baskets and grocery items. Our goal is to find consumers interested in supporting local and sustainably...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://harvestdelivery.ca"
-  },
-  {
-    "id": 2935,
-    "name": "Harvey’s Big Potato",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are a 4th generation family farm growing a variety of mixed vegetables. 90% of what we sell is grown on our family farm and we try to sell local products that we don't produce ourselves. W...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://harveysbigpotato.com"
   },
   {
     "id": 2936,
@@ -36618,18 +34264,6 @@
     "website": "https://jemsegriver.blogspot.com"
   },
   {
-    "id": 2939,
-    "name": "La Ferme Maury Les Vins de l’Acadie",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About We are the first cooperative wine vineyard in NB. We cultivate grapes, blueberries, elderberries and strawberries which we use to make our wines. We also have opportunities to have a real far...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://fermemaury.com"
-  },
-  {
     "id": 2940,
     "name": "La Ferme Springbrook Farm",
     "category": "Food",
@@ -36640,18 +34274,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://springbrookfarms.ca"
-  },
-  {
-    "id": 2941,
-    "name": "Leaf Sweets Microgreens",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Indoor and outdoor microgreen business located in Saint John. Offering free weekly delivery and a variety of microgreens year round. Currently offering delivery only.",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://leafsweets.ca"
   },
   {
     "id": 2942,
@@ -36726,18 +34348,6 @@
     "website": "https://lonepinefarmnubians.com"
   },
   {
-    "id": 2948,
-    "name": "Maplehurst Farms",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Maplehurst Farms is a small, pastured based, family farm operated by Jason Beaton and Stephanie Robertson in Colpitt’s Settlement, NB, that specializes in heritage livestock. Grass-fed Irish ...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://maplehurst.weebly.com"
-  },
-  {
     "id": 2949,
     "name": "Marché des fermiers de Bouctouche Farmers’ Market",
     "category": "Food",
@@ -36760,18 +34370,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://maybeebrew.com"
-  },
-  {
-    "id": 2951,
-    "name": "Moose Mountain Hops",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Quality Locally Grown Hops - Hop pellets made on site Moose Mountain Hops is a commercial hop farm located in Maplehurst, New Brunswick, right at the base of Moose Mountain. Our focus on producing ...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://moosemountainhops.com"
   },
   {
     "id": 2952,
@@ -36810,18 +34408,6 @@
     "website": "https://nelaskitchen.canic.ws"
   },
   {
-    "id": 2955,
-    "name": "Northern Blooms",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Northern Blooms is a small family operated speciality Cut Flower Farm located in Dalhousie Junction, N.B. We offer a full selection of freshly cut flowers, dried flowers, seasonal wreaths, and mark...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://northernblooms.ca"
-  },
-  {
     "id": 2956,
     "name": "Northern Harvest Sea Farms",
     "category": "Food",
@@ -36832,18 +34418,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://northernharvestseafarm.com"
-  },
-  {
-    "id": 2957,
-    "name": "Off Grid Ales",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About In the woods of south eastern NB, a completely off grid (solar and wind powered) craft brewery specializing in full-bodies IPAs.",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://offgridales.com"
   },
   {
     "id": 2958,
@@ -36882,54 +34456,6 @@
     "website": "https://railcarbrewing.com"
   },
   {
-    "id": 2961,
-    "name": "Rainbow Harvest Acres",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://rainbowharvestacres.com"
-  },
-  {
-    "id": 2962,
-    "name": "Rippie Valley Produce",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Rippie Valley is a family owned and run business selling home-grown vegetables. We grow our veggies without the use of chemical fertilizers or pesticides. We offer a 20 Veggie box program (wi...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://rippievalley.com"
-  },
-  {
-    "id": 2963,
-    "name": "River Valley Micro",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://valleymicro.ca"
-  },
-  {
-    "id": 2964,
-    "name": "Roland’s Sea Vegetables",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://rolandsdulse.com"
-  },
-  {
     "id": 2965,
     "name": "S. K. Export",
     "category": "Food",
@@ -36954,18 +34480,6 @@
     "website": "https://savagegardens.ca"
   },
   {
-    "id": 2967,
-    "name": "Scotty’s Hotties",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "ABOUT",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://scottyshotties.ca/index.html"
-  },
-  {
     "id": 2968,
     "name": "Serenity Wellness Inc",
     "category": "Other",
@@ -36976,42 +34490,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://serenitywellnessinc.com"
-  },
-  {
-    "id": 2969,
-    "name": "Serres MAX Produce",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "CLOSED Reliant aliments et famille ~ Connecting food and family We are producing high quality produce all year round in North-Eastern New Brunswick. Our mission is to provide fresh, healthy and loc...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://serresmaxproduce.com"
-  },
-  {
-    "id": 2970,
-    "name": "Shiretown Beer",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://shiretownbeer.com"
-  },
-  {
-    "id": 2971,
-    "name": "Skogen Apothica Inc.",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Skogen Apothica is located in Memramcook, New-Brunswick. Our artisan products are crafted in small batches using the best ingredients possible, harvested from the untamed wilderness here in Eastern...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://skogenapothica.ca"
   },
   {
     "id": 2972,
@@ -37098,30 +34576,6 @@
     "website": "https://sweetvalleyherbs.ca"
   },
   {
-    "id": 2979,
-    "name": "Symbiotic Horizons Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Small Scale Agriculture. Providing CSA membership and farm stand sales. Growing food incorporating natural farming methods and Jean-Martin Fortier style market gardening. A Permaculture project is ...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://symbiotichorizons.ca"
-  },
-  {
-    "id": 2980,
-    "name": "The Farmers’ Truck",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About Moncton's first Mobile Farmers' Market! We are a Mobile Farmers' Market! Potatoes, green/yellow beans, peas, beets, squash, turnip, tomatoes, green peppers, red peppers, onions, carrots, pie ...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://thefarmerstruck.com"
-  },
-  {
     "id": 2981,
     "name": "The Herb Farm",
     "category": "Food",
@@ -37146,18 +34600,6 @@
     "website": "https://oromoctomarket.com"
   },
   {
-    "id": 2983,
-    "name": "The Sackville Commons",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We're Sackville's first Coworking space: A social enterprise & co-op founded by women in Sackville. We lower the cost of doing something awesome in our community by providing shared office spaces &...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://coworksackville.com"
-  },
-  {
     "id": 2984,
     "name": "The Simple Pantry (Formerly Granola Girls)",
     "category": "Food",
@@ -37168,18 +34610,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://thesimplepantry.weebly.com"
-  },
-  {
-    "id": 2985,
-    "name": "The Taylored Soap Co.",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Based in the beautiful city of Fredericton NB, I am a wife to an amazing husband, and a mom to 2 beautiful children and 1 handsome furbaby. Growing up, I had a passion for creating natural products...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://thetayloredsoapco.com"
   },
   {
     "id": 2986,
@@ -37252,18 +34682,6 @@
     "tags": [],
     "region": "New Brunswick",
     "website": "https://villeneuvefamilyfarm.com"
-  },
-  {
-    "id": 2992,
-    "name": "Vital Source Nutrition",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "About",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://sourcevital.ca"
   },
   {
     "id": 2993,
@@ -37422,30 +34840,6 @@
     "website": "https://acadiansupreme.com"
   },
   {
-    "id": 3006,
-    "name": "BROOKFIELD GARDENS INC.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "PEI Fresh Products Directory farm/seafood/producer listing (2026).",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://eldgardens.ca"
-  },
-  {
-    "id": 3007,
-    "name": "COMPTON'S FARM MARKET",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "PEI fresh farm/seafood/producer listing.",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://hycroftfarms.ca"
-  },
-  {
     "id": 3008,
     "name": "DOUCETTE PRODUCE GV",
     "category": "Food",
@@ -37552,18 +34946,6 @@
     "tags": [],
     "region": "Prince Edward Island",
     "website": "https://arlingtonorchards.com"
-  },
-  {
-    "id": 3017,
-    "name": "TWO RIVERS FARM",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "PEI Fresh Products Directory farm/seafood/producer listing (2026).",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://tworiversfarmpei.com"
   },
   {
     "id": 3018,
@@ -37830,18 +35212,6 @@
     "website": "https://brightfarmstouffville.com"
   },
   {
-    "id": 3040,
-    "name": "Burrowing Owl Vineyards Ltd",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Burrowing Owl Estate Winery is a family-owned vineyard in Oliver, British Columbia, founded in 1993 by Jim Wyse. Now owned and operated by the Wyse family, it produces premium Okanagan wines and is...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://wwwburrowingowlwine.ca"
-  },
-  {
     "id": 3041,
     "name": "Cafooda International Ltd.",
     "category": "Food",
@@ -37984,30 +35354,6 @@
     "tags": [],
     "region": "National",
     "website": "https://candrytechnologies.com"
-  },
-  {
-    "id": 3053,
-    "name": "Casa Bonita",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Casa Bonita Foods was founded in 2016 in Toronto, Canada with the sole objective of providing Canadians with authentic Mexican flavours in the form of Soft Corn Tortillas and Corn Tortillas Chips. ...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://casabonitafoods.com"
-  },
-  {
-    "id": 3054,
-    "name": "CATC",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian Agriculture Trade Corporation (CATC) is an Edmonton-based supplier specializing in processing and exporting premium Canadian grains and pulses — including durum wheat, CWRS, oats, lentils,...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://catcinternational.ca"
   },
   {
     "id": 3055,
@@ -38466,30 +35812,6 @@
     "website": "https://greatnorthpetfood.ca"
   },
   {
-    "id": 3093,
-    "name": "Great Products & Services Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We offer high-quality Canadian-made meat, seafood, grains and a wide range of food products to the world.",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://best4gps.com"
-  },
-  {
-    "id": 3094,
-    "name": "Green Bowl Foods",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Green Bowl Foods is a Canadian food company creating premium, clean-label, plant-based ready-to-eat meals made with wholesome and upcycled ingredients. Our products deliver convenient, great-tastin...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://greebowlfoods.ca"
-  },
-  {
     "id": 3095,
     "name": "Green Table Ferments",
     "category": "Food",
@@ -38584,18 +35906,6 @@
     "tags": [],
     "region": "National",
     "website": "https://heritageonetrading.com"
-  },
-  {
-    "id": 3103,
-    "name": "HOLA Produce Inc.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Our mission is to deliver high-quality, fresh fruit every day. It is at the heart of everything we do. Our organization and processes are fully geared towards providing our customers with maximum s...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://holacarlos.ca"
   },
   {
     "id": 3104,
@@ -38778,18 +36088,6 @@
     "website": "https://knoceanfoods.com"
   },
   {
-    "id": 3119,
-    "name": "Kung Fu Duck",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Kung Fu Duck is a Toronto, Ontario-based meat processing company specializing in premium meat snacks and private label manufacturing. Our products include pork jerky, beef jerky, chicken jerky, Asi...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://jingwuyabo.ca"
-  },
-  {
     "id": 3120,
     "name": "Labrador Gem Seafoods",
     "category": "Food",
@@ -38920,18 +36218,6 @@
     "tags": [],
     "region": "National",
     "website": "https://maplegems.com"
-  },
-  {
-    "id": 3131,
-    "name": "Maureen Simon Foods",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Maureen Simon Foods is a Canadian, family-founded brand bringing authentic Caribbean flavours to market. Led by Maureen’s lifelong passion for cooking, our sauces and products are crafted with real...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://maureensimonfoods.com"
   },
   {
     "id": 3132,
@@ -39304,18 +36590,6 @@
     "tags": [],
     "region": "National",
     "website": "https://rivervalleyfarms.ca"
-  },
-  {
-    "id": 3163,
-    "name": "Samra Bros. Blueberry Farms Ltd.",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Samra Bros Blueberry Farms is a Canadian family-owned blueberry farming and packaging organization. Grounded in expertise passed down from generations of devoted farmers, Samra Bros is dedicated to...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://samrabrosblueberry.com"
   },
   {
     "id": 3164,
@@ -41598,18 +38872,6 @@
     "website": "https://alfalfagreen.ca"
   },
   {
-    "id": 3354,
-    "name": "Alfons Custom Furniture",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Alfons Custom Furniture is a thriving business building custom cabinetry and furniture. While cabinetry is the “bread and butter” of his business, and his true passion is custom furniture design. A...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://alfonsfurniture.com"
-  },
-  {
     "id": 3355,
     "name": "Algoma Farmers Market",
     "category": "Food",
@@ -43734,18 +40996,6 @@
     "website": "https://avgauge.com"
   },
   {
-    "id": 3532,
-    "name": "Ava Drums",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Craig here at AVA DRUMS I (mainly) build stave drums in Edmonton, Alberta, Canada. The aim is to build drums to the best of my ability, using the best materials and unique techniques, that result i...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://avadrums.com"
-  },
-  {
     "id": 3533,
     "name": "Avaria Health &#038; Beauty",
     "category": "Personal Care",
@@ -45378,18 +42628,6 @@
     "website": "https://minimills.net"
   },
   {
-    "id": 3669,
-    "name": "Bell Island Co-p Bakery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Every year the Bell Island Co-p Bakery accepts orders for bakery goods to be ready and delivered for Christmas season. Products are offered at a reduced rate for bulk orders. Bakery order forms sho...",
-    "alts": [],
-    "tags": [],
-    "region": "Newfoundland & Labrador",
-    "website": "https://bakery.bellislandcoop.ca"
-  },
-  {
     "id": 3670,
     "name": "Bella Hill Maple Syrup",
     "category": "Food",
@@ -46206,18 +43444,6 @@
     "website": "https://bierevagabond.com"
   },
   {
-    "id": 3738,
-    "name": "Black Bellows Brewing",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Black Bellows Brewing is a place where friends meet, surrounded by joyful ambiance and art, to experience expertly crafted beers and food. Whether in our funky parlour, spacious beerhall or two sep...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://blackbellows.com"
-  },
-  {
     "id": 3739,
     "name": "Black Bridge Brewery",
     "category": "Beverages",
@@ -46602,18 +43828,6 @@
     "website": "https://blindsbyvertican.com"
   },
   {
-    "id": 3771,
-    "name": "Blindz Now Inc",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Welcome to Blindz Now, your premier destination for window coverings and blinds in Alberta. Located in Sylvan Lake and serving the Red Deer, all Central Alberta, and Airdrie markets, we specialize ...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://blindznow.ca"
-  },
-  {
     "id": 3772,
     "name": "Block 3 Brewing Company",
     "category": "Beverages",
@@ -46672,18 +43886,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://bluecometseafoods.ca"
-  },
-  {
-    "id": 3777,
-    "name": "Blue Harbour Cheese",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Blue Harbour Cheese Inc (BHC) is an artisanal cheese producer specializing in hand-crafted European style cheeses. The company is unique in that it is the only URBAN cheesemaker in Nova Scotia, bas...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://blueharbourcheese.com"
   },
   {
     "id": 3778,
@@ -47838,18 +45040,6 @@
     "website": "https://brazenhall.ca"
   },
   {
-    "id": 3874,
-    "name": "Breadworks Bakery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "At Breadworks Bakery all our breads are hand made in Charlottetown, PEI with the finest ingredients. We use organic flours and seeds and local PEI ingredients whenever possible. Our bread is also a...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://breadworks.ca"
-  },
-  {
     "id": 3875,
     "name": "Breezy Way Farm",
     "category": "Food",
@@ -48474,18 +45664,6 @@
     "website": "https://buonafurniture.ca"
   },
   {
-    "id": 3927,
-    "name": "Buoy 58",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Buoy 58: Fibre Arts Studio & Store – For years, I worked side by side with my partner George, fishing lobsters and working mussels. Prior to that, I had my fair share of diverse experiences, from r...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://buoy58studio.squarespace.com"
-  },
-  {
     "id": 3928,
     "name": "Burano Doors",
     "category": "Home & Electronics",
@@ -48556,18 +45734,6 @@
     "tags": [],
     "region": "Saskatchewan",
     "website": "https://bushwakker.com"
-  },
-  {
-    "id": 3934,
-    "name": "Busy Bee Wax",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Welcome to Busy Bee Wax ~ Cast Iron Seasoning & Restoration. A little About Us we are located in beautiful Victoria BC Canada. There’s just something about cooking over an open fire with your favor...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://busybeewax.website"
   },
   {
     "id": 3935,
@@ -50238,18 +47404,6 @@
     "website": "https://centralsmith.ca"
   },
   {
-    "id": 4074,
-    "name": "Central Valley Winery",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Central Valley Winery is as unique a winery as you will find. Since we do not have our own vineyard, we must search the globe for top quality grapes; from the fruit belt of Ontario, west to Califor...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://centralvalleywinery.com"
-  },
-  {
     "id": 4075,
     "name": "Central Wire Industries",
     "category": "Home & Electronics",
@@ -50662,18 +47816,6 @@
     "website": "https://chickadeefarmherbs.ca/contact"
   },
   {
-    "id": 4109,
-    "name": "chickskiPRESS",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Meet Candace Chickowski, a multidisciplinary artist from Saskatoon, Saskatchewan and the creator behind chickskipress, a collection of illustrated prints, stickers, magnets, keychains, pins, cards ...",
-    "alts": [],
-    "tags": [],
-    "region": "Saskatchewan",
-    "website": "https://chickskipress.com"
-  },
-  {
     "id": 4110,
     "name": "Chillbed Industries",
     "category": "Home & Electronics",
@@ -50926,18 +48068,6 @@
     "website": "https://cidreriebilodeau.com"
   },
   {
-    "id": 4131,
-    "name": "Cimpoe Gallery",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Cimpoe Gallery is a collaborative enterprise between brother/sister team, Peter and Ileanna Cimpoe. Ileanna and Peter started Cimpoe Gallery in the summer of 2016. Peter attended York University an...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://cimpoe.com"
-  },
-  {
     "id": 4132,
     "name": "Cinder &#038; Sage",
     "category": "Home & Electronics",
@@ -50996,18 +48126,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://cirka.ca"
-  },
-  {
-    "id": 4137,
-    "name": "Citizen Brewing Company",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Citizen Brewing Company is a local Craft Brewery with a 50 seat tap room, Amazing out door patio (dog friendly), delicious food menu, minors allowed always, growler fills and merchandise. Open 7 da...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://caravelbrewery.com"
   },
   {
     "id": 4138,
@@ -51526,18 +48644,6 @@
     "website": "https://otnymask.com"
   },
   {
-    "id": 4181,
-    "name": "Colette Acheson Consulting",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Colette Acheson Consulting is a business consultant, published writer (Lethbridge Living Magazine) and trainer with 20 years experience, I’ve been in the Yukon since 2013. Here I’ve had many amazin...",
-    "alts": [],
-    "tags": [],
-    "region": "Yukon",
-    "website": "https://coletteacheson.com"
-  },
-  {
     "id": 4182,
     "name": "Colibri Canada",
     "category": "Clothing",
@@ -51752,18 +48858,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://conceptionpmwinc.ca"
-  },
-  {
-    "id": 4200,
-    "name": "Concordia Farmers Market",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Established in 2014, the Concordia Farmers’ Market is the main provider of fresh local, direct-to-market products for the 40 000+ daily eaters on campus. Come visit us next market day and sample wh...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://concordiafoodcoalition.com/cfm-info"
   },
   {
     "id": 4201,
@@ -52213,18 +49307,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://counterpartbrewing.com"
-  },
-  {
-    "id": 4238,
-    "name": "Country Bakery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Country Bakery was founded by Manfred and Meta Gros. Manfred spent years learning his craft as a baker, pastry chef and chocolatier in both Germany and Switzerland. This young Swiss-trained pastry ...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://countrybakery.ca"
   },
   {
     "id": 4239,
@@ -54140,18 +51222,6 @@
     "website": "https://dmbath.com"
   },
   {
-    "id": 4398,
-    "name": "Dobson&#8217;s Grass Fed Beef Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Welcome to Dobson’s Grass Fed Beef Farm. We are a small family farm located in the heart of the Ottawa Valley, Ontario. We are dedicated to ecologically and ethically sound farming practices. Our c...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://dobsonfarm.com"
-  },
-  {
     "id": 4399,
     "name": "Dockside Smoked Fish Store",
     "category": "Other",
@@ -54318,18 +51388,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://labranche.ca"
-  },
-  {
-    "id": 4413,
-    "name": "Domain Orleans",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Domain Orleans brings you Cidres and ice cidres, many types of berry gellies, sirups and jams, apple cider vinegar and much more. Come visit us in our red roof kiosk and get a taste of our deliciou...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://domaineorleans.com"
   },
   {
     "id": 4414,
@@ -55652,18 +52710,6 @@
     "website": "https://elran.com"
   },
   {
-    "id": 4524,
-    "name": "EM Custom Design Machining",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "At EM Custom Design Machining we hold ourselves up to the highest of standards, even though we have only been part of this industry since 2018. We are a leading specialty manufacturer of complex, h...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://customdesignmachining.com"
-  },
-  {
     "id": 4525,
     "name": "Emandare Vineyard",
     "category": "Beverages",
@@ -56315,18 +53361,6 @@
     "tags": [],
     "region": "Saskatchewan",
     "website": "https://everythingcountrysk.com"
-  },
-  {
-    "id": 4579,
-    "name": "EWYN Weight Loss Studios",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "EWYN Weight Loss Studios is all about creating a place where people of all ages can lose weight and be healthy. Combined, our team of professionals have over 70 years in the Weight Loss & Health In...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://ewynstudios.com/product"
   },
   {
     "id": 4580,
@@ -59058,18 +56092,6 @@
     "website": "https://globalfurnituregroup.com/ca"
   },
   {
-    "id": 4807,
-    "name": "Global Technologies",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Our window product can be installed in many ways such as brick to brick/with integrated vinyl brick molding and vinyl jam-extension in many sizes and styles based on your needs. All window styles a...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://globalwindowsresidential.com"
-  },
-  {
     "id": 4808,
     "name": "Glomalin",
     "category": "Beverages",
@@ -59620,18 +56642,6 @@
     "tags": [],
     "region": "Alberta",
     "website": "https://granaryroad.com"
-  },
-  {
-    "id": 4854,
-    "name": "Grand Falls Farmers Market",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "This Market building stands on a piece of land with great historic interest in Grand Falls. In 1889, this parcel of land housed the Burgess Mill, owned and operated by James Burgess Sr. until 1929,...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://grandfallsnb.com/farmers-market"
   },
   {
     "id": 4855,
@@ -61302,30 +58312,6 @@
     "website": "https://heronbaybrewing.ca"
   },
   {
-    "id": 4994,
-    "name": "Hey Pomelo",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Hey Pomelo was founded in early 2013 by Charmaine Baan and Manny Berenguel, with the goal of producing stylish and highly functional products for today’s parents and their babies. At Hey Pomelo we ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://heypomelo.ca"
-  },
-  {
-    "id": 4995,
-    "name": "HeyBlinds",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Choosing custom blinds for your home should be easy, not complicated. You’ve got enough to worry about and getting the best blinds for your home shouldn’t be one of them. That’s why HeyBlinds focus...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://heyblinds.ca"
-  },
-  {
     "id": 4996,
     "name": "HFS Premium",
     "category": "Home & Electronics",
@@ -62212,18 +59198,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://imcurly.ca"
-  },
-  {
-    "id": 5070,
-    "name": "Ian Laval",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Ian Laval has been designing and making furniture since 1970. He began in northwest England and now has a workshop at Brentwood Bay on Vancouver Island, British Columbia, Canada. His furniture is t...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://ianlaval.com"
   },
   {
     "id": 5071,
@@ -63306,18 +60280,6 @@
     "website": "https://jemaandjaxx.ca"
   },
   {
-    "id": 5161,
-    "name": "Jen Power",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Jen Power is a self-taught Nova Scotian artist, painting her way across the province and celebrating the beauty of the East coast. Artistic and creative freedom feeds my soul and I am grateful ever...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://jenpowerart.com"
-  },
-  {
     "id": 5162,
     "name": "Jenna Jones Art",
     "category": "Home & Electronics",
@@ -63640,18 +60602,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://johnmilnerreels.com"
-  },
-  {
-    "id": 5189,
-    "name": "Johnsons Stonehenge Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Follow the Johnsons Stonehenge Farm activities and get updates on how our year is going!",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://johnsonsstonehengefarm.ca"
   },
   {
     "id": 5190,
@@ -65068,18 +62018,6 @@
     "website": "https://krazykitty.com"
   },
   {
-    "id": 5307,
-    "name": "Kricklewood Farm",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Kricklewood Farm Sunflower Oil is the Canadian grown, pressed and bottled alternative to Olive Oil! The Cold Pressing Method creates a delicious Sunflower Oil that tastes like fresh sunflower seeds...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://kricklewoodfarm.com"
-  },
-  {
     "id": 5308,
     "name": "Krippled Fishing Lures",
     "category": "Home & Electronics",
@@ -66045,18 +62983,6 @@
     "website": "https://lazafandb.com"
   },
   {
-    "id": 5388,
-    "name": "Lazy Bear Brewing",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are a family brewing team that specialize in hand-crafted ales brewed in very small batches. You can find our Lazy Bear Brewing ales at the Annapolis Royal Farmers and Traders market and from th...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://lazybearbrewing.ca/home"
-  },
-  {
     "id": 5389,
     "name": "Le Cochon Fou",
     "category": "Food",
@@ -66523,18 +63449,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://ca.lettersbyleslie.com"
-  },
-  {
-    "id": 5428,
-    "name": "Levain Pastry",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Levain Pastry is a local bakery bringing you yummy treats which will put a smile on your face.",
-    "alts": [],
-    "tags": [],
-    "region": "Newfoundland & Labrador",
-    "website": "https://levainpastry.ca"
   },
   {
     "id": 5429,
@@ -67106,18 +64020,6 @@
     "website": "https://looppaints.com"
   },
   {
-    "id": 5476,
-    "name": "loose leaf atlas",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Loose leaf atlas is a collection of wooden goods handcrafted by Kait Pelletier in her small studio in Vancouver, BC. It was founded in 2020. Kait has a background in landscape architecture and is c...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://looseleafatlas.com/get-in-touch"
-  },
-  {
     "id": 5477,
     "name": "Lopes",
     "category": "Other",
@@ -67344,18 +64246,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://luckystrikebaitworks.com"
-  },
-  {
-    "id": 5496,
-    "name": "LUCUS Craft",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Carving wood by hand is a slow and repetitive process but at LUCUS Craft I get into a rhythm chipping away and love it. I work out of a fixed up old barn in the backyard on a little island in the e...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://lucuscraft.ca"
   },
   {
     "id": 5497,
@@ -68702,18 +65592,6 @@
     "website": "https://mcauslan.com"
   },
   {
-    "id": 5609,
-    "name": "McBuns Bakery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are a local bakery, McBuns Bakery that has been in business in Moncton N.B. since 1984. We produce a full range of fresh bakery products to service both retail and wholesale customers. Our baker...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://mcbuns.ca"
-  },
-  {
     "id": 5610,
     "name": "McClintock&#8217;s Farm",
     "category": "Food",
@@ -69540,18 +66418,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://minnowbathers.com"
-  },
-  {
-    "id": 5679,
-    "name": "Minttu Fibre Arts",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Lotte of Minttu Fibre Arts is a self-taught fibre artist with a mind for detail and an innate fascination with nature. She attributes her artistic nature to her architect father, while her modern S...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://minttufibrearts.com"
   },
   {
     "id": 5680,
@@ -71906,18 +68772,6 @@
     "website": "https://novascotiaorganics.ca"
   },
   {
-    "id": 5876,
-    "name": "Novalea Farmers Market",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Novalea Farmers Market is a weekly, outdoor public market held every Saturday from 8am until noon between June and October. Come visit us at 3540 Novalea Drive this Saturday! Are you interested...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://novaleamarket.ca"
-  },
-  {
     "id": 5877,
     "name": "Novamen",
     "category": "Home & Electronics",
@@ -73735,18 +70589,6 @@
     "website": "https://pastintonew.ca"
   },
   {
-    "id": 6028,
-    "name": "PastimesPEI",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Our little rug hooking shop PastimesPEI is located in a beautiful little district called Millview. In the past there was a mill that produced rolls of wool for the local sheep producers. Back then,...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://pastimespei.com"
-  },
-  {
     "id": 6029,
     "name": "Pat &#038; Peter Fine Art and Artisanal Creations",
     "category": "Home & Electronics",
@@ -74239,18 +71081,6 @@
     "website": "https://pfenningsfarms.ca"
   },
   {
-    "id": 6070,
-    "name": "Phil&#8217;s Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We have acres of blueberries under cultivation. Five varieties in all. At Phil’s Farm, we grow five delicious varieties of raspberries: Malahat, Qualicum, Tulameen, Chemainus and Squamish. They are...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://philsfarm.ca"
-  },
-  {
     "id": 6071,
     "name": "Philip Sparks Tailored Goods",
     "category": "Clothing",
@@ -74381,18 +71211,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://superdoracanada.com"
-  },
-  {
-    "id": 6082,
-    "name": "Pierogi House Company Limited",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Our Pierogi House Company Limited story begins in 1943, with Irena Kotas, who we lovingly call Babcia (Grandma in Polish). Babcia was raised in the mountainous region of southeast Poland where pier...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://pierogicatering.com"
   },
   {
     "id": 6083,
@@ -74597,18 +71415,6 @@
     "tags": [],
     "region": "Alberta",
     "website": "https://planterhere.com"
-  },
-  {
-    "id": 6100,
-    "name": "Planted North",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "At Planted North or Baby See See, we believe that a truly Organic Lifestyle begins with just one seed. We want Canadians from Coast to Coast to not only understand and appreciate the importance and...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://babyseesee.com"
   },
   {
     "id": 6101,
@@ -76063,18 +72869,6 @@
     "website": "https://qwickwick.com"
   },
   {
-    "id": 6222,
-    "name": "Rabbit River Farms",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Steve Easterbrook focuses on his core passion – the farming side – continuing to produce Rabbit River Farms brand eggs, spending more time with the hens and ensuring that the highest quality eggs a...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://rabbitriverfarms.com"
-  },
-  {
     "id": 6223,
     "name": "Raber Gloves",
     "category": "Other",
@@ -77131,18 +73925,6 @@
     "website": "https://roarockit.ca"
   },
   {
-    "id": 6311,
-    "name": "Robert McMillan Pottery",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Robert McMillan Pottery – “I am a trained production potter/artisan using landscape inspired designs in stoneware pottery. I work quickly and skillfully to enhance and capture the immediacy and tru...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://robertmcmillanpottery.com/contact-me"
-  },
-  {
     "id": 6312,
     "name": "Roberta Originals",
     "category": "Personal Care",
@@ -77321,18 +74103,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://rolandsigns.com"
-  },
-  {
-    "id": 6327,
-    "name": "Roll Cake Bakery &#038; Dessert",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Few things in life stimulate all of our senses at once to awaken the elusive sixth sense. At Roll Cake Bakery & Dessert where we dedicate our time and focus to providing one-of-a-kind Roll Cake wit...",
-    "alts": [],
-    "tags": [],
-    "region": "Manitoba",
-    "website": "https://rollcake.webs.com"
   },
   {
     "id": 6328,
@@ -78281,18 +75051,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://sandersonlacrosse.com"
-  },
-  {
-    "id": 6407,
-    "name": "Sandow Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Sandow Farm is located in Keswick Ridge, a rural community in New Brunswick famous for its scenic rolling hills and apple orchards. The farm is situated on a 5-acre property within the Wolastoq/Sai...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://sandowfarm.ca"
   },
   {
     "id": 6408,
@@ -79315,18 +76073,6 @@
     "website": "https://sidelaunchbrewing.com"
   },
   {
-    "id": 6493,
-    "name": "Sidney Bakery",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Sidney Bakery has been in the family for over 70 years. Owned by Mike and Colleen Hay this special spot has made its mark with its famous donuts, sausage rolls breads and pastries. ​First estab...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://sidneybakery.ca"
-  },
-  {
     "id": 6494,
     "name": "Signal Hill Whisky",
     "category": "Beverages",
@@ -79663,18 +76409,6 @@
     "website": "https://skeenabakery.ca"
   },
   {
-    "id": 6522,
-    "name": "Skeleton Park Brewery",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Founded in Kingston, Canada, the origin of Skeleton Park Brewery began on the other side of the world: Taiwan. It was there trained chemist and SPB founder, Trevor Lehoux, was living, teaching and ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://shop.skeletonpark.ca"
-  },
-  {
     "id": 6523,
     "name": "Skevik Skis",
     "category": "Other",
@@ -79841,18 +76575,6 @@
     "tags": [],
     "region": "Saskatchewan",
     "website": "https://sliceddecadence.com"
-  },
-  {
-    "id": 6537,
-    "name": "Slmbr Mattress",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Wellness has always been a big part of our lives! As we gained more experience throughout the years the realization of how important sleep is to performing your best became more clear. We wanted to...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://slmbrmattress.com"
   },
   {
     "id": 6538,
@@ -81587,18 +78309,6 @@
     "website": "https://strathconaspirits.ca"
   },
   {
-    "id": 6682,
-    "name": "Strawhopper",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are a Canadian glass straw manufacturer, passionate about our product and helping the environment. I created StrawHopper with help from my Fiancé’s manufacturing awesomeness, my love for everyth...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://strawhopper.com"
-  },
-  {
     "id": 6683,
     "name": "Stray Dog Brewing Company",
     "category": "Beverages",
@@ -81717,18 +78427,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://studio501handmade.com"
-  },
-  {
-    "id": 6693,
-    "name": "Studio Bloom Co.",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Studio Bloom Co. – The process of working with my hands, layering, adding colors, shapes, playing with lines based on how I am feeling has become extremely therapeutic for me. With a curious heart ...",
-    "alts": [],
-    "tags": [],
-    "region": "Manitoba",
-    "website": "https://studiobloomco.com"
   },
   {
     "id": 6694,
@@ -82811,18 +79509,6 @@
     "website": "https://tatabrew.com"
   },
   {
-    "id": 6784,
-    "name": "Tatamagouche Farmers Market",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Tatamagouche Farmers Market Co-operative Ltd respectfully acknowledges that the land on which we gather is in traditional ancestral and unceded territory of the Mi’kmaq People. The TFM endeavor...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://tatafarmersmarket.com"
-  },
-  {
     "id": 6785,
     "name": "Tate + Yoko",
     "category": "Clothing",
@@ -83109,30 +79795,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://terracaf.ca"
-  },
-  {
-    "id": 6809,
-    "name": "Terra Woodcraft",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Introducing our handmade wooden urns, crafted with the utmost care and attention to detail. At Terra Woodcraft we use high-quality walnut and cherry to ensure durability and natural beauty. Our ski...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://terrawoodcraft.ca"
-  },
-  {
-    "id": 6810,
-    "name": "Tetra Speakers",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Tetra Speakers is a Canadian manufacturer of high end speakers with models ideal as surround sound … After all, these were the people who created the music in the first place.",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://tetraspeakers.com"
   },
   {
     "id": 6811,
@@ -83615,18 +80277,6 @@
     "website": "https://thefermentationstation.ca"
   },
   {
-    "id": 6851,
-    "name": "The Fisher&#8217;s Dog",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Fisher’s Dog is an all natural cooked dog food that provides many health benefits and is a balanced meal for dogs. This homemade stew boasts locally sourced Rainbow Trout, sweet potatoes, carro...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://thefishersdog.com"
-  },
-  {
     "id": 6852,
     "name": "The Flag Shop Nova Scotia",
     "category": "Home & Electronics",
@@ -83951,18 +80601,6 @@
     "website": "https://juicepressinc.com"
   },
   {
-    "id": 6879,
-    "name": "The Ketchup Project",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We are called The Ketchup Project for one reason, we experiment and push the boundaries of what ketchup can be. From a wide variety of ingredients and colour, ketchup doesn’t always have to be what...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://theketchupproject.ca"
-  },
-  {
     "id": 6880,
     "name": "The Lemon Square",
     "category": "Other",
@@ -84285,18 +80923,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://puckcatcher.com"
-  },
-  {
-    "id": 6907,
-    "name": "The Rocky Lemon",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Rocky Lemon – Nada has been making professional treats with that homemade taste since 2011. Indulge your sweet side at her vintage-inspired food trailer, serving up the best sweets, treats, and...",
-    "alts": [],
-    "tags": [],
-    "region": "New Brunswick",
-    "website": "https://therockylemon.com"
   },
   {
     "id": 6908,
@@ -84645,18 +81271,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://thosepretzels.com"
-  },
-  {
-    "id": 6937,
-    "name": "Thotum U-Pick Vegetables",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Thotum U-Pick Vegetables is a newly established family-run Market Garden in Winnipeg. Our mission is to produce nutritious vegetables and fruits for u-pick at an affordable cost. Through constantly...",
-    "alts": [],
-    "tags": [],
-    "region": "Manitoba",
-    "website": "https://thotum.com"
   },
   {
     "id": 6938,
@@ -86920,18 +83534,6 @@
     "website": "https://vermeulenfarms.com"
   },
   {
-    "id": 7126,
-    "name": "Vernon Bruce Designs",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Hi my name is Vernon of Vernon Bruce Designs. I’m a 3rd generation woodworker. I’ve been working with wood for 30 plus years, hard to believe. This is my small business here in Canada. It’s Corn an...",
-    "alts": [],
-    "tags": [],
-    "region": "Manitoba",
-    "website": "https://vernonbrucedesigns.ca"
-  },
-  {
     "id": 7127,
     "name": "Veroboard",
     "category": "Home & Electronics",
@@ -88436,18 +85038,6 @@
     "website": "https://wigglesandwhiskers.ca"
   },
   {
-    "id": 7252,
-    "name": "Wild Craft Organic Mustard",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Many of us have always thought of mustard as just a condiment that we can put on sandwiches and hot dogs to brighten them up. At Wild Craft Organic Mustard we’re here to introduce you to a whole ne...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://wildcraftbc.ca"
-  },
-  {
     "id": 7253,
     "name": "Wild Crafted Tallow",
     "category": "Personal Care",
@@ -89408,18 +85998,6 @@
     "website": "https://xzonelures.com"
   },
   {
-    "id": 7333,
-    "name": "XStacey Bath Products",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "XStacey Bath Products are handmade natural bath and body products, located and made in Regina, Saskatchewan. Free shipping in Canada.",
-    "alts": [],
-    "tags": [],
-    "region": "Saskatchewan",
-    "website": "https://xstaceybath.ca"
-  },
-  {
     "id": 7334,
     "name": "Xtreme Digital GraphiX",
     "category": "Home & Electronics",
@@ -89538,18 +86116,6 @@
     "tags": [],
     "region": "Northwest Territories",
     "website": "https://yellowknifefarmersmarket.ca"
-  },
-  {
-    "id": 7344,
-    "name": "Yellowlees Family Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Yellowlees Family Farm is a small farm that raises sheep and lambs as well as growing sunflowers and millets for birdseed. Recently, pork and beef has been added into the operation. Focus on farm g...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://farmersmarketsontario.com/farmer/yellowlees-family-farm"
   },
   {
     "id": 7345,
@@ -90848,18 +87414,6 @@
     "website": "https://www.instagram.com"
   },
   {
-    "id": 7453,
-    "name": "Canadian Landscape Art",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Original oil paintings, canvas and paper prints. Made-in-CA SKUs: 100%.",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://www.aftonbrazzoni.com"
-  },
-  {
     "id": 7454,
     "name": "Candace & Basil Custom Furniture",
     "category": "Home & Electronics",
@@ -91244,18 +87798,6 @@
     "website": "https://inhabitmedia.com"
   },
   {
-    "id": 7486,
-    "name": "Iris + Arlo – Natural menstrual products",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian mentrual products made in 100% organic cotton. Good for health, better for the planet. Made-in-CA SKUs: 50%; Canadian-owned: 100%.",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://iriarlo.com"
-  },
-  {
     "id": 7487,
     "name": "IRONHEAD",
     "category": "Clothing",
@@ -91350,18 +87892,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://www.littlecreekdressing.ca"
-  },
-  {
-    "id": 7495,
-    "name": "Local-Preserve",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "All Pickles and jams made by local preserve are locally sourced in Canada. Made-in-CA SKUs: 100%; Canadian-owned: 100%.",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://www.Local-Preserve.com"
   },
   {
     "id": 7496,
@@ -91652,18 +88182,6 @@
     "website": "https://rileyskitchen.ca"
   },
   {
-    "id": 7520,
-    "name": "Ruby Throated French Linen Tea Towel",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "This generous 24 by 28 inch French Linen tea towel is a touch of art and functionality rolled into one. Made-in-CA SKUs: 100%; Canadian-owned: 100%.",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://www.stuioontenth.com"
-  },
-  {
     "id": 7521,
     "name": "Ruth Linda Morton Art",
     "category": "Home & Electronics",
@@ -91674,18 +88192,6 @@
     "tags": [],
     "region": "National",
     "website": "https://www.ruthlindamorton.com"
-  },
-  {
-    "id": 7522,
-    "name": "Scents & Sounds – Candles",
-    "category": "Household",
-    "origin": "Canada",
-    "score": 90,
-    "description": "At Scents & Sounds, each candle is paired with a custom music track produced entirely in-house. All music is composed and created in Canada by Jeff Eden, a Canadian musician, Juno-nominated songwri...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://www.scentsandsounds.co"
   },
   {
     "id": 7523,
@@ -95216,18 +91722,6 @@
     "website": "https://campionboats.com"
   },
   {
-    "id": 7819,
-    "name": "Can-Am Spyder",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "The Can-Am Spyder is a unique three-wheeled vehicle that was first introduced in 2007. It is not quite a motorcycle but it is not quite a trike either. It has two front wheels and one back wheel. I...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://brp.ca/spyder"
-  },
-  {
     "id": 7820,
     "name": "Canada Bread",
     "category": "Other",
@@ -95780,18 +92274,6 @@
     "website": "https://cheerfetti.ca"
   },
   {
-    "id": 7866,
-    "name": "Chef Felton",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Felton Brushes has been in business since 1933. It is a 100% Canadian-owned and operated company and manufactures all of its products in Hamilton, Ontario. The idea for a barbecue brush was born in...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://cheffelton.com"
-  },
-  {
     "id": 7867,
     "name": "Cherry Bomb Coffee",
     "category": "Beverages",
@@ -96107,30 +92589,6 @@
     "tags": [],
     "region": "British Columbia",
     "website": "https://cocoandtini.com"
-  },
-  {
-    "id": 7893,
-    "name": "Coco Karamel",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We will let Coco Karamel speak for themselves in describing their alfajores: “An amazing cookie-pie, with two thin cookies that give the creamy and rich dulce de leche (milk caramel) the center sta...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://cocokaramel.com"
-  },
-  {
-    "id": 7894,
-    "name": "Coldstream Clear",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Coldstream Clear is a Canadian distillery and brewery. The company was founded in 2015 with the goal to produce great tasting beverages to share with the community. The founder, Riley, became passi...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://coldstreamclear.co"
   },
   {
     "id": 7895,
@@ -96697,18 +93155,6 @@
     "website": "https://darfordstore.com"
   },
   {
-    "id": 7942,
-    "name": "Darling Dear Co.",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Darling Dear Co. was founded by a mother-daughter team in 2016. The company is based in Edmonton, Alberta, where each item is designed, handmade, and packaged. Rosana, the mother, is in charge of s...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://darlingdearco.com"
-  },
-  {
     "id": 7943,
     "name": "Dbrand",
     "category": "Other",
@@ -96731,18 +93177,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://dcnplastic.com"
-  },
-  {
-    "id": 7945,
-    "name": "Deep Water Farms",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Founded in 2015, Deepwater Farms is a Canadian company that is located in Calgary, Alberta. The company grows fresh organic greens to deliver to their partners year-round. They grow their food in a...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://deepwaterfarms.com"
   },
   {
     "id": 7946,
@@ -96863,18 +93297,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://dianacoatsworthdesign.com"
-  },
-  {
-    "id": 7956,
-    "name": "Dimpflmeier Bakery",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "As the name Dimpflmeier suggests, the Dimpflmeier Bakery has German roots and for over 60 years has been making bread using German techniques in Canada. Established in 1957 by Alfons Dimpflmeier, t...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://dimpflmeierbakery.c"
   },
   {
     "id": 7957,
@@ -97297,18 +93719,6 @@
     "website": "https://edsmith.com"
   },
   {
-    "id": 7992,
-    "name": "Eagle Print Letterpress",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Eagle Print Letterpress is a print shop based in Toronto, Ontario. It has been offering letterpress printing services since 2006. All printing is done in-house using vintage cast iron presses. Lett...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://eagleprint.ca"
-  },
-  {
     "id": 7993,
     "name": "East Coast Cider Company",
     "category": "Beverages",
@@ -97619,18 +94029,6 @@
     "tags": [],
     "region": "National",
     "website": "https://emma-sleep.ca"
-  },
-  {
-    "id": 8019,
-    "name": "Emma and April",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Emma and April is a Canadian clothing brand specialising in handcrafted children’s apparel, particularly beanies and toques. The company was founded by Terri, who studied Fashion Design and Merchan...",
-    "alts": [],
-    "tags": [],
-    "region": "Alberta",
-    "website": "https://emmaandapril.com"
   },
   {
     "id": 8020,
@@ -98101,18 +94499,6 @@
     "website": "https://figclothing.ca"
   },
   {
-    "id": 8059,
-    "name": "Fika Wallart",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian-owned and operated, Fika Wallart is an Ontario-based company with a unique idea for displaying wall art. The founders started their company because they recognized the need for sustainable...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://fikawallart.com"
-  },
-  {
     "id": 8060,
     "name": "Fin and Wheel",
     "category": "Clothing",
@@ -98195,18 +94581,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://flo.ca"
-  },
-  {
-    "id": 8067,
-    "name": "Flourish Kitchen",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Canadian owned and operated, Flourish Kitchen is a small company that produces good, nutritious food for people on the go. The owners of the company are Kate and Kevin who are avid travellers with ...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://flourish.kitchen"
   },
   {
     "id": 8068,
@@ -98303,18 +94677,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://foreverspin.com"
-  },
-  {
-    "id": 8076,
-    "name": "Form+Theory Store",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "C. Laine Dos Santos is a Canadian author and artist with a knack for visual storytelling. Her store, Form+Theory Store, is more than just a way to sell her children’s books and fine art. You’ll fin...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://formandtheorystore.com"
   },
   {
     "id": 8077,
@@ -98867,18 +95229,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://godinguitars.com"
-  },
-  {
-    "id": 8123,
-    "name": "Gollers Glamour",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Gollers Glamour – KIZZIZ is a Canadian-owned and operated company. It was started by Charlene Goller and is located in Welland, ON. The company produces a wide range of beauty products. Charlene st...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://gollersglamour.com"
   },
   {
     "id": 8124,
@@ -99925,18 +96275,6 @@
     "website": "https://hu-ha.com"
   },
   {
-    "id": 8211,
-    "name": "Hummingbird Chocolate Maker",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Hummingbird is a craft chocolate maker, creating award-winning, single-origin chocolate in 10 arduous steps from cacao bean to chocolate bar. Based in Almonte, Ontario, Hummingbird focuses on ethic...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://hummingbirdchocolate.c"
-  },
-  {
     "id": 8212,
     "name": "HUNA (Huna Skin Inc.)",
     "category": "Personal Care",
@@ -99983,18 +96321,6 @@
     "tags": [],
     "region": "National",
     "website": "https://hushmail.com"
-  },
-  {
-    "id": 8216,
-    "name": "Hutchinson’s Maple Syrup",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Hutchinson Maple Syrup is the premier family-owned maple syrup producer in Nova Scotia. They are also the largest Certified Organic maple producer in the province, with more than 75,000 litres made...",
-    "alts": [],
-    "tags": [],
-    "region": "Nova Scotia",
-    "website": "https://hutchinsonacres.com"
   },
   {
     "id": 8217,
@@ -100499,18 +96825,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://jm.ca"
-  },
-  {
-    "id": 8259,
-    "name": "Joe’s Gluten Free",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Joe’s Gluten Free is a Canadian owned and operated company that is located in Regina, SK. The founder of the company is Joe Oddo. Joe began trying out gluten free baking products in 1987 and then s...",
-    "alts": [],
-    "tags": [],
-    "region": "Saskatchewan",
-    "website": "https://joesglutenfree.com"
   },
   {
     "id": 8260,
@@ -101209,18 +97523,6 @@
     "website": "https://leathersmithdesigns.com"
   },
   {
-    "id": 8318,
-    "name": "Leckie Apparel",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Women's clothing. Canadian-owned (Made in CA grocery/guide table).",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://leckieapparel.com"
-  },
-  {
     "id": 8319,
     "name": "Left Field Cider",
     "category": "Beverages",
@@ -101327,18 +97629,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://liberte.ca"
-  },
-  {
-    "id": 8328,
-    "name": "Libra Beverage Co.",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Launched in 2020, Libra Beverage Co. is a Canadian owned and operated company that is located in Charlottetown, PEI. They were founded by Deborah, Mike and Mitch and the company produces a line of ...",
-    "alts": [],
-    "tags": [],
-    "region": "Prince Edward Island",
-    "website": "https://drinklibra.ca"
   },
   {
     "id": 8329,
@@ -101665,18 +97955,6 @@
     "website": "https://loovay.com"
   },
   {
-    "id": 8356,
-    "name": "Los Cantores Tortilla Chips",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Los Cantores Tortilla Chips are made by Mexican Corn Products Inc. which is a family-owned and operated business. The Godinez-Luna family immigrated to Canada in 2001 and originated from Tamazula, ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://mexicancornproducts.co"
-  },
-  {
     "id": 8357,
     "name": "Lost Aviator Coffee Company",
     "category": "Beverages",
@@ -101843,18 +98121,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://canadianmags.ca"
-  },
-  {
-    "id": 8371,
-    "name": "Madawaska Doors",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Madawaska is a company based in Ontario that started in 1947. It was started by the Hildebrandt family and was a small home-based business. In 1973, the company became Madawaska Doors. The company ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://madawaska-doors.ca"
   },
   {
     "id": 8372,
@@ -102901,18 +99167,6 @@
     "website": "https://whytes.ca/mrs-whytes"
   },
   {
-    "id": 8459,
-    "name": "MTL Preserves",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "MTL Preserves was founded in 2023 by John Kakomanolis and Matthew Guagliardo. Their goal is to make delicious jams and jellies without chemicals, preservatives, or anything else you don’t need in y...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://conservesmtl.com"
-  },
-  {
     "id": 8460,
     "name": "MTY Group",
     "category": "Food",
@@ -103957,18 +100211,6 @@
     "website": "https://onefortheroadbrewing.com"
   },
   {
-    "id": 8547,
-    "name": "One Step Hand Sanitizer",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "One Step Hand Sanitizer is a Canadian-made option to ensure your hands are good and cracked and chafing due to repeated use. One Step makes a 62% alcohol product as well as an extra-strength 70% al...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://onestepsani.com"
-  },
-  {
     "id": 8548,
     "name": "OneSpan",
     "category": "Other",
@@ -105001,18 +101243,6 @@
     "website": "https://pro-derm.com"
   },
   {
-    "id": 8634,
-    "name": "Professor Noggin’s Card Games",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "We here at MiC are skeptical as to the educational credentials of Professor Noggin – what university is she affiliated with, we wonder – but we can’t argue with the success of Professor Noggin’s ga...",
-    "alts": [],
-    "tags": [],
-    "region": "Quebec",
-    "website": "https://professornoggin.com"
-  },
-  {
     "id": 8635,
     "name": "Projected Lighting Designs Inc.",
     "category": "Household",
@@ -105865,18 +102095,6 @@
     "website": "https://robinhood.ca"
   },
   {
-    "id": 8706,
-    "name": "Rock & Prairie Clothing Co.",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Clothing for men, women, and kids with toques. Canadian-owned (Made in CA grocery/guide table).",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://rockandprairie.ca"
-  },
-  {
     "id": 8707,
     "name": "Rocky Mountain Bicycles",
     "category": "Home & Electronics",
@@ -106357,18 +102575,6 @@
     "website": "https://schoolhouseglutenfreegourmet.com"
   },
   {
-    "id": 8747,
-    "name": "SD Naturals",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Spa Dent, or SD Naturals, was founded in 2009. This company produces dental whitening products, toothpaste, and other cosmetic and clinical oral care products. This company now owns a 20% share of ...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://spadentaturals.ca"
-  },
-  {
     "id": 8748,
     "name": "Sea Wench Naturals",
     "category": "Personal Care",
@@ -106703,18 +102909,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://simplii.com"
-  },
-  {
-    "id": 8776,
-    "name": "Simply Clean",
-    "category": "Household",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Simply Clean is a Canadian eco-friendly cleaning brand manufactured by Pure Source in Guelph, Ontario. The cleaning products have a minimum impact on the environment and the user. The impact is mea...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://simply-clean.ca"
   },
   {
     "id": 8777,
@@ -107401,18 +103595,6 @@
     "website": "https://sunnyd.com"
   },
   {
-    "id": 8834,
-    "name": "Sunset City",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Sunset City is a Canadian company with its headquarters located in Vancouver, British Columbia. The company sells a wide range of magic mushrooms. They also aim to provide the North American commun...",
-    "alts": [],
-    "tags": [],
-    "region": "British Columbia",
-    "website": "https://sunsetcity.ca"
-  },
-  {
     "id": 8835,
     "name": "Sunshine Farms",
     "category": "Food",
@@ -107495,18 +103677,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://supremepierogies.ca"
-  },
-  {
-    "id": 8842,
-    "name": "Sweet Kiwi & Co",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Sweet Kiwi & Co is a Canadian company, based in Ontario, that was established by Atheeni. She is the creative genius behind the venture and she has her own YouTube channel called Atheeni Makes Stuf...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://sweetkiwico.com"
   },
   {
     "id": 8843,
@@ -107627,18 +103797,6 @@
     "tags": [],
     "region": "Quebec",
     "website": "https://tavliani.com"
-  },
-  {
-    "id": 8853,
-    "name": "Taylor Lethbridge Violins",
-    "category": "Beverages",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Taylor Lethbridge’s devotion to the instruments from the violin family stems from the arts, science, and history behind them. He founded Taylor Lethbridge Violins in 2015 after a few years of doing...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://lethbridge.xyz"
   },
   {
     "id": 8854,
@@ -108157,30 +104315,6 @@
     "website": "https://thinkon.com"
   },
   {
-    "id": 8897,
-    "name": "This and That Canine Company Inc.",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Founded in Ontario in 2009, This and That Canine Company Inc. emerged from a unexpected discovery by a dog named Petunia when she found a deer antler that inspired the creation of a range of natura...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://thisandthatcanineco.com"
-  },
-  {
-    "id": 8898,
-    "name": "Thotfuldog",
-    "category": "Home & Electronics",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Thotfuldog is not a company making products for dogs as the name might suggest; it is actually a card company. The name was inspired by the founder’s dog that was born around the same time as she s...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://thotfuldog.com"
-  },
-  {
     "id": 8899,
     "name": "Three H",
     "category": "Home & Electronics",
@@ -108227,18 +104361,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://throwntogetherpottery.com"
-  },
-  {
-    "id": 8903,
-    "name": "Thumbp",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Thumbp is a personal care company located in Vancouver, B.C. They produce organic, vegan, and gluten-free shower products. These shampoos, conditioners, and body washes are aimed at teenagers who n...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://getthumbp.com"
   },
   {
     "id": 8904,
@@ -109105,18 +105227,6 @@
     "website": "https://webnames.ca"
   },
   {
-    "id": 8976,
-    "name": "Weighted-For-You",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Weighted blankets have become increasingly popular in recent years as research suggests that they are very effective for those with sensory issues and can also be very helpful for those with insomn...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://weightedforyou.com"
-  },
-  {
     "id": 8977,
     "name": "Well.ca",
     "category": "Food",
@@ -109127,18 +105237,6 @@
     "tags": [],
     "region": "Alberta",
     "website": "https://well.ca"
-  },
-  {
-    "id": 8978,
-    "name": "Wendell Estate Honey",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Wendell’s Estate Honey is produced at Wendell family farm where they keep 3,500 beehives. The family harvests their own honey which is then packaged fresh at their farm. The family has been produci...",
-    "alts": [],
-    "tags": [],
-    "region": "Manitoba",
-    "website": "https://wendellestate.c"
   },
   {
     "id": 8979,
@@ -109465,18 +105563,6 @@
     "website": "https://prospectortents.com"
   },
   {
-    "id": 9006,
-    "name": "Worker Bee Honey Company",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "Jerry Awram and his wife Pia started beekeeping in 1973. Worker Bee Honey Company is now a booming business that specializes in fruit-flavoured honey. Since the flavour of honey changes based on th...",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://truefoodlabs.com/workerbeehoney"
-  },
-  {
     "id": 9007,
     "name": "WORLD Skincare",
     "category": "Personal Care",
@@ -109583,18 +105669,6 @@
     "tags": [],
     "region": "Ontario",
     "website": "https://zegsauces.com"
-  },
-  {
-    "id": 9016,
-    "name": "ZEISS Vision Care",
-    "category": "Other",
-    "origin": "Canada",
-    "score": 90,
-    "description": "(German-owned) ZEISS Vision Care is a part of the larger ZEISS Group, which is a German-owned company. The company dates back to 1946 when Carl Zeiss opened his workshop for optical instruments and...",
-    "alts": [],
-    "tags": [],
-    "region": "Ontario",
-    "website": "https://zeiss.ca/vision-"
   },
   {
     "id": 9017,
@@ -110399,18 +106473,6 @@
     "tags": [],
     "region": "National",
     "website": "https://www.montecreekwinery.com/"
-  },
-  {
-    "id": 9084,
-    "name": "THE BOG Riverside Cranberry Farm",
-    "category": "Food",
-    "origin": "Canada",
-    "score": 90,
-    "description": "BC Buy BC–licensed producer with 14 licensed products in categories Sauces, Dressings and Seasonings, Fruits and Vegetables, Beverages.",
-    "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://riversidecranberries.com/"
   },
   {
     "id": 9085,
@@ -115718,18 +111780,6 @@
     "id": 9530
   },
   {
-    "name": "Farmers Larder",
-    "category": "Food",
-    "origin": "Canada",
-    "region": "British Columbia",
-    "score": 90,
-    "description": "BC Buy BC–licensed producer with 13 licensed products in categories Meat and Poultry.",
-    "website": "https://www.farmerslarder.ca/",
-    "tags": [],
-    "alts": [],
-    "id": 9531
-  },
-  {
     "name": "Fat Daug",
     "category": "Other",
     "origin": "Canada",
@@ -116222,18 +112272,6 @@
     "id": 9572
   },
   {
-    "name": "Kaslo Sourdough",
-    "category": "Other",
-    "origin": "Canada",
-    "region": "British Columbia",
-    "score": 90,
-    "description": "Our products offer numerous health benefits, cooking ease, and distinct flavours that conventional pasta does not. Our sourdough pasta is not only flavourful but also packed with nutrients. Each forkful rewards your body with proteins…",
-    "website": "https://pastafermentata.com/",
-    "tags": [],
-    "alts": [],
-    "id": 9573
-  },
-  {
     "name": "Keenan Farms",
     "category": "Food",
     "origin": "Canada",
@@ -116450,18 +112488,6 @@
     "id": 9591
   },
   {
-    "name": "Made in Canada Gifts",
-    "category": "Other",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Made in Canada Gifts is an Ottawa-based boutique with a strong online presence. It was established in 2010 and was first known as The Cuckoo’s Nest. The company’s brick-and-mortar store is located in The Rideau Centre…",
-    "website": "https://made-gifts.com:443/",
-    "tags": [],
-    "alts": [],
-    "id": 9592
-  },
-  {
     "name": "Made with Local",
     "category": "Food",
     "origin": "Canada",
@@ -116640,18 +112666,6 @@
     "tags": [],
     "alts": [],
     "id": 9607
-  },
-  {
-    "name": "Nature Clean",
-    "category": "Personal Care",
-    "origin": "Canada",
-    "region": "Ontario",
-    "score": 90,
-    "description": "Nature Clean is a locally owned company, helping to employ Canadians and producing Canadian made products. We’re incredibly proud of our Canadian heritage. We love telling people that our products are manufactured and packaged in Canada!…",
-    "website": "https://natureclean.ca/",
-    "tags": [],
-    "alts": [],
-    "id": 9608
   },
   {
     "name": "NDW Labs Inc",
@@ -116846,18 +112860,6 @@
     "id": 9624
   },
   {
-    "name": "Padmashri Naturals Inc.",
-    "category": "Other",
-    "origin": "Canada",
-    "region": "British Columbia",
-    "score": 90,
-    "description": "BC Buy BC–licensed producer with 41 licensed products in categories Natural Health Products.",
-    "website": "https://padmashri.ca/",
-    "tags": [],
-    "alts": [],
-    "id": 9625
-  },
-  {
     "name": "Paws Bento",
     "category": "Food",
     "origin": "Canada",
@@ -116988,30 +112990,6 @@
     "tags": [],
     "alts": [],
     "id": 9636
-  },
-  {
-    "name": "Rebel and Siren",
-    "category": "Other",
-    "origin": "Canada",
-    "region": "Saskatchewan",
-    "score": 90,
-    "description": "Founded in 2021, Rebel and Siren is a high-quality sticker brand that focuses on creating cute, quirky statement stickers. Themes they cover include animals, mental health, quotes, LGBTQ, and witchy aesthetic (with…",
-    "website": "https://rebelandsiren.ca(individualsale), rebelandsiren.faire.com(wholesale/",
-    "tags": [],
-    "alts": [],
-    "id": 9637
-  },
-  {
-    "name": "Rebel and Siren",
-    "category": "Other",
-    "origin": "Canada",
-    "region": "Saskatchewan",
-    "score": 90,
-    "description": "Founded in 2021, Rebel and Siren is a high-quality sticker brand that focuses on creating cute, quirky statement stickers. Themes they cover include animals, mental health, quotes, LGBTQ, and witchy aesthetic (with…",
-    "website": "https://rebelandsiren.ca/",
-    "tags": [],
-    "alts": [],
-    "id": 9638
   },
   {
     "name": "Red Rose Tea",
@@ -118623,18 +114601,6 @@
     "alts": []
   },
   {
-    "id": 9757,
-    "name": "Canadian Linen",
-    "category": "Household",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Canadian-owned bed and bath linen brand.",
-    "website": "https://canadianlinen.ca/",
-    "tags": [],
-    "alts": []
-  },
-  {
     "id": 9758,
     "name": "Canuck Cutting Boards",
     "category": "Household",
@@ -119739,18 +115705,6 @@
     "alts": []
   },
   {
-    "id": 9850,
-    "name": "HUM Apparel",
-    "category": "Clothing",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Canadian apparel brand.",
-    "website": "https://humapparel.com/",
-    "tags": [],
-    "alts": []
-  },
-  {
     "id": 9851,
     "name": "Rowantree Clothing",
     "category": "Clothing",
@@ -119771,18 +115725,6 @@
     "score": 90,
     "description": "Canadian slow fashion brand.",
     "website": "https://vespertine.ca/",
-    "tags": [],
-    "alts": []
-  },
-  {
-    "id": 9853,
-    "name": "The Hernest Project",
-    "category": "Clothing",
-    "origin": "Canada",
-    "region": "National",
-    "score": 90,
-    "description": "Canadian clothing brand.",
-    "website": "https://thehernestproject.com/",
     "tags": [],
     "alts": []
   },
