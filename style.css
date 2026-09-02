@@ -137,3 +137,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 .shared-list-title{font-size:16px;font-weight:700;color:#111827;margin:2px 0 4px}
 .shared-list-meta{font-size:12px;color:#6b7280}
 .shared-list-actions{display:flex;gap:8px;flex-wrap:wrap}
+
+/* Sticky search / filter bars sit under the sticky header */
+.sticky-controls{
+  position:sticky;
+  top:56px;
+  z-index:40;
+  background:#f3f4f6;
+  padding:10px 0 12px;
+  margin:0 0 8px;
+  border-bottom:1px solid #e5e7eb;
+  box-shadow:0 6px 12px -8px rgba(0,0,0,.12);
+}
+.sticky-controls .search-box{margin-bottom:0}
+.sticky-controls .categories{margin-bottom:0;padding-bottom:2px}
+@media(max-width:480px){
+  .sticky-controls{top:52px;padding:8px 0 10px}
+}

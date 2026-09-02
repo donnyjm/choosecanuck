@@ -6,7 +6,7 @@
 <title>ChooseCanuck</title>
 <script data-goatcounter="https://donnym.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-<link rel="stylesheet" href="style.css?v=36">
+<link rel="stylesheet" href="style.css?v=37">
 </head>
 <body>
 <div class="header">
@@ -24,7 +24,9 @@
   <div class="section active" id="search-section">
     <div class="hero"><h2>Find Canadian Products</h2><p>Every listing is Canadian-made and links to the brand’s own website.</p><div class="hero-tags"><span>🇨🇦 Support Local</span><span>🔗 Official websites only</span><span>🏭 Grow Domestic Industry</span></div></div>
     <div class="canada-badge">🍁 <strong id="productCountBadge">Canadian Products</strong> — each with an official website</div>
-    <div class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input type="text" id="searchInput" placeholder="Try: peanut butter, toilet paper, coffee, ketchup chips..." autocomplete="off"></div>
+    <div class="sticky-controls">
+      <div class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input type="text" id="searchInput" placeholder="Try: peanut butter, toilet paper, coffee, ketchup chips..." autocomplete="off"></div>
+    </div>
     <div id="searchResults"></div>
     <div class="home-stats" id="homeStats"></div>
     <div class="home-section">
@@ -47,13 +49,13 @@
   </div>
   <div class="section" id="categories-section">
     <div class="hero"><h2>Browse by Category</h2><p>Explore Canadian-made products across everyday categories.</p></div>
-    <div class="categories" id="categoryChips"></div>
+    <div class="sticky-controls"><div class="categories" id="categoryChips"></div></div>
     <div id="categoryResults"></div>
   </div>
   <div class="section" id="regions-section">
     <div class="hero"><h2>Explore by Region</h2><p>Discover Canadian products from your province or territory.</p></div>
     <div class="region-legend" id="regionLegend"></div>
-    <div class="categories" id="regionChips"></div>
+    <div class="sticky-controls"><div class="categories" id="regionChips"></div></div>
     <div id="regionResults"></div>
   </div>
   <div class="section" id="saved-section">
@@ -106,6 +108,6 @@
   </div>
 </div>
 <a class="support-float" href="https://ko-fi.com/choosecanuck" target="_blank" rel="noopener" title="Support ChooseCanuck">☕</a>
-<script src="app.js?v=36"></script>
+<script src="app.js?v=37"></script>
 </body>
 </html>
