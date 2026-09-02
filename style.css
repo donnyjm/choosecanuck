@@ -175,3 +175,19 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 @media(min-width:1100px){
   .results-grid{grid-template-columns:repeat(3,1fr)}
 }
+
+.card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;flex-wrap:wrap}
+.card-footer .product-tags{margin-top:0;flex:1}
+.report-link{border:none;background:transparent;color:#9ca3af;font-size:11px;font-weight:500;cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:2px}
+.report-link:hover{color:#b91c1c}
+.report-modal{display:none;position:fixed;inset:0;background:rgba(17,24,39,.45);z-index:200;align-items:center;justify-content:center;padding:16px}
+.report-modal.open{display:flex}
+.report-dialog{background:#fff;border-radius:12px;padding:20px;max-width:420px;width:100%;position:relative;box-shadow:0 12px 40px rgba(0,0,0,.18)}
+.report-dialog h3{font-size:16px;font-weight:700;margin-bottom:6px}
+.report-product{font-size:13px;color:#4b5563;margin-bottom:14px}
+.report-close{position:absolute;top:10px;right:12px;border:none;background:transparent;font-size:22px;line-height:1;color:#6b7280;cursor:pointer}
+.report-label{display:block;font-size:12px;font-weight:600;color:#374151;margin-bottom:10px}
+.report-label select,.report-label textarea{display:block;width:100%;margin-top:6px;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;font-size:13px;font-weight:400;font-family:inherit}
+.report-label select:focus,.report-label textarea:focus{outline:none;border-color:#b91c1c}
+.report-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+.report-status{font-size:12px;color:#15803d;min-height:16px;margin:4px 0 8px}

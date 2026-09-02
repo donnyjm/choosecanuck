@@ -5,6 +5,69 @@ function setResultsHtml(id,html){
   el.innerHTML=html;
   el.classList.toggle("results-grid", html.indexOf("product-card")!==-1);
 }
+
+function escAttr(s){
+  return String(s==null?"":s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/'/g,"&#39;").replace(/</g,"&lt;");
+}
+function trackVisitClick(id,e){
+  if(e) e.stopPropagation();
+  var p=products.find(function(x){return x.id===id});
+  var title=p?p.name:("product-"+id);
+  if(window.goatcounter&&goatcounter.count){
+    try{goatcounter.count({path:"click/visit-website/"+id,title:title,event:true});}catch(err){}
+  }
+}
+function openReport(id,e){
+  if(e){e.preventDefault();e.stopPropagation();}
+  var p=products.find(function(x){return x.id===id});
+  if(!p) return;
+  var modal=document.getElementById("reportModal");
+  if(!modal) return;
+  document.getElementById("reportProductId").value=String(p.id);
+  document.getElementById("reportProductName").textContent=p.name;
+  document.getElementById("reportReason").value="closed";
+  document.getElementById("reportNotes").value="";
+  document.getElementById("reportStatus").textContent="";
+  modal.classList.add("open");
+  modal.setAttribute("aria-hidden","false");
+}
+function closeReport(){
+  var modal=document.getElementById("reportModal");
+  if(!modal) return;
+  modal.classList.remove("open");
+  modal.setAttribute("aria-hidden","true");
+}
+function submitReport(e){
+  if(e) e.preventDefault();
+  var id=document.getElementById("reportProductId").value;
+  var reason=document.getElementById("reportReason").value;
+  var notes=(document.getElementById("reportNotes").value||"").trim();
+  var p=products.find(function(x){return String(x.id)===String(id)});
+  var name=p?p.name:("id "+id);
+  var website=p&&p.website?p.website:"";
+  if(window.goatcounter&&goatcounter.count){
+    try{goatcounter.count({path:"click/report/"+reason+"/"+id,title:name,event:true});}catch(err){}
+  }
+  try{
+    var key="cc_reports";
+    var list=[];
+    try{list=JSON.parse(localStorage.getItem(key)||"[]");}catch(err){list=[];}
+    list.push({id:Number(id),name:name,reason:reason,notes:notes,at:new Date().toISOString()});
+    localStorage.setItem(key, JSON.stringify(list.slice(-100)));
+  }catch(err){}
+  var body=["Listing report from ChooseCanuck","",
+    "Product: "+name,
+    "ID: "+id,
+    "Website: "+website,
+    "Reason: "+reason,
+    notes?("Notes: "+notes):"",
+    "","Sent from choosecanuck.ca"].filter(Boolean).join("\\n");
+  var mailto="mailto:dmekilok@mac.com?subject="+encodeURIComponent("ChooseCanuck report: "+name)+"&body="+encodeURIComponent(body);
+  document.getElementById("reportStatus").textContent="Opening your email to send the report…";
+  window.location.href=mailto;
+  setTimeout(closeReport, 600);
+  return false;
+}
 let products = [];
 const regionColors = {"British Columbia": "#2d6a4f", "Alberta": "#bc4749", "Saskatchewan": "#f4a261", "Manitoba": "#e76f51", "Ontario": "#1d3557", "Quebec": "#457b9d", "New Brunswick": "#6a4c93", "Nova Scotia": "#1982c4", "Prince Edward Island": "#8ac926", "Newfoundland & Labrador": "#ff595e", "Yukon": "#ffca3a", "Northwest Territories": "#6a4c93", "Nunavut": "#9b5de5", "National": "#b91c1c"};
 const allRegions = ["British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland & Labrador", "Yukon", "Northwest Territories", "Nunavut", "National"];
@@ -247,9 +310,13 @@ function renderCard(p){
   h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span></div></div>";
   h+="<div class='product-desc'>"+esc(p.description)+"</div>";
   if(p.website){
-    h+="<div class='product-site'><a class='buy-btn brand' href='"+esc(p.website)+"' target='_blank' rel='noopener' onclick='event.stopPropagation()'>Visit website</a></div>";
+    h+="<div class='product-site'><a class='buy-btn brand' href='"+esc(p.website)+"' target='_blank' rel='noopener' data-goatcounter-click='visit-website' data-goatcounter-title='"+escAttr(p.name)+"' onclick='trackVisitClick("+p.id+", event)'>Visit website</a></div>";
   }
+  h+="<div class='card-footer'>";
   if(p.tags&&p.tags.length)h+="<div class='product-tags'>"+p.tags.map(function(t){return"<span class='tag'>"+esc(t)+"</span>"}).join("")+"</div>";
+  else h+="<div class='product-tags'></div>";
+  h+="<button type='button' class='report-link' onclick='openReport("+p.id+", event)'>Report</button>";
+  h+="</div>";
   h+="</div><div id='detail-"+p.id+"' style='display:none'></div>";
   return h;
 }
@@ -337,6 +404,11 @@ function toggleDetail(id){
       a.textContent=link.name;
       a.style.marginRight="6px";
       a.style.marginBottom="4px";
+      if(link.type==="brand"){
+        a.setAttribute("data-goatcounter-click","visit-website");
+        a.setAttribute("data-goatcounter-title",p.name);
+        a.addEventListener("click",function(ev){trackVisitClick(p.id,ev);});
+      }
       buyBox.appendChild(a);
     });
     panel.appendChild(buyBox);
@@ -368,6 +440,15 @@ function toggleDetail(id){
   panel.appendChild(foot);
 
   el.innerHTML="";
+  var reportRow=document.createElement("div");
+  reportRow.style.marginTop="8px";
+  var reportBtn=document.createElement("button");
+  reportBtn.type="button";
+  reportBtn.className="report-link";
+  reportBtn.textContent="Report this listing";
+  reportBtn.addEventListener("click",function(ev){openReport(p.id,ev);});
+  reportRow.appendChild(reportBtn);
+  panel.appendChild(reportRow);
   el.appendChild(panel);
   el.style.display="block";
 }

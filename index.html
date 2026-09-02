@@ -19,12 +19,12 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script data-goatcounter="https://donnym.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-<link rel="stylesheet" href="style.css?v=44">
+<link rel="stylesheet" href="style.css?v=45">
 </head>
 <body>
 <div class="header">
   <div class="header-inner">
-  <div class="logo"><img class="logo-mark" src="logo-icon.png?v=44" width="40" height="40" alt="ChooseCanuck"><div class="logo-text"><h1>ChooseCanuck</h1><span id="logoCount">9,700+ products · growing</span></div></div>
+  <div class="logo"><img class="logo-mark" src="logo-icon.png?v=45" width="40" height="40" alt="ChooseCanuck"><div class="logo-text"><h1>ChooseCanuck</h1><span id="logoCount">9,700+ products · growing</span></div></div>
   <nav class="nav">
     <button class="nav-btn active" data-section="search">Search</button>
     <button class="nav-btn" data-section="categories">Categories</button>
@@ -123,7 +123,36 @@
     </div>
   </div>
 </div>
+
+<div id="reportModal" class="report-modal" aria-hidden="true">
+  <div class="report-dialog" role="dialog" aria-labelledby="reportTitle">
+    <button type="button" class="report-close" onclick="closeReport()" aria-label="Close">×</button>
+    <h3 id="reportTitle">Report listing</h3>
+    <p class="report-product">Flagging: <strong id="reportProductName"></strong></p>
+    <form onsubmit="return submitReport(event)">
+      <input type="hidden" id="reportProductId" value="">
+      <label class="report-label">What’s wrong?
+        <select id="reportReason" required>
+          <option value="closed">Business closed / no longer exists</option>
+          <option value="dead-site">Website dead or wrong</option>
+          <option value="wrong-category">Wrong category</option>
+          <option value="not-canadian">Not Canadian</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+      <label class="report-label">Notes (optional)
+        <textarea id="reportNotes" rows="3" placeholder="Anything that helps us fix it"></textarea>
+      </label>
+      <p id="reportStatus" class="report-status"></p>
+      <div class="report-actions">
+        <button type="button" class="submit-btn secondary" onclick="closeReport()">Cancel</button>
+        <button type="submit" class="submit-btn">Send report</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 <a class="support-float" href="https://ko-fi.com/choosecanuck" target="_blank" rel="noopener" title="Support ChooseCanuck">☕</a>
-<script src="app.js?v=44"></script>
+<script src="app.js?v=45"></script>
 </body>
 </html>
