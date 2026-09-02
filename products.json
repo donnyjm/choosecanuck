@@ -127930,5 +127930,383 @@
     ],
     "region": "Ontario",
     "website": "https://redetec.com/"
+  },
+  {
+    "id": 10390,
+    "name": "Cut N Dry",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario chef-crafted freeze-dried proteins and ingredients for trail meals.",
+    "alts": [],
+    "tags": [
+      "cut",
+      "dry",
+      "ontario",
+      "chef",
+      "crafted"
+    ],
+    "region": "Ontario",
+    "website": "https://www.cutndry.ca/"
+  },
+  {
+    "id": 10391,
+    "name": "West Coast Kitchen",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Cowichan Valley BC farm kitchen gourmet freeze-dried outdoor meals.",
+    "alts": [],
+    "tags": [
+      "west",
+      "coast",
+      "kitchen",
+      "cowichan",
+      "valley"
+    ],
+    "region": "British Columbia",
+    "website": "https://westcoastkitchen.ca/"
+  },
+  {
+    "id": 10392,
+    "name": "Freeze N Dried",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary freeze-dried candy fruit veggies and snacks.",
+    "alts": [],
+    "tags": [
+      "freeze",
+      "dried",
+      "calgary",
+      "candy",
+      "fruit"
+    ],
+    "region": "Alberta",
+    "website": "https://freezedried.com/"
+  },
+  {
+    "id": 10393,
+    "name": "Frost Bitez",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian freeze-dried candy brand with retail and wholesale.",
+    "alts": [],
+    "tags": [
+      "frost",
+      "bitez",
+      "freeze",
+      "dried",
+      "candy"
+    ],
+    "region": "Canada",
+    "website": "https://frostbitez.ca/"
+  },
+  {
+    "id": 10394,
+    "name": "CrunchPop",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec freeze-dried candy and gooey-gummy treats.",
+    "alts": [],
+    "tags": [
+      "crunchpop",
+      "quebec",
+      "freeze",
+      "dried",
+      "candy"
+    ],
+    "region": "Quebec",
+    "website": "https://www.crunchpop.ca/"
+  },
+  {
+    "id": 10395,
+    "name": "The Manic Maker",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Fort Erie ON small-batch freeze-dried fruit and snacks.",
+    "alts": [],
+    "tags": [
+      "manic",
+      "fort",
+      "erie",
+      "small",
+      "batch"
+    ],
+    "region": "Ontario",
+    "website": "https://www.themanicmaker.com/"
+  },
+  {
+    "id": 10396,
+    "name": "Yum Ice",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Vancouver-area freeze-dried candy and dessert treats.",
+    "alts": [],
+    "tags": [
+      "yum",
+      "ice",
+      "vancouver",
+      "area",
+      "freeze"
+    ],
+    "region": "British Columbia",
+    "website": "https://yumice.ca/"
+  },
+  {
+    "id": 10397,
+    "name": "Frostbites",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Langley BC freeze-dried fruit snacks for retail.",
+    "alts": [],
+    "tags": [
+      "frostbites",
+      "langley",
+      "freeze",
+      "dried",
+      "fruit"
+    ],
+    "region": "British Columbia",
+    "website": "https://frostbitesinc.com/"
+  },
+  {
+    "id": 10398,
+    "name": "Frost Bites Freeze Dried Snacks",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Grand Valley ON freeze-dried candy ice cream and cheese snacks.",
+    "alts": [],
+    "tags": [
+      "frost",
+      "bites",
+      "freeze",
+      "dried",
+      "snacks"
+    ],
+    "region": "Ontario",
+    "website": "https://fbites.ca/"
+  },
+  {
+    "id": 10399,
+    "name": "Pure Bliss",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario small-batch freeze-dried fruit snacks no added sugar.",
+    "alts": [],
+    "tags": [
+      "pure",
+      "bliss",
+      "ontario",
+      "small",
+      "batch"
+    ],
+    "region": "Ontario",
+    "website": "https://pure-bliss.ca/"
+  },
+  {
+    "id": 10400,
+    "name": "Spaceman",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian freeze-dried candy manufacturer and wholesale/private-label.",
+    "alts": [],
+    "tags": [
+      "spaceman",
+      "freeze",
+      "dried",
+      "candy",
+      "wholesale"
+    ],
+    "region": "Canada",
+    "website": "https://space-man.ca/"
+  },
+  {
+    "id": 10401,
+    "name": "Arctic Fusion",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Wasaga Beach ON freeze-dried candy fruit vegetables and herbs.",
+    "alts": [],
+    "tags": [
+      "arctic",
+      "fusion",
+      "wasaga",
+      "beach",
+      "freeze"
+    ],
+    "region": "Ontario",
+    "website": "https://www.arcticfusionfreezedried.com/"
+  },
+  {
+    "id": 10402,
+    "name": "Polar Freeze Canada",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Woodstock-area ON freeze-dried treats (Great Canadian Honey family).",
+    "alts": [],
+    "tags": [
+      "polar",
+      "freeze",
+      "woodstock",
+      "area",
+      "dried"
+    ],
+    "region": "Ontario",
+    "website": "https://polarfreeze.ca/"
+  },
+  {
+    "id": 10403,
+    "name": "Snoobly",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "BC freeze-dried candy fruit and yogurt snacks.",
+    "alts": [],
+    "tags": [
+      "snoobly",
+      "freeze",
+      "dried",
+      "candy",
+      "fruit"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.snoobly.ca/"
+  },
+  {
+    "id": 10404,
+    "name": "Bunker Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Devon AB freeze-dried candy and treats (Alberta shipping).",
+    "alts": [],
+    "tags": [
+      "bunker",
+      "foods",
+      "devon",
+      "freeze",
+      "dried"
+    ],
+    "region": "Alberta",
+    "website": "https://bunkerfoods.ca/"
+  },
+  {
+    "id": 10405,
+    "name": "Briden Solutions",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary Canadian retailer specializing in freeze-dried emergency and outdoor food.",
+    "alts": [],
+    "tags": [
+      "briden",
+      "solutions",
+      "calgary",
+      "retailer",
+      "specializing"
+    ],
+    "region": "Alberta",
+    "website": "https://bridensolutions.ca/"
+  },
+  {
+    "id": 10406,
+    "name": "D-Freeze",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Alberta-made Chinook Manufacturing freeze dryers for home and small business.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "freeze",
+      "alberta",
+      "made",
+      "chinook"
+    ],
+    "region": "Alberta",
+    "website": "https://d-freeze.ca/"
+  },
+  {
+    "id": 10407,
+    "name": "HomeLyph",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian home freeze-dryer line from Peak & Prairie / Chinook ecosystem.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "homelyph",
+      "home",
+      "freeze",
+      "dryer"
+    ],
+    "region": "Alberta",
+    "website": "https://homelyph.com/"
+  },
+  {
+    "id": 10408,
+    "name": "LyphLine",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Alberta freeze-dryer ecosystem: Chinook manufacturing HomeLyph and refurb service.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "lyphline",
+      "alberta",
+      "freeze",
+      "dryer"
+    ],
+    "region": "Alberta",
+    "website": "https://www.lyphlinefreezedry.com/"
+  },
+  {
+    "id": 10409,
+    "name": "Trimleaf",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Vancouver BC authorized Canadian Harvest Right freeze-dryer dealer.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "trimleaf",
+      "vancouver",
+      "authorized",
+      "harvest"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.trimleaf.ca/"
+  },
+  {
+    "id": 10410,
+    "name": "Berry Hill",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "St. Thomas ON retailer selling Harvest Right home and commercial freeze dryers.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "berry",
+      "hill",
+      "thomas",
+      "retailer"
+    ],
+    "region": "Ontario",
+    "website": "https://berryhill.ca/"
   }
 ]
