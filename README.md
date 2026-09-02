@@ -84,3 +84,7 @@ This is a community project. Every product submission helps build economic resil
 ---
 
 *Made with ❤️ in Canada*
+
+## Listing rule
+
+Only Canadian-origin products with an official `website` are listed. No website, no listing.

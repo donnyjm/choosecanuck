@@ -1,11 +1,11 @@
 # Contributing to ChooseCanuck
 
-Thanks for helping build Canada's product database! 🇨🇦
+Thanks for helping build Canada's product database!
 
 ## Ways to Contribute
 
 ### 1. Submit a Product (Easiest)
-Go to [choosecanuck.ca](http://choosecanuck.ca), click **Submit**, and fill out the form. Your submission saves locally and helps grow the database.
+Go to [choosecanuck.ca](https://choosecanuck.ca), click **Submit**, and fill out the form. **An official website is required.** Your submission saves locally and helps grow the database.
 
 ### 2. Add Products via GitHub
 Edit `products.json` and add new items following this format:
@@ -19,12 +19,15 @@ Edit `products.json` and add new items following this format:
   "region": "Ontario",
   "score": 95,
   "description": "Short description.",
+  "website": "https://example.com",
   "tags": ["organic", "local"],
   "alts": []
 }
 ```
 
-**Categories:** Food, Beverages, Household, Personal Care, Home & Electronics, Clothing
+**Rules:** `origin` must be `"Canada"`. `website` is required (http/https).
+
+**Categories:** Food, Beverages, Household, Personal Care, Home & Electronics, Clothing, Other
 
 **Regions:** British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland & Labrador, Yukon, Northwest Territories, Nunavut, National
 
@@ -34,7 +37,7 @@ Edit `products.json` and add new items following this format:
 - Submit a pull request
 
 ### 4. Spread the Word
-Share [choosecanuck.ca](http://choosecanuck.ca) with friends, family, and communities.
+Share [choosecanuck.ca](https://choosecanuck.ca) with friends, family, and communities.
 
 ---
 

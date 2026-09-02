@@ -117,3 +117,5 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 .buy-btn.brand{background:#1d4ed8;color:#fff;border-color:#1d4ed8}
 .buy-btn.brand:hover{background:#1e40af}
 .store-tag{font-size:11px;padding:4px 10px;border-radius:20px;background:#f0fdf4;border:1px solid #bbf7d0;color:#15803d;font-weight:500}
+
+.product-site{margin-top:10px}

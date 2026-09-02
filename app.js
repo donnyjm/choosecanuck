@@ -5,42 +5,31 @@ const PAGE_SIZE = 50;
 
 function getScoreClass(s){return s>=75?"score-high":s>=40?"score-mid":"score-low"}
 
+function esc(s){
+  return String(s==null?"":s)
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;");
+}
+
 function renderCard(p){
   var rc=regionColors[p.region]||"#6b7280";
   var h="<div class='product-card' onclick='toggleDetail("+p.id+")'>";
-  h+="<div class='product-header'><div><div class='product-name'>"+p.name+"</div>";
-  h+="<div class='product-meta'><span class='product-category'>"+p.category+"</span><span class='product-region' style='background:"+rc+"'>"+p.region+"</span></div></div>";
+  h+="<div class='product-header'><div><div class='product-name'>"+esc(p.name)+"</div>";
+  h+="<div class='product-meta'><span class='product-category'>"+esc(p.category)+"</span><span class='product-region' style='background:"+rc+"'>"+esc(p.region)+"</span></div></div>";
   h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span></div>";
-  h+="<div class='product-desc'>"+p.description+"</div>";
-  if(p.tags&&p.tags.length)h+="<div class='product-tags'>"+p.tags.map(function(t){return"<span class='tag'>"+t+"</span>"}).join("")+"</div>";
+  h+="<div class='product-desc'>"+esc(p.description)+"</div>";
+  if(p.website){
+    h+="<div class='product-site'><a class='buy-btn brand' href='"+esc(p.website)+"' target='_blank' rel='noopener' onclick='event.stopPropagation()'>Visit website</a></div>";
+  }
+  if(p.tags&&p.tags.length)h+="<div class='product-tags'>"+p.tags.map(function(t){return"<span class='tag'>"+esc(t)+"</span>"}).join("")+"</div>";
   h+="</div><div id='detail-"+p.id+"' style='display:none'></div>";
   return h;
 }
 
-function getStoresByRegion(region){
-  var national=["Loblaws","Sobeys","Metro","Whole Foods","Farm Boy","Longos"];
-  var regional={
-    "British Columbia":["Save-On-Foods","Thrifty Foods","IGA","Fairway Markets","Root Cellar"],
-    "Alberta":["Calgary Co-op","Safeway","Sobeys","Planet Organic"],
-    "Saskatchewan":["Co-op","Sobeys","Safeway","Bulk Barn"],
-    "Manitoba":["Co-op","Sobeys","Safeway","Red River Co-op"],
-    "Ontario":["Longo's","Farm Boy","Highland Farms","T&T Supermarket","Pusateri's","Galleria"],
-    "Quebec":["IGA","Metro","Provigo","Marche Adonis","PA Nature"],
-    "New Brunswick":["Sobeys","Atlantic Superstore","Co-op","Giant Tiger"],
-    "Nova Scotia":["Sobeys","Atlantic Superstore","Farm Boy","Gateway"],
-    "Prince Edward Island":["Sobeys","Superstore","Independent grocers"],
-    "Newfoundland & Labrador":["Sobeys","Dominion","Coleman's"],
-    "Yukon":["Superstore","Independent grocers","Farmers markets"],
-    "Northwest Territories":["Independent grocers","Co-op","Northern stores"],
-    "Nunavut":["Northern","Co-op","Local retailers"],
-    "National":["Loblaws","Sobeys","Metro","Whole Foods","Farm Boy","Longos","Well.ca"]
-  };
-  return regional[region]||national;
-}
-
 function getWhereToFind(p){
-  var result={online:[],stores:[],tips:[]};
-  // Official website only
+  var result={online:[],tips:[]};
   if(p.website){
     result.online.push({type:"brand",name:"Official Website",url:p.website});
   }
@@ -68,11 +57,9 @@ function toggleDetail(id){
   var rc=regionColors[p.region]||"#6b7280";
   var info=getWhereToFind(p);
 
-  // Build detail panel using DOM methods for reliability
   var panel=document.createElement("div");
   panel.className="detail-panel";
 
-  // Meta row
   var meta=document.createElement("div");
   meta.style.cssText="display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;";
   var regionSpan=document.createElement("span");
@@ -90,13 +77,11 @@ function toggleDetail(id){
   meta.appendChild(scoreSpan);
   panel.appendChild(meta);
 
-  // Description
   var descP=document.createElement("p");
   descP.style.cssText="font-size:13px;color:#374151;margin-bottom:12px;";
   descP.textContent=p.description;
   panel.appendChild(descP);
 
-  // Tags
   if(p.tags&&p.tags.length){
     var tagsDiv=document.createElement("div");
     tagsDiv.className="product-tags";
@@ -110,17 +95,18 @@ function toggleDetail(id){
     panel.appendChild(tagsDiv);
   }
 
-  // Buy Online section
   if(info.online.length){
     var buyBox=document.createElement("div");
     buyBox.style.cssText="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:12px;margin-bottom:14px;";
     var buyTitle=document.createElement("h4");
     buyTitle.style.cssText="font-size:13px;font-weight:600;color:#1d4ed8;margin-bottom:8px;";
-    buyTitle.textContent="🛒 Buy Online";
+    buyTitle.textContent="Buy Online";
     buyBox.appendChild(buyTitle);
     info.online.forEach(function(link){
       var a=document.createElement("a");
       a.href=link.url;
+      a.target="_blank";
+      a.rel="noopener";
       a.className="buy-btn"+(link.type==="brand"?" brand":"");
       a.textContent=link.name;
       a.style.marginRight="6px";
@@ -130,7 +116,13 @@ function toggleDetail(id){
     panel.appendChild(buyBox);
   }
 
-  // Alternatives
+  if(info.tips.length){
+    var tipBox=document.createElement("div");
+    tipBox.style.cssText="font-size:12px;color:#4b5563;margin-bottom:10px;";
+    tipBox.innerHTML=info.tips.map(function(t){return"<div style='margin-bottom:4px'>• "+esc(t)+"</div>";}).join("");
+    panel.appendChild(tipBox);
+  }
+
   if(p.alts&&p.alts.length){
     var altTitle=document.createElement("h4");
     altTitle.style.cssText="font-size:13px;font-weight:600;margin-bottom:8px;color:#111827;";
@@ -139,12 +131,11 @@ function toggleDetail(id){
     p.alts.forEach(function(a){
       var item=document.createElement("div");
       item.className="alt-item";
-      item.innerHTML="<span class='alt-check'>✓</span><div><div class='alt-name'>"+a.name+"</div><div class='alt-desc'>"+a.desc+"</div></div>";
+      item.innerHTML="<span class='alt-check'>✓</span><div><div class='alt-name'>"+esc(a.name)+"</div><div class='alt-desc'>"+esc(a.desc)+"</div></div>";
       panel.appendChild(item);
     });
   }
 
-  // Footer
   var foot=document.createElement("div");
   foot.style.cssText="font-size:11px;color:#9ca3af;margin-top:10px;font-style:italic;border-top:1px solid #e5e7eb;padding-top:8px;";
   foot.textContent="Origin: "+p.origin+" | Listed in ChooseCanuck database";
@@ -162,6 +153,14 @@ function switchTab(name){
   document.getElementById(name+"-section").classList.add("active");
 }
 
+function isValidWebsite(url){
+  if(!url) return false;
+  try{
+    var u=new URL(url);
+    return (u.protocol==="http:"||u.protocol==="https:") && u.hostname.indexOf(".")!==-1;
+  }catch(e){return false;}
+}
+
 function generateSubmission(){
   var name=document.getElementById("subName").value.trim();
   var cat=document.getElementById("subCategory").value;
@@ -170,10 +169,10 @@ function generateSubmission(){
   var whereToBuy=document.getElementById("subWhere").value.trim();
   var website=document.getElementById("subWebsite").value.trim();
   var tags=document.getElementById("subTags").value.split(",").map(function(t){return t.trim()}).filter(Boolean);
-  if(!name||!cat||!region||!desc){alert("Please fill in all required fields.");return;}
-  var entry={name:name,category:cat,origin:"Canada",region:region,score:90,description:desc,alts:[],tags:tags};
+  if(!name||!cat||!region||!desc||!website){alert("Please fill in all required fields, including the official website.");return;}
+  if(!isValidWebsite(website)){alert("Please enter a valid website URL (https://...).");return;}
+  var entry={name:name,category:cat,origin:"Canada",region:region,score:90,description:desc,alts:[],tags:tags,website:website};
   if(whereToBuy) entry.whereToBuy=whereToBuy;
-  if(website) entry.website=website;
   var subs=JSON.parse(localStorage.getItem("cc_submissions")||"[]");
   entry.submittedAt=new Date().toISOString();
   subs.push(entry);
@@ -190,8 +189,9 @@ function renderSubmissions(){
   var h="<h3 style='font-size:14px;font-weight:600;margin-bottom:10px;'>Your Submissions</h3>";
   subs.slice().reverse().forEach(function(s){
     h+="<div style='background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:10px;margin-bottom:8px;'>";
-    h+="<div style='font-size:13px;font-weight:600;'>"+s.name+"</div>";
-    h+="<div style='font-size:11px;color:#6b7280;'>"+s.region+" · "+s.category+"</div>";
+    h+="<div style='font-size:13px;font-weight:600;'>"+esc(s.name)+"</div>";
+    h+="<div style='font-size:11px;color:#6b7280;'>"+esc(s.region)+" · "+esc(s.category)+"</div>";
+    if(s.website) h+="<div style='font-size:11px;margin-top:4px;'><a href='"+esc(s.website)+"' target='_blank' rel='noopener'>"+esc(s.website)+"</a></div>";
     h+="</div>";
   });
   el.innerHTML=h;
@@ -232,75 +232,136 @@ function renderPage(containerId,page){
   renderPaged(containerId,state.items,page);
 }
 
-function renderHomepage(){
-  var canadian=products.filter(function(p){return p.origin==="Canada"||p.score>=75});
-  var gaps=products.filter(function(p){return p.score<75&&!p.alts.length});
-  var regions=[...new Set(canadian.map(function(p){return p.region}))].sort();
-  document.getElementById("homeStats").innerHTML=
-    "<div class='stat-box'><div class='stat-number'>"+products.length+"</div><div class='stat-label'>Products</div></div>"+
-    "<div class='stat-box'><div class='stat-number'>"+canadian.length+"</div><div class='stat-label'>Canadian-made</div></div>"+
-    "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
-    "<div class='stat-box'><div class='stat-number'>"+gaps.length+"</div><div class='stat-label'>Gaps</div></div>";
+function pickFeatured(list,n){
+  var pool=list.slice().sort(function(a,b){return (b.score||0)-(a.score||0);});
+  var out=[], seen={};
+  for(var i=0;i<pool.length && out.length<n;i++){
+    var p=pool[i];
+    if(!p.website||seen[p.website]) continue;
+    // prefer spread across categories
+    out.push(p);
+    seen[p.website]=1;
+  }
+  return out.slice(0,n);
+}
 
-  var featured=[1,3,9,14,16,22,34,56,76,98,112,145,178,201,234,267,301,345,389,412,456,567,601,712,745,789];
-  var fp=featured.map(function(id){return products.find(function(p){return p.id===id})}).filter(Boolean).slice(0,8);
+function renderHomepage(){
+  var regions=[...new Set(products.map(function(p){return p.region}))].sort();
+  var cats=[...new Set(products.map(function(p){return p.category}))].sort();
+  var badge=document.getElementById("productCountBadge");
+  if(badge) badge.textContent=products.length.toLocaleString()+"+ Canadian Products";
+
+  document.getElementById("homeStats").innerHTML=
+    "<div class='stat-box'><div class='stat-number'>"+products.length.toLocaleString()+"</div><div class='stat-label'>Products</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>"+cats.length+"</div><div class='stat-label'>Categories</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>"+regions.length+"</div><div class='stat-label'>Regions</div></div>"+
+    "<div class='stat-box'><div class='stat-number'>100%</div><div class='stat-label'>Have websites</div></div>";
+
+  var fp=pickFeatured(products,8);
   document.getElementById("featuredGrid").innerHTML=fp.map(function(p){
     var rc=regionColors[p.region]||"#6b7280";
-    return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+p.name+"</div><div class='home-card-meta'><span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+p.region+" · "+p.category+"</div></div>";
+    return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+esc(p.name)+"</div><div class='home-card-meta'><span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+esc(p.region)+" · "+esc(p.category)+"</div></div>";
   }).join("");
 
-  var cats=[...new Set(canadian.map(function(p){return p.category}))].sort();
-  document.getElementById("homeCats").innerHTML=cats.map(function(c){return"<button class='home-cat-chip' data-cat='"+c+"'>"+c+"</button>"}).join("");
-  document.getElementById("homeCats").addEventListener("click",function(e){if(!e.target.classList.contains("home-cat-chip"))return;var cat=e.target.dataset.cat;switchTab('categories');document.querySelectorAll('#categoryChips .cat-chip').forEach(function(b){b.classList.toggle('active',b.dataset.cat===cat)});var filtered=products.filter(function(p){return p.category===cat});renderPaged('categoryResults',filtered,1);});
+  document.getElementById("homeCats").innerHTML=cats.map(function(c){return"<button class='home-cat-chip' data-cat='"+esc(c)+"'>"+esc(c)+"</button>"}).join("");
+  document.getElementById("homeCats").onclick=function(e){
+    if(!e.target.classList.contains("home-cat-chip"))return;
+    var cat=e.target.dataset.cat;
+    switchTab('categories');
+    document.querySelectorAll('#categoryChips .cat-chip').forEach(function(b){b.classList.toggle('active',b.dataset.cat===cat)});
+    renderPaged('categoryResults',products.filter(function(p){return p.category===cat}),1);
+  };
 
-  document.getElementById("homeRegions").innerHTML=regions.slice(0,14).map(function(r){return"<button class='home-region-chip' data-region='"+r+"' style='background:"+(regionColors[r]||"#6b7280")+"'>"+r+"</button>";}).join("");
-  document.getElementById("homeRegions").addEventListener("click",function(e){if(!e.target.classList.contains("home-region-chip"))return;var region=e.target.dataset.region;switchTab('regions');document.querySelectorAll('#regionChips .region-chip').forEach(function(b){b.classList.toggle('active',b.dataset.region===region)});var filtered=products.filter(function(p){return p.region===region&&p.score>=75});renderPaged('regionResults',filtered,1);});
+  document.getElementById("homeRegions").innerHTML=regions.slice(0,14).map(function(r){return"<button class='home-region-chip' data-region='"+esc(r)+"' style='background:"+(regionColors[r]||"#6b7280")+"'>"+esc(r)+"</button>";}).join("");
+  document.getElementById("homeRegions").onclick=function(e){
+    if(!e.target.classList.contains("home-region-chip"))return;
+    var region=e.target.dataset.region;
+    switchTab('regions');
+    document.querySelectorAll('#regionChips .region-chip').forEach(function(b){b.classList.toggle('active',b.dataset.region===region)});
+    renderPaged('regionResults',products.filter(function(p){return p.region===region}),1);
+  };
 }
 
 function showProductDetail(id){
+  // Ensure the card exists on search/home by jumping to categories all and opening
+  var existing=document.getElementById("detail-"+id);
+  if(!existing){
+    switchTab('categories');
+    renderPaged('categoryResults',products,1);
+    // find page containing id
+    var idx=products.findIndex(function(p){return p.id===id});
+    if(idx>=0){
+      var page=Math.floor(idx/PAGE_SIZE)+1;
+      renderPaged('categoryResults',products,page);
+    }
+  }
   toggleDetail(id);
   var el=document.getElementById("detail-"+id);
   if(el)el.scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 
 function initApp(){
-  // Search
   document.getElementById("searchInput").addEventListener("input",function(e){
     var q=e.target.value.toLowerCase().trim();
     var c=document.getElementById("searchResults");
     if(!q){c.innerHTML="";return;}
-    var f=products.filter(function(p){return p.name.toLowerCase().indexOf(q)!==-1||p.description.toLowerCase().indexOf(q)!==-1||(p.tags&&p.tags.some(function(t){return t.toLowerCase().indexOf(q)!==-1}));});
+    var f=products.filter(function(p){
+      return p.name.toLowerCase().indexOf(q)!==-1
+        ||p.description.toLowerCase().indexOf(q)!==-1
+        ||(p.website&&p.website.toLowerCase().indexOf(q)!==-1)
+        ||(p.tags&&p.tags.some(function(t){return t.toLowerCase().indexOf(q)!==-1}));
+    });
     if(!f.length){c.innerHTML="<div class='empty-state'><p>No products found. Try a different term or use the Submit tab to add it!</p></div>";return;}
     c.innerHTML=f.slice(0,50).map(renderCard).join("");
   });
 
-  // Categories
-  var cats=[...new Set(products.map(function(p){return p.category}))];
+  var cats=[...new Set(products.map(function(p){return p.category}))].sort();
   var cc=document.getElementById("categoryChips");
-  cc.innerHTML="<button class='cat-chip active' data-cat='all'>All</button>"+cats.map(function(c){return"<button class='cat-chip' data-cat='"+c+"'>"+c+"</button>"}).join("");
-  cc.addEventListener("click",function(e){if(!e.target.classList.contains("cat-chip"))return;cc.querySelectorAll(".cat-chip").forEach(function(b){b.classList.remove("active")});e.target.classList.add("active");var cat=e.target.dataset.cat;var filtered=cat==="all"?products:products.filter(function(p){return p.category===cat});renderPaged('categoryResults',filtered,1);});
+  cc.innerHTML="<button class='cat-chip active' data-cat='all'>All</button>"+cats.map(function(c){return"<button class='cat-chip' data-cat='"+esc(c)+"'>"+esc(c)+"</button>"}).join("");
+  cc.addEventListener("click",function(e){
+    if(!e.target.classList.contains("cat-chip"))return;
+    cc.querySelectorAll(".cat-chip").forEach(function(b){b.classList.remove("active")});
+    e.target.classList.add("active");
+    var cat=e.target.dataset.cat;
+    var filtered=cat==="all"?products:products.filter(function(p){return p.category===cat});
+    renderPaged('categoryResults',filtered,1);
+  });
   renderPaged('categoryResults',products,1);
 
-  // Regions
-  var rlist=[...new Set(products.filter(function(p){return p.score>=75}).map(function(p){return p.region}))].sort();
+  var rlist=[...new Set(products.map(function(p){return p.region}))].sort();
   var rc=document.getElementById("regionChips");
   var rl=document.getElementById("regionLegend");
-  rl.innerHTML=rlist.map(function(r){return"<span class='region-label'><span class='region-dot' style='background:"+(regionColors[r]||"#6b7280")+"'></span>"+r+"</span>";}).join("");
-  rc.innerHTML="<button class='region-chip active' data-region='all'>All Regions</button>"+rlist.map(function(r){return"<button class='region-chip' data-region='"+r+"'>"+r+"</button>";}).join("");
-  rc.addEventListener("click",function(e){if(!e.target.classList.contains("region-chip"))return;rc.querySelectorAll(".region-chip").forEach(function(b){b.classList.remove("active")});e.target.classList.add("active");var region=e.target.dataset.region;var filtered=region==="all"?products.filter(function(p){return p.score>=75}):products.filter(function(p){return p.region===region&&p.score>=75});renderPaged('regionResults',filtered,1);});
-  renderPaged('regionResults',products.filter(function(p){return p.score>=75}),1);
+  rl.innerHTML=rlist.map(function(r){return"<span class='region-label'><span class='region-dot' style='background:"+(regionColors[r]||"#6b7280")+"'></span>"+esc(r)+"</span>";}).join("");
+  rc.innerHTML="<button class='region-chip active' data-region='all'>All Regions</button>"+rlist.map(function(r){return"<button class='region-chip' data-region='"+esc(r)+"'>"+esc(r)+"</button>";}).join("");
+  rc.addEventListener("click",function(e){
+    if(!e.target.classList.contains("region-chip"))return;
+    rc.querySelectorAll(".region-chip").forEach(function(b){b.classList.remove("active")});
+    e.target.classList.add("active");
+    var region=e.target.dataset.region;
+    var filtered=region==="all"?products:products.filter(function(p){return p.region===region});
+    renderPaged('regionResults',filtered,1);
+  });
+  renderPaged('regionResults',products,1);
 
-  // Gaps
-  var gaps=products.filter(function(p){return p.score<75&&!p.alts.length;});
-  document.getElementById("gapStats").innerHTML="<div class='stat-box'><div class='stat-number'>"+gaps.length+"</div><div class='stat-label'>Supply Gaps</div></div>";
-  document.getElementById("gapResults").innerHTML=gaps.slice(0,50).map(function(p){return"<div class='gap-card'><div class='product-header'><div class='product-name'>"+p.name+"</div><span class='score-badge score-low'>"+p.score+"/100</span></div><div class='product-desc'>"+p.description+"</div><div class='gap-reason'>💡 Opportunity: "+p.category+" gap — could be produced in Canada</div></div>";}).join("");
+  document.querySelectorAll(".nav-btn").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      document.querySelectorAll(".nav-btn").forEach(function(b){b.classList.remove("active")});
+      this.classList.add("active");
+      document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});
+      document.getElementById(this.dataset.section+"-section").classList.add("active");
+    });
+  });
 
-  // Nav
-  document.querySelectorAll(".nav-btn").forEach(function(btn){btn.addEventListener("click",function(){document.querySelectorAll(".nav-btn").forEach(function(b){b.classList.remove("active")});this.classList.add("active");document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});document.getElementById(this.dataset.section+"-section").classList.add("active");});});
-
-  // Homepage
   renderHomepage();
   renderSubmissions();
 }
 
-fetch("products.json?v=4").then(r=>r.json()).then(d=>{products=d;initApp();}).catch(e=>{console.error(e);document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";});
+fetch("products.json?v=5").then(function(r){return r.json()}).then(function(d){
+  products=d.filter(function(p){
+    return p.origin==="Canada" && p.website && String(p.website).trim();
+  });
+  initApp();
+}).catch(function(e){
+  console.error(e);
+  document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";
+});
