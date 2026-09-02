@@ -128308,5 +128308,77 @@
     ],
     "region": "Ontario",
     "website": "https://berryhill.ca/"
+  },
+  {
+    "id": 10411,
+    "name": "Island Harvest Freeze Dryers",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Victoria BC Canadian-owned authorized Harvest Right dealer with machines and accessories in stock.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "island",
+      "harvest",
+      "freeze",
+      "dryers"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.islandharvest.ca/"
+  },
+  {
+    "id": 10412,
+    "name": "Craze Outdoors",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary authorized Harvest Right dealer and official Canadian repair facility for freeze dryers.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "craze",
+      "outdoors",
+      "calgary",
+      "authorized"
+    ],
+    "region": "Alberta",
+    "website": "https://crazeoutdoors.com/"
+  },
+  {
+    "id": 10413,
+    "name": "EquiLab Canada",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian supplier of laboratory benchtop freeze dryers and lyophilization equipment.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "equilab",
+      "supplier",
+      "laboratory",
+      "benchtop"
+    ],
+    "region": "Canada",
+    "website": "https://equilabcanada.com/"
+  },
+  {
+    "id": 10414,
+    "name": "Biolab Scientific",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Markham Ontario lab-equipment firm selling benchtop and pilot-scale freeze dryers.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "biolab",
+      "scientific",
+      "markham",
+      "ontario"
+    ],
+    "region": "Ontario",
+    "website": "https://biolabscientific.com/"
   }
 ]
