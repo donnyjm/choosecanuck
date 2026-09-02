@@ -127714,5 +127714,77 @@
     ],
     "region": "Ontario",
     "website": "https://www.kenorafreezedriedfood.ca/"
+  },
+  {
+    "id": 10378,
+    "name": "CoolIT Systems",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary-headquartered liquid cooling company designing and manufacturing cold plates CDUs and direct liquid cooling for AI and HPC.",
+    "alts": [],
+    "tags": [
+      "cooling",
+      "coolit",
+      "calgary",
+      "headquartered",
+      "liquid"
+    ],
+    "region": "Alberta",
+    "website": "https://www.coolitsystems.com/"
+  },
+  {
+    "id": 10379,
+    "name": "Engineered Air",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Calgary-founded custom HVAC refrigeration energy-recovery and cleanroom equipment manufacturer with Canadian plants including Newmarket.",
+    "alts": [],
+    "tags": [
+      "hvac",
+      "air",
+      "engineered",
+      "calgary",
+      "founded"
+    ],
+    "region": "Alberta",
+    "website": "https://www.engineeredair.com/"
+  },
+  {
+    "id": 10380,
+    "name": "Haakon Industries",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Richmond BC engineered-to-order custom air handling units with Canadian engineering HQ and Kingston Ontario manufacturing.",
+    "alts": [],
+    "tags": [
+      "air",
+      "haakon",
+      "richmond",
+      "engineered",
+      "order"
+    ],
+    "region": "British Columbia",
+    "website": "https://haakon.com/"
+  },
+  {
+    "id": 10381,
+    "name": "Delta Controls",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Surrey BC Canadian building automation manufacturer of BACnet controllers network thermostats and BMS software since 1982.",
+    "alts": [],
+    "tags": [
+      "controls",
+      "delta",
+      "surrey",
+      "building",
+      "automation"
+    ],
+    "region": "British Columbia",
+    "website": "https://deltacontrols.com/"
   }
 ]
