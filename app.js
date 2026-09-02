@@ -1,3 +1,10 @@
+
+function setResultsHtml(id,html){
+  var el=document.getElementById(id);
+  if(!el) return;
+  el.innerHTML=html;
+  el.classList.toggle("results-grid", html.indexOf("product-card")!==-1);
+}
 let products = [];
 const regionColors = {"British Columbia": "#2d6a4f", "Alberta": "#bc4749", "Saskatchewan": "#f4a261", "Manitoba": "#e76f51", "Ontario": "#1d3557", "Quebec": "#457b9d", "New Brunswick": "#6a4c93", "Nova Scotia": "#1982c4", "Prince Edward Island": "#8ac926", "Newfoundland & Labrador": "#ff595e", "Yukon": "#ffca3a", "Northwest Territories": "#6a4c93", "Nunavut": "#9b5de5", "National": "#b91c1c"};
 const allRegions = ["British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland & Labrador", "Yukon", "Northwest Territories", "Nunavut", "National"];
@@ -608,5 +615,5 @@ fetch("products.json?v=36").then(function(r){return r.json()}).then(function(d){
   initApp();
 }).catch(function(e){
   console.error(e);
-  document.getElementById("searchResults").innerHTML="<div class='empty-state'><p>Error loading products. Please refresh.</p></div>";
+  setResultsHtml("searchResults","<div class='empty-state'><p>Error loading products. Please refresh.</p></div>");
 });
