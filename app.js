@@ -50,6 +50,145 @@ function updateSavedNav(){
   btn.innerHTML=label;
 }
 
+function productsByIds(ids){
+  var byId={};
+  products.forEach(function(p){byId[p.id]=p;});
+  return ids.map(function(id){return byId[Number(id)];}).filter(Boolean);
+}
+
+function buildShareListUrl(ids, title){
+  var u=new URL(window.location.href);
+  u.search="";
+  u.hash="";
+  u.searchParams.set("list", title && String(title).trim() ? String(title).trim() : "Saved picks");
+  u.searchParams.set("ids", ids.join(","));
+  return u.toString();
+}
+
+function parseSharedListFromUrl(){
+  try{
+    var params=new URLSearchParams(window.location.search);
+    var idsRaw=params.get("ids");
+    if(!idsRaw) return null;
+    var ids=idsRaw.split(",").map(function(x){return Number(String(x).trim());}).filter(function(x){return !isNaN(x) && x>0;});
+    // dedupe preserve order
+    var seen={}; var uniq=[];
+    ids.forEach(function(id){ if(!seen[id]){ seen[id]=1; uniq.push(id);} });
+    if(!uniq.length) return null;
+    var title=params.get("list") || "Shared list";
+    return {title:title, ids:uniq};
+  }catch(e){ return null; }
+}
+
+function clearSharedListParams(){
+  try{
+    var u=new URL(window.location.href);
+    u.searchParams.delete("list");
+    u.searchParams.delete("ids");
+    var qs=u.searchParams.toString();
+    window.history.replaceState({}, "", u.pathname + (qs ? "?"+qs : "") + u.hash);
+  }catch(e){}
+}
+
+function copyText(text){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    return navigator.clipboard.writeText(text);
+  }
+  return new Promise(function(resolve, reject){
+    try{
+      var ta=document.createElement("textarea");
+      ta.value=text;
+      ta.style.position="fixed";
+      ta.style.left="-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      resolve();
+    }catch(e){ reject(e); }
+  });
+}
+
+function shareMySavedList(){
+  var ids=loadSavedIds();
+  var list=productsByIds(ids);
+  if(!list.length){
+    alert("Save a few products first, then share.");
+    return;
+  }
+  var title=prompt("Name this list (optional):", "My Canadian picks");
+  if(title===null) return;
+  var url=buildShareListUrl(list.map(function(p){return p.id;}), title);
+  copyText(url).then(function(){
+    var status=document.getElementById("shareListStatus");
+    if(status){
+      status.textContent="Link copied — paste it anywhere.";
+      status.style.display="block";
+      setTimeout(function(){ status.style.display="none"; }, 3500);
+    }else{
+      alert("Link copied:\\n"+url);
+    }
+  }).catch(function(){
+    prompt("Copy this link:", url);
+  });
+}
+
+function saveSharedListToMine(ids){
+  var mine=loadSavedIds();
+  var seen={};
+  mine.forEach(function(id){ seen[id]=1; });
+  (ids||[]).forEach(function(id){
+    id=Number(id);
+    if(!seen[id]){ mine.push(id); seen[id]=1; }
+  });
+  saveSavedIds(mine);
+  // refresh hearts on page
+  document.querySelectorAll(".save-btn").forEach(function(btn){
+    var id=Number(btn.getAttribute("data-id"));
+    var on=mine.indexOf(id)!==-1;
+    btn.classList.toggle("saved", on);
+    btn.setAttribute("aria-pressed", on?"true":"false");
+    btn.title=on?"Remove from saved":"Save for later";
+    btn.textContent=on?"♥":"♡";
+  });
+  updateSavedNav();
+  var status=document.getElementById("sharedListStatus");
+  if(status){
+    status.textContent="Added to your Saved list on this device.";
+    status.style.display="block";
+  }
+}
+
+function renderSharedListView(shared){
+  var c=document.getElementById("sharedListResults");
+  if(!c) return;
+  var list=productsByIds(shared.ids);
+  if(!list.length){
+    c.innerHTML="<div class='empty-state'><p>This shared list has no matching products (they may have been removed).</p><div class='saved-empty-actions'><button class='submit-btn' onclick=\"switchTab('search')\">Browse products</button></div></div>";
+    return;
+  }
+  var title=esc(shared.title||"Shared list");
+  var h="";
+  h+="<div class='shared-list-banner'>";
+  h+="<div><div class='shared-list-label'>Shared list</div><h3 class='shared-list-title'>"+title+"</h3>";
+  h+="<p class='shared-list-meta'>"+list.length+" Canadian product"+(list.length===1?"":"s")+"</p></div>";
+  h+="<div class='shared-list-actions'>";
+  h+="<button type='button' class='submit-btn' onclick='saveSharedListToMine(["+list.map(function(p){return p.id;}).join(",")+"])'>Save all ♡</button>";
+  h+="<button type='button' class='submit-btn secondary' onclick=\"switchTab('saved')\">My Saved</button>";
+  h+="</div></div>";
+  h+="<div id='sharedListStatus' class='share-status' style='display:none'></div>";
+  h+=list.map(renderCard).join("");
+  c.innerHTML=h;
+}
+
+function openSharedListIfPresent(){
+  var shared=parseSharedListFromUrl();
+  if(!shared) return false;
+  switchTab("shared");
+  renderSharedListView(shared);
+  return true;
+}
+
 function renderSaved(){
   var c=document.getElementById('savedResults');
   if(!c) return;
@@ -59,9 +198,7 @@ function renderSaved(){
     updateSavedNav();
     return;
   }
-  var byId={};
-  products.forEach(function(p){byId[p.id]=p;});
-  var list=ids.map(function(id){return byId[id];}).filter(Boolean);
+  var list=productsByIds(ids);
   // drop stale ids
   if(list.length!==ids.length){
     saveSavedIds(list.map(function(p){return p.id;}));
@@ -71,10 +208,16 @@ function renderSaved(){
     updateSavedNav();
     return;
   }
-  c.innerHTML="<div class='canada-badge' style='margin-bottom:12px'>♡ <strong>"+list.length+" saved</strong> on this device</div>"+list.map(renderCard).join("");
+  var h="";
+  h+="<div class='saved-toolbar'>";
+  h+="<div class='canada-badge'>♡ <strong>"+list.length+" saved</strong> on this device</div>";
+  h+="<button type='button' class='submit-btn secondary' onclick='shareMySavedList()'>Share list</button>";
+  h+="</div>";
+  h+="<div id='shareListStatus' class='share-status' style='display:none'></div>";
+  h+=list.map(renderCard).join("");
+  c.innerHTML=h;
   updateSavedNav();
 }
-
 
 function getScoreClass(s){return s>=75?"score-high":s>=40?"score-mid":"score-low"}
 
@@ -226,8 +369,13 @@ function switchTab(name){
   document.querySelectorAll(".nav-btn").forEach(function(b){b.classList.remove("active")});
   document.querySelectorAll(".nav-btn").forEach(function(b){if(b.dataset.section===name)b.classList.add("active")});
   document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});
-  document.getElementById(name+"-section").classList.add("active");
+  var section=document.getElementById(name+"-section");
+  if(section) section.classList.add("active");
   if(name==="saved") renderSaved();
+  if(name==="shared"){
+    var shared=parseSharedListFromUrl();
+    if(shared) renderSharedListView(shared);
+  }
 }
 
 function isValidWebsite(url){
@@ -448,9 +596,10 @@ function initApp(){
   updateSavedNav();
   renderHomepage();
   renderSubmissions();
+  openSharedListIfPresent();
 }
 
-fetch("products.json?v=35").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=36").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
