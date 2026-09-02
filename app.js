@@ -61,7 +61,7 @@ function submitReport(e){
     "Website: "+website,
     "Reason: "+reason,
     notes?("Notes: "+notes):"",
-    "","Sent from choosecanuck.ca"].filter(Boolean).join("\\n");
+    "","Sent from choosecanuck.ca"].filter(Boolean).join("\n");
   var mailto="mailto:dmekilok@mac.com?subject="+encodeURIComponent("ChooseCanuck report: "+name)+"&body="+encodeURIComponent(body);
   document.getElementById("reportStatus").textContent="Opening your email to send the report…";
   window.location.href=mailto;
