@@ -128380,5 +128380,167 @@
     ],
     "region": "Ontario",
     "website": "https://biolabscientific.com/"
+  },
+  {
+    "id": 10415,
+    "name": "ValuKool",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Brantford ON industrial freeze dryer OEM offering custom batch and modular lyophilization systems.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "valukool",
+      "brantford",
+      "industrial",
+      "freeze"
+    ],
+    "region": "Ontario",
+    "website": "https://valukool.com/"
+  },
+  {
+    "id": 10416,
+    "name": "Juicerville",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ontario Canadian authorized Harvest Right reseller of home freeze dryers since 2020.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "juicerville",
+      "ontario",
+      "authorized",
+      "harvest"
+    ],
+    "region": "Ontario",
+    "website": "https://juicerville.com/"
+  },
+  {
+    "id": 10417,
+    "name": "MerchantShip (Freeze Drying Alberta)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Didsbury Alberta family store selling Harvest Right freeze dryers with local certified repair support.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "merchantship",
+      "freeze",
+      "drying",
+      "alberta"
+    ],
+    "region": "Alberta",
+    "website": "https://merchantship.ca/"
+  },
+  {
+    "id": 10418,
+    "name": "Canadian Preparedness",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian retailer selling Harvest Right home and XL freeze dryers with CAD pricing.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "preparedness",
+      "retailer",
+      "selling",
+      "harvest"
+    ],
+    "region": "Canada",
+    "website": "https://canadianpreparedness.ca/"
+  },
+  {
+    "id": 10419,
+    "name": "Canadawide Scientific",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Ottawa-area 100% Canadian-owned lab supplier of CryoDry and VirTis benchtop freeze dryers.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "canadawide",
+      "scientific",
+      "ottawa",
+      "area"
+    ],
+    "region": "Ontario",
+    "website": "https://www.canadawide.ca/"
+  },
+  {
+    "id": 10420,
+    "name": "Montreal Biotech",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Dorval Quebec authorized Martin Christ partner selling lab and production lyophilizers.",
+    "alts": [],
+    "tags": [
+      "freeze dryer",
+      "montreal",
+      "biotech",
+      "dorval",
+      "quebec"
+    ],
+    "region": "Quebec",
+    "website": "https://www.montreal-biotech.com/"
+  },
+  {
+    "id": 10421,
+    "name": "Rapidia",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Vancouver OEM of Conflux metal paste-deposition 3D printers and sintering furnaces; equipment made in Canada.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "rapidia",
+      "vancouver",
+      "oem"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.rapidia.com/"
+  },
+  {
+    "id": 10422,
+    "name": "NanoGrande",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Montreal ultra-high-precision FluidBed additive systems (MPL-100/200 laser sintering and binder-jet printers).",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "nanogrande",
+      "montreal",
+      "ultra"
+    ],
+    "region": "Quebec",
+    "website": "https://nanogrande.com/"
+  },
+  {
+    "id": 10423,
+    "name": "3DQue",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Richmond BC print-farm automation: AutoFarm 3D software plus VAAPR auto-ejection beds and hubs for desktop fleets.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "3dque",
+      "richmond",
+      "print"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.3dque.com/"
   }
 ]
