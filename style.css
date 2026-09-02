@@ -119,3 +119,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
 .store-tag{font-size:11px;padding:4px 10px;border-radius:20px;background:#f0fdf4;border:1px solid #bbf7d0;color:#15803d;font-weight:500}
 
 .product-site{margin-top:10px}
+
+.product-header-actions{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.save-btn{border:1px solid #e5e7eb;background:#fff;color:#9ca3af;width:32px;height:32px;border-radius:999px;cursor:pointer;font-size:16px;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:all .15s}
+.save-btn:hover{border-color:#fca5a5;color:#b91c1c;background:#fef2f2}
+.save-btn.saved{border-color:#fecaca;background:#fef2f2;color:#b91c1c}
+.nav-btn .saved-count{display:inline-block;min-width:16px;padding:0 5px;margin-left:4px;border-radius:999px;background:#fee2e2;color:#b91c1c;font-size:10px;font-weight:700;line-height:16px;vertical-align:middle}
+.saved-empty-actions{margin-top:14px}
+.saved-empty-actions .submit-btn{display:inline-block}

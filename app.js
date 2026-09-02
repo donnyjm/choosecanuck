@@ -3,6 +3,79 @@ const regionColors = {"British Columbia": "#2d6a4f", "Alberta": "#bc4749", "Sask
 const allRegions = ["British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland & Labrador", "Yukon", "Northwest Territories", "Nunavut", "National"];
 const PAGE_SIZE = 50;
 
+const SAVED_KEY = "cc_saved";
+
+function loadSavedIds(){
+  try{
+    var raw=JSON.parse(localStorage.getItem(SAVED_KEY)||"[]");
+    if(!Array.isArray(raw)) return [];
+    return raw.map(function(x){return Number(x)}).filter(function(x){return !isNaN(x)});
+  }catch(e){return [];}
+}
+
+function saveSavedIds(ids){
+  localStorage.setItem(SAVED_KEY, JSON.stringify(ids));
+  updateSavedNav();
+}
+
+function isSaved(id){
+  return loadSavedIds().indexOf(Number(id))!==-1;
+}
+
+function toggleSave(id, ev){
+  if(ev){ev.stopPropagation(); ev.preventDefault();}
+  id=Number(id);
+  var ids=loadSavedIds();
+  var i=ids.indexOf(id);
+  if(i===-1) ids.push(id); else ids.splice(i,1);
+  saveSavedIds(ids);
+  // refresh any visible save buttons for this id
+  document.querySelectorAll('.save-btn[data-id="'+id+'"]').forEach(function(btn){
+    var on=ids.indexOf(id)!==-1;
+    btn.classList.toggle('saved', on);
+    btn.setAttribute('aria-pressed', on?'true':'false');
+    btn.title=on?'Remove from saved':'Save for later';
+    btn.textContent=on?'♥':'♡';
+  });
+  var savedSection=document.getElementById('saved-section');
+  if(savedSection && savedSection.classList.contains('active')) renderSaved();
+}
+
+function updateSavedNav(){
+  var btn=document.getElementById('savedNavBtn');
+  if(!btn) return;
+  var n=loadSavedIds().length;
+  var label='Saved';
+  if(n) label+=' <span class="saved-count">'+n+'</span>';
+  btn.innerHTML=label;
+}
+
+function renderSaved(){
+  var c=document.getElementById('savedResults');
+  if(!c) return;
+  var ids=loadSavedIds();
+  if(!ids.length){
+    c.innerHTML="<div class='empty-state'><p>No saved products yet. Tap ♡ on any card to build your list.</p><div class='saved-empty-actions'><button class='submit-btn' onclick=\"switchTab('search')\">Browse products</button></div></div>";
+    updateSavedNav();
+    return;
+  }
+  var byId={};
+  products.forEach(function(p){byId[p.id]=p;});
+  var list=ids.map(function(id){return byId[id];}).filter(Boolean);
+  // drop stale ids
+  if(list.length!==ids.length){
+    saveSavedIds(list.map(function(p){return p.id;}));
+  }
+  if(!list.length){
+    c.innerHTML="<div class='empty-state'><p>No saved products yet. Tap ♡ on any card to build your list.</p></div>";
+    updateSavedNav();
+    return;
+  }
+  c.innerHTML="<div class='canada-badge' style='margin-bottom:12px'>♡ <strong>"+list.length+" saved</strong> on this device</div>"+list.map(renderCard).join("");
+  updateSavedNav();
+}
+
+
 function getScoreClass(s){return s>=75?"score-high":s>=40?"score-mid":"score-low"}
 
 function esc(s){
@@ -15,10 +88,13 @@ function esc(s){
 
 function renderCard(p){
   var rc=regionColors[p.region]||"#6b7280";
+  var on=isSaved(p.id);
   var h="<div class='product-card' onclick='toggleDetail("+p.id+")'>";
   h+="<div class='product-header'><div><div class='product-name'>"+esc(p.name)+"</div>";
   h+="<div class='product-meta'><span class='product-category'>"+esc(p.category)+"</span><span class='product-region' style='background:"+rc+"'>"+esc(p.region)+"</span></div></div>";
-  h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span></div>";
+  h+="<div class='product-header-actions'>";
+  h+="<button type='button' class='save-btn"+(on?" saved":"")+"' data-id='"+p.id+"' aria-label='"+(on?"Remove from saved":"Save for later")+"' aria-pressed='"+(on?"true":"false")+"' title='"+(on?"Remove from saved":"Save for later")+"' onclick='toggleSave("+p.id+", event)'>"+(on?"♥":"♡")+"</button>";
+  h+="<span class='score-badge "+getScoreClass(p.score)+"'>"+p.score+"/100</span></div></div>";
   h+="<div class='product-desc'>"+esc(p.description)+"</div>";
   if(p.website){
     h+="<div class='product-site'><a class='buy-btn brand' href='"+esc(p.website)+"' target='_blank' rel='noopener' onclick='event.stopPropagation()'>Visit website</a></div>";
@@ -151,6 +227,7 @@ function switchTab(name){
   document.querySelectorAll(".nav-btn").forEach(function(b){if(b.dataset.section===name)b.classList.add("active")});
   document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});
   document.getElementById(name+"-section").classList.add("active");
+  if(name==="saved") renderSaved();
 }
 
 function isValidWebsite(url){
@@ -364,14 +441,16 @@ function initApp(){
       this.classList.add("active");
       document.querySelectorAll(".section").forEach(function(s){s.classList.remove("active")});
       document.getElementById(this.dataset.section+"-section").classList.add("active");
+      if(this.dataset.section==="saved") renderSaved();
     });
   });
 
+  updateSavedNav();
   renderHomepage();
   renderSubmissions();
 }
 
-fetch("products.json?v=33").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=34").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
