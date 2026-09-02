@@ -125572,5 +125572,923 @@
     ],
     "region": "Ontario",
     "website": "https://willowvalleywellness.com/"
+  },
+  {
+    "id": 10256,
+    "name": "Bumby Wool",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Canadian merino wool clothing and cloth-diaper covers designed, dyed and sewn in-house.",
+    "alts": [],
+    "tags": [
+      "bumby",
+      "wool",
+      "merino",
+      "clothing"
+    ],
+    "region": "Alberta",
+    "website": "https://bumbywool.com/"
+  },
+  {
+    "id": 10257,
+    "name": "Jessie Da Silva",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto designer womenswear made ethically in small batches or to-order.",
+    "alts": [],
+    "tags": [
+      "jessie",
+      "silva",
+      "toronto",
+      "designer"
+    ],
+    "region": "Ontario",
+    "website": "https://www.jessiedasilva.net/"
+  },
+  {
+    "id": 10258,
+    "name": "Econica",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Ottawa-area sewing studio making organic natural-fibre womenswear and lingerie to order.",
+    "alts": [],
+    "tags": [
+      "econica",
+      "ottawa",
+      "area",
+      "sewing"
+    ],
+    "region": "Ontario",
+    "website": "https://econica.ca/"
+  },
+  {
+    "id": 10259,
+    "name": "Glasnost",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "East Vancouver handmade waxed-cotton rainwear and outerwear by Stephanie Schneider.",
+    "alts": [],
+    "tags": [
+      "glasnost",
+      "east",
+      "vancouver",
+      "waxed"
+    ],
+    "region": "British Columbia",
+    "website": "https://glasnost.ca/"
+  },
+  {
+    "id": 10260,
+    "name": "Revol Cares",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Canadian PFAS-free period and leakproof underwear for heavy flow and postpartum.",
+    "alts": [],
+    "tags": [
+      "revol",
+      "cares",
+      "pfas",
+      "free"
+    ],
+    "region": "British Columbia",
+    "website": "https://revolcares.com/"
+  },
+  {
+    "id": 10261,
+    "name": "Nooks Design",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Ethically handmade felted-wool booties, footwear and knitwear for littles.",
+    "alts": [],
+    "tags": [
+      "nooks",
+      "design",
+      "felted",
+      "wool"
+    ],
+    "region": "Canada",
+    "website": "https://nooksdesign.ca/"
+  },
+  {
+    "id": 10262,
+    "name": "Stephanie Smith Clothing",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Winnipeg handmade small-batch clothing (formerly Made by Josephine).",
+    "alts": [],
+    "tags": [
+      "stephanie",
+      "smith",
+      "clothing",
+      "winnipeg"
+    ],
+    "region": "Manitoba",
+    "website": "https://www.stephaniesmithclothing.com/"
+  },
+  {
+    "id": 10263,
+    "name": "Sea of Wolves",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Nelson BC studio designing, cutting, sewing and printing garments in-house.",
+    "alts": [],
+    "tags": [
+      "sea",
+      "wolves",
+      "nelson",
+      "studio"
+    ],
+    "region": "British Columbia",
+    "website": "https://seaofwolves.ca/"
+  },
+  {
+    "id": 10264,
+    "name": "Whiteout Workshop",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Edmonton original silk-screened art and apparel hand-printed by Natasha Paterson.",
+    "alts": [],
+    "tags": [
+      "whiteout",
+      "workshop",
+      "edmonton",
+      "original"
+    ],
+    "region": "Alberta",
+    "website": "https://whiteoutworkshop.com/"
+  },
+  {
+    "id": 10265,
+    "name": "Little Bugs & Me",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Handmade made-to-order apparel for women and children using OEKO-TEX fabrics.",
+    "alts": [],
+    "tags": [
+      "little",
+      "bugs",
+      "made",
+      "order"
+    ],
+    "region": "Alberta",
+    "website": "https://littlebugsandme.com/"
+  },
+  {
+    "id": 10266,
+    "name": "Brenda Laine Designs",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Duncan BC sustainable fashion in hemp, linen, bamboo and merino, sewn in Vancouver.",
+    "alts": [],
+    "tags": [
+      "brenda",
+      "laine",
+      "designs",
+      "duncan"
+    ],
+    "region": "British Columbia",
+    "website": "https://brendalaine.com/"
+  },
+  {
+    "id": 10267,
+    "name": "Nudnik",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto upcycled organic kidswear diverting luxury eco deadstock fabrics from landfill.",
+    "alts": [],
+    "tags": [
+      "nudnik",
+      "toronto",
+      "upcycled",
+      "organic"
+    ],
+    "region": "Ontario",
+    "website": "https://nudniklife.com/"
+  },
+  {
+    "id": 10268,
+    "name": "CoutuKitsch",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Calgary Inglewood jewelry studio and boutique with permanent jewelry and apparel.",
+    "alts": [],
+    "tags": [
+      "coutukitsch",
+      "calgary",
+      "inglewood",
+      "jewelry"
+    ],
+    "region": "Alberta",
+    "website": "https://coutukitsch.com/"
+  },
+  {
+    "id": 10269,
+    "name": "Spencer Badu",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto menswear designer (CAFA 2024) known for minimal genderless silhouettes; largely made in Canada.",
+    "alts": [],
+    "tags": [
+      "spencer",
+      "badu",
+      "toronto",
+      "menswear"
+    ],
+    "region": "Ontario",
+    "website": "https://spencerbadu.com/"
+  },
+  {
+    "id": 10270,
+    "name": "Rueneau",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto brand established 2021; wardrobe essentials made in Canada with natural fabrics.",
+    "alts": [],
+    "tags": [
+      "rueneau",
+      "toronto",
+      "brand",
+      "established"
+    ],
+    "region": "Ontario",
+    "website": "https://rueneau.com/"
+  },
+  {
+    "id": 10271,
+    "name": "Hannah Isolde",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Montreal one-woman slow fashion label sewing deadstock and reclaimed fabrics to order.",
+    "alts": [],
+    "tags": [
+      "hannah",
+      "isolde",
+      "montreal",
+      "one"
+    ],
+    "region": "Quebec",
+    "website": "https://hannahisolde.com/"
+  },
+  {
+    "id": 10272,
+    "name": "James Coward",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Vancouver modern menswear and workwear-influenced tailoring in small Canadian-made runs.",
+    "alts": [],
+    "tags": [
+      "james",
+      "coward",
+      "vancouver",
+      "modern"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.james-coward.com/"
+  },
+  {
+    "id": 10273,
+    "name": "Créations Encore",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Quebec women's apparel brand founded 2006 with fair-trade and local production values.",
+    "alts": [],
+    "tags": [
+      "ations",
+      "encore",
+      "quebec",
+      "women"
+    ],
+    "region": "Quebec",
+    "website": "https://www.creationsencore.com/"
+  },
+  {
+    "id": 10274,
+    "name": "Seed",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Calgary organic hemp and cotton pants and apparel handcrafted and sewn in Canada.",
+    "alts": [],
+    "tags": [
+      "seed",
+      "calgary",
+      "organic",
+      "hemp"
+    ],
+    "region": "Alberta",
+    "website": "https://theseedstore.ca/"
+  },
+  {
+    "id": 10275,
+    "name": "Movement Global",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Vancouver sustainable bamboo modular and reversible clothing and eco bras.",
+    "alts": [],
+    "tags": [
+      "movement",
+      "global",
+      "vancouver",
+      "sustainable"
+    ],
+    "region": "British Columbia",
+    "website": "https://movementglobal.ca/"
+  },
+  {
+    "id": 10276,
+    "name": "Sownsmith",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Ethical Canadian-made clothing and sustainable fabrics with a charitable profit share.",
+    "alts": [],
+    "tags": [
+      "sownsmith",
+      "ethical",
+      "made",
+      "clothing"
+    ],
+    "region": "Canada",
+    "website": "https://sownsmith.com/"
+  },
+  {
+    "id": 10277,
+    "name": "Les Petites Natures",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Quebec-made children's clothing in organic and OEKO-TEX certified fabrics.",
+    "alts": [],
+    "tags": [
+      "les",
+      "petites",
+      "natures",
+      "quebec"
+    ],
+    "region": "Quebec",
+    "website": "https://lespetitesnatures.com/"
+  },
+  {
+    "id": 10278,
+    "name": "Seaside Apparel NL",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Newfoundland apparel brand using post-consumer recycled plastic bottles and cotton scraps.",
+    "alts": [],
+    "tags": [
+      "seaside",
+      "apparel",
+      "newfoundland",
+      "brand"
+    ],
+    "region": "Newfoundland and Labrador",
+    "website": "https://seasideapparel.ca/"
+  },
+  {
+    "id": 10279,
+    "name": "Body of Work",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto artisanal sportswear designed, knit, dyed, cut and sewn with Ontario mills.",
+    "alts": [],
+    "tags": [
+      "body",
+      "work",
+      "toronto",
+      "artisanal"
+    ],
+    "region": "Ontario",
+    "website": "https://bodyofwork-studio.com/"
+  },
+  {
+    "id": 10280,
+    "name": "Kluane Mountaineering",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Edmonton made-to-order down jackets and sleeping bags cut, sewn and filled since 1972.",
+    "alts": [],
+    "tags": [
+      "kluane",
+      "mountaineering",
+      "edmonton",
+      "made"
+    ],
+    "region": "Alberta",
+    "website": "https://kluanemountaineering.com/"
+  },
+  {
+    "id": 10281,
+    "name": "École de Pensée",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Montreal menswear label with Laurier West flagship; MTM suits and ready-to-wear.",
+    "alts": [],
+    "tags": [
+      "cole",
+      "pens",
+      "montreal",
+      "menswear"
+    ],
+    "region": "Quebec",
+    "website": "https://ecoledepensee.com/"
+  },
+  {
+    "id": 10282,
+    "name": "Wanze Song",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto brand mixing classic tailoring with modern silhouettes; made in Canada.",
+    "alts": [],
+    "tags": [
+      "wanze",
+      "song",
+      "toronto",
+      "brand"
+    ],
+    "region": "Ontario",
+    "website": "https://www.wanzesong.com/"
+  },
+  {
+    "id": 10283,
+    "name": "Dana Lee Brown",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Bowen Island studio making simple clothing with a documented ethical supply chain.",
+    "alts": [],
+    "tags": [
+      "dana",
+      "lee",
+      "brown",
+      "bowen"
+    ],
+    "region": "British Columbia",
+    "website": "https://danaleebrown.com/"
+  },
+  {
+    "id": 10284,
+    "name": "Ciele Athletics",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Montreal running brand known for performance hats expanding into apparel.",
+    "alts": [],
+    "tags": [
+      "ciele",
+      "athletics",
+      "montreal",
+      "running"
+    ],
+    "region": "Quebec",
+    "website": "https://www.cieleathletics.com/"
+  },
+  {
+    "id": 10285,
+    "name": "Rosa Rugosa",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Toronto Parkdale utilitarian clothing brand associated with Matty Matheson.",
+    "alts": [],
+    "tags": [
+      "rosa",
+      "rugosa",
+      "toronto",
+      "parkdale"
+    ],
+    "region": "Ontario",
+    "website": "https://rosarugosa.com/"
+  },
+  {
+    "id": 10286,
+    "name": "The Sask Bath Company",
+    "category": "Personal Care",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Plant-based baby and adult bath and skincare made in Melfort, Saskatchewan.",
+    "alts": [],
+    "tags": [
+      "sask",
+      "bath",
+      "company",
+      "plant"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://saskbathco.com/"
+  },
+  {
+    "id": 10287,
+    "name": "Sasktea",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Small-batch herbal teas and wildcrafted prairie herbs, locally packed.",
+    "alts": [],
+    "tags": [
+      "sasktea",
+      "small",
+      "batch",
+      "herbal"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://www.sasktea.ca/"
+  },
+  {
+    "id": 10288,
+    "name": "Bison Ridge Farms",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Prince Albert area bison farm selling meat, tallow balms/soaps and farm goods.",
+    "alts": [],
+    "tags": [
+      "bison",
+      "ridge",
+      "farms",
+      "prince"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://bisonridgefarms.ca/"
+  },
+  {
+    "id": 10289,
+    "name": "Soybru",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Prince Edward Island small-batch finishing soy sauce from PEI soybeans and Atlantic brine.",
+    "alts": [],
+    "tags": [
+      "soybru",
+      "prince",
+      "edward",
+      "island"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://soybru.com/"
+  },
+  {
+    "id": 10290,
+    "name": "Green Eye Designs",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "PEI artisan design shop with online Square storefront.",
+    "alts": [],
+    "tags": [
+      "green",
+      "eye",
+      "designs",
+      "pei"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://greeneyedesigns.ca/"
+  },
+  {
+    "id": 10291,
+    "name": "Bush Order Provisions",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yellowknife market garden, bakery and farm store supporting NWT food producers.",
+    "alts": [],
+    "tags": [
+      "bush",
+      "order",
+      "provisions",
+      "yellowknife"
+    ],
+    "region": "Northwest Territories",
+    "website": "https://bushorder.ca/"
+  },
+  {
+    "id": 10292,
+    "name": "Marijke Crafts",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon Fireweed Market craft vendor with online Square shop shipping via Canada Post.",
+    "alts": [],
+    "tags": [
+      "marijke",
+      "crafts",
+      "yukon",
+      "fireweed"
+    ],
+    "region": "Yukon",
+    "website": "https://marijkecrafts.com/"
+  },
+  {
+    "id": 10293,
+    "name": "Maeva Esteva Art",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon visual artist and Fireweed Market vendor with an online shop.",
+    "alts": [],
+    "tags": [
+      "maeva",
+      "esteva",
+      "art",
+      "yukon"
+    ],
+    "region": "Yukon",
+    "website": "https://www.maevaestevaart.com/"
+  },
+  {
+    "id": 10294,
+    "name": "The Boreal Florist",
+    "category": "Household",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Whitehorse Yukon florist and floral goods sold via Square online storefront.",
+    "alts": [],
+    "tags": [
+      "boreal",
+      "florist",
+      "whitehorse",
+      "yukon"
+    ],
+    "region": "Yukon",
+    "website": "https://theborealflorist.square.site/"
+  },
+  {
+    "id": 10295,
+    "name": "Whitehorse Woof",
+    "category": "Household",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Whitehorse natural pet treats and accessories via Square storefront.",
+    "alts": [],
+    "tags": [
+      "whitehorse",
+      "woof",
+      "natural",
+      "pet"
+    ],
+    "region": "Yukon",
+    "website": "https://whitehorsewooftreats.square.site/"
+  },
+  {
+    "id": 10296,
+    "name": "Daddy's Donuts",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon Fireweed Market baked-goods vendor with Square online ordering.",
+    "alts": [],
+    "tags": [
+      "daddy",
+      "donuts",
+      "yukon",
+      "fireweed"
+    ],
+    "region": "Yukon",
+    "website": "https://daddys-donuts.square.site/"
+  },
+  {
+    "id": 10297,
+    "name": "Sandra O'Reilly Duncan",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon artisan listed among Fireweed Market summer vendors with an official site.",
+    "alts": [],
+    "tags": [
+      "sandra",
+      "reilly",
+      "duncan",
+      "yukon"
+    ],
+    "region": "Yukon",
+    "website": "https://sandraoreillyduncan.ca/"
+  },
+  {
+    "id": 10298,
+    "name": "Matthew Toothill",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon maker/artist listed on Fireweed Market summer vendors with website.",
+    "alts": [],
+    "tags": [
+      "matthew",
+      "toothill",
+      "yukon",
+      "maker"
+    ],
+    "region": "Yukon",
+    "website": "https://matthewtoothill.com/"
+  },
+  {
+    "id": 10299,
+    "name": "Rosemary Scanlon",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon artist listed on Fireweed Market winter vendors.",
+    "alts": [],
+    "tags": [
+      "rosemary",
+      "scanlon",
+      "yukon",
+      "artist"
+    ],
+    "region": "Yukon",
+    "website": "https://rosemaryscanlon.com/"
+  },
+  {
+    "id": 10300,
+    "name": "Akassiyah",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Yukon vendor listed on Fireweed Market winter vendors with official site.",
+    "alts": [],
+    "tags": [
+      "akassiyah",
+      "yukon",
+      "vendor",
+      "listed"
+    ],
+    "region": "Yukon",
+    "website": "https://www.akassiyah.com/"
+  },
+  {
+    "id": 10301,
+    "name": "HandmadeSask",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Regina locally made gift shop featuring Saskatchewan artisan goods and apparel.",
+    "alts": [],
+    "tags": [
+      "handmadesask",
+      "regina",
+      "locally",
+      "made"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://www.handmadesask.com/"
+  },
+  {
+    "id": 10302,
+    "name": "Red River Métis Marketplace",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Winnipeg online marketplace for Red River Métis artisans' handcrafted goods.",
+    "alts": [],
+    "tags": [
+      "red",
+      "river",
+      "tis",
+      "marketplace"
+    ],
+    "region": "Manitoba",
+    "website": "https://redrivermetismarketplace.ca/"
+  },
+  {
+    "id": 10303,
+    "name": "Saskamper Apparel",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Saskatoon prairie camping lifestyle apparel and bunnyhugs.",
+    "alts": [],
+    "tags": [
+      "saskamper",
+      "apparel",
+      "saskatoon",
+      "prairie"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://saskamper.ca/"
+  },
+  {
+    "id": 10304,
+    "name": "Actionwear FR",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Saskatoon family-owned manufacturer of fire-resistant workwear since 1974.",
+    "alts": [],
+    "tags": [
+      "actionwear",
+      "saskatoon",
+      "family",
+      "owned"
+    ],
+    "region": "Saskatchewan",
+    "website": "https://www.actionwear.ca/"
+  },
+  {
+    "id": 10305,
+    "name": "Red Rebel Armour",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Winnipeg Indigenous Anishinaabe streetwear with in-house print and embroidery.",
+    "alts": [],
+    "tags": [
+      "red",
+      "rebel",
+      "armour",
+      "winnipeg"
+    ],
+    "region": "Manitoba",
+    "website": "https://redrebelarmour.ca/"
+  },
+  {
+    "id": 10306,
+    "name": "Pike + Pine Apparel Co.",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Winnipeg Métis-inspired apparel brand founded in 2020 on Treaty 1 Territory.",
+    "alts": [],
+    "tags": [
+      "pike",
+      "pine",
+      "apparel",
+      "winnipeg"
+    ],
+    "region": "Manitoba",
+    "website": "https://www.pikeandpineapparelco.com/"
+  },
+  {
+    "id": 10307,
+    "name": "Coastal Culture",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "PEI souvenir apparel brand with Charlottetown and Island retail locations.",
+    "alts": [],
+    "tags": [
+      "coastal",
+      "culture",
+      "pei",
+      "souvenir"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://coastalculture.com/"
+  },
+  {
+    "id": 10308,
+    "name": "Sea House Canada",
+    "category": "Clothing",
+    "origin": "Canada",
+    "score": 85,
+    "description": "Charlottetown waterfront maritime apparel and PEI-themed clothing.",
+    "alts": [],
+    "tags": [
+      "sea",
+      "house",
+      "charlottetown",
+      "waterfront"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://seahouse.ca/"
+  },
+  {
+    "id": 10309,
+    "name": "Fellow Earthlings",
+    "category": "Other",
+    "origin": "Canada",
+    "score": 85,
+    "description": "PEI handmade eyewear workshop producing recycled-acetate frames in Guernsey Cove.",
+    "alts": [],
+    "tags": [
+      "fellow",
+      "earthlings",
+      "pei",
+      "eyewear"
+    ],
+    "region": "Prince Edward Island",
+    "website": "https://fellowearthlings.com/"
   }
 ]
