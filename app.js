@@ -475,6 +475,8 @@ function renderHomepage(){
   var cats=[...new Set(products.map(function(p){return p.category}))].sort();
   var badge=document.getElementById("productCountBadge");
   if(badge) badge.textContent=products.length.toLocaleString()+"+ Canadian Products";
+  var logoCount=document.getElementById("logoCount");
+  if(logoCount) logoCount.textContent=products.length.toLocaleString()+"+ products · growing";
 
   document.getElementById("homeStats").innerHTML=
     "<div class='stat-box'><div class='stat-number'>"+products.length.toLocaleString()+"</div><div class='stat-label'>Products</div></div>"+
