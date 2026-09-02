@@ -607,21 +607,24 @@ function renderHomepage(){
 }
 
 function showProductDetail(id){
-  // Ensure the card exists on search/home by jumping to categories all and opening
-  var existing=document.getElementById("detail-"+id);
-  if(!existing){
-    switchTab('categories');
-    renderPaged('categoryResults',products,1);
-    // find page containing id
-    var idx=products.findIndex(function(p){return p.id===id});
-    if(idx>=0){
-      var page=Math.floor(idx/PAGE_SIZE)+1;
-      renderPaged('categoryResults',products,page);
-    }
+  var p=products.find(function(x){return x.id===id});
+  if(!p) return;
+  switchTab('search');
+  var input=document.getElementById("searchInput");
+  if(input) input.value=p.name;
+  // Render this product (and close siblings) in search results so the detail node exists
+  setResultsHtml("searchResults", renderCard(p));
+  var homeBits=["homeStats","recentGrid","featuredGrid","homeCats","homeRegions"];
+  // keep home visible below; scroll to the card
+  var detail=document.getElementById("detail-"+id);
+  if(detail && detail.style.display==="block"){
+    // already open — leave it
+  } else {
+    toggleDetail(id);
   }
-  toggleDetail(id);
-  var el=document.getElementById("detail-"+id);
-  if(el)el.scrollIntoView({behavior:"smooth",block:"nearest"});
+  var card=detail && detail.previousElementSibling;
+  var target=card||detail||document.getElementById("searchResults");
+  if(target) target.scrollIntoView({behavior:"smooth",block:"start"});
 }
 
 function initApp(){
