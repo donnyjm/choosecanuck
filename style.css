@@ -215,3 +215,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;b
   .spotlight-nav{width:30px;font-size:18px}
   .spotlight-name{font-size:15px}
 }
+
+.voices{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:0 0 16px;border-left:4px solid #b91c1c}
+.voices[hidden]{display:none!important}
+.voices-label{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#b91c1c;margin-bottom:10px}
+.voices-quote{font-size:15px;line-height:1.55;color:#111827;font-weight:500;margin:0 0 12px;quotes:none}
+.voices-quote::before{content:'“';color:#b91c1c;font-size:22px;line-height:0;vertical-align:-6px;margin-right:4px}
+.voices-attrib{display:flex;justify-content:space-between;gap:12px;align-items:flex-end;flex-wrap:wrap}
+.voices-name{font-size:13px;font-weight:700;color:#111827}
+.voices-role{font-size:12px;color:#6b7280}
+.voices-source{font-size:11px;color:#1d4ed8;text-decoration:none;font-weight:600}
+.voices-source:hover{text-decoration:underline}
+.voices-dots{display:flex;justify-content:center;gap:6px;margin-top:12px}
+.voices-dot{width:7px;height:7px;border-radius:50%;border:none;background:#d1d5db;padding:0;cursor:pointer}
+.voices-dot.active{background:#b91c1c}
+@media(max-width:480px){.voices-quote{font-size:14px}}

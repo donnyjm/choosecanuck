@@ -678,6 +678,81 @@ function syncSpotlightVisibility(){
   root.hidden=!!q || !spotlightItems.length;
 }
 
+
+var voicesList=[];
+var voicesIndex=0;
+var voicesTimer=null;
+var voicesPaused=false;
+
+function stopVoices(){
+  if(voicesTimer){ clearInterval(voicesTimer); voicesTimer=null; }
+}
+
+function renderVoice(){
+  var root=document.getElementById("canadianVoices");
+  if(!root||!voicesList.length) return;
+  var v=voicesList[voicesIndex];
+  document.getElementById("voicesQuote").textContent=v.quote;
+  document.getElementById("voicesName").textContent=v.name;
+  document.getElementById("voicesRole").textContent=v.role||"";
+  var src=document.getElementById("voicesSource");
+  src.href=v.url||"#";
+  src.textContent=v.source?("Source · "+v.source):"Source";
+  var dots=document.getElementById("voicesDots");
+  dots.innerHTML=voicesList.map(function(_,i){
+    return "<button type='button' class='voices-dot"+(i===voicesIndex?" active":"")+"' aria-label='Quote "+(i+1)+"' data-idx='"+i+"'></button>";
+  }).join("");
+  root.hidden=false;
+}
+
+function startVoices(){
+  stopVoices();
+  if(voicesList.length<2) return;
+  if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  voicesTimer=setInterval(function(){
+    if(voicesPaused||document.hidden) return;
+    var input=document.getElementById("searchInput");
+    if(input && input.value.trim()) return;
+    voicesIndex=(voicesIndex+1)%voicesList.length;
+    renderVoice();
+  }, 8000);
+}
+
+function syncVoicesVisibility(){
+  var root=document.getElementById("canadianVoices");
+  if(!root) return;
+  var input=document.getElementById("searchInput");
+  var q=input && input.value.trim();
+  root.hidden=!!q || !voicesList.length;
+}
+
+function initVoices(list){
+  var root=document.getElementById("canadianVoices");
+  if(!root) return;
+  voicesList=(list||[]).filter(function(v){return v && v.quote && v.name;});
+  // light shuffle
+  for(var i=voicesList.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var t=voicesList[i]; voicesList[i]=voicesList[j]; voicesList[j]=t;
+  }
+  voicesIndex=0;
+  if(!voicesList.length){ root.hidden=true; return; }
+  renderVoice();
+  var dots=document.getElementById("voicesDots");
+  if(dots){
+    dots.onclick=function(e){
+      var b=e.target.closest(".voices-dot");
+      if(!b) return;
+      voicesIndex=Number(b.getAttribute("data-idx"))||0;
+      renderVoice();
+      startVoices();
+    };
+    dots.addEventListener("mouseenter", function(){ voicesPaused=true; });
+    dots.addEventListener("mouseleave", function(){ voicesPaused=false; });
+  }
+  startVoices();
+}
+
 function pickFeatured(list,n){
   var pool=list.slice().sort(function(a,b){return (b.score||0)-(a.score||0);});
   var out=[], seen={};
@@ -842,6 +917,7 @@ fetch("products.json?v=38").then(function(r){return r.json()}).then(function(d){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
   initApp();
+  fetch("voices.json?v=1").then(function(r){return r.json()}).then(initVoices).catch(function(){});
 }).catch(function(e){
   console.error(e);
   setResultsHtml("searchResults","<div class='empty-state'><p>Error loading products. Please refresh.</p></div>");
