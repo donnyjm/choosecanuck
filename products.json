@@ -127786,5 +127786,149 @@
     ],
     "region": "British Columbia",
     "website": "https://deltacontrols.com/"
+  },
+  {
+    "id": 10382,
+    "name": "Mosaic Manufacturing",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Toronto OEM of Canadian-assembled industrial FFF printers (Element HT) and automated Array production cells; multi-material Palette tech.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "mosaic",
+      "manufacturing",
+      "toronto"
+    ],
+    "region": "Ontario",
+    "website": "https://mosaicmfg.com/"
+  },
+  {
+    "id": 10383,
+    "name": "AON3D",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Montreal industrial AM company making high-temperature FFF printers (Hylo, AON M2+) for PEEK, ULTEM and engineering polymers.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "aon3d",
+      "montreal",
+      "industrial"
+    ],
+    "region": "Quebec",
+    "website": "https://www.aon3d.com/"
+  },
+  {
+    "id": 10384,
+    "name": "Concepts 3D (Athena)",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Kelowna BC Canadian brand of smart mSLA resin printers (Athena I/II/Pro); electronics assembly and QC in Canada/Germany.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "concepts",
+      "athena",
+      "kelowna"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.concepts3d.ca/"
+  },
+  {
+    "id": 10385,
+    "name": "Pantheon Design",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Vancouver high-speed industrial FFF HS3 printer OEM; machines assembled in-house with Canadian-made parts for carbon-fiber prints.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "pantheon",
+      "design",
+      "vancouver"
+    ],
+    "region": "British Columbia",
+    "website": "https://www.pantheondesign.com/"
+  },
+  {
+    "id": 10386,
+    "name": "Tinkerine",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Vancouver desktop FDM manufacturer of DittoPro education/prosumer 3D printers; Canadian brand with active CA storefront.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "tinkerine",
+      "vancouver",
+      "desktop"
+    ],
+    "region": "British Columbia",
+    "website": "https://tinkerine.com/"
+  },
+  {
+    "id": 10387,
+    "name": "Voltera",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Waterloo ON benchtop electronics printers (V-One PCB, NOVA flexible circuits); designed, assembled and shipped from Canada.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "voltera",
+      "waterloo",
+      "benchtop"
+    ],
+    "region": "Ontario",
+    "website": "https://www.voltera.io/"
+  },
+  {
+    "id": 10388,
+    "name": "Dyze Design",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Montreal maker of industrial 3D printing hardware: high-flow filament/pellet extruders and turnkey robotic 3D printing cells.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "dyze",
+      "design",
+      "montreal"
+    ],
+    "region": "Quebec",
+    "website": "https://dyzedesign.com/"
+  },
+  {
+    "id": 10389,
+    "name": "ReDeTec",
+    "category": "Home & Electronics",
+    "origin": "Canada",
+    "score": 90,
+    "description": "Toronto ProtoCycler desktop filament extruder/recycler; patented MixFlow hardware tested and shipped from Canada. Canadian 3D printing hardware.",
+    "alts": [],
+    "tags": [
+      "3d printer",
+      "3d printing",
+      "redetec",
+      "toronto",
+      "protocycler"
+    ],
+    "region": "Ontario",
+    "website": "https://redetec.com/"
   }
 ]
