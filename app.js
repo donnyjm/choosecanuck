@@ -490,9 +490,24 @@ function generateSubmission(){
   entry.submittedAt=new Date().toISOString();
   subs.push(entry);
   localStorage.setItem("cc_submissions",JSON.stringify(subs));
+  if(window.goatcounter&&goatcounter.count){
+    try{goatcounter.count({path:"click/submit-product",title:name,event:true});}catch(err){}
+  }
+  var lines=["New product submission — ChooseCanuck","",
+    "Name: "+name,
+    "Category: "+cat,
+    "Region: "+region,
+    "Website: "+website,
+    "Description: "+desc];
+  if(whereToBuy) lines.push("Where to buy: "+whereToBuy);
+  if(tags.length) lines.push("Tags: "+tags.join(", "));
+  lines.push(""); lines.push("Sent from choosecanuck.ca");
+  var body=lines.join("\n");
+  var mailto="mailto:dmekilok@mac.com?subject="+encodeURIComponent("ChooseCanuck submit: "+name)+"&body="+encodeURIComponent(body);
   document.getElementById("submitForm").style.display="none";
   document.getElementById("submitSuccess").style.display="block";
   renderSubmissions();
+  window.location.href=mailto;
 }
 
 function renderSubmissions(){
