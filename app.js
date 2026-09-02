@@ -716,6 +716,8 @@ function renderHomepage(){
     document.querySelectorAll('#regionChips .region-chip').forEach(function(b){b.classList.toggle('active',b.dataset.region===region)});
     renderPaged('regionResults',products.filter(function(p){return p.region===region}),1);
   };
+
+  initSpotlight();
 }
 
 function showProductDetail(id){
