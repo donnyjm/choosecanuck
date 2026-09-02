@@ -127570,5 +127570,149 @@
     ],
     "region": "Ontario",
     "website": "https://www.wolfsteel.com/"
+  },
+  {
+    "id": 10370,
+    "name": "Origo Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "BC freeze-dried Canadian fruit and yogurt (froyo) snacks made with BC-grown fruit.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "origo",
+      "fruit",
+      "yogurt"
+    ],
+    "region": "British Columbia",
+    "website": "https://origofoods.com/"
+  },
+  {
+    "id": 10371,
+    "name": "Happy Yak",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Quebec maker of gourmet freeze-dried adventure and emergency meals in Cowansville.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "happy",
+      "yak",
+      "quebec"
+    ],
+    "region": "Quebec",
+    "website": "https://happyyak.ca/"
+  },
+  {
+    "id": 10372,
+    "name": "SLY Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Plant-based gourmet freeze-dried meals made in Sainte-Agathe-des-Monts, Quebec.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "sly",
+      "plant",
+      "based"
+    ],
+    "region": "Quebec",
+    "website": "https://slyfoods.com/en/"
+  },
+  {
+    "id": 10373,
+    "name": "Pure Choice Foods",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Canadian processor of freeze-dried fruit, vegetables, meats and long-term pantry ingredients.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "pure",
+      "choice",
+      "processor"
+    ],
+    "region": "Canada",
+    "website": "https://purechoicefoods.ca/"
+  },
+  {
+    "id": 10374,
+    "name": "Flat Out Feasts",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Edmonton low-carb high-protein freeze-dried backpacking meals made in Alberta.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "flat",
+      "out",
+      "feasts"
+    ],
+    "region": "Alberta",
+    "website": "https://flatoutfeasts.ca/"
+  },
+  {
+    "id": 10375,
+    "name": "Just Freeze It Sweets",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Amherstburg ON small-batch freeze-dried candy and Ontario fruit snacks.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "just",
+      "sweets",
+      "amherstburg"
+    ],
+    "region": "Ontario",
+    "website": "https://www.justfreezeitsweets.ca/"
+  },
+  {
+    "id": 10376,
+    "name": "The Frozen Jazzis",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Newmarket ON women-owned freeze-dried candy and snacks.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "frozen",
+      "jazzis",
+      "newmarket"
+    ],
+    "region": "Ontario",
+    "website": "https://www.thefrozenjazzis.ca/"
+  },
+  {
+    "id": 10377,
+    "name": "Kenora Freeze Dried Food",
+    "category": "Food",
+    "origin": "Canada",
+    "score": 88,
+    "description": "Kenora ON family freeze-dried candy, fruit and snacks.",
+    "alts": [],
+    "tags": [
+      "freeze dried",
+      "food",
+      "kenora",
+      "family",
+      "candy"
+    ],
+    "region": "Ontario",
+    "website": "https://www.kenorafreezedriedfood.ca/"
   }
 ]
