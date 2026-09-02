@@ -5754,23 +5754,6 @@
     "website": "https://www.thebay.com/"
   },
   {
-    "id": 716,
-    "name": "Ambler Toques",
-    "category": "Clothing",
-    "origin": "Canada",
-    "score": 85,
-    "description": "Vancouver-made merino wool toques and beanies.",
-    "alts": [],
-    "tags": [
-      "toques",
-      "hats",
-      "merino",
-      "wool"
-    ],
-    "region": "British Columbia",
-    "website": "https://www.ambler.com/"
-  },
-  {
     "id": 717,
     "name": "Kootenay Knit Toques",
     "category": "Clothing",
@@ -89428,12 +89411,18 @@
     "name": "Ambler",
     "category": "Clothing",
     "origin": "Canada",
-    "score": 90,
-    "description": "Ambler is a family-owned company who have made their hats in the same factory in British Columbia for fifteen years. Their t-shirts, made from organic cotton and recycled polyester, are made at the...",
+    "score": 92,
+    "description": "BC-made hats, toques and slippers (Ambler Mountain Works). Made in Canada for decades.",
     "alts": [],
-    "tags": [],
-    "region": "National",
-    "website": "https://amblermw.com"
+    "tags": [
+      "toques",
+      "hats",
+      "beanies",
+      "headwear",
+      "merino"
+    ],
+    "region": "British Columbia",
+    "website": "https://amblermw.com/"
   },
   {
     "id": 7658,
@@ -115309,9 +115298,14 @@
     "origin": "Canada",
     "region": "British Columbia",
     "score": 90,
-    "description": "Canadian headwear and apparel.",
+    "description": "Canadian headwear and apparel (toques, hats, and more).",
     "website": "https://www.amblerapparel.com/",
-    "tags": [],
+    "tags": [
+      "toques",
+      "hats",
+      "headwear",
+      "apparel"
+    ],
     "alts": []
   },
   {
