@@ -171,7 +171,7 @@ function renderSharedListView(shared){
   if(!c) return;
   var list=productsByIds(shared.ids);
   if(!list.length){
-    c.innerHTML="<div class='empty-state'><p>This shared list has no matching products (they may have been removed).</p><div class='saved-empty-actions'><button class='submit-btn' onclick=\"switchTab('search')\">Browse products</button></div></div>";
+    setResultsHtml("sharedListResults","<div class='empty-state'><p>This shared list has no matching products (they may have been removed).</p><div class='saved-empty-actions'><button class='submit-btn' onclick=\"switchTab('search')\">Browse products</button></div></div>");
     return;
   }
   var title=esc(shared.title||"Shared list");
@@ -185,7 +185,7 @@ function renderSharedListView(shared){
   h+="</div></div>";
   h+="<div id='sharedListStatus' class='share-status' style='display:none'></div>";
   h+=list.map(renderCard).join("");
-  c.innerHTML=h;
+  setResultsHtml("sharedListResults",h);
 }
 
 function openSharedListIfPresent(){
@@ -453,7 +453,7 @@ function renderPaged(containerId,items,page){
     if(end<items.length) h+="<button class='home-cta-btn' onclick='renderPage(\""+containerId+"\","+(page+1)+")'>Next →</button>";
     h+="</div>";
   }
-  document.getElementById(containerId).innerHTML=h;
+  setResultsHtml(containerId,h);
   window._pageState=window._pageState||{};
   window._pageState[containerId]={items:items,page:page};
 }
