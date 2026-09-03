@@ -27,7 +27,12 @@ Edit `products.json` and add new items following this format:
 
 **Rules:** `origin` must be `"Canada"`. `website` is required (http/https).
 
-Optional: set `"recentlyVerified": "YYYY-MM-DD"` (or `featuredNew`) on an existing listing after its website is confirmed live. The homepage Recently added strip shows those first as **Verified** for 30 days, without changing the product id or adding a duplicate.
+Optional homepage **Just added** banner override (do not duplicate the product or change its id):
+
+- `"recentlyVerified": "YYYY-MM-DD"` or `"featuredNew": "YYYY-MM-DD"` — the green Just added banner shows the most recent of these for 30 days, then falls back to the newest catalog id.
+- `"justAdded": true` — pin that listing as the current Just added banner until the flag is removed. `"justAdded": "YYYY-MM-DD"` is a dated override like `recentlyVerified`.
+
+The Recently added grid stays newest-id + hourly rotation, so true new listings such as Omega Travel remain there.
 
 **Categories:** Food, Beverages, Household, Personal Care, Home & Electronics, Clothing, Other
 
