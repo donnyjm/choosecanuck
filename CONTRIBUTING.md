@@ -32,7 +32,7 @@ Optional homepage **Just added** banner override (do not duplicate the product o
 - `"recentlyVerified": "YYYY-MM-DD"` or `"featuredNew": "YYYY-MM-DD"` — the green Just added banner shows the most recent of these for 30 days, then falls back to the newest catalog id.
 - `"justAdded": true` — pin that listing as the current Just added banner until the flag is removed. `"justAdded": "YYYY-MM-DD"` is a dated override like `recentlyVerified`.
 
-The Recently added grid stays newest-id + hourly rotation, so true new listings such as Omega Travel remain there.
+The Recently added grid keeps the three newest catalog IDs first, then includes each active override once with a **Verified** badge, then fills from the hourly rotation. Do not add a second product record.
 
 **Categories:** Food, Beverages, Household, Personal Care, Home & Electronics, Clothing, Other
 

@@ -804,13 +804,8 @@ function isJustAddedOverride(p, now, windowDays){
   return isJustAddedPin(p) || isRecentlyVerified(p, now, windowDays);
 }
 
-// Green Just Added banner: explicit justAdded / recentlyVerified / featuredNew
-// override wins over the highest catalog id. Pins stay until removed; dates expire.
-function pickJustAdded(list, opts){
-  opts=opts||{};
-  var now=opts.now||new Date();
-  var windowDays=opts.windowDays==null?RECENTLY_VERIFIED_DAYS:opts.windowDays;
-  var overrides=list.filter(function(p){return isJustAddedOverride(p, now, windowDays);})
+function listJustAddedOverrides(list, now, windowDays){
+  return list.filter(function(p){return isJustAddedOverride(p, now, windowDays);})
     .sort(function(a,b){
       var pinA=isJustAddedPin(a), pinB=isJustAddedPin(b);
       if(pinA!==pinB) return pinA?-1:1;
@@ -818,6 +813,15 @@ function pickJustAdded(list, opts){
       var ta=da?da.getTime():0, tb=db?db.getTime():0;
       return tb-ta || (b.id||0)-(a.id||0);
     });
+}
+
+// Green Just Added banner: explicit justAdded / recentlyVerified / featuredNew
+// override wins over the highest catalog id. Pins stay until removed; dates expire.
+function pickJustAdded(list, opts){
+  opts=opts||{};
+  var now=opts.now||new Date();
+  var windowDays=opts.windowDays==null?RECENTLY_VERIFIED_DAYS:opts.windowDays;
+  var overrides=listJustAddedOverrides(list, now, windowDays);
   if(overrides[0]) return overrides[0];
   return list.slice().sort(function(a,b){return (b.id||0)-(a.id||0);})[0]||null;
 }
@@ -827,13 +831,15 @@ function justAddedBannerHtml(p){
   return "<button type='button' class='just-added' onclick='showProductDetail("+p.id+")'><span class='just-added-label'>Just added</span> <strong>"+esc(p.name)+"</strong> <span class='just-added-meta'>"+esc(p.region)+" · "+esc(p.category)+"</span></button>";
 }
 
-// Recently added grid: the 3 newest catalog IDs, then an hourly rotation from the newest ~200.
+// Recently added grid: the 3 newest catalog IDs, then active verified/justAdded
+// overrides (once, Verified badge), then an hourly rotation from the newest ~200.
 function pickRecentlyAdded(list, opts){
   opts=opts||{};
   var now=opts.now||new Date();
   var limit=opts.limit||8;
   var newestCount=opts.newestCount==null?3:opts.newestCount;
   var rotateWindow=opts.rotateWindow==null?200:opts.rotateWindow;
+  var windowDays=opts.windowDays==null?RECENTLY_VERIFIED_DAYS:opts.windowDays;
   var hourKey=opts.hourKey;
   if(hourKey==null) hourKey=(typeof spotlightHourKey==="function")?spotlightHourKey():String(now.getHours());
   var seed=opts.seed;
@@ -847,6 +853,9 @@ function pickRecentlyAdded(list, opts){
     out.push({product:p, kind:kind});
   }
   byNew.slice(0, newestCount).forEach(function(p){ if(out.length<limit) add(p, "new"); });
+  listJustAddedOverrides(list, now, windowDays).forEach(function(p){
+    if(out.length<limit) add(p, "verified");
+  });
   var windowPool=byNew.slice(newestCount, newestCount+rotateWindow);
   var rotated=(typeof seededShuffle==="function")?seededShuffle(windowPool, seed):windowPool.slice();
   for(var ri=0; ri<rotated.length && out.length<limit; ri++) add(rotated[ri], "fresh");
