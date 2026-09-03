@@ -156,19 +156,60 @@ check("explicit justAdded pin wins over a newer dated override", function(){
   assert.strictEqual(jp.id, 3036);
 });
 
-check("Recently added grid still leads with true newest listings", function(){
+check("Recently added grid is newest three, then Chef Frankie, then unique fill", function(){
   var picked=context.pickRecentlyAdded(products, {now:now, hourKey:hourKey, seed:1});
   assert.strictEqual(picked.length, 8);
   assert.strictEqual(picked[0].product.id, 10424);
   assert.strictEqual(picked[0].product.name, "Omega Travel");
   assert.strictEqual(picked[0].kind, "new");
+  assert.strictEqual(picked[1].product.name, "3DQue");
+  assert.strictEqual(picked[1].kind, "new");
+  assert.strictEqual(picked[2].product.name, "NanoGrande");
+  assert.strictEqual(picked[2].kind, "new");
   newest.forEach(function(p, i){
     assert.strictEqual(picked[i].product.id, p.id);
     assert.strictEqual(picked[i].kind, "new");
   });
+  assert.strictEqual(picked[3].product.id, 3036);
+  assert.strictEqual(picked[3].product.name, "Boulangerie Chef Frankie");
+  assert.strictEqual(picked[3].kind, "verified");
+  picked.slice(4).forEach(function(item){ assert.strictEqual(item.kind, "fresh"); });
   var ids=picked.map(function(x){return x.product.id;});
   assert.strictEqual(new Set(ids).size, ids.length);
-  assert.ok(!ids.some(function(id){return id===3036;}));
+  assert.strictEqual(ids.filter(function(id){return id===3036;}).length, 1);
+});
+
+check("expired dated overrides leave the grid when not pinned", function(){
+  var dated=products.map(function(p){
+    var copy={};
+    Object.keys(p).forEach(function(k){
+      if(k!=="justAdded") copy[k]=p[k];
+    });
+    return copy;
+  });
+  var picked=context.pickRecentlyAdded(dated, {now:new Date("2026-11-01T00:00:00Z"), hourKey:hourKey, seed:1});
+  assert.strictEqual(picked.length, 8);
+  assert.ok(!picked.some(function(x){return x.product.id===3036;}));
+  newest.forEach(function(p, i){
+    assert.strictEqual(picked[i].product.id, p.id);
+    assert.strictEqual(picked[i].kind, "new");
+  });
+});
+
+check("verified overrides already in the newest three are not duplicated", function(){
+  var extra=products.map(function(p){ return Object.assign({}, p); });
+  extra.forEach(function(p){
+    if(p.id===10424){ p.justAdded=true; p.recentlyVerified="2026-09-03"; }
+  });
+  var picked=context.pickRecentlyAdded(extra, {now:now, hourKey:hourKey, seed:1});
+  var ids=picked.map(function(x){return x.product.id;});
+  assert.strictEqual(picked.length, 8);
+  assert.strictEqual(new Set(ids).size, 8);
+  assert.strictEqual(ids.filter(function(id){return id===10424;}).length, 1);
+  assert.strictEqual(picked[0].product.id, 10424);
+  assert.strictEqual(picked[0].kind, "new");
+  assert.strictEqual(picked[3].product.id, 3036);
+  assert.strictEqual(picked[3].kind, "verified");
 });
 
 check("recentKindBadge markup", function(){
