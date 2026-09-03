@@ -27,6 +27,8 @@ Edit `products.json` and add new items following this format:
 
 **Rules:** `origin` must be `"Canada"`. `website` is required (http/https).
 
+Optional: set `"recentlyVerified": "YYYY-MM-DD"` (or `featuredNew`) on an existing listing after its website is confirmed live. The homepage Recently added strip shows those first as **Verified** for 30 days, without changing the product id or adding a duplicate.
+
 **Categories:** Food, Beverages, Household, Personal Care, Home & Electronics, Clothing, Other
 
 **Regions:** British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland & Labrador, Yukon, Northwest Territories, Nunavut, National
