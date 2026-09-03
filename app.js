@@ -773,6 +773,92 @@ function pickFeatured(list,n){
   return out.slice(0,n);
 }
 
+var RECENTLY_VERIFIED_DAYS=30;
+
+function isJustAddedPin(p){
+  return !!(p && (p.justAdded===true || p.justAdded===1 || p.justAdded==="true"));
+}
+
+function parseFeatureDate(p){
+  if(!p) return null;
+  var raw=p.justAdded;
+  if(raw===true || raw===1 || raw==="true") raw=null;
+  if(raw==null || raw==="") raw=p.recentlyVerified || p.featuredNew;
+  if(raw==null || raw==="") return null;
+  var d=new Date(raw);
+  if(isNaN(d.getTime())) return null;
+  return d;
+}
+
+function isRecentlyVerified(p, now, windowDays){
+  var d=parseFeatureDate(p);
+  if(!d) return false;
+  now=now||new Date();
+  windowDays=windowDays==null?RECENTLY_VERIFIED_DAYS:windowDays;
+  var ms=now.getTime()-d.getTime();
+  if(ms<0) return false;
+  return ms<=windowDays*24*60*60*1000;
+}
+
+function isJustAddedOverride(p, now, windowDays){
+  return isJustAddedPin(p) || isRecentlyVerified(p, now, windowDays);
+}
+
+// Green Just Added banner: explicit justAdded / recentlyVerified / featuredNew
+// override wins over the highest catalog id. Pins stay until removed; dates expire.
+function pickJustAdded(list, opts){
+  opts=opts||{};
+  var now=opts.now||new Date();
+  var windowDays=opts.windowDays==null?RECENTLY_VERIFIED_DAYS:opts.windowDays;
+  var overrides=list.filter(function(p){return isJustAddedOverride(p, now, windowDays);})
+    .sort(function(a,b){
+      var pinA=isJustAddedPin(a), pinB=isJustAddedPin(b);
+      if(pinA!==pinB) return pinA?-1:1;
+      var da=parseFeatureDate(a), db=parseFeatureDate(b);
+      var ta=da?da.getTime():0, tb=db?db.getTime():0;
+      return tb-ta || (b.id||0)-(a.id||0);
+    });
+  if(overrides[0]) return overrides[0];
+  return list.slice().sort(function(a,b){return (b.id||0)-(a.id||0);})[0]||null;
+}
+
+function justAddedBannerHtml(p){
+  if(!p) return "";
+  return "<button type='button' class='just-added' onclick='showProductDetail("+p.id+")'><span class='just-added-label'>Just added</span> <strong>"+esc(p.name)+"</strong> <span class='just-added-meta'>"+esc(p.region)+" · "+esc(p.category)+"</span></button>";
+}
+
+// Recently added grid: the 3 newest catalog IDs, then an hourly rotation from the newest ~200.
+function pickRecentlyAdded(list, opts){
+  opts=opts||{};
+  var now=opts.now||new Date();
+  var limit=opts.limit||8;
+  var newestCount=opts.newestCount==null?3:opts.newestCount;
+  var rotateWindow=opts.rotateWindow==null?200:opts.rotateWindow;
+  var hourKey=opts.hourKey;
+  if(hourKey==null) hourKey=(typeof spotlightHourKey==="function")?spotlightHourKey():String(now.getHours());
+  var seed=opts.seed;
+  if(seed==null) seed=(typeof hashStr==="function")?hashStr("recent|"+hourKey):now.getTime();
+
+  var byNew=list.slice().sort(function(a,b){return (b.id||0)-(a.id||0);});
+  var out=[], seen={};
+  function add(p, kind){
+    if(!p||seen[p.id]) return;
+    seen[p.id]=1;
+    out.push({product:p, kind:kind});
+  }
+  byNew.slice(0, newestCount).forEach(function(p){ if(out.length<limit) add(p, "new"); });
+  var windowPool=byNew.slice(newestCount, newestCount+rotateWindow);
+  var rotated=(typeof seededShuffle==="function")?seededShuffle(windowPool, seed):windowPool.slice();
+  for(var ri=0; ri<rotated.length && out.length<limit; ri++) add(rotated[ri], "fresh");
+  return out;
+}
+
+function recentKindBadge(kind){
+  if(kind==="verified") return "<span class='home-card-new home-card-verified'>Verified</span> ";
+  if(kind==="new") return "<span class='home-card-new'>New</span> ";
+  return "<span class='home-card-new home-card-fresh'>Fresh</span> ";
+}
+
 function renderHomepage(){
   var regions=[...new Set(products.map(function(p){return p.region}))].sort();
   var cats=[...new Set(products.map(function(p){return p.category}))].sort();
@@ -789,31 +875,22 @@ function renderHomepage(){
 
   var recentEl=document.getElementById("recentGrid");
   var justEl=document.getElementById("justAddedBanner");
-  if(recentEl){
-    var byNew=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);});
-    if(justEl && byNew[0]){
-      var jp=byNew[0];
-      justEl.innerHTML="<button type='button' class='just-added' onclick='showProductDetail("+jp.id+")'><span class='just-added-label'>Just added</span> <strong>"+esc(jp.name)+"</strong> <span class='just-added-meta'>"+esc(jp.region)+" · "+esc(jp.category)+"</span></button>";
+  if(justEl){
+    var jp=pickJustAdded(products);
+    if(jp){
+      justEl.innerHTML=justAddedBannerHtml(jp);
       justEl.hidden=false;
-    } else if(justEl){ justEl.hidden=true; justEl.innerHTML=""; }
-
-    // Always show the 3 newest catalog adds, then fill from a rotating slice of the newest ~200
-    // so the strip changes through the day even between ingest batches.
-    var newestCore=byNew.slice(0,3);
-    var windowPool=byNew.slice(3,203);
-    var hourKey=(typeof spotlightHourKey==="function")?spotlightHourKey():String(new Date().getHours());
-    var seed=(typeof hashStr==="function")?hashStr("recent|"+hourKey):Date.now();
-    var rotated=(typeof seededShuffle==="function")?seededShuffle(windowPool, seed):windowPool.slice();
-    var recent=[], seen={};
-    function addRecent(p){
-      if(!p||seen[p.id]) return;
-      seen[p.id]=1; recent.push(p);
+    } else {
+      justEl.hidden=true;
+      justEl.innerHTML="";
     }
-    newestCore.forEach(addRecent);
-    for(var ri=0;ri<rotated.length && recent.length<8;ri++) addRecent(rotated[ri]);
-    recentEl.innerHTML=recent.map(function(p, idx){
+  }
+  if(recentEl){
+    var recent=pickRecentlyAdded(products);
+    recentEl.innerHTML=recent.map(function(item){
+      var p=item.product;
       var rc=regionColors[p.region]||"#6b7280";
-      var badge=idx<3?"<span class='home-card-new'>New</span> ":"<span class='home-card-new home-card-fresh'>Fresh</span> ";
+      var badge=recentKindBadge(item.kind);
       return "<div class='home-card' onclick='showProductDetail("+p.id+")'><div class='home-card-name'>"+esc(p.name)+"</div><div class='home-card-meta'>"+badge+"<span style='display:inline-block;width:8px;height:8px;border-radius:50%;background:"+rc+";margin-right:4px'></span>"+esc(p.region)+" · "+esc(p.category)+"</div></div>";
     }).join("");
   }
@@ -948,7 +1025,7 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=41").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=43").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   });
