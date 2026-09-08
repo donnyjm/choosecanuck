@@ -71,7 +71,16 @@ function submitReport(e){
 let products = [];
 const regionColors = {"British Columbia": "#2d6a4f", "Alberta": "#bc4749", "Saskatchewan": "#f4a261", "Manitoba": "#e76f51", "Ontario": "#1d3557", "Quebec": "#457b9d", "New Brunswick": "#6a4c93", "Nova Scotia": "#1982c4", "Prince Edward Island": "#8ac926", "Newfoundland & Labrador": "#ff595e", "Yukon": "#ffca3a", "Northwest Territories": "#6a4c93", "Nunavut": "#9b5de5", "National": "#b91c1c"};
 const allRegions = ["British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Newfoundland & Labrador", "Yukon", "Northwest Territories", "Nunavut", "National"];
+const regionAliases = {"Newfoundland and Labrador":"Newfoundland & Labrador","Canada":"National"};
 const PAGE_SIZE = 50;
+
+function normalizeProductRegion(p){
+  if(p && p.region && regionAliases[p.region]) p.region=regionAliases[p.region];
+  return p;
+}
+function listCanonicalRegions(){
+  return allRegions.slice();
+}
 
 const SAVED_KEY = "cc_saved";
 
@@ -869,7 +878,7 @@ function recentKindBadge(kind){
 }
 
 function renderHomepage(){
-  var regions=[...new Set(products.map(function(p){return p.region}))].sort();
+  var regions=listCanonicalRegions();
   var cats=[...new Set(products.map(function(p){return p.category}))].sort();
   var badge=document.getElementById("productCountBadge");
   if(badge) badge.textContent=products.length.toLocaleString()+"+ Canadian Products";
@@ -919,7 +928,7 @@ function renderHomepage(){
     renderPaged('categoryResults',products.filter(function(p){return p.category===cat}),1);
   };
 
-  document.getElementById("homeRegions").innerHTML=regions.slice(0,14).map(function(r){return"<button class='home-region-chip' data-region='"+esc(r)+"' style='background:"+(regionColors[r]||"#6b7280")+"'>"+esc(r)+"</button>";}).join("");
+  document.getElementById("homeRegions").innerHTML=regions.map(function(r){return"<button class='home-region-chip' data-region='"+esc(r)+"' style='background:"+(regionColors[r]||"#6b7280")+"'>"+esc(r)+"</button>";}).join("");
   document.getElementById("homeRegions").onclick=function(e){
     if(!e.target.classList.contains("home-region-chip"))return;
     var region=e.target.dataset.region;
@@ -1003,7 +1012,7 @@ function initApp(){
   });
   renderPaged('categoryResults',products,1);
 
-  var rlist=[...new Set(products.map(function(p){return p.region}))].sort();
+  var rlist=listCanonicalRegions();
   var rc=document.getElementById("regionChips");
   var rl=document.getElementById("regionLegend");
   rl.innerHTML=rlist.map(function(r){return"<span class='region-label'><span class='region-dot' style='background:"+(regionColors[r]||"#6b7280")+"'></span>"+esc(r)+"</span>";}).join("");
@@ -1034,10 +1043,10 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=44").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=45").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
-  });
+  }).map(normalizeProductRegion);
   initApp();
 }).catch(function(e){
   console.error(e);
