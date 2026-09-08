@@ -39,13 +39,14 @@ function check(name, fn){
 var frankie=products.filter(function(p){return p.id===3036;});
 var omega=products.filter(function(p){return p.id===10424;});
 var rolgear=products.filter(function(p){return p.id===10425;});
+var cocina=products.filter(function(p){return p.id===863;});
 var now=new Date("2026-09-08T15:00:00Z");
 var hourKey="2026-8-8-12";
 var newest=products.slice().sort(function(a,b){return (b.id||0)-(a.id||0);}).slice(0,3);
 
 check("catalog has unique ids and expected count", function(){
-  assert.strictEqual(products.length, 9763);
-  assert.strictEqual(new Set(products.map(function(p){return p.id;})).size, 9763);
+  assert.strictEqual(products.length, 9762);
+  assert.strictEqual(new Set(products.map(function(p){return p.id;})).size, 9762);
 });
 
 check("Yumi Organics id 967 is removed", function(){
@@ -63,7 +64,7 @@ check("Rolgear Multibit Screwdriver is a distinct product", function(){
   assert.strictEqual(p.origin, "Canada");
   assert.strictEqual(p.region, "British Columbia");
   assert.strictEqual(p.score, 94);
-  assert.strictEqual(p.justAdded, true);
+  assert.strictEqual(p.justAdded, undefined);
   assert.strictEqual(p.recentlyVerified, "2026-09-08");
   var brand=products.filter(function(x){return x.id===1147;});
   assert.strictEqual(brand.length, 1);
@@ -131,6 +132,33 @@ check("no duplicate Chef Frankie name or website", function(){
   assert.strictEqual(byWeb.length, 1);
 });
 
+check("La Cocina Tortilla Chips is a single Food listing", function(){
+  assert.strictEqual(cocina.length, 1);
+  var p=cocina[0];
+  assert.strictEqual(p.name, "La Cocina Tortilla Chips");
+  assert.strictEqual(p.website, "https://www.lacocinafoods.ca");
+  assert.strictEqual(p.category, "Food");
+  assert.strictEqual(p.origin, "Canada");
+  assert.strictEqual(p.region, "Manitoba");
+  assert.strictEqual(p.score, 94);
+  assert.strictEqual(p.justAdded, true);
+  assert.strictEqual(p.recentlyVerified, "2026-09-08");
+  assert.ok(/Manitoba/.test(p.description));
+  assert.ok(/1984/.test(p.description));
+  assert.ok(/Superstore/.test(p.description));
+  assert.ok(p.tags.indexOf("chips")!==-1);
+  assert.ok(p.tags.indexOf("snacks")!==-1);
+  assert.ok(p.tags.indexOf("gluten-free")!==-1);
+  assert.ok(p.tags.indexOf("manitoba")!==-1);
+  assert.ok(p.tags.indexOf("food-beverage")!==-1);
+  assert.strictEqual(products.filter(function(x){return x.id===5326;}).length, 0);
+  assert.strictEqual(products.filter(function(x){return /lacocinachips\.com/i.test(x.website||"");}).length, 0);
+  var byName=products.filter(function(x){return /la\s*cocina/i.test(x.name||"");});
+  var byWeb=products.filter(function(x){return /lacocinafoods\.ca/i.test(x.website||"");});
+  assert.strictEqual(byName.length, 1);
+  assert.strictEqual(byWeb.length, 1);
+});
+
 check("Rolgear Multibit is the newest catalog listing", function(){
   assert.strictEqual(omega.length, 1);
   assert.strictEqual(omega[0].name, "Omega Travel");
@@ -139,21 +167,21 @@ check("Rolgear Multibit is the newest catalog listing", function(){
   assert.strictEqual(newest[1].id, 10424);
 });
 
-check("pickJustAdded uses Rolgear Multibit as the current banner item", function(){
+check("pickJustAdded uses La Cocina Tortilla Chips as the current banner item", function(){
   var jp=context.pickJustAdded(products, {now:now});
   assert.ok(jp);
-  assert.strictEqual(jp.id, 10425);
-  assert.strictEqual(jp.name, "Rolgear Multibit Screwdriver");
-  assert.strictEqual(jp.id, newest[0].id);
+  assert.strictEqual(jp.id, 863);
+  assert.strictEqual(jp.name, "La Cocina Tortilla Chips");
 });
 
-check("Just added banner HTML opens Rolgear Multibit", function(){
+check("Just added banner HTML opens La Cocina Tortilla Chips", function(){
   var jp=context.pickJustAdded(products, {now:now});
   var html=context.justAddedBannerHtml(jp);
   assert.ok(html.indexOf("just-added")!==-1);
   assert.ok(html.indexOf("Just added")!==-1);
-  assert.ok(html.indexOf("showProductDetail(10425)")!==-1);
-  assert.ok(html.indexOf("Rolgear Multibit Screwdriver")!==-1);
+  assert.ok(html.indexOf("showProductDetail(863)")!==-1);
+  assert.ok(html.indexOf("La Cocina Tortilla Chips")!==-1);
+  assert.ok(html.indexOf("showProductDetail(10425)")===-1);
   assert.ok(html.indexOf("showProductDetail(10424)")===-1);
 });
 
@@ -216,6 +244,7 @@ check("newer dated override wins over an older date when neither is pinned", fun
 check("explicit justAdded pin wins over a newer dated override", function(){
   var extra=products.map(function(p){ return Object.assign({}, p); });
   extra.forEach(function(p){
+    if(p.id===863) delete p.justAdded;
     if(p.id===10425) delete p.justAdded;
     if(p.id===15) p.recentlyVerified="2026-09-08";
   });
@@ -223,7 +252,7 @@ check("explicit justAdded pin wins over a newer dated override", function(){
   assert.strictEqual(jp.id, 3036);
 });
 
-check("Recently added grid is newest three, then Chef Frankie, then unique fill", function(){
+check("Recently added grid is newest three, then La Cocina and Chef Frankie, then unique fill", function(){
   var picked=context.pickRecentlyAdded(products, {now:now, hourKey:hourKey, seed:1});
   assert.strictEqual(picked.length, 8);
   assert.strictEqual(picked[0].product.id, 10425);
@@ -237,12 +266,16 @@ check("Recently added grid is newest three, then Chef Frankie, then unique fill"
     assert.strictEqual(picked[i].product.id, p.id);
     assert.strictEqual(picked[i].kind, "new");
   });
-  assert.strictEqual(picked[3].product.id, 3036);
-  assert.strictEqual(picked[3].product.name, "Boulangerie Chef Frankie");
+  assert.strictEqual(picked[3].product.id, 863);
+  assert.strictEqual(picked[3].product.name, "La Cocina Tortilla Chips");
   assert.strictEqual(picked[3].kind, "verified");
-  picked.slice(4).forEach(function(item){ assert.strictEqual(item.kind, "fresh"); });
+  assert.strictEqual(picked[4].product.id, 3036);
+  assert.strictEqual(picked[4].product.name, "Boulangerie Chef Frankie");
+  assert.strictEqual(picked[4].kind, "verified");
+  picked.slice(5).forEach(function(item){ assert.strictEqual(item.kind, "fresh"); });
   var ids=picked.map(function(x){return x.product.id;});
   assert.strictEqual(new Set(ids).size, ids.length);
+  assert.strictEqual(ids.filter(function(id){return id===863;}).length, 1);
   assert.strictEqual(ids.filter(function(id){return id===3036;}).length, 1);
   assert.strictEqual(ids.filter(function(id){return id===10425;}).length, 1);
 });
@@ -279,8 +312,10 @@ check("verified overrides already in the newest three are not duplicated", funct
   assert.strictEqual(picked[0].kind, "new");
   assert.strictEqual(picked[1].product.id, 10424);
   assert.strictEqual(picked[1].kind, "new");
-  assert.strictEqual(picked[3].product.id, 3036);
+  assert.strictEqual(picked[3].product.id, 863);
   assert.strictEqual(picked[3].kind, "verified");
+  assert.strictEqual(picked[4].product.id, 3036);
+  assert.strictEqual(picked[4].kind, "verified");
 });
 
 check("recentKindBadge markup", function(){

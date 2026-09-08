@@ -1043,7 +1043,7 @@ function initApp(){
   openSharedListIfPresent();
 }
 
-fetch("products.json?v=45").then(function(r){return r.json()}).then(function(d){
+fetch("products.json?v=46").then(function(r){return r.json()}).then(function(d){
   products=d.filter(function(p){
     return p.origin==="Canada" && p.website && String(p.website).trim();
   }).map(normalizeProductRegion);
